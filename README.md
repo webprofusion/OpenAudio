@@ -17,5 +17,13 @@ VST Plugins
 https://github.com/keithhearne/VSTPlugins
 
 Code Samples
+-----------
 
 https://github.com/HiFi-LoFi/KlangFalter
+https://github.com/HiFi-LoFi/FFTConvolver
+
+Open Data Resources
+-------------------
+
+Convolution Reverb Impulse Responses (to recreate reverb character of space and equipment/recordings)
+http://www.openairlib.net/
