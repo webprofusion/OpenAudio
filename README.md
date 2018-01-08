@@ -12,6 +12,7 @@ VST Plugins
 | Plugin | Website | Source
 | --- | --- |--- |
 | mda | (https://sourceforge.net/projects/mda-vst/) | A collection of FX and virtual instruments for PC and Mac |
+| Synister | (https://github.com/the-synister/the-source) | Subtractive software synth
 
 
 https://github.com/keithhearne/VSTPlugins
