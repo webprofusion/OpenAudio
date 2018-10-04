@@ -8,7 +8,7 @@ The main benefit of having Open Source plugins/apps is that the code itself is p
 
 **Please contribute links!**
 
-Plugins
+Audio Plugins
 ----------
 
 | Plugin | Website | Source
