@@ -35,3 +35,8 @@ Open Data Resources
 
 Convolution Reverb Impulse Responses (to recreate reverb character of space and equipment/recordings)
 http://www.openairlib.net/
+
+Open Source Audio Apps
+----------------------
+* https://ardour.org/ (source: https://github.com/Ardour/ardour)
+* https://www.audacityteam.org/ (source: https://github.com/audacity/audacity)
