@@ -1,5 +1,5 @@
 
-Open Source VST Plugins
+Open Source VST/Audio Plugins
 ===================
 
 A list of open source VST (and other format) plugin projects. The intention of this list is to catalog open source plugins which are fully featured and useful plugins which have non-trivial feature sets including advanced samples.
@@ -8,7 +8,7 @@ The main benefit of having Open Source plugins is that the code itself is preser
 
 **Please contribute links!**
 
-VST Plugins
+Plugins
 ----------
 
 | Plugin | Website | Source
