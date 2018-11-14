@@ -17,6 +17,7 @@ Audio Plugins
 | Synister | (https://github.com/the-synister/the-source) | Subtractive software synth |
 | Eurorack | (https://github.com/VCVRack/AudibleInstruments) | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules |
 | Helm | (https://github.com/mtytel/helm) | a free polyphonic synth with lots of modulation |
+| Dragonfly Reverb | (https://github.com/michaelwillis/dragonfly-reverb) | A free hall-style reverb based on freeverb3 algorithms |
 
 Collections
 -----------
