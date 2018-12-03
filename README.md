@@ -22,6 +22,7 @@ Audio Plugins
 | Cocoa Delay | (https://github.com/tesselode/cocoa-delay) | Warm and lively delay plugin
 | Flutterbird | (https://github.com/tesselode/flutterbird) | Simple pitch fluctuation
 | airwindows | (https://github.com/airwindows/airwindows) | Various small and experimental effect plugins
+| regrader | (https://github.com/igorski/regrader) | A degenerative delay plugin
 
 Collections
 -----------
