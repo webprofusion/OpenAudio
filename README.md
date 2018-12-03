@@ -18,6 +18,10 @@ Audio Plugins
 | Eurorack | (https://github.com/VCVRack/AudibleInstruments) | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules |
 | Helm | (https://github.com/mtytel/helm) | a free polyphonic synth with lots of modulation |
 | Dragonfly Reverb | (https://github.com/michaelwillis/dragonfly-reverb) | A free hall-style reverb based on freeverb3 algorithms |
+| Mika Micro | (https://github.com/tesselode/mika-micro) | A simple subtractive synth plugin
+| Cocoa Delay | (https://github.com/tesselode/cocoa-delay) | Warm and lively delay plugin
+| Flutterbird | (https://github.com/tesselode/flutterbird) | Simple pitch fluctuation
+| airwindows | (https://github.com/airwindows/airwindows) | Various small and experimental effect plugins
 
 Collections
 -----------
