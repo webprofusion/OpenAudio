@@ -6,6 +6,8 @@ A list of open source VST (and other format) plugin/app projects. The intention 
 
 The main benefit of having Open Source plugins/apps is that the code itself is preserved for the future, so when the author(s) stop updating it the community can continue using and developing the software. Open Source projects are also a great way to learn how different audio FX/instruments are created.
 
+https://openaudio.webprofusion.com
+
 **Please contribute links!**
 
 Audio Plugins
