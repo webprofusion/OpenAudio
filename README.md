@@ -11,7 +11,7 @@ The main benefit of having Open Source plugins/apps is that the code itself is p
 Audio Plugins
 ----------
 
-| Plugin | Website | Source
+| Plugin | Website | Description
 | --- | --- |--- |
 | mda | (https://sourceforge.net/projects/mda-vst/) | A collection of FX and virtual instruments for PC and Mac |
 | Synister | (https://github.com/the-synister/the-source) | Subtractive software synth |
@@ -44,5 +44,10 @@ http://www.openairlib.net/
 
 Open Source Audio Apps
 ----------------------
-* https://ardour.org/ (source: https://github.com/Ardour/ardour)
-* https://www.audacityteam.org/ (source: https://github.com/audacity/audacity)
+
+| Software | Website | Source |
+| --- | --- | --- |
+| Ardour: open source DAW | https://ardour.org/ | https://github.com/Ardour/ardour |
+| Audacity: open source audio editor | https://www.audacityteam.org/ | https://github.com/audacity/audacity |
+| Helio Workstation: open source sequencer | https://helio.fm/ | https://github.com/helio-fm/helio-workstation |
+| VCV Rack: open source modular synthsizer | https://vcvrack.com/ | https://github.com/VCVRack/Rack |
