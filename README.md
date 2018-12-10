@@ -50,4 +50,4 @@ Open Source Audio Apps
 | Ardour: open source DAW | https://ardour.org/ | https://github.com/Ardour/ardour |
 | Audacity: open source audio editor | https://www.audacityteam.org/ | https://github.com/audacity/audacity |
 | Helio Workstation: open source sequencer | https://helio.fm/ | https://github.com/helio-fm/helio-workstation |
-| VCV Rack: open source modular synthsizer | https://vcvrack.com/ | https://github.com/VCVRack/Rack |
+| VCV Rack: open source modular synthesizer | https://vcvrack.com/ | https://github.com/VCVRack/Rack |
