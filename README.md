@@ -25,6 +25,7 @@ Audio Plugins
 | Flutterbird | (https://github.com/tesselode/flutterbird) | Simple pitch fluctuation
 | airwindows | (https://github.com/airwindows/airwindows) | Various small and experimental effect plugins
 | regrader | (https://github.com/igorski/regrader) | A degenerative delay plugin
+| OwlBass | (https://github.com/PentagramPro/OwlBass) | Additive bass synth |
 
 Collections
 -----------
