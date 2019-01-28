@@ -20,11 +20,11 @@ Audio Plugins
 | Eurorack | (https://github.com/VCVRack/AudibleInstruments) | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules |
 | Helm | (https://github.com/mtytel/helm) | a free polyphonic synth with lots of modulation |
 | Dragonfly Reverb | (https://github.com/michaelwillis/dragonfly-reverb) | A free hall-style reverb based on freeverb3 algorithms |
-| Mika Micro | (https://github.com/tesselode/mika-micro) | A simple subtractive synth plugin
-| Cocoa Delay | (https://github.com/tesselode/cocoa-delay) | Warm and lively delay plugin
-| Flutterbird | (https://github.com/tesselode/flutterbird) | Simple pitch fluctuation
-| airwindows | (https://github.com/airwindows/airwindows) | Various small and experimental effect plugins
-| regrader | (https://github.com/igorski/regrader) | A degenerative delay plugin
+| Mika Micro | (https://github.com/tesselode/mika-micro) | A simple subtractive synth plugin |
+| Cocoa Delay | (https://github.com/tesselode/cocoa-delay) | Warm and lively delay plugin |
+| Flutterbird | (https://github.com/tesselode/flutterbird) | Simple pitch fluctuation |
+| airwindows | (https://github.com/airwindows/airwindows) | Various small and experimental effect plugins |
+| regrader | (https://github.com/igorski/regrader) | A degenerative delay plugin |
 | OwlBass | (https://github.com/PentagramPro/OwlBass) | Additive bass synth |
 
 Collections
@@ -51,6 +51,16 @@ Open Source Audio Apps
 | Software | Website | Source |
 | --- | --- | --- |
 | Ardour: open source DAW | https://ardour.org/ | https://github.com/Ardour/ardour |
+| ASIO2WASAPI : universal ASIO driver for Windows | - |https://github.com/levmin/ASIO2WASAPI|
 | Audacity: open source audio editor | https://www.audacityteam.org/ | https://github.com/audacity/audacity |
+| FlexASIO: universal ASIO driver for Windows |  - | https://github.com/dechamps/FlexASIO |
 | Helio Workstation: open source sequencer | https://helio.fm/ | https://github.com/helio-fm/helio-workstation |
 | VCV Rack: open source modular synthesizer | https://vcvrack.com/ | https://github.com/VCVRack/Rack |
+
+Open Source Software Development Libraries
+----------------------
+
+| Name | Website | Source |
+| --- | --- | --- |
+|PortAudio| http://www.portaudio.com/ | https://app.assembla.com/spaces/portaudio/git/source |
+
