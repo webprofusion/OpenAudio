@@ -26,6 +26,7 @@ Audio Plugins
 | airwindows | (https://github.com/airwindows/airwindows) | Various small and experimental effect plugins |
 | regrader | (https://github.com/igorski/regrader) | A degenerative delay plugin |
 | OwlBass | (https://github.com/PentagramPro/OwlBass) | Additive bass synth |
+| Argotlunar | (https://github.com/mourednik/argotlunar) | Real-time delay-line granulator |
 
 Collections
 -----------
