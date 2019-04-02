@@ -17,6 +17,7 @@ Audio Plugins
 | --- | --- |--- |
 | mda | (https://sourceforge.net/projects/mda-vst/) | A collection of FX and virtual instruments for PC and Mac |
 | Synister | (https://github.com/the-synister/the-source) | Subtractive software synth |
+| Surge Synthesizer |(https://surge-synthesizer.github.io/) | Subtractive wavetavle synth |
 | Eurorack | (https://github.com/VCVRack/AudibleInstruments) | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules |
 | Helm | (https://github.com/mtytel/helm) | a free polyphonic synth with lots of modulation |
 | Dragonfly Reverb | (https://github.com/michaelwillis/dragonfly-reverb) | A free hall-style reverb based on freeverb3 algorithms |
