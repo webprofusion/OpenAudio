@@ -28,6 +28,7 @@ Audio Plugins
 | regrader | https://github.com/igorski/regrader | A degenerative delay plugin |
 | OwlBass | https://github.com/PentagramPro/OwlBass | Additive bass synth |
 | Argotlunar | https://github.com/mourednik/argotlunar | Real-time delay-line granulator |
+| LameVST | https://github.com/Iunusov/LameVST | LameMP3 as an effect |
 
 Collections
 -----------
