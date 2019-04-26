@@ -58,6 +58,7 @@ Open Source Audio Apps
 | ASIO2WASAPI : universal ASIO driver for Windows | - |https://github.com/levmin/ASIO2WASAPI|
 | Audacity: open source audio editor | https://www.audacityteam.org/ | https://github.com/audacity/audacity |
 | FlexASIO: universal ASIO driver for Windows |  - | https://github.com/dechamps/FlexASIO |
+| Guitarix: GNU/Linux Virtual Amplifier | https://guitarix.org/ | https://sourceforge.net/projects/guitarix/ |
 | Helio Workstation: open source sequencer | https://helio.fm/ | https://github.com/helio-fm/helio-workstation |
 | OwlPlug: open source audio plugin manager | https://owlplug.com | https://github.com/DropSnorz/OwlPlug |
 | VCV Rack: open source modular synthesizer | https://vcvrack.com/ | https://github.com/VCVRack/Rack |
