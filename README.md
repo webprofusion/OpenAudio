@@ -67,5 +67,7 @@ Open Source Software Development Libraries
 
 | Name | Website | Source |
 | --- | --- | --- |
+|JUCE| https://juce.com | https://github.com/WeAreROLI/JUCE|
 |PortAudio| http://www.portaudio.com/ | https://app.assembla.com/spaces/portaudio/git/source |
+
 
