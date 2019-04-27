@@ -13,23 +13,23 @@ https://openaudio.webprofusion.com
 Audio Plugins
 ----------
 
-| Plugin | Website | Description
-| --- | --- |--- |
-| mda | https://sourceforge.net/projects/mda-vst/ | A collection of FX and virtual instruments for PC and Mac |
-| Synister | https://github.com/the-synister/the-source | Subtractive software synth |
-| Surge Synthesizer | https://surge-synthesizer.github.io/ | Subtractive wavetable synth |
-| Eurorack |  https://github.com/VCVRack/AudibleInstruments | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules |
-| Helm | https://github.com/mtytel/helm | a free polyphonic synth with lots of modulation |
-| Dragonfly Reverb | https://github.com/michaelwillis/dragonfly-reverb | A free hall-style reverb based on freeverb3 algorithms |
-| Mika Micro | https://github.com/tesselode/mika-micro | A simple subtractive synth plugin |
-| Cocoa Delay | https://github.com/tesselode/cocoa-delay | Warm and lively delay plugin |
-| Flutterbird | https://github.com/tesselode/flutterbird | Simple pitch fluctuation |
-| airwindows | https://github.com/airwindows/airwindows | Various small and experimental effect plugins |
-| regrader | https://github.com/igorski/regrader | A degenerative delay plugin |
-| OwlBass | https://github.com/PentagramPro/OwlBass | Additive bass synth |
-| Argotlunar | https://github.com/mourednik/argotlunar | Real-time delay-line granulator |
-| LameVST | https://github.com/Iunusov/LameVST | LameMP3 as an effect |
-| Dexed | https://github.com/asb2m10/dexed | DX7 FM plugin synth |
+| Plugin | Website | Description | Framework |
+| --- | --- | --- | --- |
+| mda | https://sourceforge.net/projects/mda-vst/ | A collection of FX and virtual instruments for PC and Mac | --- |
+| Synister | https://github.com/the-synister/the-source | Subtractive software synth | JUCE |
+| Surge Synthesizer | https://surge-synthesizer.github.io/ | Subtractive wavetable synth | --- |
+| Eurorack |  https://github.com/VCVRack/AudibleInstruments | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules | --- |
+| Helm | https://github.com/mtytel/helm | a free polyphonic synth with lots of modulation | JUCE |
+| Dragonfly Reverb | https://github.com/michaelwillis/dragonfly-reverb | A free hall-style reverb based on freeverb3 algorithms | --- |
+| Mika Micro | https://github.com/tesselode/mika-micro | A simple subtractive synth plugin | --- |
+| Cocoa Delay | https://github.com/tesselode/cocoa-delay | Warm and lively delay plugin | --- |
+| Flutterbird | https://github.com/tesselode/flutterbird | Simple pitch fluctuation | --- |
+| airwindows | https://github.com/airwindows/airwindows | Various small and experimental effect plugins | --- |
+| regrader | https://github.com/igorski/regrader | A degenerative delay plugin | --- |
+| OwlBass | https://github.com/PentagramPro/OwlBass | Additive bass synth | JUCE |
+| Argotlunar | https://github.com/mourednik/argotlunar | Real-time delay-line granulator | --- |
+| LameVST | https://github.com/Iunusov/LameVST | LameMP3 as an effect | --- |
+| Dexed | https://github.com/asb2m10/dexed | DX7 FM plugin synth | --- |
 
 Collections
 -----------
