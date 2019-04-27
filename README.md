@@ -29,6 +29,7 @@ Audio Plugins
 | OwlBass | https://github.com/PentagramPro/OwlBass | Additive bass synth |
 | Argotlunar | https://github.com/mourednik/argotlunar | Real-time delay-line granulator |
 | LameVST | https://github.com/Iunusov/LameVST | LameMP3 as an effect |
+| Dexed | https://github.com/asb2m10/dexed | DX7 FM plugin synth |
 
 Collections
 -----------
@@ -57,7 +58,9 @@ Open Source Audio Apps
 | ASIO2WASAPI : universal ASIO driver for Windows | - |https://github.com/levmin/ASIO2WASAPI|
 | Audacity: open source audio editor | https://www.audacityteam.org/ | https://github.com/audacity/audacity |
 | FlexASIO: universal ASIO driver for Windows |  - | https://github.com/dechamps/FlexASIO |
+| Guitarix: GNU/Linux Virtual Amplifier | https://guitarix.org/ | https://sourceforge.net/projects/guitarix/ |
 | Helio Workstation: open source sequencer | https://helio.fm/ | https://github.com/helio-fm/helio-workstation |
+| OwlPlug: open source audio plugin manager | https://owlplug.com | https://github.com/DropSnorz/OwlPlug |
 | VCV Rack: open source modular synthesizer | https://vcvrack.com/ | https://github.com/VCVRack/Rack |
 
 Open Source Software Development Libraries
@@ -65,5 +68,6 @@ Open Source Software Development Libraries
 
 | Name | Website | Source |
 | --- | --- | --- |
+|JUCE| https://juce.com | https://github.com/WeAreROLI/JUCE|
 |PortAudio| http://www.portaudio.com/ | https://app.assembla.com/spaces/portaudio/git/source |
 
