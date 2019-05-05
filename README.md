@@ -15,21 +15,22 @@ Audio Plugins
 
 | Plugin | Website | Description
 | --- | --- |--- |
+| Argotlunar | https://github.com/mourednik/argotlunar | Real-time delay-line granulator |
+| airwindows | https://github.com/airwindows/airwindows | Various small and experimental effect plugins |
+| Cocoa Delay | https://github.com/tesselode/cocoa-delay | Warm and lively delay plugin |
+| Dexed | https://github.com/asb2m10/dexed | DX7 FM plugin synth |
+| Dragonfly Reverb | https://github.com/michaelwillis/dragonfly-reverb | A free hall-style reverb based on freeverb3 algorithms |
+| Eurorack |  https://github.com/VCVRack/AudibleInstruments | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules |
+| Flutterbird | https://github.com/tesselode/flutterbird | Simple pitch fluctuation |
+| Helm | https://github.com/mtytel/helm | a free polyphonic synth with lots of modulation |
+| LameVST | https://github.com/Iunusov/LameVST | LameMP3 as an effect |
 | mda | https://sourceforge.net/projects/mda-vst/ | A collection of FX and virtual instruments for PC and Mac |
+| Mika Micro | https://github.com/tesselode/mika-micro | A simple subtractive synth plugin |
+| ScorchCrafter Guitar FX | https://sourceforge.net/projects/scorchcrafter/ | Audio DSP FX and plug-ins, mostly for guitar (amp sim) and other FX|
 | Synister | https://github.com/the-synister/the-source | Subtractive software synth |
 | Surge Synthesizer | https://surge-synthesizer.github.io/ | Subtractive wavetable synth |
-| Eurorack |  https://github.com/VCVRack/AudibleInstruments | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules |
-| Helm | https://github.com/mtytel/helm | a free polyphonic synth with lots of modulation |
-| Dragonfly Reverb | https://github.com/michaelwillis/dragonfly-reverb | A free hall-style reverb based on freeverb3 algorithms |
-| Mika Micro | https://github.com/tesselode/mika-micro | A simple subtractive synth plugin |
-| Cocoa Delay | https://github.com/tesselode/cocoa-delay | Warm and lively delay plugin |
-| Flutterbird | https://github.com/tesselode/flutterbird | Simple pitch fluctuation |
-| airwindows | https://github.com/airwindows/airwindows | Various small and experimental effect plugins |
-| regrader | https://github.com/igorski/regrader | A degenerative delay plugin |
 | OwlBass | https://github.com/PentagramPro/OwlBass | Additive bass synth |
-| Argotlunar | https://github.com/mourednik/argotlunar | Real-time delay-line granulator |
-| LameVST | https://github.com/Iunusov/LameVST | LameMP3 as an effect |
-| Dexed | https://github.com/asb2m10/dexed | DX7 FM plugin synth |
+| regrader | https://github.com/igorski/regrader | A degenerative delay plugin |
 
 Collections
 -----------
@@ -40,8 +41,8 @@ Collections
 Code Samples
 -----------
 
-https://github.com/HiFi-LoFi/KlangFalter
 https://github.com/HiFi-LoFi/FFTConvolver
+https://github.com/HiFi-LoFi/KlangFalter
 
 Open Data Resources
 -------------------
@@ -68,8 +69,10 @@ Open Source Software Development Libraries
 
 | Name | Website | Source |
 | --- | --- | --- |
+|Cabbage| http://cabbageaudio.com/ | https://github.com/rorywalsh/cabbage |
+|Csound| https://csound.com/ | https://github.com/csound/csound |
+|Faust| https://faust.grame.fr/ | https://github.com/grame-cncm/faust |
 |JUCE| https://juce.com | https://github.com/WeAreROLI/JUCE|
 |PortAudio| http://www.portaudio.com/ | https://app.assembla.com/spaces/portaudio/git/source |
-|Faust| https://faust.grame.fr/ | https://github.com/grame-cncm/faust |
-|Csound| https://csound.com/ | https://github.com/csound/csound |
-|Cabbage| http://cabbageaudio.com/ | https://github.com/rorywalsh/cabbage |
+
+
