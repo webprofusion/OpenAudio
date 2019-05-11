@@ -56,7 +56,7 @@ Open Source Software Development Libraries
 ----------------------
 
 | Name | Source |
-| --- | --- | --- |
+| --- | --- |
 | [Cabbage](http://cabbageaudio.com/) | https://github.com/rorywalsh/cabbage |
 | [Csound](https://csound.com/) | https://github.com/csound/csound |
 | [Faust](https://faust.grame.fr/) | https://github.com/grame-cncm/faust |
