@@ -60,8 +60,8 @@ Open Source Software Development Libraries
 | [Cabbage](http://cabbageaudio.com/) | https://github.com/rorywalsh/cabbage |
 | [Csound](https://csound.com/) | https://github.com/csound/csound |
 | [Faust](https://faust.grame.fr/) | https://github.com/grame-cncm/faust |
-| [iPlug2](https://iplug2.github.io/)| https://github.com/iplug2/iplug2|
-| [JUCE](https://juce.com) | https://github.com/WeAreROLI/JUCE|
+| [iPlug2](https://iplug2.github.io/)| https://github.com/iplug2/iplug2 |
+| [JUCE](https://juce.com) | https://github.com/WeAreROLI/JUCE |
 | [rtaudio](https://github.com/thestk/rtaudio) | https://github.com/thestk/rtaudio |
 | [PortAudio](http://www.portaudio.com/) | https://app.assembla.com/spaces/portaudio/git/source |
 | [wdl-ol](https://github.com/olilarkin/wdl-ol) | https://github.com/olilarkin/wdl-ol |
