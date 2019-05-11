@@ -13,23 +13,23 @@ https://openaudio.webprofusion.com
 Audio Plugins
 ----------
 
-| Plugin | Description |
-| --- | --- |
-| [airwindows](https://github.com/airwindows/airwindows) | Various small and experimental effect plugins |
-| [Argotlunar](https://github.com/mourednik/argotlunar) | Real-time delay-line granulator |
-| [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | Warm and lively delay plugin |
-| [Dexed](https://github.com/asb2m10/dexed) | DX7 FM plugin synth |
-| [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | A free hall-style reverb based on freeverb3 algorithms |
-| [Eurorack](https://github.com/VCVRack/AudibleInstruments) | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules |
-| [Flutterbird](https://github.com/tesselode/flutterbird) | Simple pitch fluctuation |
-| [Helm](https://github.com/mtytel/helm) | a free polyphonic synth with lots of modulation |
-| [LameVST](https://github.com/Iunusov/LameVST) | LameMP3 as an effect |
-| [mda](https://sourceforge.net/projects/mda-vst/) | A collection of FX and virtual instruments for PC and Mac |
-| [Mika Micro](https://github.com/tesselode/mika-micro) | A simple subtractive synth plugin |
-| [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth |
-| [regrader](https://github.com/igorski/regrader) | A degenerative delay plugin |
-| [Surge](https://surge-synthesizer.github.io/) | Subtractive wavetable synth |
-| [Synister](https://github.com/the-synister/the-source) | Subtractive software synth |
+| Plugin | Description | Framework |
+| --- | --- | --- |
+| [airwindows](https://github.com/airwindows/airwindows) | Various small and experimental effect plugins | ? |
+| [Argotlunar](https://github.com/mourednik/argotlunar) | Real-time delay-line granulator | JUCE |
+| [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | Warm and lively delay plugin | wdl-ol |
+| [Dexed](https://github.com/asb2m10/dexed) | DX7 FM plugin synth | JUCE |
+| [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | A free hall-style reverb based on freeverb3 algorithms | DPF |
+| [Eurorack](https://github.com/VCVRack/AudibleInstruments) | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules | ? |
+| [Flutterbird](https://github.com/tesselode/flutterbird) | Simple pitch fluctuation | iPlug 2 |
+| [Helm](https://github.com/mtytel/helm) | a free polyphonic synth with lots of modulation | JUCE |
+| [LameVST](https://github.com/Iunusov/LameVST) | LameMP3 as an effect | ? |
+| [mda](https://sourceforge.net/projects/mda-vst/) | A collection of FX and virtual instruments for PC and Mac | ? |
+| [Mika Micro](https://github.com/tesselode/mika-micro) | A simple subtractive synth plugin | wdl-ol |
+| [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | JUCE |
+| [regrader](https://github.com/igorski/regrader) | A degenerative delay plugin | ~VSTGUI |
+| [Surge](https://surge-synthesizer.github.io/) | Subtractive wavetable synth | VSTGUI |
+| [Synister](https://github.com/the-synister/the-source) | Subtractive software synth | JUCE |
 
 Collections
 -----------
