@@ -22,7 +22,7 @@ Audio Plugins
 | [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | A free hall-style reverb based on freeverb3 algorithms | DPF |
 | [Eurorack](https://github.com/VCVRack/AudibleInstruments) | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules | ? |
 | [Flutterbird](https://github.com/tesselode/flutterbird) | Simple pitch fluctuation | iPlug 2 |
-| [Helm](https://github.com/mtytel/helm) | a free polyphonic synth with lots of modulation | JUCE |
+| [Helm](https://github.com/mtytel/helm) | A free polyphonic synth with lots of modulation | JUCE |
 | [LameVST](https://github.com/Iunusov/LameVST) | LameMP3 as an effect | ? |
 | [mda](https://sourceforge.net/projects/mda-vst/) | A collection of FX and virtual instruments for PC and Mac | ? |
 | [Mika Micro](https://github.com/tesselode/mika-micro) | A simple subtractive synth plugin | wdl-ol |
