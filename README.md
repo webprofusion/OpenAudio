@@ -17,17 +17,17 @@ Audio Plugins
 | --- | --- | --- | --- |
 | [airwindows](https://github.com/airwindows/airwindows) | Various small and experimental effect plugins | Effect | ? |
 | [Argotlunar](https://github.com/mourednik/argotlunar) | Real-time delay-line granulator | Effect | JUCE |
-| [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | Warm and lively delay plugin | Effect | wdl-ol |
+| [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | Warm and lively delay | Effect | wdl-ol |
 | [Dexed](https://github.com/asb2m10/dexed) | DX7 FM plugin synth | Instrument | JUCE |
-| [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | A free hall-style reverb based on freeverb3 algorithms | Effect | DPF |
-| [Eurorack](https://github.com/VCVRack/AudibleInstruments) | A diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules | Misc | ? |
+| [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | Hall-style reverb based on freeverb3 algorithms | Effect | DPF |
+| [Eurorack](https://github.com/VCVRack/AudibleInstruments) | Diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules | Misc | ? |
 | [Flutterbird](https://github.com/tesselode/flutterbird) | Simple pitch fluctuation | Effect | iPlug 2 |
-| [Helm](https://github.com/mtytel/helm) | A free polyphonic synth with lots of modulation | Instrument | JUCE |
+| [Helm](https://github.com/mtytel/helm) | Polyphonic synth with lots of modulation | Instrument | JUCE |
 | [LameVST](https://github.com/Iunusov/LameVST) | LameMP3 as an effect | Effect | ? |
-| [mda](https://sourceforge.net/projects/mda-vst/) | A collection of FX and virtual instruments for PC and Mac | Misc | ? |
-| [Mika Micro](https://github.com/tesselode/mika-micro) | A simple subtractive synth plugin | Instrument | wdl-ol |
+| [mda](https://sourceforge.net/projects/mda-vst/) | FX and virtual instruments for PC and Mac | Misc | ? |
+| [Mika Micro](https://github.com/tesselode/mika-micro) | Simple subtractive synth | Instrument | wdl-ol |
 | [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | Instrument | JUCE |
-| [regrader](https://github.com/igorski/regrader) | A degenerative delay plugin | Effect | ~VSTGUI |
+| [regrader](https://github.com/igorski/regrader) | Degenerative delay | Effect | ~VSTGUI |
 | [Surge](https://surge-synthesizer.github.io/) | Subtractive wavetable synth | Instrument | VSTGUI |
 | [Synister](https://github.com/the-synister/the-source) | Subtractive software synth | Instrument | JUCE |
 
