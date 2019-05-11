@@ -23,6 +23,7 @@ Audio Plugins
 | [Eurorack](https://github.com/VCVRack/AudibleInstruments) | Diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synthesizers, and utility modules | Misc |  |
 | [Flutterbird](https://github.com/tesselode/flutterbird) | Simple pitch fluctuation | Effect | iPlug 2 |
 | [Helm](https://github.com/mtytel/helm) | Polyphonic synth with lots of modulation | Instrument | JUCE |
+| [keithhearne/VSTPlugins](https://github.com/keithhearne/VSTPlugins) | A collection of VST plugins | Effect | JUCE | 
 | [LameVST](https://github.com/Iunusov/LameVST) | LameMP3 as an effect | Effect |  |
 | [mda](https://sourceforge.net/projects/mda-vst/) | FX and virtual instruments for PC and Mac | Misc |  |
 | [Mika Micro](https://github.com/tesselode/mika-micro) | Simple subtractive synth | Instrument | wdl-ol |
@@ -31,23 +32,11 @@ Audio Plugins
 | [ScorchCrafter Guitar FX](https://sourceforge.net/projects/scorchcrafter/) | Audio DSP FX and plug-ins, mostly for guitar (amp sim) and other FX| Effect||
 | [Surge](https://surge-synthesizer.github.io/) | Subtractive wavetable synth | Instrument | VSTGUI |
 | [Synister](https://github.com/the-synister/the-source) | Subtractive software synth | Instrument | JUCE |
+| [VCVRack](https://github.com/VCVRack) | Virtual modular synthesizer | Misc | rtaudio |
 
 Collections
 -----------
-
-* [keithhearne/VSTPlugins](https://github.com/keithhearne/VSTPlugins) — a number of VST plugins developed using the JUCE framework 
-* [VCVRack](https://github.com/VCVRack)
-
-Code Samples
------------
-
-* [KlangFalter](https://github.com/HiFi-LoFi/KlangFalter) — a convolution audio plugin (e.g. for usage as convolution reverb)
-* [FFTConvolver](https://github.com/HiFi-LoFi/FFTConvolver) — an audio convolution algorithm in C++ for real time audio processing
-
-Open Data Resources
--------------------
-
-[OpenAIR](http://www.openairlib.net/) — the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)
+* [VCRack Library](https://github.com/VCVRack/library) - a library of plugins compatible with VCV Plugin Manager
 
 Open Source Audio Apps
 ----------------------
@@ -72,4 +61,16 @@ Open Source Software Development Libraries
 | [Csound](https://csound.com/) | https://github.com/csound/csound |
 | [Faust](https://faust.grame.fr/) | https://github.com/grame-cncm/faust |
 | [JUCE](https://juce.com) | https://github.com/WeAreROLI/JUCE|
+| [rtaudio](https://github.com/thestk/rtaudio) | https://github.com/thestk/rtaudio |
 | [PortAudio](http://www.portaudio.com/) | https://app.assembla.com/spaces/portaudio/git/source |
+
+Code Samples
+-----------
+
+* [KlangFalter](https://github.com/HiFi-LoFi/KlangFalter) — a convolution audio plugin (e.g. for usage as convolution reverb)
+* [FFTConvolver](https://github.com/HiFi-LoFi/FFTConvolver) — an audio convolution algorithm in C++ for real time audio processing
+
+Open Data Resources
+-------------------
+
+[OpenAIR](http://www.openairlib.net/) — the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)
