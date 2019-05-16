@@ -19,7 +19,7 @@ Audio Plugins
 | [Argotlunar](https://github.com/mourednik/argotlunar) | Real-time delay-line granulator | Effect | JUCE |
 | [Audio Effects](https://github.com/juandagilc/Audio-Effects) | Plugins implemented from the explanations in the book “Audio Effects: Theory, Implementation and Application”. | Effect | JUCE |
 | [BinAural VST](https://github.com/twoz/binaural-vst) | Mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions. | Effect | JUCE |
-| [Cloud Seed](https://github.com/ValdemarOrn/CloudSeed) Algorithmic reverb for emulating huge, endless spaces and modulated echoes. | Effect |  |
+| [Cloud Seed](https://github.com/ValdemarOrn/CloudSeed) | Algorithmic reverb for emulating huge, endless spaces and modulated echoes. | Effect |  |
 | [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | Warm and lively delay | Effect | wdl-ol |
 | [Convolver](https://github.com/teragonaudio/Convolver) | Impulse-response reverb. | Effect | VSTGUI, JUCE |
 | [Dexed](https://github.com/asb2m10/dexed) | DX7 FM plugin synth | Instrument | JUCE |
@@ -35,7 +35,7 @@ Audio Plugins
 | [mda](https://sourceforge.net/projects/mda-vst/) | FX and virtual instruments for PC and Mac | Misc |  |
 | [Mika Micro](https://github.com/tesselode/mika-micro) | Simple subtractive synth | Instrument | wdl-ol |
 | [MVerb](https://github.com/martineastwood/mverb) | Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure. | Effect |  |
-| [NotNotchFilter](https://github.com/teragonaudio/NotNotchFilter | Performance-oriented filter designed to replace the mid-EQ found in a standard 3-band DJ mixer. | Effect | JUCE |
+| [NotNotchFilter](https://github.com/teragonaudio/NotNotchFilter) | Performance-oriented filter designed to replace the mid-EQ found in a standard 3-band DJ mixer. | Effect | JUCE |
 | [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | Instrument | JUCE |
 | [PulseDelay](https://github.com/teragonaudio/PulseDelay) | Timed delay effect. | Effect |  |
 | [QtVST](https://github.com/mbrucher/QtVST) | VST plugins with a Qt interface. | Effect | Qt |
