@@ -54,7 +54,7 @@ Audio Plugins
 
 Collections
 -----------
-* [VCRack Library](https://github.com/VCVRack/library) - a library of plugins compatible with VCV Plugin Manager
+* [VCRack Library](https://github.com/VCVRack/library) — a library of plugins compatible with VCV Plugin Manager
 
 Open Source Audio Apps
 ----------------------
