@@ -80,8 +80,8 @@ Open Source Software Development Libraries
 | [Faust](https://faust.grame.fr/) | https://github.com/grame-cncm/faust |
 | [iPlug&nbsp;2](https://iplug2.github.io/)| https://github.com/iplug2/iplug2 |
 | [JUCE](https://juce.com) | https://github.com/WeAreROLI/JUCE |
-| [rtaudio](https://github.com/thestk/rtaudio) | https://github.com/thestk/rtaudio |
 | [PortAudio](http://www.portaudio.com/) | https://app.assembla.com/spaces/portaudio/git/source |
+| [rtaudio](https://github.com/thestk/rtaudio) | https://github.com/thestk/rtaudio |
 | [VSTGUI](https://github.com/steinbergmedia/vstgui) | https://github.com/steinbergmedia/vstgui |
 | [wdl-ol](https://github.com/olilarkin/wdl-ol) | https://github.com/olilarkin/wdl-ol |
 
