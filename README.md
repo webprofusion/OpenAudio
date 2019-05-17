@@ -82,6 +82,7 @@ Open Source Software Development Libraries
 | [JUCE](https://juce.com) | https://github.com/WeAreROLI/JUCE |
 | [rtaudio](https://github.com/thestk/rtaudio) | https://github.com/thestk/rtaudio |
 | [PortAudio](http://www.portaudio.com/) | https://app.assembla.com/spaces/portaudio/git/source |
+| [VSTGUI](https://github.com/steinbergmedia/vstgui) | https://github.com/steinbergmedia/vstgui |
 | [wdl-ol](https://github.com/olilarkin/wdl-ol) | https://github.com/olilarkin/wdl-ol |
 
 Code Samples
