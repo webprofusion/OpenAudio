@@ -20,7 +20,7 @@ Audio Plugins
 | [Audio Effects](https://github.com/juandagilc/Audio-Effects) | Plugins implemented from the explanations in the book “Audio Effects: Theory, Implementation and Application” | Effect | JUCE |
 | [BinAural VST](https://github.com/twoz/binaural-vst) | Mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions | Effect | JUCE |
 | [Cloud Seed](https://github.com/ValdemarOrn/CloudSeed) | Algorithmic reverb for emulating huge, endless spaces and modulated echoes | Effect |  |
-| [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | Warm and lively delay | Effect | wdl-ol |
+| [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | Warm and lively delay | Effect | WDL-OL |
 | [Convolver](https://github.com/teragonaudio/Convolver) | Impulse-response reverb | Effect | VSTGUI, JUCE |
 | [Dexed](https://github.com/asb2m10/dexed) | DX7 FM plugin synth | Instrument | JUCE |
 | [Digits](https://github.com/LouisGorenfeld/DigitsVst) | Phase-distortion synth inspired by Casio CZ series | Instrument | VSTGUI |
@@ -33,7 +33,7 @@ Audio Plugins
 | [KickMaker](https://github.com/teragonaudio/KickMaker) | Synth specifically to create kick-drum sounds | Instrument | VSTGUI |
 | [LameVST](https://github.com/Iunusov/LameVST) | LameMP3 as an effect | Effect |  |
 | [mda](https://sourceforge.net/projects/mda-vst/) | FX and virtual instruments for PC and Mac | Misc |  |
-| [Mika Micro](https://github.com/tesselode/mika-micro) | Simple subtractive synth | Instrument | wdl-ol |
+| [Mika Micro](https://github.com/tesselode/mika-micro) | Simple subtractive synth | Instrument | WDL-OL |
 | [MVerb](https://github.com/martineastwood/mverb) | Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure | Effect |  |
 | [NotNotchFilter](https://github.com/teragonaudio/NotNotchFilter) | Performance-oriented filter designed to replace the mid-EQ found in a standard 3-band DJ mixer | Effect | JUCE |
 | [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | Instrument | JUCE |
@@ -48,7 +48,7 @@ Audio Plugins
 | [Synister](https://github.com/the-synister/the-source) | Subtractive software synth | Instrument | JUCE |
 | [Syntage](https://github.com/lis355/Syntage) | VST 2.4 .Net Study Synth | Instrument |  |
 | [Temper](https://github.com/creativeintent/temper) | Digital distortion targeting VST, VST3, and AU for OS X and Windows | Effect | Faust, JUCE |
-| [VCV Rack](https://github.com/VCVRack) | Virtual modular synthesizer | Misc | rtaudio |
+| [VCV Rack](https://github.com/VCVRack) | Virtual modular synthesizer | Misc | RtAudio |
 | [VST2413](https://github.com/keijiro/vst2413) | FM synth based on emulator of YM2413 (OPLL) chip used in Sega Master System and FM-PAC MSX expansion | Instrument |  |
 | [zam-plugins](https://github.com/zamaudio/zam-plugins) | LADSPA/LV2/VST/JACK audio plugins for high-quality processing | Effect | DPF |
 
