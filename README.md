@@ -48,13 +48,13 @@ Audio Plugins
 | [Synister](https://github.com/the-synister/the-source) | Subtractive software synth | Instrument | JUCE |
 | [Syntage](https://github.com/lis355/Syntage) | VST 2.4 .Net Study Synth | Instrument |  |
 | [Temper](https://github.com/creativeintent/temper) | Digital distortion targeting VST, VST3, and AU for OS X and Windows | Effect | Faust, JUCE |
-| [VCVRack](https://github.com/VCVRack) | Virtual modular synthesizer | Misc | rtaudio |
+| [VCV Rack](https://github.com/VCVRack) | Virtual modular synthesizer | Misc | rtaudio |
 | [VST2413](https://github.com/keijiro/vst2413) | FM synth based on emulator of YM2413 (OPLL) chip used in Sega Master System and FM-PAC MSX expansion | Instrument |  |
 | [zam-plugins](https://github.com/zamaudio/zam-plugins) | LADSPA/LV2/VST/JACK audio plugins for high-quality processing | Effect | DPF |
 
 Collections
 -----------
-* [VCRack Library](https://github.com/VCVRack/library) — a library of plugins compatible with VCV Plugin Manager
+* [VCV library](https://github.com/VCVRack/library) — a library of plugins compatible with VCV Plugin Manager
 
 Open Source Audio Apps
 ----------------------
