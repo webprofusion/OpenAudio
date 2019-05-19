@@ -15,7 +15,7 @@ Audio Plugins
 
 | Plugin | Description | Type | Framework |
 | --- | --- | --- | --- |
-| [airwindows](https://github.com/airwindows/airwindows) | Various small and experimental effect plugins | Effect |  |
+| [Airwindows](https://github.com/airwindows/airwindows) | Various small and experimental effect plugins | Effect |  |
 | [Argotlunar](https://github.com/mourednik/argotlunar) | Real-time delay-line granulator | Effect | JUCE |
 | [Audio Effects](https://github.com/juandagilc/Audio-Effects) | Plugins implemented from the explanations in the book “Audio Effects: Theory, Implementation and Application” | Effect | JUCE |
 | [BinAural VST](https://github.com/twoz/binaural-vst) | Mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions | Effect | JUCE |
@@ -39,7 +39,7 @@ Audio Plugins
 | [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | Instrument | JUCE |
 | [PulseDelay](https://github.com/teragonaudio/PulseDelay) | Timed delay effect | Effect |  |
 | [QtVST](https://github.com/mbrucher/QtVST) | VST plugins with a Qt interface | Effect | Qt |
-| [regrader](https://github.com/igorski/regrader) | Degenerative delay | Effect | VSTGUI |
+| [Regrader](https://github.com/igorski/regrader) | Degenerative delay | Effect | VSTGUI |
 | [Roth-AIR](https://github.com/danielrothmann/Roth-AIR) | Mixing tool for easily adding airy, crispy presence to audio | Effect | JUCE |
 | [ScorchCrafter Guitar FX](https://sourceforge.net/projects/scorchcrafter/) | Audio DSP FX and plugins, mostly for guitar (amp sim) and other FX| Effect||
 | [ShoutVST](https://github.com/Iunusov/ShoutVST) | VST for streaming sound into Icecast/ShoutCast directly from VST hosts | Effect | VSTGUI, FLUID |
@@ -81,9 +81,9 @@ Open Source Software Development Libraries
 | [iPlug&nbsp;2](https://iplug2.github.io/)| https://github.com/iplug2/iplug2 |
 | [JUCE](https://juce.com) | https://github.com/WeAreROLI/JUCE |
 | [PortAudio](http://www.portaudio.com/) | https://app.assembla.com/spaces/portaudio/git/source |
-| [rtaudio](https://github.com/thestk/rtaudio) | https://github.com/thestk/rtaudio |
+| [RtAudio](https://github.com/thestk/rtaudio) | https://github.com/thestk/rtaudio |
 | [VSTGUI](https://github.com/steinbergmedia/vstgui) | https://github.com/steinbergmedia/vstgui |
-| [wdl-ol](https://github.com/olilarkin/wdl-ol) | https://github.com/olilarkin/wdl-ol |
+| [WDL-OL](https://github.com/olilarkin/wdl-ol) | https://github.com/olilarkin/wdl-ol |
 
 Code Samples
 -----------
