@@ -81,7 +81,7 @@ Open Source Software Development Libraries
 | [iPlug&nbsp;2](https://iplug2.github.io/)| [iPlug2/iPlug2](https://github.com/iPlug2/iPlug2) | Simple-to-use C++ framework for developing cross-platform audio plugins/apps |
 | [JUCE](https://juce.com) | [WeAreROLI/JUCE](https://github.com/WeAreROLI/JUCE) | Cross-platform C++ framework for developing desktop and mobile apps and audio plugins |
 | [PortAudio](http://www.portaudio.com/) | [Assembla → portaudio](https://app.assembla.com/spaces/portaudio/git/source) | Cross-platform audio I/O library |
-| RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | C++ classes for cross-platform realtime audio I/O |
+| RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | C++ classes for cross-platform real-time audio I/O |
 | VSTGUI | [steinbergmedia/vstgui](https://github.com/steinbergmedia/vstgui) | User-interface toolkit mainly for audio plugins |
 | WDL-OL | [olilarkin/wdl-ol](https://github.com/olilarkin/wdl-ol) | Simple-to-use C++ framework for developing cross-platform audio plugins (superseded by iPlug&nbsp;2) |
 
@@ -89,7 +89,7 @@ Code Samples
 -----------
 
 * [KlangFalter](https://github.com/HiFi-LoFi/KlangFalter) — a convolution audio plugin (e.g. for usage as convolution reverb)
-* [FFTConvolver](https://github.com/HiFi-LoFi/FFTConvolver) — an audio convolution algorithm in C++ for real time audio processing
+* [FFTConvolver](https://github.com/HiFi-LoFi/FFTConvolver) — an audio convolution algorithm in C++ for real-time audio processing
 
 Open Data Resources
 -------------------
