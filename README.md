@@ -73,17 +73,17 @@ Open Source Audio Apps
 Open Source Software Development Libraries
 ----------------------
 
-| Name | Source |
-| --- | --- |
-| [Cabbage](http://cabbageaudio.com/) | https://github.com/rorywalsh/cabbage |
-| [Csound](https://csound.com/) | https://github.com/csound/csound |
-| [Faust](https://faust.grame.fr/) | https://github.com/grame-cncm/faust |
-| [iPlug&nbsp;2](https://iplug2.github.io/)| https://github.com/iplug2/iplug2 |
-| [JUCE](https://juce.com) | https://github.com/WeAreROLI/JUCE |
-| [PortAudio](http://www.portaudio.com/) | https://app.assembla.com/spaces/portaudio/git/source |
-| [RtAudio](https://github.com/thestk/rtaudio) | https://github.com/thestk/rtaudio |
-| [VSTGUI](https://github.com/steinbergmedia/vstgui) | https://github.com/steinbergmedia/vstgui |
-| [WDL-OL](https://github.com/olilarkin/wdl-ol) | https://github.com/olilarkin/wdl-ol |
+| Library | Source | Description |
+| --- | --- | --- |
+| [Cabbage](http://cabbageaudio.com/) | [rorywalsh/cabbage](https://github.com/rorywalsh/cabbage) | Framework for developing audio plugins and standalone instruments with Csound |
+| [Csound](https://csound.com/) | [csound/csound](https://github.com/csound/csound) | Programming language for sound and music synthesis |
+| [Faust](https://faust.grame.fr/) | [grame-cncm/faust](https://github.com/grame-cncm/faust) | Functional programming language for real-time signal processing |
+| [iPlug&nbsp;2](https://iplug2.github.io/)| [iPlug2/iPlug2](https://github.com/iPlug2/iPlug2) | Simple-to-use C++ framework for developing cross platform audio plugins/apps |
+| [JUCE](https://juce.com) | [WeAreROLI/JUCE](https://github.com/WeAreROLI/JUCE) | Cross-platform C++ framework for developing desktop and mobile apps and audio plugins |
+| [PortAudio](http://www.portaudio.com/) | [Assembla → portaudio](https://app.assembla.com/spaces/portaudio/git/source) | Cross-platform audio I/O library |
+| RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | C++ classes for cross-platform realtime audio I/O |
+| VSTGUI | [steinbergmedia/vstgui](https://github.com/steinbergmedia/vstgui) | User-interface toolkit mainly for audio plugins |
+| WDL-OL | [olilarkin/wdl-ol](https://github.com/olilarkin/wdl-ol) | Simple-to-use C++ framework for developing cross platform audio plugins (superseded by iPlug&nbsp;2) |
 
 Code Samples
 -----------
