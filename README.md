@@ -45,7 +45,7 @@ Audio Plugins
 | [ShoutVST](https://github.com/Iunusov/ShoutVST) | VST for streaming sound into Icecast/ShoutCast directly from VST hosts | Effect | VSTGUI, FLUID |
 | [Sound Analyser](https://github.com/adamstark/Sound-Analyser) | Real-time audio analysis to allow anyone to quickly set up and experiment with different audio analysis algorithms | Effect | JUCE |
 | [Surge](https://surge-synthesizer.github.io/) | Subtractive wavetable synth | Instrument | VSTGUI |
-| [Synister](https://github.com/the-synister/the-source) | Subtractive software synth | Instrument | JUCE |
+| [Synister](https://github.com/the-synister/the-source) | Subtractive synth | Instrument | JUCE |
 | [Syntage](https://github.com/lis355/Syntage) | VST 2.4 .Net Study Synth | Instrument |  |
 | [Temper](https://github.com/creativeintent/temper) | Digital distortion targeting VST, VST3, and AU for OS X and Windows | Effect | Faust, JUCE |
 | [VCV Rack](https://github.com/VCVRack) | Virtual modular synthesizer | Misc | RtAudio |
