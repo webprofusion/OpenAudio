@@ -94,4 +94,4 @@ Code Samples
 Open Data Resources
 -------------------
 
-[OpenAIR](http://www.openairlib.net/) — the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)
+* [OpenAIR](http://www.openairlib.net/) — the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)
