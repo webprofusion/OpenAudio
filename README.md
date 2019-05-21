@@ -57,7 +57,7 @@ Audio Plugins
 | [Synister](https://github.com/the-synister/the-source) | Subtractive synth | Instrument | JUCE |
 | [Syntage](https://github.com/lis355/Syntage) | VST 2.4 .Net Study Synth | Instrument |  |
 | [Temper](https://github.com/creativeintent/temper) | Digital distortion targeting VST, VST3, and AU for OS X and Windows | Effect | Faust, JUCE |
-| [VCV Rack](https://github.com/VCVRack/Rack) | Virtual modular synth | Misc |  |
+| [VCV Rack](https://github.com/VCVRack/Rack) | Virtual modular synth | Misc | RtAudio |
 | [VST2413](https://github.com/keijiro/vst2413) | FM synth based on emulator of YM2413 (OPLL) chip used in Sega Master System and FM-PAC MSX expansion | Instrument | (no&nbsp;GUI) |
 | [Wolf Shaper](https://github.com/pdesaulniers/wolf-shaper) | Waveshaper plugin with spline-based graph editor | Effect | DPF |
 | [YK Chorus](https://github.com/SpotlightKid/ykchorus) | Chorus audio effect plugin based on DSP code by&nbsp;TAL | Effect | DPF |
