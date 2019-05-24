@@ -40,6 +40,7 @@ Audio Plugins
 | [hexter](https://github.com/smbolton/hexter) | Yamaha DX7 modeling FM synth for DSSI | Instrument | DPF |
 | [HiLoFilter](https://github.com/teragonaudio/HiLoFilter) | Simple hipass/lopass filter controlled with a single knob | Effect | JUCE |
 | [JuceOPLVSTi](https://github.com/bsutherland/JuceOPLVSTi) | FM synth based on Yamaha OPL2/3 emulation from DOSBox | Instrument | JUCE |
+| [Juno 6](https://sourceforge.net/projects/juno6/) | Roland Juno 6/60 Synthesizer | Instrument |  |
 | [keithhearne/VSTPlugins](https://github.com/keithhearne/VSTPlugins) | A collection of VST plugins | Effect | JUCE | 
 | [KickMaker](https://github.com/teragonaudio/KickMaker) | Synth specifically to create kick-drum sounds | Instrument | VSTGUI |
 | [LameVST](https://github.com/Iunusov/LameVST) | LameMP3 as an effect | Effect |  |
@@ -47,6 +48,7 @@ Audio Plugins
 | [Mika Micro](https://github.com/tesselode/mika-micro) | Simple subtractive synth | Instrument | WDL-OL |
 | [MVerb](https://github.com/martineastwood/mverb) | Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure | Effect | VSTGUI |
 | [NotNotchFilter](https://github.com/teragonaudio/NotNotchFilter) | Performance-oriented filter designed to replace the mid-EQ found in a standard 3-band DJ mixer | Effect | JUCE |
+| [ndc Plugs](http://www.niallmoody.com/ndcplugs/plugins.htm) | VST plugins for Windows and OSX | Misc |  |
 | [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | Instrument | JUCE |
 | [PulseDelay](https://github.com/teragonaudio/PulseDelay) | Timed delay effect | Effect | (no&nbsp;GUI) |
 | [QtVST](https://github.com/mbrucher/QtVST) | VST plugins with a Qt interface | Effect | Qt |
@@ -59,6 +61,7 @@ Audio Plugins
 | [Synister](https://github.com/the-synister/the-source) | Subtractive synth | Instrument | JUCE |
 | [Syntage](https://github.com/lis355/Syntage) | VST 2.4 .Net Study Synth | Instrument |  |
 | [Temper](https://github.com/creativeintent/temper) | Digital distortion targeting VST, VST3, and AU for OS X and Windows | Effect | Faust, JUCE |
+| [Tunefish](https://github.com/paynebc/tunefish) | VST virtual analog synthesizer  | Instrument | JUCE |
 | [VCV Rack](https://github.com/VCVRack/Rack) | Virtual modular synth | Misc | RtAudio |
 | [VST2413](https://github.com/keijiro/vst2413) | FM synth based on emulator of YM2413 (OPLL) chip used in Sega Master System and FM-PAC MSX expansion | Instrument | (no&nbsp;GUI) |
 | [Wolf Shaper](https://github.com/pdesaulniers/wolf-shaper) | Waveshaper plugin with spline-based graph editor | Effect | DPF |
@@ -78,10 +81,14 @@ Open Source Audio Apps
 | ASIO2WASAPI | [levmin/ASIO2WASAPI](https://github.com/levmin/ASIO2WASAPI) | Universal ASIO driver for Windows |
 | [Audacity](https://www.audacityteam.org/) | [audacity/audacity](https://github.com/audacity/audacity) | Audio editor |
 | FlexASIO | [dechamps/FlexASIO](https://github.com/dechamps/FlexASIO) | Universal ASIO driver for Windows |
+| [Giada](https://www.giadamusic.com/) | [monocasual/giada](https://github.com/monocasual/giada) | Loop machine |
 | [Guitarix](https://guitarix.org/) | [SourceForge → guitarix](https://sourceforge.net/projects/guitarix/) | GNU/Linux Virtual Amplifier |
 | [Helio Workstation](https://helio.fm/) | [helio-fm/helio-workstation](https://github.com/helio-fm/helio-workstation) | Sequencer |
+| [Hydrogen](http://hydrogen-music.org/) | [hydrogen-music/hydrogen](https://github.com/hydrogen-music/hydrogen) | Drum machine |
 | [NewMixer](https://github.com/jatinchowdhury18/NewMixer) | [jatinchowdhury18/NewMixer](https://github.com/jatinchowdhury18/NewMixer) | Mixing Software |
+| [LMMS](https://lmms.io/) | [LMMS/lmms](https://github.com/lmms/lmms) | DAW |
 | [OwlPlug](https://owlplug.com/) | [DropSnorz/OwlPlug](https://github.com/DropSnorz/OwlPlug) | Audio plugin manager |
+| [orDrumbox](https://www.ordrumbox.com/) | [SourceForge → ordrumbox](https://sourceforge.net/projects/ordrumbox/) | Drum machine |
 | [VCV Rack](https://vcvrack.com/) | [VCVRack/Rack](https://github.com/VCVRack/Rack) | Modular synth |
 
 Open Source Software Development Libraries
