@@ -15,6 +15,8 @@ Audio Plugins
 
 | Plugin | Description | Type | Framework |
 | --- | --- | --- | --- |
+| [ADLplug](https://github.com/jpcima/ADLplug) | FM Chip Synthesizer — OPL & OPN | Instrument | JUCE |
+| [andes](https://github.com/artfwo/andes) | Sound synthesiser plugin based on Perlin noise | Instrument | JUCE |
 | [Airwindows](https://github.com/airwindows/airwindows) | Various small and experimental effect plugins | Effect |  |
 | [amsynth](https://github.com/amsynth/amsynth) | Analog-modelling (virtual analog) synthesizer | Instrument | GTK |
 | [Argotlunar](https://github.com/mourednik/argotlunar) | Real-time delay-line granulator | Effect | JUCE |
@@ -44,6 +46,7 @@ Audio Plugins
 | [JuceOPLVSTi](https://github.com/bsutherland/JuceOPLVSTi) | FM synth based on Yamaha OPL2/3 emulation from DOSBox | Instrument | JUCE |
 | [Juno 6](https://sourceforge.net/projects/juno6/) | Roland Juno 6/60 Synthesizer | Instrument |  |
 | [keithhearne/VSTPlugins](https://github.com/keithhearne/VSTPlugins) | A collection of VST plugins | Effect | JUCE | 
+| [K-Meter](https://github.com/mzuther/K-Meter) | Implementation of a K-System meter according to Bob Katz' specifications | Effect | JUCE |
 | [KickMaker](https://github.com/teragonaudio/KickMaker) | Synth specifically to create kick-drum sounds | Instrument | VSTGUI |
 | [LameVST](https://github.com/Iunusov/LameVST) | LameMP3 as an effect | Effect |  |
 | [mda](https://sourceforge.net/projects/mda-vst/) | FX and virtual instruments for PC and Mac | Misc |  |
@@ -52,6 +55,7 @@ Audio Plugins
 | [NotNotchFilter](https://github.com/teragonaudio/NotNotchFilter) | Performance-oriented filter designed to replace the mid-EQ found in a standard 3-band DJ mixer | Effect | JUCE |
 | [ndc Plugs](http://www.niallmoody.com/ndcplugs/plugins.htm) | VST plugins for Windows and OSX | Misc |  |
 | [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | Instrument | JUCE |
+| [OB-Xd](https://github.com/reales/OB-Xd) | Based on the Oberheim OB-X | Instrument | JUCE |
 | [PulseDelay](https://github.com/teragonaudio/PulseDelay) | Timed delay effect | Effect | (no&nbsp;GUI) |
 | [QtVST](https://github.com/mbrucher/QtVST) | VST plugins with a Qt interface | Effect | Qt |
 | [Regrader](https://github.com/igorski/regrader) | Degenerative delay | Effect | VSTGUI |
@@ -64,7 +68,9 @@ Audio Plugins
 | [Syntage](https://github.com/lis355/Syntage) | VST 2.4 .Net Study Synth | Instrument |  |
 | [Temper](https://github.com/creativeintent/temper) | Digital distortion targeting VST, VST3, and AU for OS X and Windows | Effect | Faust, JUCE |
 | [Tunefish](https://github.com/paynebc/tunefish) | VST virtual analog synthesizer  | Instrument | JUCE |
+| [traKmeter](https://github.com/mzuther/traKmeter) | Loudness meter for correctly setting up tracking and mixing levels | Effect | JUCE |
 | [VCV Rack](https://github.com/VCVRack/Rack) | Virtual modular synth | Misc | RtAudio |
+| [VSTSID](https://github.com/igorski/VSTSID) | SID synthesizer instrument  | Instrument |  |
 | [VST2413](https://github.com/keijiro/vst2413) | FM synth based on emulator of YM2413 (OPLL) chip used in Sega Master System and FM-PAC MSX expansion | Instrument | (no&nbsp;GUI) |
 | [Wolf Shaper](https://github.com/pdesaulniers/wolf-shaper) | Waveshaper plugin with spline-based graph editor | Effect | DPF |
 | [YK Chorus](https://github.com/SpotlightKid/ykchorus) | Chorus audio effect plugin based on DSP code by&nbsp;TAL | Effect | DPF |
