@@ -115,6 +115,7 @@ Open Source Software Development Libraries
 | [libopenmpt](https://lib.openmpt.org/libopenmpt/) | [OpenMPT/openmpt](https://github.com/OpenMPT/openmpt) | Cross-platform C/C++ module-playback library based on OpenMPT |
 | [PortAudio](http://www.portaudio.com/) | [Assembla → portaudio](https://app.assembla.com/spaces/portaudio/git/source) | Cross-platform audio I/O library |
 | RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | C++ classes for cross-platform real-time audio I/O |
+| rust-vst | [rust-dsp/rust-vst](https://github.com/rust-dsp/rust-vst) | VST 2.4 API implementation in the Rust language |
 | VSTGUI | [steinbergmedia/vstgui](https://github.com/steinbergmedia/vstgui) | User-interface toolkit mainly for audio plugins |
 | WDL-OL | [olilarkin/wdl-ol](https://github.com/olilarkin/wdl-ol) | Simple-to-use C++ framework for developing cross-platform audio plugins (superseded by iPlug&nbsp;2) |
 
