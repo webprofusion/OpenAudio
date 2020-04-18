@@ -37,6 +37,7 @@ Audio Plugins
 | [Distrho Nekobi](https://github.com/DISTRHO/Nekobi) | Simple single-oscillator synth based on Roland TB-303 | Instrument | DPF |
 | [Distrho ProM](https://github.com/DISTRHO/ProM) | Music-visualizer plugin based on projectM | Effect | DPF |
 | [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | Hall-style reverb based on Freeverb3 algorithms | Effect | DPF |
+| [Element](https://github.com/kushview/Element) | Advanced Audio Plugin Host | Misc | JUCE |
 | [Eurorack](https://github.com/VCVRack/AudibleInstruments) | Diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synths, and utility modules | Misc |  |
 | [Flutterbird](https://github.com/tesselode/flutterbird) | Simple pitch fluctuation | Effect | iPlug 2 |
 | [Gverb/Gigaverb](http://elements.byethost3.com/plugins.html) | Reverb | Effect | VSTGUI |
@@ -89,6 +90,7 @@ Open Source Audio Apps
 | [Ardour](https://ardour.org/) | [Ardour/ardour](https://github.com/Ardour/ardour) | DAW |
 | ASIO2WASAPI | [levmin/ASIO2WASAPI](https://github.com/levmin/ASIO2WASAPI) | Universal ASIO driver for Windows |
 | [Audacity](https://www.audacityteam.org/) | [audacity/audacity](https://github.com/audacity/audacity) | Audio editor |
+| [Element](https://kushview.net/element/) | [Kushview/Element](https://github.com/kushview/Element) | Advanced Audio Plugin Host |
 | FlexASIO | [dechamps/FlexASIO](https://github.com/dechamps/FlexASIO) | Universal ASIO driver for Windows |
 | [Giada](https://www.giadamusic.com/) | [monocasual/giada](https://github.com/monocasual/giada) | Loop machine |
 | [Guitarix](https://guitarix.org/) | [SourceForge → guitarix](https://sourceforge.net/projects/guitarix/) | GNU/Linux Virtual Amplifier |
