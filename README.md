@@ -104,6 +104,7 @@ Open Source Audio Apps
 | [orDrumbox](https://www.ordrumbox.com/) | [SourceForge → ordrumbox](https://sourceforge.net/projects/ordrumbox/) | Drum machine |
 | [Psycle](http://psycle.pastnotecut.org/portal.php) | [SourceForge → psycle](https://sourceforge.net/projects/psycle/) | Modular music tracker |
 | [VCV Rack](https://vcvrack.com/) | [VCVRack/Rack](https://github.com/VCVRack/Rack) | Modular synth |
+| [Zrythm](https://www.zrythm.org/) | [zrythm/zrythm](https://github.com/zrythm/zrythm) | DAW |
 
 Open Source Software Development Libraries
 ----------------------
