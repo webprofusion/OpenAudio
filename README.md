@@ -50,6 +50,7 @@ Audio Plugins
 | [K-Meter](https://github.com/mzuther/K-Meter) | Implementation of a K-System meter according to Bob Katz' specifications | Effect | JUCE |
 | [KickMaker](https://github.com/teragonaudio/KickMaker) | Synth specifically to create kick-drum sounds | Instrument | VSTGUI |
 | [LameVST](https://github.com/Iunusov/LameVST) | LameMP3 as an effect | Effect |  |
+| [Magical8bitPlug 2](https://github.com/yokemura/Magical8bitPlug2) | Old 8bit game console style synth | Instrument | JUCE
 | [mda](https://sourceforge.net/projects/mda-vst/) | FX and virtual instruments for PC and Mac | Misc | (no&nbsp;GUI) |
 | [Mika Micro](https://github.com/tesselode/mika-micro) | Simple subtractive synth | Instrument | WDL-OL |
 | [MVerb](https://github.com/martineastwood/mverb) | Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure | Effect | VSTGUI |
