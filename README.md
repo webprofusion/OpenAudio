@@ -127,6 +127,7 @@ Open Source Software Development Libraries
 | [FluidSynth](http://www.fluidsynth.org/) | [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth) | Real-time synth based on the SoundFont&nbsp;2 specifications |
 | [iPlug&nbsp;2](https://iplug2.github.io/) | [iPlug2/iPlug2](https://github.com/iPlug2/iPlug2) | Simple-to-use C++ framework for developing cross-platform audio plugins/apps |
 | [JUCE](https://juce.com) | [WeAreROLI/JUCE](https://github.com/WeAreROLI/JUCE) | Cross-platform C++ framework for developing desktop and mobile apps and audio plugins |
+| [tracktion_engine](https://www.tracktion.com/develop/tracktion-engine) | [Tracktion/tracktion_engine](https://github.com/Tracktion/tracktion_engine) | Tracktion Engine module. You can build anything from a simple file-player or sequencer to a full blown DAW. Tracktion Engine is supplied as a JUCE module so it can easily fit in to an existing JUCE application. |
 | [jVSTwRapper](http://jvstwrapper.sourceforge.net/) | [SourceForge → jvstwrapper](https://sourceforge.net/projects/jvstwrapper/) | Wrapper to write audio plugins in Java (VST 2.4, AU, LADSPA; Windows, Linux, macOS) |
 | [libopenmpt](https://lib.openmpt.org/libopenmpt/) | [OpenMPT/openmpt](https://github.com/OpenMPT/openmpt) | Cross-platform C/C++ module-playback library based on OpenMPT |
 | [PortAudio](http://www.portaudio.com/) | [Assembla → portaudio](https://app.assembla.com/spaces/portaudio/git/source) | Cross-platform audio I/O library |
