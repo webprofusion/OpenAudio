@@ -82,6 +82,7 @@ Audio Plugins
 | [Tunefish](https://github.com/paynebc/tunefish) | VST virtual analog synthesizer  | Instrument | JUCE |
 | [traKmeter](https://github.com/mzuther/traKmeter) | Loudness meter for correctly setting up tracking and mixing levels | Effect | JUCE |
 | [VCV Rack](https://github.com/VCVRack/Rack) | Virtual modular synth | Misc | RtAudio |
+| [Vital](https://github.com/mtytel/vital) | Spectral warping wavetable synthesizer | Instrument | JUCE |
 | [VSTSID](https://github.com/igorski/VSTSID) | SID synthesizer instrument  | Instrument |  |
 | [VST2413](https://github.com/keijiro/vst2413) | FM synth based on emulator of YM2413 (OPLL) chip used in Sega Master System and FM-PAC MSX expansion | Instrument | (no&nbsp;GUI) |
 | [Wolf Shaper](https://github.com/pdesaulniers/wolf-shaper) | Waveshaper plugin with spline-based graph editor | Effect | DPF |
