@@ -96,8 +96,8 @@ Collections
 * [SFZ Instruments](https://sfzinstruments.github.io/) — a list of SFZ instruments, most of which are free
 * [VCV library](https://github.com/VCVRack/library) — a library of plugins compatible with VCV Plugin Manager
 
-Open Source Audio Apps
-----------------------
+Audio Apps
+----------
 
 | Software | Source | Description |
 | --- | --- | --- |
@@ -122,8 +122,8 @@ Open Source Audio Apps
 | [VCV Rack](https://vcvrack.com/) | [VCVRack/Rack](https://github.com/VCVRack/Rack) | Modular synth |
 | [Zrythm](https://www.zrythm.org/) | [zrythm/zrythm](https://github.com/zrythm/zrythm) | DAW |
 
-Open Source Software Development Libraries
-----------------------
+Software Development Libraries
+------------------------------
 
 | Library | Source | Description |
 | --- | --- | --- |
@@ -148,7 +148,7 @@ Open Source Software Development Libraries
 | WDL-OL | [olilarkin/wdl-ol](https://github.com/olilarkin/wdl-ol) | Simple-to-use C++ framework for developing cross-platform audio plugins (superseded by iPlug&nbsp;2) |
 
 Code Samples
------------
+------------
 
 * [KlangFalter](https://github.com/HiFi-LoFi/KlangFalter) — a convolution audio plugin (e.g. for usage as convolution reverb)
 * [FFTConvolver](https://github.com/HiFi-LoFi/FFTConvolver) — an audio convolution algorithm in C++ for real-time audio processing
