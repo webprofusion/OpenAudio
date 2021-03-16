@@ -10,6 +10,17 @@ https://openaudio.webprofusion.com
 
 **Please contribute links!**
 
+<details>
+<summary>Table of Contents</summary>
+
+* [Audio Plugins](#audio-plugins)
+* [Collections](#collections)
+* [Audio Apps](#audio-apps)
+* [Software Development Libraries](#software-development-libraries)
+* [Code Samples](#code-samples)
+* [Open Data Resources](#open-data-resources)
+</details>
+
 Audio Plugins
 ----------
 
