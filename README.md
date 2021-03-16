@@ -13,12 +13,14 @@ https://openaudio.webprofusion.com
 <details>
 <summary>Table of Contents</summary>
 
-* [Audio Plugins](#audio-plugins)
-* [Collections](#collections)
-* [Audio Apps](#audio-apps)
-* [Software Development Libraries](#software-development-libraries)
-* [Code Samples](#code-samples)
-* [Open Data Resources](#open-data-resources)
+<ul>
+	<li><a href="#audio-plugins">Audio Plugins</a></li>
+	<li><a href="#collections">Collections</a></li>
+	<li><a href="#audio-apps">Audio Apps</a></li>
+	<li><a href="#software-development-libraries">Software Development Libraries</a></li>
+	<li><a href="#code-samples">Code Samples</a></li>
+	<li><a href="#open-data-resources">Open Data Resources</a></li>
+</ul>
 </details>
 
 Audio Plugins
