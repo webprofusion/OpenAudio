@@ -1,4 +1,3 @@
-
 Open-Source Audio Plugins & Apps
 ===================
 
