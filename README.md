@@ -1,5 +1,5 @@
 Open-Source Audio Plugins & Apps
-===================
+================================
 
 A list of open-source VST (and other format) plugin/app projects. The intention of this list is to catalog open-source plugins or apps which are fully featured or are useful examples which have non-trivial features.
 
@@ -23,7 +23,7 @@ https://openaudio.webprofusion.com
 </details>
 
 Audio Plugins
-----------
+-------------
 
 | Plugin | Description | Type | Framework |
 | --- | --- | --- | --- |
