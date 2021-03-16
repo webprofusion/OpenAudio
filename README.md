@@ -105,6 +105,7 @@ Audio Plugins
 
 Collections
 -----------
+
 * [Linux Synths](http://linuxsynths.com/) — a list of linux based synths, some of which are open-source
 * [SFZ Instruments](https://sfzinstruments.github.io/) — a list of SFZ instruments, most of which are free
 * [VCV library](https://github.com/VCVRack/library) — a library of plugins compatible with VCV Plugin Manager
