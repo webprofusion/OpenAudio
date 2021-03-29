@@ -61,7 +61,7 @@ Audio Plugins
 | [HiLoFilter](https://github.com/teragonaudio/HiLoFilter) | Simple hipass/lopass filter controlled with a single knob | Effect | JUCE |
 | [JuceOPLVSTi](https://github.com/bsutherland/JuceOPLVSTi) | FM synth based on Yamaha OPL2/3 emulation from DOSBox | Instrument | JUCE |
 | [Juno 6](https://sourceforge.net/projects/juno6/) | Roland Juno 6/60 Synthesizer | Instrument |  |
-| [keithhearne/VSTPlugins](https://github.com/keithhearne/VSTPlugins) | A collection of VST plugins | Effect | JUCE | 
+| [keithhearne/VSTPlugins](https://github.com/keithhearne/VSTPlugins) | A collection of VST plugins | Effect | JUCE |
 | [K-Meter](https://github.com/mzuther/K-Meter) | Implementation of a K-System meter according to Bob Katz’ specifications | Effect | JUCE |
 | [Key Repeat](https://michael-jan.github.io/key-repeat/) | Beat repeat sampler | Instrument | JUCE |
 | [KickMaker](https://github.com/teragonaudio/KickMaker) | Synth specifically to create kick-drum sounds | Instrument | VSTGUI |
@@ -108,6 +108,7 @@ Collections
 * [Linux Synths](http://linuxsynths.com/) — a list of linux based synths, some of which are open-source
 * [SFZ Instruments](https://sfzinstruments.github.io/) — a list of SFZ instruments, most of which are free
 * [VCV library](https://github.com/VCVRack/library) — a library of plugins compatible with VCV Plugin Manager
+* [OpenAV](http://openavproductions.com/) — a collection of instruments, effects, and development tool kits for Linux.
 
 Audio Apps
 ----------
