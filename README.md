@@ -61,7 +61,7 @@ Audio Plugins
 | [HiLoFilter](https://github.com/teragonaudio/HiLoFilter) | Simple hipass/lopass filter controlled with a single knob | Effect | JUCE |
 | [JuceOPLVSTi](https://github.com/bsutherland/JuceOPLVSTi) | FM synth based on Yamaha OPL2/3 emulation from DOSBox | Instrument | JUCE |
 | [Juno 6](https://sourceforge.net/projects/juno6/) | Roland Juno 6/60 Synthesizer | Instrument |  |
-| [keithhearne/VSTPlugins](https://github.com/keithhearne/VSTPlugins) | A collection of VST plugins | Effect | JUCE | 
+| [keithhearne/VSTPlugins](https://github.com/keithhearne/VSTPlugins) | A collection of VST plugins | Effect | JUCE |
 | [K-Meter](https://github.com/mzuther/K-Meter) | Implementation of a K-System meter according to Bob Katz’ specifications | Effect | JUCE |
 | [Key Repeat](https://michael-jan.github.io/key-repeat/) | Beat repeat sampler | Instrument | JUCE |
 | [KickMaker](https://github.com/teragonaudio/KickMaker) | Synth specifically to create kick-drum sounds | Instrument | VSTGUI |
@@ -101,6 +101,7 @@ Audio Plugins
 | [YK Chorus](https://github.com/SpotlightKid/ykchorus) | Chorus audio effect plugin based on DSP code by&nbsp;TAL | Effect | DPF |
 | [zam-plugins](https://github.com/zamaudio/zam-plugins) | LADSPA/LV2/VST/JACK audio plugins for high-quality processing | Effect | DPF |
 | [zynaddsubfx](https://github.com/zynaddsubfx/zynaddsubfx) | Additive/Subtractive AM/FM synthesizer with effects | Instrument | FLTK |
+| [Bespoke](https://github.com/awwbees/BespokeSynth) | Node-based modular synth with live coding | Instrument | JUCE |
 
 Collections
 -----------
@@ -108,6 +109,7 @@ Collections
 * [Linux Synths](http://linuxsynths.com/) — a list of linux based synths, some of which are open-source
 * [SFZ Instruments](https://sfzinstruments.github.io/) — a list of SFZ instruments, most of which are free
 * [VCV library](https://github.com/VCVRack/library) — a library of plugins compatible with VCV Plugin Manager
+* [OpenAV](http://openavproductions.com/) — a collection of instruments, effects, and development tool kits for Linux.
 
 Audio Apps
 ----------
@@ -134,6 +136,7 @@ Audio Apps
 | [StudioRack](https://studiorack.github.io/studiorack-site/) | [github.com/studiorack](https://github.com/studiorack) | Audio plugin manager |
 | [VCV Rack](https://vcvrack.com/) | [VCVRack/Rack](https://github.com/VCVRack/Rack) | Modular synth |
 | [Zrythm](https://www.zrythm.org/) | [zrythm/zrythm](https://github.com/zrythm/zrythm) | DAW |
+| [Sonic Pi](https://sonic-pi.net/) |  [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) | A code-based music creation and performance tool |
 
 Software Development Libraries
 ------------------------------
