@@ -33,6 +33,7 @@ Audio Plugins
 | [amsynth](https://github.com/amsynth/amsynth) | Analog-modelling (virtual analog) synthesizer | Instrument | GTK |
 | [Argotlunar](https://github.com/mourednik/argotlunar) | Real-time delay-line granulator | Effect | JUCE |
 | [Audio Effects](https://github.com/juandagilc/Audio-Effects) | Plugins implemented from the explanations in the book “Audio Effects: Theory, Implementation and Application” | Effect | JUCE |
+| [Bespoke](https://github.com/awwbees/BespokeSynth) | Node-based modular synth with live coding | Instrument | JUCE |
 | [BinAural VST](https://github.com/twoz/binaural-vst) | Mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions | Effect | JUCE |
 | [BlackBird](https://khrykin.github.io/BlackBird) | Analog-inspired software synth with its own voice | Instrument | JUCE |
 | [C1Bitcrusher](https://github.com/datajake1999/C1Bitcrusher) | Experimental and accurate bit reduction | Effect |
@@ -101,15 +102,14 @@ Audio Plugins
 | [YK Chorus](https://github.com/SpotlightKid/ykchorus) | Chorus audio effect plugin based on DSP code by&nbsp;TAL | Effect | DPF |
 | [zam-plugins](https://github.com/zamaudio/zam-plugins) | LADSPA/LV2/VST/JACK audio plugins for high-quality processing | Effect | DPF |
 | [zynaddsubfx](https://github.com/zynaddsubfx/zynaddsubfx) | Additive/Subtractive AM/FM synthesizer with effects | Instrument | FLTK |
-| [Bespoke](https://github.com/awwbees/BespokeSynth) | Node-based modular synth with live coding | Instrument | JUCE |
 
 Collections
 -----------
 
 * [Linux Synths](http://linuxsynths.com/) — a list of linux based synths, some of which are open-source
+* [OpenAV](http://openavproductions.com/) — a collection of instruments, effects, and development tool kits for Linux.
 * [SFZ Instruments](https://sfzinstruments.github.io/) — a list of SFZ instruments, most of which are free
 * [VCV library](https://github.com/VCVRack/library) — a library of plugins compatible with VCV Plugin Manager
-* [OpenAV](http://openavproductions.com/) — a collection of instruments, effects, and development tool kits for Linux.
 
 Audio Apps
 ----------
@@ -133,10 +133,10 @@ Audio Apps
 | [OwlPlug](https://owlplug.com/) | [DropSnorz/OwlPlug](https://github.com/DropSnorz/OwlPlug) | Audio plugin manager |
 | [orDrumbox](https://www.ordrumbox.com/) | [SourceForge → ordrumbox](https://sourceforge.net/projects/ordrumbox/) | Drum machine |
 | [Psycle](http://psycle.pastnotecut.org/portal.php) | [SourceForge → psycle](https://sourceforge.net/projects/psycle/) | Modular music tracker |
+| [Sonic Pi](https://sonic-pi.net/) |  [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) | A code-based music creation and performance tool |
 | [StudioRack](https://studiorack.github.io/studiorack-site/) | [github.com/studiorack](https://github.com/studiorack) | Audio plugin manager |
 | [VCV Rack](https://vcvrack.com/) | [VCVRack/Rack](https://github.com/VCVRack/Rack) | Modular synth |
 | [Zrythm](https://www.zrythm.org/) | [zrythm/zrythm](https://github.com/zrythm/zrythm) | DAW |
-| [Sonic Pi](https://sonic-pi.net/) |  [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) | A code-based music creation and performance tool |
 
 Software Development Libraries
 ------------------------------
