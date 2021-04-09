@@ -72,7 +72,7 @@ Audio Plugins
 | [Mika Micro](https://github.com/tesselode/mika-micro) | Simple subtractive synth | Instrument | WDL-OL |
 | [MVerb](https://github.com/martineastwood/mverb) | Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure | Effect | VSTGUI |
 | [NotNotchFilter](https://github.com/teragonaudio/NotNotchFilter) | Performance-oriented filter designed to replace the mid-EQ found in a standard 3-band DJ mixer | Effect | JUCE |
-| [ndc Plugs](http://www.niallmoody.com/ndcplugs/plugins.htm) | VST plugins for Windows and OSX | Misc |  |
+| [ndc Plugs](https://www.niallmoody.com/ndcplugs/plugins.htm) | VST plugins for Windows and OSX | Misc |  |
 | [Odin2](https://github.com/TheWaveWarden/odin2) | Polyphonic Synth | Instrument | JUCE |
 | [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | Instrument | JUCE |
 | [OB-Xd](https://github.com/reales/OB-Xd) | Based on the Oberheim OB-X | Instrument | JUCE |
@@ -143,12 +143,12 @@ Software Development Libraries
 
 | Library | Source | Description |
 | --- | --- | --- |
-| [Cabbage](http://cabbageaudio.com/) | [rorywalsh/cabbage](https://github.com/rorywalsh/cabbage) | Framework for developing audio plugins and standalone instruments with Csound |
+| [Cabbage](https://cabbageaudio.com/) | [rorywalsh/cabbage](https://github.com/rorywalsh/cabbage) | Framework for developing audio plugins and standalone instruments with Csound |
 | [Csound](https://csound.com/) | [csound/csound](https://github.com/csound/csound) | Programming language for sound and music synthesis |
 | [DPF](https://distrho.sourceforge.io/) | [DISTRHO/DPF](https://github.com/DISTRHO/DPF) | C++ framework for creating cross-platform audio plugins |
 | [Dplug](https://dplug.org/) | [AuburnSounds/Dplug](https://github.com/AuburnSounds/Dplug) | Dplug lets you create audio plug-ins with unmatched simplicity and speed, using the D language. |
 | [Faust](https://faust.grame.fr/) | [grame-cncm/faust](https://github.com/grame-cncm/faust) | Functional programming language for real-time signal processing |
-| [FluidSynth](http://www.fluidsynth.org/) | [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth) | Real-time synth based on the SoundFont&nbsp;2 specifications |
+| [FluidSynth](https://www.fluidsynth.org/) | [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth) | Real-time synth based on the SoundFont&nbsp;2 specifications |
 | [iPlug&nbsp;2](https://iplug2.github.io/) | [iPlug2/iPlug2](https://github.com/iPlug2/iPlug2) | Simple-to-use C++ framework for developing cross-platform audio plugins/apps |
 | [JUCE](https://juce.com) | [WeAreROLI/JUCE](https://github.com/WeAreROLI/JUCE) | Cross-platform C++ framework for developing desktop and mobile apps and audio plugins |
 | [jVSTwRapper](http://jvstwrapper.sourceforge.net/) | [SourceForge → jvstwrapper](https://sourceforge.net/projects/jvstwrapper/) | Wrapper to write audio plugins in Java (VST 2.4, AU, LADSPA; Windows, Linux, macOS) |
@@ -172,4 +172,4 @@ Code Samples
 Open Data Resources
 -------------------
 
-* [OpenAIR](http://www.openairlib.net/) — the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)
+* [OpenAIR](https://www.openairlib.net/) — the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)
