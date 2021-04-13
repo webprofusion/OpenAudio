@@ -133,6 +133,7 @@ Audio Apps
 | [OwlPlug](https://owlplug.com/) | [DropSnorz/OwlPlug](https://github.com/DropSnorz/OwlPlug) | Audio plugin manager |
 | [orDrumbox](https://www.ordrumbox.com/) | [SourceForge → ordrumbox](https://sourceforge.net/projects/ordrumbox/) | Drum machine |
 | [Psycle](http://psycle.pastnotecut.org/portal.php) | [SourceForge → psycle](https://sourceforge.net/projects/psycle/) | Modular music tracker |
+| [SampleScanner](https://github.com/psobot/SampleScanner) | [psobot/SampleScanner](https://github.com/psobot/SampleScanner) | Tool for auto-sampling hardware instruments |
 | [Sonic Pi](https://sonic-pi.net/) |  [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) | A code-based music creation and performance tool |
 | [StudioRack](https://studiorack.github.io/studiorack-site/) | [github.com/studiorack](https://github.com/studiorack) | Audio plugin manager |
 | [VCV Rack](https://vcvrack.com/) | [VCVRack/Rack](https://github.com/VCVRack/Rack) | Modular synth |
