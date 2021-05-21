@@ -38,7 +38,7 @@ Audio Plugins
 | [BlackBird](https://khrykin.github.io/BlackBird) | Analog-inspired software synth with its own voice | Instrument | JUCE |
 | [C1Bitcrusher](https://github.com/datajake1999/C1Bitcrusher) | Experimental and accurate bit reduction | Effect |
 | [Calf Studio Gear](https://github.com/calf-studio-gear/calf) | Many LV2 and Jack audio plug-ins  | Effects | GTK |
-| [CHOW](https://github.com/jatinchowdhury18/CHOW) | A maximally truculent distortion effect | Effect | JUCE |
+| [CHOW](https://github.com/jatinchowdhury18/CHOW) | Maximally truculent distortion effect | Effect | JUCE |
 | [Cloud Seed](https://github.com/ValdemarOrn/CloudSeed) | Algorithmic reverb for emulating huge, endless spaces and modulated echoes | Effect |  |
 | [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | Warm and lively delay | Effect | WDL-OL |
 | [Convolver](https://github.com/teragonaudio/Convolver) | Impulse-response reverb | Effect | VSTGUI, JUCE |
@@ -62,7 +62,7 @@ Audio Plugins
 | [HiLoFilter](https://github.com/teragonaudio/HiLoFilter) | Simple hipass/lopass filter controlled with a single knob | Effect | JUCE |
 | [JuceOPLVSTi](https://github.com/bsutherland/JuceOPLVSTi) | FM synth based on Yamaha OPL2/3 emulation from DOSBox | Instrument | JUCE |
 | [Juno 6](https://sourceforge.net/projects/juno6/) | Roland Juno 6/60 Synthesizer | Instrument |  |
-| [keithhearne/VSTPlugins](https://github.com/keithhearne/VSTPlugins) | A collection of VST plugins | Effect | JUCE |
+| [keithhearne/VSTPlugins](https://github.com/keithhearne/VSTPlugins) | Collection of VST plugins | Effect | JUCE |
 | [K-Meter](https://github.com/mzuther/K-Meter) | Implementation of a K-System meter according to Bob Katz’ specifications | Effect | JUCE |
 | [Key Repeat](https://michael-jan.github.io/key-repeat/) | Beat repeat sampler | Instrument | JUCE |
 | [KickMaker](https://github.com/teragonaudio/KickMaker) | Synth specifically to create kick-drum sounds | Instrument | VSTGUI |
@@ -106,10 +106,10 @@ Audio Plugins
 Collections
 -----------
 
-* [Linux Synths](http://linuxsynths.com/) — a list of linux based synths, some of which are open-source
-* [OpenAV](http://openavproductions.com/) — a collection of instruments, effects, and development tool kits for Linux.
-* [SFZ Instruments](https://sfzinstruments.github.io/) — a list of SFZ instruments, most of which are free
-* [VCV library](https://github.com/VCVRack/library) — a library of plugins compatible with VCV Plugin Manager
+* [Linux Synths](http://linuxsynths.com/) — list of linux based synths, some of which are open-source
+* [OpenAV](http://openavproductions.com/) — collection of instruments, effects, and development tool kits for Linux.
+* [SFZ Instruments](https://sfzinstruments.github.io/) — list of SFZ instruments, most of which are free
+* [VCV library](https://github.com/VCVRack/library) — library of plugins compatible with VCV Plugin Manager
 
 Audio Apps
 ----------
@@ -134,7 +134,7 @@ Audio Apps
 | [orDrumbox](https://www.ordrumbox.com/) | [SourceForge → ordrumbox](https://sourceforge.net/projects/ordrumbox/) | Drum machine |
 | [Psycle](http://psycle.pastnotecut.org/portal.php) | [SourceForge → psycle](https://sourceforge.net/projects/psycle/) | Modular music tracker |
 | [SampleScanner](https://github.com/psobot/SampleScanner) | [psobot/SampleScanner](https://github.com/psobot/SampleScanner) | Tool for auto-sampling hardware instruments |
-| [Sonic Pi](https://sonic-pi.net/) |  [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) | A code-based music creation and performance tool |
+| [Sonic Pi](https://sonic-pi.net/) |  [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) | Code-based music creation and performance tool |
 | [StudioRack](https://studiorack.github.io/studiorack-site/) | [github.com/studiorack](https://github.com/studiorack) | Audio plugin manager |
 | [VCV Rack](https://vcvrack.com/) | [VCVRack/Rack](https://github.com/VCVRack/Rack) | Modular synth |
 | [Zrythm](https://www.zrythm.org/) | [zrythm/zrythm](https://github.com/zrythm/zrythm) | DAW |
@@ -167,9 +167,9 @@ Software Development Libraries
 Code Samples
 ------------
 
-* [KlangFalter](https://github.com/HiFi-LoFi/KlangFalter) — a convolution audio plugin (e.g. for usage as convolution reverb)
-* [FFTConvolver](https://github.com/HiFi-LoFi/FFTConvolver) — an audio convolution algorithm in C++ for real-time audio processing
-* [py-modular](https://py-modular.readthedocs.io/) — a modular and experimental programming environment with basic DSP routines in python
+* [KlangFalter](https://github.com/HiFi-LoFi/KlangFalter) — convolution audio plugin (e.g. for usage as convolution reverb)
+* [FFTConvolver](https://github.com/HiFi-LoFi/FFTConvolver) — audio convolution algorithm in C++ for real-time audio processing
+* [py-modular](https://py-modular.readthedocs.io/) — modular and experimental programming environment with basic DSP routines in python
 
 Open Data Resources
 -------------------
