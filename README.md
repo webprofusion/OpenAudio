@@ -169,7 +169,7 @@ Code Samples
 
 * [KlangFalter](https://github.com/HiFi-LoFi/KlangFalter) — convolution audio plugin (e.g. for usage as convolution reverb)
 * [FFTConvolver](https://github.com/HiFi-LoFi/FFTConvolver) — audio convolution algorithm in C++ for real-time audio processing
-* [py-modular](https://py-modular.readthedocs.io/) — modular and experimental programming environment with basic DSP routines in python
+* [py-modular](https://py-modular.readthedocs.io/) — modular and experimental programming environment with basic DSP routines in Python
 
 Open Data Resources
 -------------------
