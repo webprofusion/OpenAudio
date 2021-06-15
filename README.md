@@ -149,6 +149,7 @@ Software Development Libraries
 | DawDreamer | [DBraun/DawDreamer](https://github.com/DBraun/DawDreamer) | An audio-processing Python framework supporting core DAW features written with JUCE
 | [DPF](https://distrho.sourceforge.io/) | [DISTRHO/DPF](https://github.com/DISTRHO/DPF) | C++ framework for creating cross-platform audio plugins |
 | [Dplug](https://dplug.org/) | [AuburnSounds/Dplug](https://github.com/AuburnSounds/Dplug) | Dplug lets you create audio plug-ins with unmatched simplicity and speed, using the D language. |
+| [Elementary](https://www.elementary.audio/) | | [nick-thompson/elementary](https://github.com/nick-thompson/elementary) | A JavaScript runtime for writing native audio applications, as well as a library and framework for composing audio signal processes. Source currently is on npm. |
 | [Faust](https://faust.grame.fr/) | [grame-cncm/faust](https://github.com/grame-cncm/faust) | Functional programming language for real-time signal processing |
 | [FluidSynth](https://www.fluidsynth.org/) | [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth) | Real-time synth based on the SoundFont&nbsp;2 specifications |
 | [iPlug&nbsp;2](https://iplug2.github.io/) | [iPlug2/iPlug2](https://github.com/iPlug2/iPlug2) | Simple-to-use C++ framework for developing cross-platform audio plugins/apps |
