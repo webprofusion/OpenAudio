@@ -109,6 +109,7 @@ Collections
 * [Linux Synths](http://linuxsynths.com/) — list of linux based synths, some of which are open-source
 * [OpenAV](http://openavproductions.com/) — collection of instruments, effects, and development tool kits for Linux.
 * [SFZ Instruments](https://sfzinstruments.github.io/) — list of SFZ instruments, most of which are free
+* [StudioRack](https://studiorack.github.io/studiorack-site/) — open-source audio plugin registry, app and command line tools
 * [VCV library](https://github.com/VCVRack/library) — library of plugins compatible with VCV Plugin Manager
 
 Audio Apps
