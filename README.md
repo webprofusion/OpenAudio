@@ -160,6 +160,7 @@ Software Development Libraries
 | [JUCE](https://juce.com) | [WeAreROLI/JUCE](https://github.com/WeAreROLI/JUCE) | Cross-platform C++ framework for developing desktop and mobile apps and audio plugins |
 | [jVSTwRapper](http://jvstwrapper.sourceforge.net/) | [SourceForge → jvstwrapper](https://sourceforge.net/projects/jvstwrapper/) | Wrapper to write audio plugins in Java (VST 2.4, AU, LADSPA; Windows, Linux, macOS) |
 | [libopenmpt](https://lib.openmpt.org/libopenmpt/) | [OpenMPT/openmpt](https://github.com/OpenMPT/openmpt) | Cross-platform C/C++ module-playback library based on OpenMPT |
+| [libspatialaudio](https://videolabs.io) | [videolabs/libspatialaudio](https://github.com/videolabs/libspatialaudio) | Cross-platform C++ library for Ambisonic encoding and decoding, filtering and binaural rendering |
 | [PortAudio](http://www.portaudio.com/) | [Assembla → portaudio](https://app.assembla.com/spaces/portaudio/git/source) | Cross-platform audio I/O library |
 | RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | C++ classes for cross-platform real-time audio I/O |
 | rust-vst | [rust-dsp/rust-vst](https://github.com/rust-dsp/rust-vst) | VST 2.4 API implementation in the Rust language |
