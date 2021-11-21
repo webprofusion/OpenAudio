@@ -140,6 +140,7 @@ Audio Apps
 | [Sonic Pi](https://sonic-pi.net/) |  [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) | Code-based music creation and performance tool |
 | [StudioRack](https://studiorack.github.io/studiorack-site/) | [github.com/studiorack](https://github.com/studiorack) | Audio plugin manager |
 | [VCV Rack](https://vcvrack.com/) | [VCVRack/Rack](https://github.com/VCVRack/Rack) | Modular synth |
+| yabridge | [robbert-vdh/yabridge](https://github.com/robbert-vdh/yabridge) | Linux bridge for Windows VSTs |
 | [Zrythm](https://www.zrythm.org/) | [zrythm/zrythm](https://github.com/zrythm/zrythm) | DAW |
 
 Software Development Libraries
