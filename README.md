@@ -165,7 +165,7 @@ Software Development Libraries
 | [FluidSynth](https://www.fluidsynth.org/) | [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth) | Real-time synth based on the SoundFont&nbsp;2 specifications |
 | [Heavy](https://wasted-audio.github.io/hvcc/) | [Wasted-Audio/hvcc](https://github.com/Wasted-Audio/hvcc) | The heavy hvcc compiler for Pure Data patches. With generators for Bela, Fabric, js, pdext, Unity, Daisy, DPF, and Wwise frameworks. |
 | [iPlug&nbsp;2](https://iplug2.github.io/) | [iPlug2/iPlug2](https://github.com/iPlug2/iPlug2) | Simple-to-use C++ framework for developing cross-platform audio plugins/apps |
-| [JUCE](https://juce.com) | [WeAreROLI/JUCE](https://github.com/WeAreROLI/JUCE) | Cross-platform C++ framework for developing desktop and mobile apps and audio plugins |
+| [JUCE](https://juce.com) | [juce-framework/JUCE](https://github.com/juce-framework/JUCE) | Cross-platform C++ framework for developing desktop and mobile apps and audio plugins |
 | [jVSTwRapper](http://jvstwrapper.sourceforge.net/) | [SourceForge → jvstwrapper](https://sourceforge.net/projects/jvstwrapper/) | Wrapper to write audio plugins in Java (VST 2.4, AU, LADSPA; Windows, Linux, macOS) |
 | [libopenmpt](https://lib.openmpt.org/libopenmpt/) | [OpenMPT/openmpt](https://github.com/OpenMPT/openmpt) | Cross-platform C/C++ module-playback library based on OpenMPT |
 | [libspatialaudio](https://videolabs.io) | [videolabs/libspatialaudio](https://github.com/videolabs/libspatialaudio) | Cross-platform C++ library for Ambisonic encoding and decoding, filtering and binaural rendering |
