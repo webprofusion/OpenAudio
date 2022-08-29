@@ -181,7 +181,7 @@ Software Development Libraries
 | [tracktion_engine](https://www.tracktion.com/develop/tracktion-engine) | [Tracktion/tracktion_engine](https://github.com/Tracktion/tracktion_engine) | Tracktion Engine module. You can build anything from a simple file-player or sequencer to a full blown DAW. Tracktion Engine is supplied as a JUCE module so it can easily fit in to an existing JUCE application. |
 | VSTGUI | [steinbergmedia/vstgui](https://github.com/steinbergmedia/vstgui) | User-interface toolkit mainly for audio plugins |
 | WDL-OL | [olilarkin/wdl-ol](https://github.com/olilarkin/wdl-ol) | Simple-to-use C++ framework for developing cross-platform audio plugins (superseded by iPlug&nbsp;2) |
-| [WebAudioModules](https://webaudiomodules.org/) | [webaudiomodules](https://github.com/webaudiomodules) | WAM (WebAudioModules) - Synthesizers and audio effects processors for web browsers |
+| [WebAudioModules](https://webaudiomodules.org/) | [webaudiomodules](https://github.com/webaudiomodules) | WAM (WebAudioModules) — synthesizers and audio effects processors for web browsers |
 
 Code Samples
 ------------
