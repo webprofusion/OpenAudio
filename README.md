@@ -158,10 +158,10 @@ Software Development Libraries
 | [Cabbage](https://cabbageaudio.com/) | [rorywalsh/cabbage](https://github.com/rorywalsh/cabbage) | Framework for developing audio plugins and standalone instruments with Csound |
 | [Csound](https://csound.com/) | [csound/csound](https://github.com/csound/csound) | Programming language for sound and music synthesis |
 | [Clap](https://github.com/free-audio/clap) | [free-audio/clap](https://github.com/free-audio/clap) | CLAP stands for CLever Audio Plugin. It is an audio plugin ABI which defines a standard for Digital Audio Workstations and audio plugins (synthesizers, audio effects, ...) to work together. |
-| [DawDreamer](https://github.com/DBraun/DawDreamer) | [DBraun/DawDreamer](https://github.com/DBraun/DawDreamer) | An audio-processing Python framework supporting core DAW features written with JUCE |
+| [DawDreamer](https://github.com/DBraun/DawDreamer) | [DBraun/DawDreamer](https://github.com/DBraun/DawDreamer) | Audio-processing Python framework supporting core DAW features written with JUCE |
 | [DPF](https://distrho.sourceforge.io/) | [DISTRHO/DPF](https://github.com/DISTRHO/DPF) | C++ framework for creating cross-platform audio plugins. DPF can build for LADSPA, DSSI, LV2, and VST formats. |
 | [Dplug](https://dplug.org/) | [AuburnSounds/Dplug](https://github.com/AuburnSounds/Dplug) | Dplug lets you create audio plug-ins with unmatched simplicity and speed, using the D language. |
-| [Elementary](https://www.elementary.audio/) | [nick-thompson/elementary](https://github.com/nick-thompson/elementary) | A JavaScript runtime for writing native audio applications, as well as a library and framework for composing audio signal processes. |
+| [Elementary](https://www.elementary.audio/) | [nick-thompson/elementary](https://github.com/nick-thompson/elementary) | JavaScript runtime for writing native audio applications, as well as a library and framework for composing audio signal processes. |
 | [Faust](https://faust.grame.fr/) | [grame-cncm/faust](https://github.com/grame-cncm/faust) | Functional programming language for real-time signal processing |
 | [FluidSynth](https://www.fluidsynth.org/) | [FluidSynth/fluidsynth](https://github.com/FluidSynth/fluidsynth) | Real-time synth based on the SoundFont&nbsp;2 specifications |
 | [Heavy](https://wasted-audio.github.io/hvcc/) | [Wasted-Audio/hvcc](https://github.com/Wasted-Audio/hvcc) | The heavy hvcc compiler for Pure Data patches. With generators for Bela, Fabric, js, pdext, Unity, Daisy, DPF, and Wwise frameworks. |
@@ -172,7 +172,7 @@ Software Development Libraries
 | [libspatialaudio](https://videolabs.io) | [videolabs/libspatialaudio](https://github.com/videolabs/libspatialaudio) | Cross-platform C++ library for Ambisonic encoding and decoding, filtering and binaural rendering |
 | [PortAudio](http://www.portaudio.com/) | [Assembla → portaudio](https://app.assembla.com/spaces/portaudio/git/source) | Cross-platform audio I/O library |
 | [React-JUCE](https://docs.react-juce.dev/) | [JoshMarler/react-juce](https://github.com/JoshMarler/react-juce) | React-JUCE (formerly named Blueprint) is a hybrid JavaScript/C++ framework that enables a [React.js](https://reactjs.org/) frontend for a [JUCE](https://juce.com/) application or plugin. |
-| [RustAudio](https://rust-audio.discourse.group/) | [rustaudio](https://github.com/RustAudio) | A collection of audio processing and plugin libraries for the Rust language  |
+| [RustAudio](https://rust-audio.discourse.group/) | [rustaudio](https://github.com/RustAudio) | Collection of audio processing and plugin libraries for the Rust language  |
 | RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | C++ classes for cross-platform real-time audio I/O |
 | rust-vst | [rust-dsp/rust-vst](https://github.com/rust-dsp/rust-vst) | VST 2.4 API implementation in the Rust language |
 | [SAF](https://leomccormack.github.io/Spatial_Audio_Framework/) | [leomccormack/Spatial_Audio_Framework](https://github.com/leomccormack/Spatial_Audio_Framework) | Cross-platform framework for developing spatial audio related algorithms and software in C/C++ |
