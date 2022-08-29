@@ -172,6 +172,7 @@ Software Development Libraries
 | [libspatialaudio](https://videolabs.io) | [videolabs/libspatialaudio](https://github.com/videolabs/libspatialaudio) | Cross-platform C++ library for Ambisonic encoding and decoding, filtering and binaural rendering |
 | [PortAudio](http://www.portaudio.com/) | [Assembla → portaudio](https://app.assembla.com/spaces/portaudio/git/source) | Cross-platform audio I/O library |
 | [React-JUCE](https://docs.react-juce.dev/) | [JoshMarler/react-juce](https://github.com/JoshMarler/react-juce) | React-JUCE (formerly named Blueprint) is a hybrid JavaScript/C++ framework that enables a [React.js](https://reactjs.org/) frontend for a [JUCE](https://juce.com/) application or plugin. |
+| [RustAudio](https://rust-audio.discourse.group/) | [rustaudio](https://github.com/RustAudio) | A collection of audio processing and plugin libraries for the Rust language  |
 | RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | C++ classes for cross-platform real-time audio I/O |
 | rust-vst | [rust-dsp/rust-vst](https://github.com/rust-dsp/rust-vst) | VST 2.4 API implementation in the Rust language |
 | [SAF](https://leomccormack.github.io/Spatial_Audio_Framework/) | [leomccormack/Spatial_Audio_Framework](https://github.com/leomccormack/Spatial_Audio_Framework) | Cross-platform framework for developing spatial audio related algorithms and software in C/C++ |
