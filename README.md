@@ -179,6 +179,7 @@ Software Development Libraries
 | [SOUL](https://soul.dev/) | [soul-lang/SOUL](https://github.com/soul-lang/SOUL) | SOUL (SOUnd Language) is an attempt to modernise and optimise the way high-performance, low-latency audio code is written and executed. |
 | [Soundpipe](https://paulbatchelor.github.io/proj/soundpipe.html) | [PaulBatchelor/Soundpipe](https://github.com/PaulBatchelor/Soundpipe) | Lightweight music DSP library written in C; over 100 modules, many ported from Csound |
 | [tracktion_engine](https://www.tracktion.com/develop/tracktion-engine) | [Tracktion/tracktion_engine](https://github.com/Tracktion/tracktion_engine) | Tracktion Engine module. You can build anything from a simple file-player or sequencer to a full blown DAW. Tracktion Engine is supplied as a JUCE module so it can easily fit in to an existing JUCE application. |
+| [Tone.js](https://tonejs.github.io/) | [Tonejs/Tone.js](https://github.com/Tonejs/Tone.js) | A Web Audio framework for making interactive music in the browser. |
 | VSTGUI | [steinbergmedia/vstgui](https://github.com/steinbergmedia/vstgui) | User-interface toolkit mainly for audio plugins |
 | WDL-OL | [olilarkin/wdl-ol](https://github.com/olilarkin/wdl-ol) | Simple-to-use C++ framework for developing cross-platform audio plugins (superseded by iPlug&nbsp;2) |
 | [WebAudioModules](https://webaudiomodules.org/) | [webaudiomodules](https://github.com/webaudiomodules) | WAM (WebAudioModules) — synthesizers and audio effects processors for web browsers |
