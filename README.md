@@ -183,6 +183,7 @@ Software Development Libraries
 | [Tone.js](https://tonejs.github.io/) | [Tonejs/Tone.js](https://github.com/Tonejs/Tone.js) | A Web Audio framework for making interactive music in the browser. |
 | VSTGUI | [steinbergmedia/vstgui](https://github.com/steinbergmedia/vstgui) | User-interface toolkit mainly for audio plugins |
 | WDL-OL | [olilarkin/wdl-ol](https://github.com/olilarkin/wdl-ol) | Simple-to-use C++ framework for developing cross-platform audio plugins (superseded by iPlug&nbsp;2) |
+| [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) | [web-audio-api](https://github.com/WebAudio/web-audio-api) | The Web Audio API provides a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects to audio, create audio visualizations, apply spatial effects (such as panning) and much more. [Web Audio API source code (Chromium / Blink)](https://chromium.googlesource.com/chromium/blink/+/refs/heads/main/Source/modules/webaudio). |
 | [WebAudioModules](https://webaudiomodules.org/) | [webaudiomodules](https://github.com/webaudiomodules) | WAM (WebAudioModules) — synthesizers and audio effects processors for web browsers |
 
 Code Samples
