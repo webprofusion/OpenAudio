@@ -172,6 +172,7 @@ Software Development Libraries
 | [libopenmpt](https://lib.openmpt.org/libopenmpt/) | [OpenMPT/openmpt](https://github.com/OpenMPT/openmpt) | Cross-platform C/C++ module-playback library based on OpenMPT |
 | [libspatialaudio](https://videolabs.io) | [videolabs/libspatialaudio](https://github.com/videolabs/libspatialaudio) | Cross-platform C++ library for Ambisonic encoding and decoding, filtering and binaural rendering |
 | [PortAudio](http://www.portaudio.com/) | [Assembla → portaudio](https://app.assembla.com/spaces/portaudio/git/source) | Cross-platform audio I/O library |
+| [r-audio](https://github.com/bbc/r-audio) | [bbc/r-audio](https://github.com/bbc/r-audio) | A library of React components for building Web Audio graphs. |
 | [React-JUCE](https://docs.react-juce.dev/) | [JoshMarler/react-juce](https://github.com/JoshMarler/react-juce) | React-JUCE (formerly named Blueprint) is a hybrid JavaScript/C++ framework that enables a [React.js](https://reactjs.org/) frontend for a [JUCE](https://juce.com/) application or plugin. |
 | [RustAudio](https://rust-audio.discourse.group/) | [rustaudio](https://github.com/RustAudio) | Collection of audio processing and plugin libraries for the Rust language  |
 | RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | C++ classes for cross-platform real-time audio I/O |
