@@ -150,7 +150,7 @@ Audio Apps
 | yabridge | [robbert-vdh/yabridge](https://github.com/robbert-vdh/yabridge) | Linux bridge for Windows VSTs |
 | [Zrythm](https://www.zrythm.org/) | [zrythm/zrythm](https://github.com/zrythm/zrythm) | DAW |
 
-Software Development Libraries
+Software Development Libraries & APIs
 ------------------------------
 
 | Library | Source | Description |
