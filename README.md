@@ -160,6 +160,7 @@ Software Development Libraries & APIs
 | [Avendish](https://celtera.github.io/avendish) | [celtera/avendish](https://github.com/celtera/avendish) | C++20 framework for any sort of audio / video / midi media objects |
 | [Cabbage](https://cabbageaudio.com/) | [rorywalsh/cabbage](https://github.com/rorywalsh/cabbage) | Framework for developing audio plugins and standalone instruments with Csound |
 | [Csound](https://csound.com/) | [csound/csound](https://github.com/csound/csound) | Programming language for sound and music synthesis |
+| [Cmajor](https://cmajor.dev/) | [SoundStacks/cmajor](https://github.com/SoundStacks/cmajor) | Cmajor is a programming language for writing fast, portable audio software. |
 | [Clap](https://github.com/free-audio/clap) | [free-audio/clap](https://github.com/free-audio/clap) | CLAP stands for CLever Audio Plugin. It is an audio plugin ABI which defines a standard for Digital Audio Workstations and audio plugins (synthesizers, audio effects, ...) to work together. |
 | [DawDreamer](https://github.com/DBraun/DawDreamer) | [DBraun/DawDreamer](https://github.com/DBraun/DawDreamer) | Audio-processing Python framework supporting core DAW features written with JUCE |
 | [DPF](https://distrho.sourceforge.io/) | [DISTRHO/DPF](https://github.com/DISTRHO/DPF) | C++ framework for creating cross-platform audio plugins. DPF can build for LADSPA, DSSI, LV2, and VST formats. |
