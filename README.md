@@ -137,6 +137,7 @@ Music Programming Language |
 | [Guitarix](https://guitarix.org/) | [SourceForge → guitarix](https://sourceforge.net/projects/guitarix/) | GNU/Linux Virtual Amplifier |
 | [Helio Workstation](https://helio.fm/) | [helio-fm/helio-workstation](https://github.com/helio-fm/helio-workstation) | Sequencer |
 | [HISE](http://hise.audio/) | [christophhart/HISE](https://github.com/christophhart/HISE) | Cross-platform framework/application for building sample-based virtual instruments (VST, AU, AAX) |
+| [SFZ to HISE converter](https://keypleezer.com/sfz-to-hise-converter/) | [anderseklov/SFZ-to-HISE-converter](https://github.com/anderseklov/SFZ-to-HISE-converter) | JavaScript app that translates SFZ instrument files into HISE samplemaps and JSON data objects. Runs in a modern web browser. MIT license. |
 | [Harmonoid](https://github.com/harmonoid/harmonoid) | [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) | Cross-platform music player (Mobile & Desktop) written in Flutter |
 | [Hydrogen](http://hydrogen-music.org/) | [hydrogen-music/hydrogen](https://github.com/hydrogen-music/hydrogen) | Drum machine |
 | [NewMixer](https://github.com/jatinchowdhury18/NewMixer) | [jatinchowdhury18/NewMixer](https://github.com/jatinchowdhury18/NewMixer) | Mixing Software |
