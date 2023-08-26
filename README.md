@@ -131,6 +131,7 @@ Audio Apps
 
 | Software | Source | Description |
 | --- | --- | --- |
+| [ADSR](https://adsr.vercel.app/) | [satelllte/adsr](https://github.com/satelllte/adsr) | Simple web-based ADSR synth |
 | [Ardour](https://ardour.org/) | [Ardour/ardour](https://github.com/Ardour/ardour) | DAW |
 | ASIO2WASAPI | [levmin/ASIO2WASAPI](https://github.com/levmin/ASIO2WASAPI) | Universal ASIO driver for Windows |
 | [Audacity](https://www.audacityteam.org/) | [audacity/audacity](https://github.com/audacity/audacity) | Audio editor |
