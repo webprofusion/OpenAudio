@@ -9,8 +9,9 @@ type Plugin = {
   framework?: PluginFramework;
 };
 
-type PluginFramework = 'JUCE' | 'Rust VST' | 'GTK';
 type PluginType = 'Effect' | 'Instrument';
+
+type PluginFramework = 'JUCE' | 'Rust VST' | 'GTK';
 
 export const plugins: Plugin[] = [
   {
