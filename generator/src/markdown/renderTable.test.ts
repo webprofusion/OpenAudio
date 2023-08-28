@@ -1,7 +1,7 @@
-import { describe, expect, it } from "vitest";
-import { renderTable } from "./renderTable";
+import {describe, expect, it} from 'vitest';
+import {renderTable} from './renderTable';
 
-describe("renderTable", () => {
+describe('renderTable', () => {
   it('works', () => {
     const result = renderTable(
       ['A', 'B', 'C'],
@@ -9,14 +9,14 @@ describe("renderTable", () => {
         ['A1', 'B1', 'C1'],
         ['A2', 'B2', 'C2'],
       ],
-    )
+    );
     expect(result).toMatchInlineSnapshot(`
       "| A | B | C |
       | --- | --- | --- |
       | A1 | B1 | C1 |
       | A2 | B2 | C2 |"
     `);
-  })
+  });
 
   it('throws TypeError if number of columns is not consistent', () => {
     expect(() => {
@@ -26,7 +26,9 @@ describe("renderTable", () => {
           ['A1', 'B1', 'C1'],
           ['A2', 'B2'],
         ],
-      )
-    }).toThrowErrorMatchingInlineSnapshot(`"All rows must have the same number of columns"`);
+      );
+    }).toThrowErrorMatchingInlineSnapshot(
+      `"All rows must have the same number of columns"`,
+    );
   });
 });

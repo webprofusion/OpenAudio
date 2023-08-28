@@ -1,5 +1,5 @@
-import { renderLink } from "./markdown/renderLink";
-import { renderTable } from "./markdown/renderTable";
+import {renderLink} from './markdown/renderLink';
+import {renderTable} from './markdown/renderTable';
 
 type Plugin = {
   name: string;
@@ -36,7 +36,7 @@ export const renderPluginsTable = (plugins: Plugin[]) => {
       renderLink(plugin.name, plugin.url),
       plugin.description,
       plugin.type,
-      plugin.framework
+      plugin.framework,
     ];
   });
   return renderTable(head, body);

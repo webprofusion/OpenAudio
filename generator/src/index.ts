@@ -1,10 +1,12 @@
-import fs from 'fs'
-import { plugins, renderPluginsTable } from './data'
+import fs from 'fs';
+import {plugins, renderPluginsTable} from './data';
 
-fs.rmSync('out', {recursive: true, force: true})
-fs.mkdirSync('out')
+fs.rmSync('out', {recursive: true, force: true});
+fs.mkdirSync('out');
 
-fs.writeFileSync('out/README.md', `
+fs.writeFileSync(
+  'out/README.md',
+  `
 Open-Source Audio Plugins & Apps
 ================================
 
@@ -31,4 +33,5 @@ Audio Plugins
 -------------
 
 ${renderPluginsTable(plugins)}
-`)
+`,
+);
