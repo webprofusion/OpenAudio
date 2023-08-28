@@ -2,11 +2,13 @@
   "name": "generator",
   "scripts": {
     "test": "vitest",
+    "test:format": "prettier . --check",
     "compile": "tsc",
     "generate": "node ./dist/index.js"
   },
   "devDependencies": {
     "@types/node": "20.5.7",
+    "prettier": "3.0.2",
     "typescript": "5.2.2",
     "vitest": "0.34.3"
   }

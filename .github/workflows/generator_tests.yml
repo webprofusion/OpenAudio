@@ -1,4 +1,4 @@
-name: Generator
+name: Generator Tests
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ on:
       - generator # TEMPORARY CHANGE: replace with "master" once generator is implemented
 
 jobs:
-  generator:
+  generator_tests:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -23,12 +23,13 @@ jobs:
           pushd ./generator
           npm ci
           popd
-      - name: Compile & generate
+      - name: Test
         run: |
           pushd ./generator
-          npm run compile
-          npm run generate
+          npm run test
           popd
-      - name: Display generated README.md file
+      - name: Test formatting
         run: |
-          cat ./generator/out/README.md
+          pushd ./generator
+          npm run test:format
+          popd
