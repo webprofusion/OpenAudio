@@ -1,14 +1,15 @@
 import fs from 'fs';
 import {plugins} from './data/plugins';
 import {pluginsRenderer} from './data/plugins.renderer';
+import {collections} from './data/collections';
+import {collectionsRenderer} from './data/collections.renderer';
 
 fs.rmSync('out', {recursive: true, force: true});
 fs.mkdirSync('out');
 
 fs.writeFileSync(
   'out/README.md',
-  `
-Open-Source Audio Plugins & Apps
+  `Open-Source Audio Plugins & Apps
 ================================
 
 A list of open-source VST (and other format) plugin/app projects. The intention of this list is to catalog open-source plugins or apps which are either fully featured or are useful examples which have non-trivial features.
@@ -34,5 +35,10 @@ Audio Plugins
 -------------
 
 ${pluginsRenderer(plugins)}
+
+Collections
+-----------
+
+${collectionsRenderer(collections)}
 `,
 );
