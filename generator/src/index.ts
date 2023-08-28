@@ -7,6 +7,8 @@ import {apps} from './data/apps';
 import {appsRenderer} from './data/renderers/apps.renderer';
 import {libraries} from './data/libraries';
 import {librariesRenderer} from './data/renderers/libraries.renderer';
+import {samples} from './data/samples';
+import {resources} from './data/resources';
 
 fs.rmSync('out', {recursive: true, force: true});
 fs.mkdirSync('out');
@@ -54,5 +56,15 @@ Software Development Libraries & APIs
 ------------------------------
 
 ${librariesRenderer(libraries)}
+
+Code Samples	
+------------
+
+${collectionsRenderer(samples)}
+
+Open Data Resources	
+-------------------
+
+${collectionsRenderer(resources)}
 `,
 );
