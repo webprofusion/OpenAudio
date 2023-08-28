@@ -61,3 +61,8 @@ jobs:
       - name: Display generated README.md file
         run: |
           cat ./generator/out/README.md
+      - name: Upload out/README.md file arfifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: readme-artifact
+          path: ./generator/out/README.md
