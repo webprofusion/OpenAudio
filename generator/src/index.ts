@@ -3,6 +3,8 @@ import {plugins} from './data/plugins';
 import {pluginsRenderer} from './data/renderers/plugins.renderer';
 import {collections} from './data/collections';
 import {collectionsRenderer} from './data/renderers/collections.renderer';
+import {apps} from './data/apps';
+import {appsRenderer} from './data/renderers/apps.renderer';
 
 fs.rmSync('out', {recursive: true, force: true});
 fs.mkdirSync('out');
@@ -40,5 +42,10 @@ Collections
 -----------
 
 ${collectionsRenderer(collections)}
+
+Audio Apps
+----------
+
+${appsRenderer(apps)}
 `,
 );

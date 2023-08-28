@@ -1,3 +1,10 @@
+export type AudioApp = {
+  name: string;
+  url?: string;
+  description: string;
+  repository: Repository;
+};
+
 export type Collection = {
   name: string;
   url: string;
@@ -21,3 +28,14 @@ type PluginFramework =
   | 'Rust VST'
   | 'VSTGUI'
   | 'WDL-OL';
+
+type Repository =
+  | {
+      type: 'GitHub';
+      user: string;
+      repo: string;
+    }
+  | {
+      type: 'SourceForge';
+      project: string;
+    };
