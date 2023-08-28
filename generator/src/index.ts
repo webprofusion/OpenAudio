@@ -1,8 +1,8 @@
 import fs from 'fs';
 import {plugins} from './data/plugins';
-import {pluginsRenderer} from './data/plugins.renderer';
+import {pluginsRenderer} from './data/renderers/plugins.renderer';
 import {collections} from './data/collections';
-import {collectionsRenderer} from './data/collections.renderer';
+import {collectionsRenderer} from './data/renderers/collections.renderer';
 
 fs.rmSync('out', {recursive: true, force: true});
 fs.mkdirSync('out');
