@@ -9,6 +9,12 @@ export const plugins: Plugin[] = [
     framework: 'JUCE',
   },
   {
+    name: 'Airwindows',
+    url: 'https://github.com/airwindows/airwindows',
+    description: 'Various small and experimental effect plugins',
+    type: 'Effect',
+  },
+  {
     name: 'ampli-Fe',
     url: 'https://github.com/antonok-edm/ampli-Fe',
     description: 'Cross-platform VST2 plugin written in Rust',
@@ -16,24 +22,18 @@ export const plugins: Plugin[] = [
     framework: 'Rust VST',
   },
   {
-    name: 'andes',
-    url: 'https://github.com/artfwo/andes',
-    description: 'Sound synthesiser plugin based on Perlin noise',
-    type: 'Instrument',
-    framework: 'JUCE',
-  },
-  {
-    name: 'Airwindows',
-    url: 'https://github.com/airwindows/airwindows',
-    description: 'Various small and experimental effect plugins',
-    type: 'Effect',
-  },
-  {
     name: 'amsynth',
     url: 'https://github.com/amsynth/amsynth',
     description: 'Analog-modelling (virtual analog) synthesizer',
     type: 'Instrument',
     framework: 'GTK',
+  },
+  {
+    name: 'andes',
+    url: 'https://github.com/artfwo/andes',
+    description: 'Sound synthesiser plugin based on Perlin noise',
+    type: 'Instrument',
+    framework: 'JUCE',
   },
   {
     name: 'Argotlunar',
