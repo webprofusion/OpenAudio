@@ -1,4 +1,4 @@
-import type {Collection} from './collections.types';
+import type {Collection} from './types';
 
 export const collections: Collection[] = [
   {

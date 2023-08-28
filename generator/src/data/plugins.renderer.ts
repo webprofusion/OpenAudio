@@ -1,6 +1,6 @@
 import {renderLink} from '../utils/markdown/renderLink';
 import {renderTable} from '../utils/markdown/renderTable';
-import type {Plugin} from './plugins.types';
+import type {Plugin} from './types';
 
 export const pluginsRenderer = (plugins: Plugin[]) => {
   const head = ['Plugin', 'Description', 'Type', 'Framework'];
