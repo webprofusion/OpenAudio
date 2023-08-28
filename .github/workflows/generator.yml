@@ -11,58 +11,45 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./generator
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version-file: "./generator/.nvmrc"
+          node-version-file: "./.nvmrc"
       - name: Install
-        run: |
-          pushd ./generator
-          npm ci
-          popd
+        run: npm ci
       - name: Test
-        run: |
-          pushd ./generator
-          npm run test
-          popd
+        run: npm run test
       - name: Test linting
-        run: |
-          pushd ./generator
-          npm run test:lint
-          popd
+        run: npm run test:lint
       - name: Test formatting
-        run: |
-          pushd ./generator
-          npm run test:format
-          popd
+        run: npm run test:format
 
   generate:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./generator
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version-file: "./generator/.nvmrc"
+          node-version-file: "./.nvmrc"
       - name: Install
-        run: |
-          pushd ./generator
-          npm ci
-          popd
+        run: npm ci
       - name: Generate
-        run: |
-          pushd ./generator
-          npm run generate
-          popd
+        run: npm run generate
       - name: Display generated README.md file
-        run: |
-          cat ./generator/out/README.md
+        run: cat ./out/README.md
       - name: Upload out/README.md file arfifact
         uses: actions/upload-artifact@v3
         with:
           name: readme-artifact
-          path: ./generator/out/README.md
+          path: ./out/README.md
