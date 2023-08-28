@@ -5,6 +5,7 @@
     "generate": "node ./dist/index.js"
   },
   "devDependencies": {
+    "@types/node": "20.5.7",
     "typescript": "5.2.2"
   }
 }

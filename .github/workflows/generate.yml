@@ -25,3 +25,6 @@ jobs:
           npm run compile
           npm run generate
           popd
+      - name: Display generated README.md file
+        run: |
+          cat ./generator/out/README.md
