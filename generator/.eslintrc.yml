@@ -1,0 +1,4 @@
+extends:
+  - xo
+  - xo-typescript
+  - prettier

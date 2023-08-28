@@ -28,6 +28,11 @@ jobs:
           pushd ./generator
           npm run test
           popd
+      - name: Test linting
+        run: |
+          pushd ./generator
+          npm run test:lint
+          popd
       - name: Test formatting
         run: |
           pushd ./generator
