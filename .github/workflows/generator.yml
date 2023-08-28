@@ -3,10 +3,10 @@ name: Generator
 on:
   pull_request:
     branches:
-      - generator # TEMPORARY CHANGE: replace with "master" once generator is implemented
+      - master
   push:
     branches:
-      - generator # TEMPORARY CHANGE: replace with "master" once generator is implemented
+      - master
 
 jobs:
   test:
