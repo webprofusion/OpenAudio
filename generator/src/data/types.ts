@@ -5,6 +5,13 @@ export type AudioApp = {
   repository: Repository;
 };
 
+export type Library = {
+  name: string;
+  url?: string;
+  description: string;
+  repository: Repository;
+};
+
 export type Collection = {
   name: string;
   url: string;
@@ -29,7 +36,7 @@ type PluginFramework =
   | 'VSTGUI'
   | 'WDL-OL';
 
-type Repository =
+export type Repository =
   | {
       type: 'GitHub';
       user: string;
@@ -38,4 +45,8 @@ type Repository =
   | {
       type: 'SourceForge';
       project: string;
+    }
+  | {
+      type: 'Assembla';
+      space: string;
     };

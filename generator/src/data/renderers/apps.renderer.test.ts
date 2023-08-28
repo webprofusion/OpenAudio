@@ -7,7 +7,7 @@ describe('appsRenderer', () => {
       {
         name: 'App A',
         url: 'https://example.com/app-a',
-        description: 'App A description',
+        description: 'App with GitHub repository',
         repository: {
           type: 'GitHub',
           user: 'sample',
@@ -17,7 +17,7 @@ describe('appsRenderer', () => {
       {
         name: 'App B',
         url: 'https://example.com/app-b',
-        description: 'App B description',
+        description: 'App with SourceForge repository',
         repository: {
           type: 'SourceForge',
           project: 'app-b',
@@ -25,19 +25,29 @@ describe('appsRenderer', () => {
       },
       {
         name: 'App C',
-        description: 'App C description',
+        url: 'https://example.com/app-c',
+        description: 'App with Assembla repository',
+        repository: {
+          type: 'Assembla',
+          space: 'app-c',
+        },
+      },
+      {
+        name: 'App D',
+        description: 'App without URL',
         repository: {
           type: 'SourceForge',
-          project: 'app-c',
+          project: 'app-d',
         },
       },
     ]);
     expect(result).toMatchInlineSnapshot(`
       "| Software | Source | Description |
       | --- | --- | --- |
-      | [App A](https://example.com/app-a) | [sample/app-a](https://github.com/sample/app-a) | App A description |
-      | [App B](https://example.com/app-b) | [SourceForge → app-b](https://sourceforge.net/projects/app-b) | App B description |
-      | App C | [SourceForge → app-c](https://sourceforge.net/projects/app-c) | App C description |"
+      | [App A](https://example.com/app-a) | [sample/app-a](https://github.com/sample/app-a) | App with GitHub repository |
+      | [App B](https://example.com/app-b) | [SourceForge → app-b](https://sourceforge.net/projects/app-b) | App with SourceForge repository |
+      | [App C](https://example.com/app-c) | [Assembla → app-c](https://app.assembla.com/spaces/app-c/git/source) | App with Assembla repository |
+      | App D | [SourceForge → app-d](https://sourceforge.net/projects/app-d) | App without URL |"
     `);
   });
 });

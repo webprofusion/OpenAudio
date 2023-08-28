@@ -5,6 +5,8 @@ import {collections} from './data/collections';
 import {collectionsRenderer} from './data/renderers/collections.renderer';
 import {apps} from './data/apps';
 import {appsRenderer} from './data/renderers/apps.renderer';
+import {libraries} from './data/libraries';
+import {librariesRenderer} from './data/renderers/libraries.renderer';
 
 fs.rmSync('out', {recursive: true, force: true});
 fs.mkdirSync('out');
@@ -47,5 +49,10 @@ Audio Apps
 ----------
 
 ${appsRenderer(apps)}
+
+Software Development Libraries & APIs
+------------------------------
+
+${librariesRenderer(libraries)}
 `,
 );
