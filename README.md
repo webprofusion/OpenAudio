@@ -55,6 +55,67 @@ Audio Plugins
 | [Distrho ProM](https://github.com/DISTRHO/ProM) | Music-visualizer plugin based on projectM | Effect | DPF |
 | [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | Hall-style reverb based on Freeverb3 algorithms | Effect | DPF |
 | [Drops](https://github.com/clearly-broken-software/drops) | Single file audio player | Instrument | DPF |
+| [Element](https://github.com/kushview/Element) | Advanced Audio Plugin Host | Misc | JUCE |
+| [Eurorack](https://github.com/VCVRack/AudibleInstruments) | Diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synths, and utility modules | Misc | N/A |
+| [Flutterbird](https://github.com/tesselode/flutterbird) | Simple pitch fluctuation | Effect | iPlug2 |
+| [GainPlugin](https://github.com/satelllte/GainPlugin) | (Experimental) VST/AU audio plugin example based on JUCE with React-JUCE for UI. | Misc | JUCE, React-JUCE |
+| [Gverb/Gigaverb](http://elements.byethost3.com/plugins.html) | Reverb | Effect | VSTGUI |
+| [Helm](https://github.com/mtytel/helm) | Polyphonic synth with lots of modulation | Instrument | JUCE |
+| [hexter](https://github.com/smbolton/hexter) | Yamaha DX7 modeling FM synth for DSSI | Instrument | DPF |
+| [HiLoFilter](https://github.com/teragonaudio/HiLoFilter) | Simple hipass/lopass filter controlled with a single knob | Effect | JUCE |
+| [JuceOPLVSTi](https://github.com/bsutherland/JuceOPLVSTi) | FM synth based on Yamaha OPL2/3 emulation from DOSBox | Instrument | JUCE |
+| [Juno 6](https://sourceforge.net/projects/juno6/) | Roland Juno 6/60 Synthesizer | Instrument | N/A |
+| [K-Meter](https://github.com/mzuther/K-Meter) | Implementation of a K-System meter according to Bob Katz’ specifications | Effect | JUCE |
+| [keithhearne/VSTPlugins](https://github.com/keithhearne/VSTPlugins) | Collection of VST plugins | Effect | JUCE |
+| [Key Repeat](https://michael-jan.github.io/key-repeat/) | Beat repeat sampler | Instrument | JUCE |
+| [KickMaker](https://github.com/teragonaudio/KickMaker) | Synth specifically to create kick-drum sounds | Instrument | VSTGUI |
+| [LameVST](https://github.com/Iunusov/LameVST) | LameMP3 as an effect | Effect | N/A |
+| [Magical8bitPlug 2](https://github.com/yokemura/Magical8bitPlug2) | Old 8bit game console style synth | Instrument | JUCE |
+| [mda](https://sourceforge.net/projects/mda-vst/) | FX and virtual instruments for PC and Mac | Misc | N/A |
+| [mda-plugins-juce](https://github.com/hollance/mda-plugins-juce) | JUCE implementations of the classic MDA audio plug-ins | Misc | JUCE |
+| [MidiChords](https://github.com/markwilkins/midi-chord-reader) | Detect chord names from a MIDI track and display them in a scrolling window during track playback | Misc | JUCE |
+| [Mika Micro](https://github.com/tesselode/mika-micro) | Simple subtractive synth | Instrument | WDL-OL |
+| [MVerb](https://github.com/martineastwood/mverb) | Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure | Effect | VSTGUI |
+| [ndc Plugs](https://www.niallmoody.com/ndcplugs/plugins.htm) | VST plugins for Windows and OSX | Misc | N/A |
+| [Neural Amp Modeler LV2](https://github.com/mikeoliphant/neural-amp-modeler-lv2) | Neural amplifier modeler, LV2 version of Steven Atkinson's NAM plugin | Effect | N/A |
+| [Ninjas 2](https://github.com/clearly-broken-software/ninjas2) | Sample slicer, rewrite of Ninjas | Instrument | DPF |
+| [NotNotchFilter](https://github.com/teragonaudio/NotNotchFilter) | Performance-oriented filter designed to replace the mid-EQ found in a standard 3-band DJ mixer | Effect | JUCE |
+| [OB-Xd](https://github.com/reales/OB-Xd) | Based on the Oberheim OB-X | Instrument | JUCE |
+| [OctaSine](https://github.com/greatest-ape/OctaSine) | VST2 frequency modulation synthesizer written in Rust | Instrument | Rust VST |
+| [Odin2](https://github.com/TheWaveWarden/odin2) | Polyphonic Synth | Instrument | JUCE |
+| [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | Instrument | JUCE |
+| [Oxe FM Synth](https://github.com/oxesoft/oxefmsynth) | Multitimbral 8-operator FM synth (VST 2.4; Windows, Linux, macOS) | Instrument | VSTGUI |
+| [PulseDelay](https://github.com/teragonaudio/PulseDelay) | Timed delay effect | Effect | N/A |
+| [QtVST](https://github.com/mbrucher/QtVST) | VST plugins with a Qt interface | Effect | Qt |
+| [REACH](https://github.com/Sinuslabs/Reach) | Extraterrestrial Reverb for Electronic Music | Effect | JUCE |
+| [Regrader](https://github.com/igorski/regrader) | Degenerative delay | Effect | VSTGUI |
+| [Roth-AIR](https://github.com/danielrothmann/Roth-AIR) | Mixing tool for easily adding airy, crispy presence to audio | Effect | JUCE |
+| [Schrammel OJD](https://github.com/JanosGit/Schrammel_OJD) | Model of a modern classic guitar distortion pedal | Effect | JUCE |
+| [ScorchCrafter Guitar FX](https://sourceforge.net/projects/scorchcrafter/) | Audio DSP FX and plugins, mostly for guitar (amp sim) and other FX | Effect | VSTGUI |
+| [sfizz](https://github.com/sfztools/sfizz) | SFZ parser library and instrument plugins | Instrument | VSTGUI |
+| [ShoutVST](https://github.com/Iunusov/ShoutVST) | VST for streaming sound into Icecast/Shoutcast directly from VST hosts | Effect | VSTGUI, FLUID |
+| [SmartGuitarAmp](https://github.com/GuitarML/SmartGuitarAmp) | Guitar amplifier-style plugin, that uses machine learning for emulating real world hardware | Instrument | JUCE |
+| [SmartGuitarPedal](https://github.com/GuitarML/SmartGuitarPedal) | Guitar pedal-style plugin, that uses machine learning for emulating real world hardware | Effect | JUCE |
+| [Sound Analyser](https://github.com/adamstark/Sound-Analyser) | Real-time audio analysis to allow anyone to quickly set up and experiment with different algorithms | Effect | JUCE |
+| [Sound of Music](https://github.com/enter-opy/sound-of-music) | Multiband bitcrusher | Effect | JUCE |
+| [SPARTA](https://github.com/leomccormack/SPARTA) | Spatial audio focused plug-in suite (Ambisonics encoders/decoders, 3-D panners/spatialisers, etc.) | Effect | SAF, JUCE |
+| [Squeezer](https://github.com/mzuther/Squeezer) | Compressor with side-chain, several detection modes and filters, etc | Effect | JUCE |
+| [Surge](https://surge-synthesizer.github.io/) | Subtractive wavetable synth | Instrument | VSTGUI |
+| [Synister](https://github.com/the-synister/the-source) | Subtractive synth | Instrument | JUCE |
+| [Syntage](https://github.com/lis355/Syntage) | VST 2.4 .Net Study Synth | Instrument | N/A |
+| [Temper](https://github.com/creativeintent/temper) | Digital distortion targeting VST, VST3, and AU for OS X and Windows | Effect | Faust, JUCE |
+| [traKmeter](https://github.com/mzuther/traKmeter) | Loudness meter for correctly setting up tracking and mixing levels | Effect | JUCE |
+| [Tunefish](https://github.com/paynebc/tunefish) | VST virtual analog synthesizer | Instrument | JUCE |
+| [VCV Rack](https://github.com/VCVRack/Rack) | Virtual modular synth | Misc | RtAudio |
+| [Vital](https://github.com/mtytel/vital) | Spectral warping wavetable synthesizer | Instrument | JUCE |
+| [VST2413](https://github.com/keijiro/vst2413) | FM synth based on emulator of YM2413 (OPLL) chip used in Sega Master System and FM-PAC MSX expansion | Instrument | N/A |
+| [VSTSID](https://github.com/igorski/VSTSID) | SID synthesizer instrument | Instrument | N/A |
+| [WebCZ101](https://github.com/webaudiomodules/webcz101) | Virtual CZ101 synth in a browser | Instrument | WAM |
+| [WebDX7](https://github.com/webaudiomodules/webdx7) | Virtual Yamaha DX7 synth in a browser | Instrument | WAM |
+| [Wolf Shaper](https://github.com/pdesaulniers/wolf-shaper) | Waveshaper plugin with spline-based graph editor | Effect | DPF |
+| [YK Chorus](https://github.com/SpotlightKid/ykchorus) | Chorus audio effect plugin based on DSP code by TAL | Effect | DPF |
+| [zam-plugins](https://github.com/zamaudio/zam-plugins) | LADSPA/LV2/VST/JACK audio plugins for high-quality processing | Effect | DPF |
+| [zynaddsubfx](https://github.com/zynaddsubfx/zynaddsubfx) | Additive/Subtractive AM/FM synthesizer with effects | Instrument | FLTK |
 
 Collections
 -----------
@@ -140,14 +201,14 @@ Software Development Libraries & APIs
 | [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) | [WebAudio/web-audio-api](https://github.com/WebAudio/web-audio-api) | The Web Audio API provides a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects to audio, create audio visualizations, apply spatial effects (such as panning) and much more. |
 | [WebAudioModules](https://webaudiomodules.org/) | [webaudiomodules/api](https://github.com/webaudiomodules/api) | WAM (WebAudioModules) — synthesizers and audio effects processors for web browsers |
 
-Code Samples	
+Code Samples
 ------------
 
 * [FFTConvolver](https://github.com/HiFi-LoFi/FFTConvolver) — audio convolution algorithm in C++ for real-time audio processing
 * [KlangFalter](https://github.com/HiFi-LoFi/KlangFalter) — convolution audio plugin (e.g. for usage as convolution reverb)
 * [py-modular](https://py-modular.readthedocs.io/) — modular and experimental programming environment with basic DSP routines in Python
 
-Open Data Resources	
+Open Data Resources
 -------------------
 
 * [OpenAIR](https://www.openairlib.net/) — the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)
