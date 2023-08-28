@@ -1,4 +1,4 @@
-name: Generate
+name: Generator
 
 on:
   pull_request:
@@ -9,7 +9,7 @@ on:
       - generator # TEMPORARY CHANGE: replace with "master" once generator is implemented
 
 jobs:
-  generate:
+  generator:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
