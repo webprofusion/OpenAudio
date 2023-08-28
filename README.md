@@ -139,3 +139,15 @@ Software Development Libraries & APIs
 | WDL-OL | [olilarkin/wdl-ol](https://github.com/olilarkin/wdl-ol) | Simple-to-use C++ framework for developing cross-platform audio plugins (superseded by iPlug 2) |
 | [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) | [WebAudio/web-audio-api](https://github.com/WebAudio/web-audio-api) | The Web Audio API provides a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects to audio, create audio visualizations, apply spatial effects (such as panning) and much more. |
 | [WebAudioModules](https://webaudiomodules.org/) | [webaudiomodules/api](https://github.com/webaudiomodules/api) | WAM (WebAudioModules) — synthesizers and audio effects processors for web browsers |
+
+Code Samples	
+------------
+
+* [FFTConvolver](https://github.com/HiFi-LoFi/FFTConvolver) — audio convolution algorithm in C++ for real-time audio processing
+* [KlangFalter](https://github.com/HiFi-LoFi/KlangFalter) — convolution audio plugin (e.g. for usage as convolution reverb)
+* [py-modular](https://py-modular.readthedocs.io/) — modular and experimental programming environment with basic DSP routines in Python
+
+Open Data Resources	
+-------------------
+
+* [OpenAIR](https://www.openairlib.net/) — the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)
