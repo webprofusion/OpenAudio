@@ -7,7 +7,7 @@ describe('isSortedCaseInsensitive', () => {
     expect(isSortedCaseInsensitive(sortedArray)).toBe(true);
   });
 
-  it('returns true when array is sorted', () => {
+  it('returns false when array is unsorted', () => {
     const unsortedArray = ['apple', 'Cherry', 'Banana', 'date'];
     expect(isSortedCaseInsensitive(unsortedArray)).toBe(false);
   });
