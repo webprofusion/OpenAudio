@@ -1,5 +1,5 @@
-import {renderLink} from '../markdown/renderLink';
-import {renderTable} from '../markdown/renderTable';
+import {renderLink} from '../utils/markdown/renderLink';
+import {renderTable} from '../utils/markdown/renderTable';
 import type {Plugin} from './plugins.types';
 
 export const pluginsRenderer = (plugins: Plugin[]) => {
