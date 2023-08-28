@@ -64,3 +64,20 @@ Collections
 * [SFZ Instruments](https://sfzinstruments.github.io/) — list of SFZ instruments, most of which are free
 * [StudioRack](https://studiorack.github.io/studiorack-site/) — open-source audio plugin registry, app and command line tools
 * [VCV library](https://github.com/VCVRack/library) — library of plugins compatible with VCV Plugin Manager
+
+Audio Apps
+----------
+
+| Software | Source | Description |
+| --- | --- | --- |
+| [ADSR](https://adsr.vercel.app/) | [satelllte/adsr](https://github.com/satelllte/adsr) | Simple web-based ADSR synth |
+| [Ardour](https://ardour.org/) | [Ardour/ardour](https://github.com/Ardour/ardour) | DAW |
+| ASIO2WASAPI | [levmin/ASIO2WASAPI](https://github.com/levmin/ASIO2WASAPI) | Universal ASIO driver for Windows |
+| [Audacity](https://www.audacityteam.org/) | [audacity/audacity](https://github.com/audacity/audacity) | Audio editor |
+| [butterDAWg](https://github.com/Jaybee18/butterDAWg) | [Jaybee18/butterDAWg](https://github.com/Jaybee18/butterDAWg) | DAW (WIP) |
+| [Carla](https://kx.studio/Applications:Carla) | [falkTX/Carla](https://github.com/falkTX/Carla) | GNU/Linux Plugin Host |
+| [ChucK](https://chuck.stanford.edu/) | [ccrma/chuck](https://github.com/ccrma/chuck) | Strongly-timed, Concurrent, and On-the-fly Music Programming Language |
+| [Element](https://kushview.net/element/) | [Kushview/Element](https://github.com/Kushview/Element) | Advanced Audio Plugin Host |
+| FlexASIO | [dechamps/FlexASIO](https://github.com/dechamps/FlexASIO) | Universal ASIO driver for Windows |
+| [Giada](https://www.giadamusic.com/) | [monocasual/giada](https://github.com/monocasual/giada) | Loop machine |
+| [Guitarix](https://guitarix.org/) | [SourceForge → guitarix](https://sourceforge.net/projects/guitarix) | GNU/Linux Virtual Amplifier |
