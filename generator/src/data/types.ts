@@ -9,9 +9,15 @@ export type Plugin = {
   url: string;
   description: string;
   type: PluginType;
-  framework?: PluginFramework;
+  frameworks: PluginFramework[];
 };
 
 type PluginType = 'Effect' | 'Instrument';
 
-type PluginFramework = 'JUCE' | 'Rust VST' | 'GTK' | 'DPF' | 'WDL-OL';
+type PluginFramework =
+  | 'DPF'
+  | 'GTK'
+  | 'JUCE'
+  | 'Rust VST'
+  | 'VSTGUI'
+  | 'WDL-OL';
