@@ -62,7 +62,7 @@ Code Samples
 
 ${collectionsRenderer(samples)}
 
-Open Data Resources	
+Open Data Resources
 -------------------
 
 ${collectionsRenderer(resources)}
