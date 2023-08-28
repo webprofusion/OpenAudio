@@ -12,7 +12,7 @@ export type Plugin = {
   frameworks: PluginFramework[];
 };
 
-type PluginType = 'Effect' | 'Instrument';
+type PluginType = 'Effect' | 'Instrument' | 'Misc';
 
 type PluginFramework =
   | 'DPF'
