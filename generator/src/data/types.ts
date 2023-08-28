@@ -30,10 +30,19 @@ type PluginType = 'Effect' | 'Instrument' | 'Misc';
 
 type PluginFramework =
   | 'DPF'
+  | 'Faust'
+  | 'FLTK'
+  | 'FLUID'
   | 'GTK'
+  | 'iPlug2'
   | 'JUCE'
+  | 'Qt'
+  | 'React-JUCE'
+  | 'RtAudio'
   | 'Rust VST'
+  | 'SAF'
   | 'VSTGUI'
+  | 'WAM'
   | 'WDL-OL';
 
 export type Repository =
