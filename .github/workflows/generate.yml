@@ -20,6 +20,8 @@ jobs:
           node-version-file: './generator/.nvmrc'
       - name: Generate
         run: |
+          pushd ./generator
           npm ci
           npm run compile
           npm run generate
+          popd
