@@ -17,16 +17,15 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version-file: './generator/.nvmrc'
+          node-version-file: "./generator/.nvmrc"
       - name: Install
         run: |
           pushd ./generator
           npm ci
           popd
-      - name: Compile & generate
+      - name: Generate
         run: |
           pushd ./generator
-          npm run compile
           npm run generate
           popd
       - name: Display generated README.md file

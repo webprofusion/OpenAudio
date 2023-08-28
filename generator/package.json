@@ -4,8 +4,7 @@
     "test": "vitest",
     "test:lint": "eslint . --ext=.ts --max-warnings=0 --format=compact",
     "test:format": "prettier . --check",
-    "compile": "tsc",
-    "generate": "node ./dist/index.js"
+    "generate": "tsc && node ./dist/index.js"
   },
   "devDependencies": {
     "@types/node": "20.5.7",
