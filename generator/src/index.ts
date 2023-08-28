@@ -57,7 +57,7 @@ Software Development Libraries & APIs
 
 ${librariesRenderer(libraries)}
 
-Code Samples	
+Code Samples
 ------------
 
 ${collectionsRenderer(samples)}
