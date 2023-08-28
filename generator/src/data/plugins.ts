@@ -1,17 +1,4 @@
-import {renderLink} from './markdown/renderLink';
-import {renderTable} from './markdown/renderTable';
-
-type Plugin = {
-  name: string;
-  url: string;
-  description: string;
-  type: PluginType;
-  framework?: PluginFramework;
-};
-
-type PluginType = 'Effect' | 'Instrument';
-
-type PluginFramework = 'JUCE' | 'Rust VST' | 'GTK';
+import type {Plugin} from './plugins.types';
 
 export const plugins: Plugin[] = [
   {
@@ -86,14 +73,3 @@ export const plugins: Plugin[] = [
     framework: 'JUCE',
   },
 ];
-
-export const renderPluginsTable = (plugins: Plugin[]) => {
-  const head = ['Plugin', 'Description', 'Type', 'Framework'];
-  const body = plugins.map((plugin) => [
-    renderLink(plugin.name, plugin.url),
-    plugin.description,
-    plugin.type,
-    plugin.framework ?? 'N/A',
-  ]);
-  return renderTable(head, body);
-};

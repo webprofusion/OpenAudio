@@ -1,5 +1,6 @@
 import fs from 'fs';
-import {plugins, renderPluginsTable} from './data';
+import {plugins} from './data/plugins';
+import {pluginsRenderer} from './data/plugins.renderer';
 
 fs.rmSync('out', {recursive: true, force: true});
 fs.mkdirSync('out');
@@ -32,6 +33,6 @@ https://openaudio.webprofusion.com
 Audio Plugins
 -------------
 
-${renderPluginsTable(plugins)}
+${pluginsRenderer(plugins)}
 `,
 );
