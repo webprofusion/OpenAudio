@@ -217,7 +217,6 @@ export const libraries: Library[] = [
   },
   {
     name: 'RtAudio',
-    url: '',
     description: 'C++ classes for cross-platform real-time audio I/O',
     repository: {
       type: 'GitHub',
@@ -227,7 +226,6 @@ export const libraries: Library[] = [
   },
   {
     name: 'rust-vst',
-    url: '',
     description: 'VST 2.4 API implementation in the Rust language',
     repository: {
       type: 'GitHub',
@@ -303,7 +301,6 @@ export const libraries: Library[] = [
   },
   {
     name: 'VSTGUI',
-    url: '',
     description: 'User-interface toolkit mainly for audio plugins',
     repository: {
       type: 'GitHub',
@@ -313,7 +310,6 @@ export const libraries: Library[] = [
   },
   {
     name: 'WDL-OL',
-    url: '',
     description:
       'Simple-to-use C++ framework for developing cross-platform audio plugins (superseded by iPlug 2)',
     repository: {
