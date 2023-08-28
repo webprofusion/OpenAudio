@@ -54,9 +54,11 @@ jobs:
           name: readme-artifact
           path: ./generator/out/README.md
 
-  commit_readme:
+  update_readme:
     needs: [test, generate]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -65,8 +67,8 @@ jobs:
         with:
           name: readme-artifact
           path: .
-      - name: Display Git difference
-        run: git diff
-      # TODO: complete job:
-      # commit and push updated READEME.md file if it's changed
-      # ...
+      - name: Commit generated README.md file
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update README.md
+          file_pattern: ./README.md
