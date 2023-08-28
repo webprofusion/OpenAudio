@@ -43,6 +43,18 @@ Audio Plugins
 | [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | Warm and lively delay | Effect | WDL-OL |
 | [Convolver](https://github.com/teragonaudio/Convolver) | Impulse-response reverb | Effect | JUCE, VSTGUI |
 | [cStop](https://github.com/calgoheen/cStop) | Tape stop | Effect | JUCE |
+| [Dexed](https://github.com/asb2m10/dexed) | DX7 FM plugin synth | Instrument | JUCE |
+| [Digits](https://github.com/LouisGorenfeld/DigitsVst) | Phase-distortion synth inspired by Casio CZ series | Instrument | VSTGUI |
+| [Distrho glBars](https://github.com/DISTRHO/glBars) | OpenGL bars visualization plugin (as seen in XMMS and XBMC/Kodi) adapted from jack_glbars | Effect | DPF |
+| [Distrho Juice Plugins](https://github.com/DISTRHO/JuicePlugins) |  | Misc | DPF |
+| [Distrho Kars](https://github.com/DISTRHO/Kars) | Simple karplus-strong plucked string synth based on the karplong DSSI example synth | Instrument | DPF |
+| [Distrho Mini-Series](https://github.com/DISTRHO/Mini-Series) | Collection of small plugins based on LOSER-Dev Plugins | Effect | DPF |
+| [Distrho MVerb](https://github.com/DISTRHO/MVerb) | DPF-based version of MVerb | Effect | DPF |
+| [Distrho ndc Plugs](https://github.com/DISTRHO/ndc-Plugs) | DPF-based versions of some of ndc Plugs | Effect | DPF |
+| [Distrho Nekobi](https://github.com/DISTRHO/Nekobi) | Simple single-oscillator synth based on Roland TB-303 | Instrument | DPF |
+| [Distrho ProM](https://github.com/DISTRHO/ProM) | Music-visualizer plugin based on projectM | Effect | DPF |
+| [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | Hall-style reverb based on Freeverb3 algorithms | Effect | DPF |
+| [Drops](https://github.com/clearly-broken-software/drops) | Single file audio player | Instrument | DPF |
 
 Collections
 -----------
