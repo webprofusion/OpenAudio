@@ -8,7 +8,7 @@ export const pluginsRenderer = (plugins: Plugin[]) => {
     renderLink(plugin.name, plugin.url),
     plugin.description,
     plugin.type,
-    plugin.framework ?? 'N/A',
+    plugin.frameworks.length ? plugin.frameworks.join(', ') : 'N/A',
   ]);
   return renderTable(head, body);
 };
