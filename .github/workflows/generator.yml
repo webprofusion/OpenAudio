@@ -52,4 +52,4 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: readme-artifact
-          path: ./out/README.md
+          path: ./generator/out/README.md
