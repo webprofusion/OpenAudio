@@ -48,8 +48,25 @@ jobs:
         run: npm run generate
       - name: Display generated README.md file
         run: cat ./out/README.md
-      - name: Upload out/README.md file arfifact
+      - name: Upload README.md file arfifact
         uses: actions/upload-artifact@v3
         with:
           name: readme-artifact
           path: ./generator/out/README.md
+
+  commit_readme:
+    needs: [test, generate]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Download README.md file artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: readme-artifact
+          path: .
+      - name: Display Git difference
+        run: git diff
+      # TODO: complete job:
+      # commit and push updated READEME.md file if it's changed
+      # ...
