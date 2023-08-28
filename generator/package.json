@@ -1,0 +1,10 @@
+{
+  "name": "generator",
+  "scripts": {
+    "compile": "tsc",
+    "generate": "node ./dist/index.js"
+  },
+  "devDependencies": {
+    "typescript": "5.2.2"
+  }
+}

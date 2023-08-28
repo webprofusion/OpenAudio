@@ -1,0 +1,25 @@
+name: Generate
+
+on:
+  pull_request:
+    branches:
+      - generator # TEMPORARY CHANGE: replace with "master" once generator is implemented
+  push:
+    branches:
+      - generator # TEMPORARY CHANGE: replace with "master" once generator is implemented
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: '.nvmrc'
+      - name: Generate
+        run: |
+          npm ci
+          npm run compile
+          npm run generate
