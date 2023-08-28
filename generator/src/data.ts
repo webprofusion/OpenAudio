@@ -31,13 +31,11 @@ export const plugins: Plugin[] = [
 
 export const renderPluginsTable = (plugins: Plugin[]) => {
   const head = ['Plugin', 'Description', 'Type', 'Framework'];
-  const body = plugins.map((plugin) => {
-    return [
-      renderLink(plugin.name, plugin.url),
-      plugin.description,
-      plugin.type,
-      plugin.framework,
-    ];
-  });
+  const body = plugins.map((plugin) => [
+    renderLink(plugin.name, plugin.url),
+    plugin.description,
+    plugin.type,
+    plugin.framework,
+  ]);
   return renderTable(head, body);
 };

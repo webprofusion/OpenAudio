@@ -1,3 +1,1 @@
-export const renderLink = (text: string, url: string) => {
-  return `[${text}](${url})`;
-};
+export const renderLink = (text: string, url: string) => `[${text}](${url})`;

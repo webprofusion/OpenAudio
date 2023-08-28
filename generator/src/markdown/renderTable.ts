@@ -12,6 +12,4 @@ export const renderTable = (head: Row, body: Row[]) => {
   return [_head, _separator, _body].join('\n');
 };
 
-const renderRow = (data: Row) => {
-  return `| ${data.join(' | ')} |`;
-};
+const renderRow = (data: Row) => `| ${data.join(' | ')} |`;
