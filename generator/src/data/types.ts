@@ -14,4 +14,4 @@ export type Plugin = {
 
 type PluginType = 'Effect' | 'Instrument';
 
-type PluginFramework = 'JUCE' | 'Rust VST' | 'GTK';
+type PluginFramework = 'JUCE' | 'Rust VST' | 'GTK' | 'DPF' | 'WDL-OL';
