@@ -18,10 +18,19 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version-file: './generator/.nvmrc'
-      - name: Generate
+      - name: Install
         run: |
           pushd ./generator
           npm ci
+          popd
+      - name: Test
+        run: |
+          pushd ./generator
+          npm run test
+          popd
+      - name: Compile & generate
+        run: |
+          pushd ./generator
           npm run compile
           npm run generate
           popd
