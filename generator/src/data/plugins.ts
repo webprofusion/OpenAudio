@@ -360,6 +360,14 @@ export const plugins: Plugin[] = [
     type: 'Instrument',
     frameworks: ['WDL-OL'],
   },
+  
+  {
+    name: 'modEQ',
+    url: 'https://github.com/tobanteAudio/modEQ',
+    description: 'EQ with modulation (VST3, AU)',
+    type: 'Effect',
+    frameworks: ['JUCE'],
+  },
   {
     name: 'MVerb',
     url: 'https://github.com/martineastwood/mverb',
