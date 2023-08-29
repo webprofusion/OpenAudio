@@ -1,0 +1,74 @@
+name: Generator
+
+on:
+  pull_request:
+    branches:
+      - master
+  push:
+    branches:
+      - master
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./generator
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: "./generator/.nvmrc"
+      - name: Install
+        run: npm ci
+      - name: Test
+        run: npm run test
+      - name: Test linting
+        run: npm run test:lint
+      - name: Test formatting
+        run: npm run test:format
+
+  generate:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./generator
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version-file: "./generator/.nvmrc"
+      - name: Install
+        run: npm ci
+      - name: Generate
+        run: npm run generate
+      - name: Display generated README.md file
+        run: cat ./out/README.md
+      - name: Upload README.md file arfifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: readme-artifact
+          path: ./generator/out/README.md
+
+  update_readme:
+    needs: [test, generate]
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Download README.md file artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: readme-artifact
+          path: .
+      - name: Commit generated README.md file
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update README.md
+          file_pattern: ./README.md

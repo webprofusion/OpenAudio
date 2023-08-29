@@ -1,0 +1,7 @@
+# tabWidth: <inherited from .editorconfig>
+# useTabs: <inherited from .editorconfig>
+# endOfLine: <inherited from .editorconfig>
+semi: true
+singleQuote: true
+jsxSingleQuote: true
+bracketSpacing: false
