@@ -1,16 +1,16 @@
 import fs from 'fs';
-import {plugins} from './data/plugins';
-import {pluginsRenderer} from './data/renderers/plugins.renderer';
-import {collections} from './data/collections';
-import {collectionsRenderer} from './data/renderers/collections.renderer';
-import {apps} from './data/apps';
-import {appsRenderer} from './data/renderers/apps.renderer';
-import {libraries} from './data/libraries';
-import {librariesRenderer} from './data/renderers/libraries.renderer';
-import {samples} from './data/samples';
-import {resources} from './data/resources';
+import { plugins } from './data/plugins';
+import { pluginsRenderer } from './data/renderers/plugins.renderer';
+import { collections } from './data/collections';
+import { collectionsRenderer } from './data/renderers/collections.renderer';
+import { apps } from './data/apps';
+import { appsRenderer } from './data/renderers/apps.renderer';
+import { libraries } from './data/libraries';
+import { librariesRenderer } from './data/renderers/libraries.renderer';
+import { samples } from './data/samples';
+import { resources } from './data/resources';
 
-fs.rmSync('out', {recursive: true, force: true});
+fs.rmSync('out', { recursive: true, force: true });
 fs.mkdirSync('out');
 
 fs.writeFileSync(
@@ -22,7 +22,7 @@ A list of open-source VST (and other format) plugin/app projects. The intention 
 
 https://openaudio.webprofusion.com
 
-**Please contribute links!**
+**Please contribute links! See [CONTRIBUTING.md](CONTRIBUTING.md)**
 
 <details>
 <summary>Table of Contents</summary>
@@ -68,3 +68,10 @@ Open Data Resources
 ${collectionsRenderer(resources)}
 `,
 );
+
+
+// Output API results
+fs.mkdirSync('out/api');
+fs.mkdirSync('out/api/v1');
+fs.writeFileSync('out/api/v1/plugins.json', JSON.stringify(plugins, null, 2));
+fs.writeFileSync('out/api/v1/apps.json', JSON.stringify(apps, null, 2));
