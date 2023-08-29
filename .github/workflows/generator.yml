@@ -48,7 +48,7 @@ jobs:
         run: npm run generate
       - name: Display generated README.md file
         run: cat ./out/README.md
-      - name: Upload README.md file arfifact
+      - name: Upload README.md file artifact
         uses: actions/upload-artifact@v3
         with:
           name: readme-artifact
