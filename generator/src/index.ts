@@ -1,16 +1,16 @@
 import fs from 'fs';
-import { plugins } from './data/plugins';
-import { pluginsRenderer } from './data/renderers/plugins.renderer';
-import { collections } from './data/collections';
-import { collectionsRenderer } from './data/renderers/collections.renderer';
-import { apps } from './data/apps';
-import { appsRenderer } from './data/renderers/apps.renderer';
-import { libraries } from './data/libraries';
-import { librariesRenderer } from './data/renderers/libraries.renderer';
-import { samples } from './data/samples';
-import { resources } from './data/resources';
+import {plugins} from './data/plugins';
+import {pluginsRenderer} from './data/renderers/plugins.renderer';
+import {collections} from './data/collections';
+import {collectionsRenderer} from './data/renderers/collections.renderer';
+import {apps} from './data/apps';
+import {appsRenderer} from './data/renderers/apps.renderer';
+import {libraries} from './data/libraries';
+import {librariesRenderer} from './data/renderers/libraries.renderer';
+import {samples} from './data/samples';
+import {resources} from './data/resources';
 
-fs.rmSync('out', { recursive: true, force: true });
+fs.rmSync('out', {recursive: true, force: true});
 fs.mkdirSync('out');
 
 fs.writeFileSync(
@@ -68,7 +68,6 @@ Open Data Resources
 ${collectionsRenderer(resources)}
 `,
 );
-
 
 // Output API results
 fs.mkdirSync('out/api');

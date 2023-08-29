@@ -1,5 +1,5 @@
-import { describe, expect, it } from 'vitest';
-import { isSortedCaseInsensitive } from './isSortedCaseInsensitive';
+import {describe, expect, it} from 'vitest';
+import {isSortedCaseInsensitive} from './isSortedCaseInsensitive';
 
 describe('isSortedCaseInsensitive', () => {
   it('returns true when array is sorted', () => {
