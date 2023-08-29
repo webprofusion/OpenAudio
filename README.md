@@ -5,7 +5,7 @@ A list of open-source VST (and other format) plugin/app projects. The intention 
 
 https://openaudio.webprofusion.com
 
-**Please contribute links!**
+**Please contribute links! See [CONTRIBUTING.md](CONTRIBUTING.md)**
 
 <details>
 <summary>Table of Contents</summary>
