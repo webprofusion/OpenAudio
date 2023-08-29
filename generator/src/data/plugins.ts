@@ -360,7 +360,6 @@ export const plugins: Plugin[] = [
     type: 'Instrument',
     frameworks: ['WDL-OL'],
   },
-  
   {
     name: 'modEQ',
     url: 'https://github.com/tobanteAudio/modEQ',
