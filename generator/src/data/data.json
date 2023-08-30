@@ -6,8 +6,7 @@
       "description": "Simple web-based ADSR synth",
       "repository": {
         "type": "GitHub",
-        "user": "satelllte",
-        "repo": "adsr"
+        "user": "satelllte"
       }
     },
     {
