@@ -1,61 +1,86 @@
-export type AudioApp = {
-  name: string;
-  url?: string;
-  description: string;
-  repository: Repository;
-};
+import {z} from 'zod';
 
-export type Library = {
-  name: string;
-  url?: string;
-  description: string;
-  repository: Repository;
-};
+export type Repository = z.infer<typeof zRepository>;
+const zRepository = z.union([
+  z.object({
+    type: z.literal('GitHub'),
+    user: z.string(),
+    repo: z.string(),
+  }),
+  z.object({
+    type: z.literal('SourceForge'),
+    project: z.string(),
+  }),
+  z.object({
+    type: z.literal('Assembla'),
+    space: z.string(),
+  }),
+]);
 
-export type Collection = {
-  name: string;
-  url: string;
-  description: string;
-};
+export type AudioApp = z.infer<typeof zAudioApp>;
+const zAudioApp = z.object({
+  name: z.string(),
+  url: z.string().optional(),
+  description: z.string(),
+  repository: zRepository,
+});
 
-export type Plugin = {
-  name: string;
-  url: string;
-  description: string;
-  type: PluginType;
-  frameworks: PluginFramework[];
-};
+export type Library = z.infer<typeof zLibrary>;
+const zLibrary = z.object({
+  name: z.string(),
+  url: z.string().optional(),
+  description: z.string(),
+  repository: zRepository,
+});
 
-type PluginType = 'Effect' | 'Instrument' | 'Misc';
+export type Collection = z.infer<typeof zCollection>;
+const zCollection = z.object({
+  name: z.string(),
+  url: z.string(),
+  description: z.string(),
+});
 
-type PluginFramework =
-  | 'DPF'
-  | 'Faust'
-  | 'FLTK'
-  | 'FLUID'
-  | 'GTK'
-  | 'iPlug2'
-  | 'JUCE'
-  | 'Qt'
-  | 'React-JUCE'
-  | 'RtAudio'
-  | 'Rust VST'
-  | 'SAF'
-  | 'VSTGUI'
-  | 'WAM'
-  | 'WDL-OL';
+export type PluginType = z.infer<typeof zPluginType>;
+const zPluginType = z.union([
+  z.literal('Effect'),
+  z.literal('Instrument'),
+  z.literal('Misc'),
+]);
 
-export type Repository =
-  | {
-      type: 'GitHub';
-      user: string;
-      repo: string;
-    }
-  | {
-      type: 'SourceForge';
-      project: string;
-    }
-  | {
-      type: 'Assembla';
-      space: string;
-    };
+export type PluginFramework = z.infer<typeof zPluginFramework>;
+const zPluginFramework = z.union([
+  z.literal('DPF'),
+  z.literal('Faust'),
+  z.literal('FLTK'),
+  z.literal('FLUID'),
+  z.literal('GTK'),
+  z.literal('iPlug2'),
+  z.literal('JUCE'),
+  z.literal('Qt'),
+  z.literal('React-JUCE'),
+  z.literal('RtAudio'),
+  z.literal('Rust VST'),
+  z.literal('SAF'),
+  z.literal('VSTGUI'),
+  z.literal('WAM'),
+  z.literal('WDL-OL'),
+]);
+
+export type Plugin = z.infer<typeof zPlugin>;
+const zPlugin = z.object({
+  name: z.string(),
+  url: z.string(),
+  description: z.string(),
+  type: zPluginType,
+  frameworks: zPluginFramework.array(),
+});
+
+export type Data = z.infer<typeof zData>;
+export const zData = z.object({
+  apps: zAudioApp.array(),
+  collections: zCollection.array(),
+  libraries: zLibrary.array(),
+  plugins: zPlugin.array(),
+  resources: zCollection.array(),
+  samples: zCollection.array(),
+});

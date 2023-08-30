@@ -1,14 +1,13 @@
 import fs from 'fs';
-import {plugins} from './data/plugins';
 import {pluginsRenderer} from './data/renderers/plugins.renderer';
-import {collections} from './data/collections';
 import {collectionsRenderer} from './data/renderers/collections.renderer';
-import {apps} from './data/apps';
 import {appsRenderer} from './data/renderers/apps.renderer';
-import {libraries} from './data/libraries';
 import {librariesRenderer} from './data/renderers/libraries.renderer';
-import {samples} from './data/samples';
-import {resources} from './data/resources';
+import data from './data/data.json';
+import {zData} from './data/types';
+
+const {apps, collections, libraries, plugins, samples, resources} =
+  zData.parse(data);
 
 fs.rmSync('out', {recursive: true, force: true});
 fs.mkdirSync('out');

@@ -1,0 +1,1320 @@
+{
+  "apps": [
+    {
+      "name": "ADSR",
+      "url": "https://adsr.vercel.app/",
+      "description": "Simple web-based ADSR synth",
+      "repository": {
+        "type": "GitHub",
+        "user": "satelllte",
+        "repo": "adsr"
+      }
+    },
+    {
+      "name": "Ardour",
+      "url": "https://ardour.org/",
+      "description": "DAW",
+      "repository": {
+        "type": "GitHub",
+        "user": "Ardour",
+        "repo": "ardour"
+      }
+    },
+    {
+      "name": "ASIO2WASAPI",
+      "description": "Universal ASIO driver for Windows",
+      "repository": {
+        "type": "GitHub",
+        "user": "levmin",
+        "repo": "ASIO2WASAPI"
+      }
+    },
+    {
+      "name": "Audacity",
+      "url": "https://www.audacityteam.org/",
+      "description": "Audio editor",
+      "repository": {
+        "type": "GitHub",
+        "user": "audacity",
+        "repo": "audacity"
+      }
+    },
+    {
+      "name": "butterDAWg",
+      "url": "https://github.com/Jaybee18/butterDAWg",
+      "description": "DAW (WIP)",
+      "repository": {
+        "type": "GitHub",
+        "user": "Jaybee18",
+        "repo": "butterDAWg"
+      }
+    },
+    {
+      "name": "Carla",
+      "url": "https://kx.studio/Applications:Carla",
+      "description": "GNU/Linux Plugin Host",
+      "repository": {
+        "type": "GitHub",
+        "user": "falkTX",
+        "repo": "Carla"
+      }
+    },
+    {
+      "name": "ChucK",
+      "url": "https://chuck.stanford.edu/",
+      "description": "Strongly-timed, Concurrent, and On-the-fly Music Programming Language",
+      "repository": {
+        "type": "GitHub",
+        "user": "ccrma",
+        "repo": "chuck"
+      }
+    },
+    {
+      "name": "Element",
+      "url": "https://kushview.net/element/",
+      "description": "Advanced Audio Plugin Host",
+      "repository": {
+        "type": "GitHub",
+        "user": "Kushview",
+        "repo": "Element"
+      }
+    },
+    {
+      "name": "FlexASIO",
+      "description": "Universal ASIO driver for Windows",
+      "repository": {
+        "type": "GitHub",
+        "user": "dechamps",
+        "repo": "FlexASIO"
+      }
+    },
+    {
+      "name": "Giada",
+      "url": "https://www.giadamusic.com/",
+      "description": "Loop machine",
+      "repository": {
+        "type": "GitHub",
+        "user": "monocasual",
+        "repo": "giada"
+      }
+    },
+    {
+      "name": "Guitarix",
+      "url": "https://guitarix.org/",
+      "description": "GNU/Linux Virtual Amplifier",
+      "repository": {
+        "type": "SourceForge",
+        "project": "guitarix"
+      }
+    },
+    {
+      "name": "Harmonoid",
+      "url": "https://github.com/harmonoid/harmonoid",
+      "description": "Cross-platform music player (Mobile & Desktop) written in Flutter",
+      "repository": {
+        "type": "GitHub",
+        "user": "harmonoid",
+        "repo": "harmonoid"
+      }
+    },
+    {
+      "name": "Helio Workstation",
+      "url": "https://helio.fm/",
+      "description": "Sequencer",
+      "repository": {
+        "type": "GitHub",
+        "user": "helio-fm",
+        "repo": "helio-workstation"
+      }
+    },
+    {
+      "name": "HISE",
+      "url": "http://hise.audio/",
+      "description": "Cross-platform framework/application for building sample-based virtual instruments (VST, AU, AAX)",
+      "repository": {
+        "type": "GitHub",
+        "user": "christophhart",
+        "repo": "HISE"
+      }
+    },
+    {
+      "name": "Hydrogen",
+      "url": "http://hydrogen-music.org/",
+      "description": "Drum machine",
+      "repository": {
+        "type": "GitHub",
+        "user": "hydrogen-music",
+        "repo": "hydrogen"
+      }
+    },
+    {
+      "name": "LMMS",
+      "url": "https://lmms.io/",
+      "description": "DAW",
+      "repository": {
+        "type": "GitHub",
+        "user": "LMMS",
+        "repo": "lmms"
+      }
+    },
+    {
+      "name": "NewMixer",
+      "url": "https://github.com/jatinchowdhury18/NewMixer",
+      "description": "Mixing Software",
+      "repository": {
+        "type": "GitHub",
+        "user": "jatinchowdhury18",
+        "repo": "NewMixer"
+      }
+    },
+    {
+      "name": "OpenMPT",
+      "url": "https://openmpt.org/",
+      "description": "Popular tracker (formerly ModPlug Tracker) for Windows with support for IT, XM, S3M, MOD modules, VST plugins and ASIO",
+      "repository": {
+        "type": "GitHub",
+        "user": "OpenMPT",
+        "repo": "openmpt"
+      }
+    },
+    {
+      "name": "orDrumbox",
+      "url": "https://www.ordrumbox.com/",
+      "description": "Drum machine",
+      "repository": {
+        "type": "SourceForge",
+        "project": "ordrumbox"
+      }
+    },
+    {
+      "name": "ossia score",
+      "url": "https://ossia.io",
+      "description": "Cross-platform intermedia sequencer",
+      "repository": {
+        "type": "GitHub",
+        "user": "ossia",
+        "repo": "score"
+      }
+    },
+    {
+      "name": "OwlPlug",
+      "url": "https://owlplug.com/",
+      "description": "Audio plugin manager",
+      "repository": {
+        "type": "GitHub",
+        "user": "DropSnorz",
+        "repo": "OwlPlug"
+      }
+    },
+    {
+      "name": "Psycle",
+      "url": "http://psycle.pastnotecut.org/portal.php",
+      "description": "Modular music tracker",
+      "repository": {
+        "type": "SourceForge",
+        "project": "psycle"
+      }
+    },
+    {
+      "name": "SampleScanner",
+      "url": "https://github.com/psobot/SampleScanner",
+      "description": "Tool for auto-sampling hardware instruments",
+      "repository": {
+        "type": "GitHub",
+        "user": "psobot",
+        "repo": "SampleScanner"
+      }
+    },
+    {
+      "name": "SFZ to HISE converter",
+      "url": "https://keypleezer.com/sfz-to-hise-converter/",
+      "description": "JavaScript app that translates SFZ instrument files into HISE samplemaps and JSON data objects. Runs in a modern web browser. MIT license.",
+      "repository": {
+        "type": "GitHub",
+        "user": "anderseklov",
+        "repo": "SFZ-to-HISE-converter"
+      }
+    },
+    {
+      "name": "Sonic Pi",
+      "url": "https://sonic-pi.net/",
+      "description": "Code-based music creation and performance tool",
+      "repository": {
+        "type": "GitHub",
+        "user": "sonic-pi-net",
+        "repo": "sonic-pi"
+      }
+    },
+    {
+      "name": "Stargate DAW",
+      "description": "Cross-platform, all-in-one DAW and plugin suite",
+      "repository": {
+        "type": "GitHub",
+        "user": "stargatedaw",
+        "repo": "stargate"
+      }
+    },
+    {
+      "name": "StudioRack",
+      "url": "https://studiorack.github.io/studiorack-site/",
+      "description": "Audio plugin manager",
+      "repository": {
+        "type": "GitHub",
+        "user": "studiorack",
+        "repo": "studiorack"
+      }
+    },
+    {
+      "name": "SuperCollider",
+      "url": "https://supercollider.github.io/",
+      "description": "SuperCollider is a platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound.",
+      "repository": {
+        "type": "GitHub",
+        "user": "supercollider",
+        "repo": "supercollider"
+      }
+    },
+    {
+      "name": "VCV Rack",
+      "url": "https://vcvrack.com/",
+      "description": "Modular synth",
+      "repository": {
+        "type": "GitHub",
+        "user": "VCVRack",
+        "repo": "Rack"
+      }
+    },
+    {
+      "name": "yabridge",
+      "description": "Linux bridge for Windows VSTs",
+      "repository": {
+        "type": "GitHub",
+        "user": "robbert-vdh",
+        "repo": "yabridge"
+      }
+    },
+    {
+      "name": "Zrythm",
+      "url": "https://www.zrythm.org/",
+      "description": "DAW",
+      "repository": {
+        "type": "GitHub",
+        "user": "zrythm",
+        "repo": "zrythm"
+      }
+    }
+  ],
+  "collections": [
+    {
+      "name": "Linux Synths",
+      "url": "http://linuxsynths.com/",
+      "description": "list of linux based synths, some of which are open-source"
+    },
+    {
+      "name": "OpenAV",
+      "url": "http://openavproductions.com/",
+      "description": "collection of instruments, effects, and development tool kits for Linux."
+    },
+    {
+      "name": "SFZ Instruments",
+      "url": "https://sfzinstruments.github.io/",
+      "description": "list of SFZ instruments, most of which are free"
+    },
+    {
+      "name": "StudioRack",
+      "url": "https://studiorack.github.io/studiorack-site/",
+      "description": "open-source audio plugin registry, app and command line tools"
+    },
+    {
+      "name": "VCV library",
+      "url": "https://github.com/VCVRack/library",
+      "description": "library of plugins compatible with VCV Plugin Manager"
+    }
+  ],
+  "libraries": [
+    {
+      "name": "Avendish",
+      "url": "https://celtera.github.io/avendish",
+      "description": "C++20 framework for any sort of audio / video / midi media objects",
+      "repository": {
+        "type": "GitHub",
+        "user": "celtera",
+        "repo": "avendish"
+      }
+    },
+    {
+      "name": "Cabbage",
+      "url": "https://cabbageaudio.com/",
+      "description": "Framework for developing audio plugins and standalone instruments with Csound",
+      "repository": {
+        "type": "GitHub",
+        "user": "rorywalsh",
+        "repo": "cabbage"
+      }
+    },
+    {
+      "name": "Clap",
+      "url": "https://github.com/free-audio/clap",
+      "description": "CLAP stands for CLever Audio Plugin. It is an audio plugin ABI which defines a standard for Digital Audio Workstations and audio plugins (synthesizers, audio effects, ...) to work together.",
+      "repository": {
+        "type": "GitHub",
+        "user": "free-audio",
+        "repo": "clap"
+      }
+    },
+    {
+      "name": "Cmajor",
+      "url": "https://cmajor.dev/",
+      "description": "Cmajor is a programming language for writing fast, portable audio software.",
+      "repository": {
+        "type": "GitHub",
+        "user": "SoundStacks",
+        "repo": "cmajor"
+      }
+    },
+    {
+      "name": "Csound",
+      "url": "https://csound.com/",
+      "description": "Programming language for sound and music synthesis",
+      "repository": {
+        "type": "GitHub",
+        "user": "csound",
+        "repo": "csound"
+      }
+    },
+    {
+      "name": "DawDreamer",
+      "url": "https://github.com/DBraun/DawDreamer",
+      "description": "Audio-processing Python framework supporting core DAW features written with JUCE",
+      "repository": {
+        "type": "GitHub",
+        "user": "DBraun",
+        "repo": "DawDreamer"
+      }
+    },
+    {
+      "name": "DPF",
+      "url": "https://distrho.sourceforge.io/",
+      "description": "C++ framework for creating cross-platform audio plugins. DPF can build for LADSPA, DSSI, LV2, and VST formats.",
+      "repository": {
+        "type": "GitHub",
+        "user": "DISTRHO",
+        "repo": "DPF"
+      }
+    },
+    {
+      "name": "Dplug",
+      "url": "https://dplug.org/",
+      "description": "Dplug lets you create audio plug-ins with unmatched simplicity and speed, using the D language.",
+      "repository": {
+        "type": "GitHub",
+        "user": "AuburnSounds",
+        "repo": "Dplug"
+      }
+    },
+    {
+      "name": "Elementary",
+      "url": "https://www.elementary.audio/",
+      "description": "JavaScript runtime for writing native audio applications, as well as a library and framework for composing audio signal processes.",
+      "repository": {
+        "type": "GitHub",
+        "user": "elemaudio",
+        "repo": "elementary"
+      }
+    },
+    {
+      "name": "Faust",
+      "url": "https://faust.grame.fr/",
+      "description": "Functional programming language for real-time signal processing",
+      "repository": {
+        "type": "GitHub",
+        "user": "grame-cncm",
+        "repo": "faust"
+      }
+    },
+    {
+      "name": "FluidSynth",
+      "url": "https://www.fluidsynth.org/",
+      "description": "Real-time synth based on the SoundFont 2 specifications",
+      "repository": {
+        "type": "GitHub",
+        "user": "FluidSynth",
+        "repo": "fluidsynth"
+      }
+    },
+    {
+      "name": "Heavy",
+      "url": "https://wasted-audio.github.io/hvcc/",
+      "description": "The heavy hvcc compiler for Pure Data patches. With generators for Bela, Fabric, js, pdext, Unity, Daisy, DPF, and Wwise frameworks.",
+      "repository": {
+        "type": "GitHub",
+        "user": "Wasted-Audio",
+        "repo": "hvcc"
+      }
+    },
+    {
+      "name": "iPlug 2",
+      "url": "https://iplug2.github.io/",
+      "description": "Simple-to-use C++ framework for developing cross-platform audio plugins/apps",
+      "repository": {
+        "type": "GitHub",
+        "user": "iPlug2",
+        "repo": "iPlug2"
+      }
+    },
+    {
+      "name": "JUCE",
+      "url": "https://juce.com",
+      "description": "Cross-platform C++ framework for developing desktop and mobile apps and audio plugins",
+      "repository": {
+        "type": "GitHub",
+        "user": "juce-framework",
+        "repo": "JUCE"
+      }
+    },
+    {
+      "name": "jVSTwRapper",
+      "url": "http://jvstwrapper.sourceforge.net/",
+      "description": "Wrapper to write audio plugins in Java (VST 2.4, AU, LADSPA; Windows, Linux, macOS)",
+      "repository": {
+        "type": "SourceForge",
+        "project": "jvstwrapper"
+      }
+    },
+    {
+      "name": "libopenmpt",
+      "url": "https://lib.openmpt.org/libopenmpt/",
+      "description": "Cross-platform C/C++ module-playback library based on OpenMPT",
+      "repository": {
+        "type": "GitHub",
+        "user": "OpenMPT",
+        "repo": "openmpt"
+      }
+    },
+    {
+      "name": "libspatialaudio",
+      "url": "https://videolabs.io",
+      "description": "Cross-platform C++ library for Ambisonic encoding and decoding, filtering and binaural rendering",
+      "repository": {
+        "type": "GitHub",
+        "user": "videolabs",
+        "repo": "libspatialaudio"
+      }
+    },
+    {
+      "name": "PortAudio",
+      "url": "http://www.portaudio.com/",
+      "description": "Cross-platform audio I/O library",
+      "repository": {
+        "type": "Assembla",
+        "space": "portaudio"
+      }
+    },
+    {
+      "name": "r-audio",
+      "url": "https://github.com/bbc/r-audio",
+      "description": "A library of React components for building Web Audio graphs.",
+      "repository": {
+        "type": "GitHub",
+        "user": "bbc",
+        "repo": "r-audio"
+      }
+    },
+    {
+      "name": "React-JUCE",
+      "url": "https://docs.react-juce.dev/",
+      "description": "React-JUCE (formerly named Blueprint) is a hybrid JavaScript/C++ framework that enables a React.js frontend for a JUCE application or plugin.",
+      "repository": {
+        "type": "GitHub",
+        "user": "JoshMarler",
+        "repo": "react-juce"
+      }
+    },
+    {
+      "name": "RtAudio",
+      "description": "C++ classes for cross-platform real-time audio I/O",
+      "repository": {
+        "type": "GitHub",
+        "user": "thestk",
+        "repo": "rtaudio"
+      }
+    },
+    {
+      "name": "rust-vst",
+      "description": "VST 2.4 API implementation in the Rust language",
+      "repository": {
+        "type": "GitHub",
+        "user": "rust-dsp",
+        "repo": "rust-vst"
+      }
+    },
+    {
+      "name": "RustAudio",
+      "url": "https://rust-audio.discourse.group/",
+      "description": "Collection of audio processing and plugin libraries for the Rust language",
+      "repository": {
+        "type": "GitHub",
+        "user": "rustaudio",
+        "repo": ""
+      }
+    },
+    {
+      "name": "SAF",
+      "url": "https://leomccormack.github.io/Spatial_Audio_Framework/",
+      "description": "Cross-platform framework for developing spatial audio related algorithms and software in C/C++",
+      "repository": {
+        "type": "GitHub",
+        "user": "leomccormack",
+        "repo": "Spatial_Audio_Framework"
+      }
+    },
+    {
+      "name": "SOUL",
+      "url": "https://soul.dev/",
+      "description": "SOUL (SOUnd Language) is an attempt to modernise and optimise the way high-performance, low-latency audio code is written and executed.",
+      "repository": {
+        "type": "GitHub",
+        "user": "soul-lang",
+        "repo": "SOUL"
+      }
+    },
+    {
+      "name": "Soundpipe",
+      "url": "https://paulbatchelor.github.io/proj/soundpipe.html",
+      "description": "Lightweight music DSP library written in C; over 100 modules, many ported from Csound",
+      "repository": {
+        "type": "GitHub",
+        "user": "PaulBatchelor",
+        "repo": "Soundpipe"
+      }
+    },
+    {
+      "name": "Tone.js",
+      "url": "https://tonejs.github.io/",
+      "description": "A Web Audio framework for making interactive music in the browser.",
+      "repository": {
+        "type": "GitHub",
+        "user": "Tonejs",
+        "repo": "Tone.js"
+      }
+    },
+    {
+      "name": "tracktion_engine",
+      "url": "https://www.tracktion.com/develop/tracktion-engine",
+      "description": "Tracktion Engine module. You can build anything from a simple file-player or sequencer to a full blown DAW.",
+      "repository": {
+        "type": "GitHub",
+        "user": "Tracktion",
+        "repo": "tracktion_engine"
+      }
+    },
+    {
+      "name": "VSTGUI",
+      "description": "User-interface toolkit mainly for audio plugins",
+      "repository": {
+        "type": "GitHub",
+        "user": "steinbergmedia",
+        "repo": "vstgui"
+      }
+    },
+    {
+      "name": "WDL-OL",
+      "description": "Simple-to-use C++ framework for developing cross-platform audio plugins (superseded by iPlug 2)",
+      "repository": {
+        "type": "GitHub",
+        "user": "olilarkin",
+        "repo": "wdl-ol"
+      }
+    },
+    {
+      "name": "Web Audio API",
+      "url": "https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API",
+      "description": "The Web Audio API provides a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects to audio, create audio visualizations, apply spatial effects (such as panning) and much more.",
+      "repository": {
+        "type": "GitHub",
+        "user": "WebAudio",
+        "repo": "web-audio-api"
+      }
+    },
+    {
+      "name": "WebAudioModules",
+      "url": "https://webaudiomodules.org/",
+      "description": "WAM (WebAudioModules) — synthesizers and audio effects processors for web browsers",
+      "repository": {
+        "type": "GitHub",
+        "user": "webaudiomodules",
+        "repo": "api"
+      }
+    }
+  ],
+  "plugins": [
+    {
+      "name": "ADLplug",
+      "url": "https://github.com/jpcima/ADLplug",
+      "description": "FM Chip Synthesizer — OPL & OPN",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Airwindows",
+      "url": "https://github.com/airwindows/airwindows",
+      "description": "Various small and experimental effect plugins",
+      "type": "Effect",
+      "frameworks": []
+    },
+    {
+      "name": "ampli-Fe",
+      "url": "https://github.com/antonok-edm/ampli-Fe",
+      "description": "Cross-platform VST2 plugin written in Rust",
+      "type": "Effect",
+      "frameworks": ["Rust VST"]
+    },
+    {
+      "name": "amsynth",
+      "url": "https://github.com/amsynth/amsynth",
+      "description": "Analog-modelling (virtual analog) synthesizer",
+      "type": "Instrument",
+      "frameworks": ["GTK"]
+    },
+    {
+      "name": "andes",
+      "url": "https://github.com/artfwo/andes",
+      "description": "Sound synthesiser plugin based on Perlin noise",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Argotlunar",
+      "url": "https://github.com/mourednik/argotlunar",
+      "description": "Real-time delay-line granulator",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Audio Effects",
+      "url": "https://github.com/juandagilc/Audio-Effects",
+      "description": "Plugins implemented from the explanations in the book “Audio Effects: Theory, Implementation and Application”",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Bespoke",
+      "url": "https://github.com/awwbees/BespokeSynth",
+      "description": "Node-based modular synth with live coding",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "BinAural VST",
+      "url": "https://github.com/twoz/binaural-vst",
+      "description": "Mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "BlackBird",
+      "url": "https://khrykin.github.io/BlackBird",
+      "description": "Analog-inspired software synth with its own voice",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "C1Bitcrusher",
+      "url": "https://github.com/datajake1999/C1Bitcrusher",
+      "description": "Experimental and accurate bit reduction",
+      "type": "Effect",
+      "frameworks": []
+    },
+    {
+      "name": "Calf Studio Gear",
+      "url": "https://github.com/calf-studio-gear/calf",
+      "description": "Many LV2 and Jack audio plug-ins",
+      "type": "Effect",
+      "frameworks": ["GTK"]
+    },
+    {
+      "name": "Cardinal",
+      "url": "https://github.com/DISTRHO/Cardinal/",
+      "description": "Virtual modular synthesizer plugin",
+      "type": "Instrument",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "CHOW",
+      "url": "https://github.com/jatinchowdhury18/CHOW",
+      "description": "Maximally truculent distortion effect",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Cloud Seed",
+      "url": "https://github.com/ValdemarOrn/CloudSeed",
+      "description": "Algorithmic reverb for emulating huge, endless spaces and modulated echoes",
+      "type": "Effect",
+      "frameworks": []
+    },
+    {
+      "name": "Cocoa Delay",
+      "url": "https://github.com/tesselode/cocoa-delay",
+      "description": "Warm and lively delay",
+      "type": "Effect",
+      "frameworks": ["WDL-OL"]
+    },
+    {
+      "name": "Convolver",
+      "url": "https://github.com/teragonaudio/Convolver",
+      "description": "Impulse-response reverb",
+      "type": "Effect",
+      "frameworks": ["JUCE", "VSTGUI"]
+    },
+    {
+      "name": "cStop",
+      "url": "https://github.com/calgoheen/cStop",
+      "description": "Tape stop",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Dexed",
+      "url": "https://github.com/asb2m10/dexed",
+      "description": "DX7 FM plugin synth",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Digits",
+      "url": "https://github.com/LouisGorenfeld/DigitsVst",
+      "description": "Phase-distortion synth inspired by Casio CZ series",
+      "type": "Instrument",
+      "frameworks": ["VSTGUI"]
+    },
+    {
+      "name": "Distrho glBars",
+      "url": "https://github.com/DISTRHO/glBars",
+      "description": "OpenGL bars visualization plugin (as seen in XMMS and XBMC/Kodi) adapted from jack_glbars",
+      "type": "Effect",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "Distrho Juice Plugins",
+      "url": "https://github.com/DISTRHO/JuicePlugins",
+      "description": "",
+      "type": "Misc",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "Distrho Kars",
+      "url": "https://github.com/DISTRHO/Kars",
+      "description": "Simple karplus-strong plucked string synth based on the karplong DSSI example synth",
+      "type": "Instrument",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "Distrho Mini-Series",
+      "url": "https://github.com/DISTRHO/Mini-Series",
+      "description": "Collection of small plugins based on LOSER-Dev Plugins",
+      "type": "Effect",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "Distrho MVerb",
+      "url": "https://github.com/DISTRHO/MVerb",
+      "description": "DPF-based version of MVerb",
+      "type": "Effect",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "Distrho ndc Plugs",
+      "url": "https://github.com/DISTRHO/ndc-Plugs",
+      "description": "DPF-based versions of some of ndc Plugs",
+      "type": "Effect",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "Distrho Nekobi",
+      "url": "https://github.com/DISTRHO/Nekobi",
+      "description": "Simple single-oscillator synth based on Roland TB-303",
+      "type": "Instrument",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "Distrho ProM",
+      "url": "https://github.com/DISTRHO/ProM",
+      "description": "Music-visualizer plugin based on projectM",
+      "type": "Effect",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "Dragonfly Reverb",
+      "url": "https://github.com/michaelwillis/dragonfly-reverb",
+      "description": "Hall-style reverb based on Freeverb3 algorithms",
+      "type": "Effect",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "Drops",
+      "url": "https://github.com/clearly-broken-software/drops",
+      "description": "Single file audio player",
+      "type": "Instrument",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "Element",
+      "url": "https://github.com/kushview/Element",
+      "description": "Advanced Audio Plugin Host",
+      "type": "Misc",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Eurorack",
+      "url": "https://github.com/VCVRack/AudibleInstruments",
+      "description": "Diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synths, and utility modules",
+      "type": "Misc",
+      "frameworks": []
+    },
+    {
+      "name": "Flutterbird",
+      "url": "https://github.com/tesselode/flutterbird",
+      "description": "Simple pitch fluctuation",
+      "type": "Effect",
+      "frameworks": ["iPlug2"]
+    },
+    {
+      "name": "GainPlugin",
+      "url": "https://github.com/satelllte/GainPlugin",
+      "description": "(Experimental) VST/AU audio plugin example based on JUCE with React-JUCE for UI.",
+      "type": "Misc",
+      "frameworks": ["JUCE", "React-JUCE"]
+    },
+    {
+      "name": "Gverb/Gigaverb",
+      "url": "http://elements.byethost3.com/plugins.html",
+      "description": "Reverb",
+      "type": "Effect",
+      "frameworks": ["VSTGUI"]
+    },
+    {
+      "name": "Helm",
+      "url": "https://github.com/mtytel/helm",
+      "description": "Polyphonic synth with lots of modulation",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "hexter",
+      "url": "https://github.com/smbolton/hexter",
+      "description": "Yamaha DX7 modeling FM synth for DSSI",
+      "type": "Instrument",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "HiLoFilter",
+      "url": "https://github.com/teragonaudio/HiLoFilter",
+      "description": "Simple hipass/lopass filter controlled with a single knob",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "JuceOPLVSTi",
+      "url": "https://github.com/bsutherland/JuceOPLVSTi",
+      "description": "FM synth based on Yamaha OPL2/3 emulation from DOSBox",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Juno 6",
+      "url": "https://sourceforge.net/projects/juno6/",
+      "description": "Roland Juno 6/60 Synthesizer",
+      "type": "Instrument",
+      "frameworks": []
+    },
+    {
+      "name": "K-Meter",
+      "url": "https://github.com/mzuther/K-Meter",
+      "description": "Implementation of a K-System meter according to Bob Katz’ specifications",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "keithhearne/VSTPlugins",
+      "url": "https://github.com/keithhearne/VSTPlugins",
+      "description": "Collection of VST plugins",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Key Repeat",
+      "url": "https://michael-jan.github.io/key-repeat/",
+      "description": "Beat repeat sampler",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "KickMaker",
+      "url": "https://github.com/teragonaudio/KickMaker",
+      "description": "Synth specifically to create kick-drum sounds",
+      "type": "Instrument",
+      "frameworks": ["VSTGUI"]
+    },
+    {
+      "name": "LameVST",
+      "url": "https://github.com/Iunusov/LameVST",
+      "description": "LameMP3 as an effect",
+      "type": "Effect",
+      "frameworks": []
+    },
+    {
+      "name": "Magical8bitPlug 2",
+      "url": "https://github.com/yokemura/Magical8bitPlug2",
+      "description": "Old 8bit game console style synth",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "mda",
+      "url": "https://sourceforge.net/projects/mda-vst/",
+      "description": "FX and virtual instruments for PC and Mac",
+      "type": "Misc",
+      "frameworks": []
+    },
+    {
+      "name": "mda-plugins-juce",
+      "url": "https://github.com/hollance/mda-plugins-juce",
+      "description": "JUCE implementations of the classic MDA audio plug-ins",
+      "type": "Misc",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "MidiChords",
+      "url": "https://github.com/markwilkins/midi-chord-reader",
+      "description": "Detect chord names from a MIDI track and display them in a scrolling window during track playback",
+      "type": "Misc",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Mika Micro",
+      "url": "https://github.com/tesselode/mika-micro",
+      "description": "Simple subtractive synth",
+      "type": "Instrument",
+      "frameworks": ["WDL-OL"]
+    },
+    {
+      "name": "modEQ",
+      "url": "https://github.com/tobanteAudio/modEQ",
+      "description": "EQ with modulation (VST3, AU)",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "MVerb",
+      "url": "https://github.com/martineastwood/mverb",
+      "description": "Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure",
+      "type": "Effect",
+      "frameworks": ["VSTGUI"]
+    },
+    {
+      "name": "ndc Plugs",
+      "url": "https://www.niallmoody.com/ndcplugs/plugins.htm",
+      "description": "VST plugins for Windows and OSX",
+      "type": "Misc",
+      "frameworks": []
+    },
+    {
+      "name": "Neural Amp Modeler LV2",
+      "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2",
+      "description": "Neural amplifier modeler, LV2 version of Steven Atkinson's NAM plugin",
+      "type": "Effect",
+      "frameworks": []
+    },
+    {
+      "name": "Ninjas 2",
+      "url": "https://github.com/clearly-broken-software/ninjas2",
+      "description": "Sample slicer, rewrite of Ninjas",
+      "type": "Instrument",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "NotNotchFilter",
+      "url": "https://github.com/teragonaudio/NotNotchFilter",
+      "description": "Performance-oriented filter designed to replace the mid-EQ found in a standard 3-band DJ mixer",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "OB-Xd",
+      "url": "https://github.com/reales/OB-Xd",
+      "description": "Based on the Oberheim OB-X",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "OctaSine",
+      "url": "https://github.com/greatest-ape/OctaSine",
+      "description": "VST2 frequency modulation synthesizer written in Rust",
+      "type": "Instrument",
+      "frameworks": ["Rust VST"]
+    },
+    {
+      "name": "Odin2",
+      "url": "https://github.com/TheWaveWarden/odin2",
+      "description": "Polyphonic Synth",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "OwlBass",
+      "url": "https://github.com/PentagramPro/OwlBass",
+      "description": "Additive bass synth",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Oxe FM Synth",
+      "url": "https://github.com/oxesoft/oxefmsynth",
+      "description": "Multitimbral 8-operator FM synth (VST 2.4; Windows, Linux, macOS)",
+      "type": "Instrument",
+      "frameworks": ["VSTGUI"]
+    },
+    {
+      "name": "PulseDelay",
+      "url": "https://github.com/teragonaudio/PulseDelay",
+      "description": "Timed delay effect",
+      "type": "Effect",
+      "frameworks": []
+    },
+    {
+      "name": "QtVST",
+      "url": "https://github.com/mbrucher/QtVST",
+      "description": "VST plugins with a Qt interface",
+      "type": "Effect",
+      "frameworks": ["Qt"]
+    },
+    {
+      "name": "REACH",
+      "url": "https://github.com/Sinuslabs/Reach",
+      "description": "Extraterrestrial Reverb for Electronic Music",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Regrader",
+      "url": "https://github.com/igorski/regrader",
+      "description": "Degenerative delay",
+      "type": "Effect",
+      "frameworks": ["VSTGUI"]
+    },
+    {
+      "name": "Roth-AIR",
+      "url": "https://github.com/danielrothmann/Roth-AIR",
+      "description": "Mixing tool for easily adding airy, crispy presence to audio",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Schrammel OJD",
+      "url": "https://github.com/JanosGit/Schrammel_OJD",
+      "description": "Model of a modern classic guitar distortion pedal",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "ScorchCrafter Guitar FX",
+      "url": "https://sourceforge.net/projects/scorchcrafter/",
+      "description": "Audio DSP FX and plugins, mostly for guitar (amp sim) and other FX",
+      "type": "Effect",
+      "frameworks": ["VSTGUI"]
+    },
+    {
+      "name": "sfizz",
+      "url": "https://github.com/sfztools/sfizz",
+      "description": "SFZ parser library and instrument plugins",
+      "type": "Instrument",
+      "frameworks": ["VSTGUI"]
+    },
+    {
+      "name": "ShoutVST",
+      "url": "https://github.com/Iunusov/ShoutVST",
+      "description": "VST for streaming sound into Icecast/Shoutcast directly from VST hosts",
+      "type": "Effect",
+      "frameworks": ["VSTGUI", "FLUID"]
+    },
+    {
+      "name": "SmartGuitarAmp",
+      "url": "https://github.com/GuitarML/SmartGuitarAmp",
+      "description": "Guitar amplifier-style plugin, that uses machine learning for emulating real world hardware",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "SmartGuitarPedal",
+      "url": "https://github.com/GuitarML/SmartGuitarPedal",
+      "description": "Guitar pedal-style plugin, that uses machine learning for emulating real world hardware",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Sound Analyser",
+      "url": "https://github.com/adamstark/Sound-Analyser",
+      "description": "Real-time audio analysis to allow anyone to quickly set up and experiment with different algorithms",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Sound of Music",
+      "url": "https://github.com/enter-opy/sound-of-music",
+      "description": "Multiband bitcrusher",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "SPARTA",
+      "url": "https://github.com/leomccormack/SPARTA",
+      "description": "Spatial audio focused plug-in suite (Ambisonics encoders/decoders, 3-D panners/spatialisers, etc.)",
+      "type": "Effect",
+      "frameworks": ["SAF", "JUCE"]
+    },
+    {
+      "name": "Squeezer",
+      "url": "https://github.com/mzuther/Squeezer",
+      "description": "Compressor with side-chain, several detection modes and filters, etc",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Surge",
+      "url": "https://surge-synthesizer.github.io/",
+      "description": "Subtractive wavetable synth",
+      "type": "Instrument",
+      "frameworks": ["VSTGUI"]
+    },
+    {
+      "name": "Synister",
+      "url": "https://github.com/the-synister/the-source",
+      "description": "Subtractive synth",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Syntage",
+      "url": "https://github.com/lis355/Syntage",
+      "description": "VST 2.4 .Net Study Synth",
+      "type": "Instrument",
+      "frameworks": []
+    },
+    {
+      "name": "Temper",
+      "url": "https://github.com/creativeintent/temper",
+      "description": "Digital distortion targeting VST, VST3, and AU for OS X and Windows",
+      "type": "Effect",
+      "frameworks": ["Faust", "JUCE"]
+    },
+    {
+      "name": "traKmeter",
+      "url": "https://github.com/mzuther/traKmeter",
+      "description": "Loudness meter for correctly setting up tracking and mixing levels",
+      "type": "Effect",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "Tunefish",
+      "url": "https://github.com/paynebc/tunefish",
+      "description": "VST virtual analog synthesizer",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "VCV Rack",
+      "url": "https://github.com/VCVRack/Rack",
+      "description": "Virtual modular synth",
+      "type": "Misc",
+      "frameworks": ["RtAudio"]
+    },
+    {
+      "name": "Vital",
+      "url": "https://github.com/mtytel/vital",
+      "description": "Spectral warping wavetable synthesizer",
+      "type": "Instrument",
+      "frameworks": ["JUCE"]
+    },
+    {
+      "name": "VST2413",
+      "url": "https://github.com/keijiro/vst2413",
+      "description": "FM synth based on emulator of YM2413 (OPLL) chip used in Sega Master System and FM-PAC MSX expansion",
+      "type": "Instrument",
+      "frameworks": []
+    },
+    {
+      "name": "VSTSID",
+      "url": "https://github.com/igorski/VSTSID",
+      "description": "SID synthesizer instrument",
+      "type": "Instrument",
+      "frameworks": []
+    },
+    {
+      "name": "WebCZ101",
+      "url": "https://github.com/webaudiomodules/webcz101",
+      "description": "Virtual CZ101 synth in a browser",
+      "type": "Instrument",
+      "frameworks": ["WAM"]
+    },
+    {
+      "name": "WebDX7",
+      "url": "https://github.com/webaudiomodules/webdx7",
+      "description": "Virtual Yamaha DX7 synth in a browser",
+      "type": "Instrument",
+      "frameworks": ["WAM"]
+    },
+    {
+      "name": "Wolf Shaper",
+      "url": "https://github.com/pdesaulniers/wolf-shaper",
+      "description": "Waveshaper plugin with spline-based graph editor",
+      "type": "Effect",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "YK Chorus",
+      "url": "https://github.com/SpotlightKid/ykchorus",
+      "description": "Chorus audio effect plugin based on DSP code by TAL",
+      "type": "Effect",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "zam-plugins",
+      "url": "https://github.com/zamaudio/zam-plugins",
+      "description": "LADSPA/LV2/VST/JACK audio plugins for high-quality processing",
+      "type": "Effect",
+      "frameworks": ["DPF"]
+    },
+    {
+      "name": "zynaddsubfx",
+      "url": "https://github.com/zynaddsubfx/zynaddsubfx",
+      "description": "Additive/Subtractive AM/FM synthesizer with effects",
+      "type": "Instrument",
+      "frameworks": ["FLTK"]
+    }
+  ],
+  "resources": [
+    {
+      "name": "OpenAIR",
+      "url": "https://www.openairlib.net/",
+      "description": "the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)"
+    }
+  ],
+  "samples": [
+    {
+      "name": "FFTConvolver",
+      "url": "https://github.com/HiFi-LoFi/FFTConvolver",
+      "description": "audio convolution algorithm in C++ for real-time audio processing"
+    },
+    {
+      "name": "KlangFalter",
+      "url": "https://github.com/HiFi-LoFi/KlangFalter",
+      "description": "convolution audio plugin (e.g. for usage as convolution reverb)"
+    },
+    {
+      "name": "py-modular",
+      "url": "https://py-modular.readthedocs.io/",
+      "description": "modular and experimental programming environment with basic DSP routines in Python"
+    }
+  ]
+}
