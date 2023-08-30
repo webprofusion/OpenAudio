@@ -9,43 +9,42 @@ const {apps, collections, libraries, plugins, samples, resources} =
 describe('data', () => {
   describe('apps', (they) => {
     they('are sorted by name', () => {
-      const names = apps.map(({name}) => name);
-      expect(isSortedCaseInsensitive(names)).toBe(true);
+      expectAllNamesSorted(apps);
     });
   });
 
   describe('collections', (they) => {
     they('are sorted by name', () => {
-      const names = collections.map(({name}) => name);
-      expect(isSortedCaseInsensitive(names)).toBe(true);
+      expectAllNamesSorted(collections);
     });
   });
 
   describe('libraries', (they) => {
     they('are sorted by name', () => {
-      const names = libraries.map(({name}) => name);
-      expect(isSortedCaseInsensitive(names)).toBe(true);
+      expectAllNamesSorted(libraries);
     });
   });
 
   describe('plugins', (they) => {
     they('are sorted by name', () => {
-      const names = plugins.map(({name}) => name);
-      expect(isSortedCaseInsensitive(names)).toBe(true);
+      expectAllNamesSorted(plugins);
     });
   });
 
   describe('resources', (they) => {
     they('are sorted by name', () => {
-      const names = resources.map(({name}) => name);
-      expect(isSortedCaseInsensitive(names)).toBe(true);
+      expectAllNamesSorted(resources);
     });
   });
 
   describe('samples', (they) => {
     they('are sorted by name', () => {
-      const names = samples.map(({name}) => name);
-      expect(isSortedCaseInsensitive(names)).toBe(true);
+      expectAllNamesSorted(samples);
     });
   });
 });
+
+const expectAllNamesSorted = (array: Array<{name: string}>) => {
+  const names = array.map(({name}) => name);
+  expect(isSortedCaseInsensitive(names)).toBe(true);
+};
