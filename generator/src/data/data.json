@@ -653,7 +653,7 @@
       "url": "https://github.com/jpcima/ADLplug",
       "description": "FM Chip Synthesizer — OPL & OPN",
       "type": "Instrument",
-      "frameworks": ["JUCE"]
+      "frameworks": ["JUCEE"]
     },
     {
       "name": "Airwindows",
