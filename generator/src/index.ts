@@ -84,9 +84,3 @@ Open Data Resources
 ${collectionsRenderer(resources)}
 `,
 );
-
-// Output API results
-fs.mkdirSync('out/api');
-fs.mkdirSync('out/api/v1');
-fs.writeFileSync('out/api/v1/plugins.json', JSON.stringify(plugins, null, 2));
-fs.writeFileSync('out/api/v1/apps.json', JSON.stringify(apps, null, 2));
