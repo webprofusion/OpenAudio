@@ -3,7 +3,14 @@ import {pluginsRenderer} from './data/renderers/plugins.renderer';
 import {collectionsRenderer} from './data/renderers/collections.renderer';
 import {appsRenderer} from './data/renderers/apps.renderer';
 import {librariesRenderer} from './data/renderers/libraries.renderer';
-import {zAudioApp, zCollection, zLibrary, zPlugin} from './data/types';
+import {
+  zApps,
+  zCollections,
+  zLibraries,
+  zPlugins,
+  zResources,
+  zSamples,
+} from './data/types';
 
 import _apps from '../../data/apps.json';
 import _collections from '../../data/collections.json';
@@ -12,12 +19,12 @@ import _plugins from '../../data/plugins.json';
 import _resources from '../../data/resources.json';
 import _samples from '../../data/samples.json';
 
-const apps = zAudioApp.array().parse(_apps);
-const collections = zCollection.array().parse(_collections);
-const libraries = zLibrary.array().parse(_libraries);
-const plugins = zPlugin.array().parse(_plugins);
-const resources = zCollection.array().parse(_resources);
-const samples = zCollection.array().parse(_samples);
+const apps = zApps.parse(_apps);
+const collections = zCollections.parse(_collections);
+const libraries = zLibraries.parse(_libraries);
+const plugins = zPlugins.parse(_plugins);
+const resources = zResources.parse(_resources);
+const samples = zSamples.parse(_samples);
 
 fs.rmSync('out', {recursive: true, force: true});
 fs.mkdirSync('out');

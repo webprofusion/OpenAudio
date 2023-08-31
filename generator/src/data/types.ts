@@ -74,3 +74,11 @@ export const zPlugin = z.object({
   type: zPluginType,
   frameworks: zPluginFramework.array(),
 });
+
+// Aliases
+export const zApps = zAudioApp.array();
+export const zCollections = zCollection.array();
+export const zLibraries = zLibrary.array();
+export const zPlugins = zPlugin.array();
+export const zResources = zCollections;
+export const zSamples = zCollections;
