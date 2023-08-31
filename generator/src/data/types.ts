@@ -1,7 +1,7 @@
 import {z} from 'zod';
 
 export type Repository = z.infer<typeof zRepository>;
-const zRepository = z.union([
+export const zRepository = z.union([
   z.object({
     type: z.literal('GitHub'),
     user: z.string(),
@@ -18,7 +18,7 @@ const zRepository = z.union([
 ]);
 
 export type AudioApp = z.infer<typeof zAudioApp>;
-const zAudioApp = z.object({
+export const zAudioApp = z.object({
   name: z.string(),
   url: z.string().optional(),
   description: z.string(),
@@ -26,7 +26,7 @@ const zAudioApp = z.object({
 });
 
 export type Library = z.infer<typeof zLibrary>;
-const zLibrary = z.object({
+export const zLibrary = z.object({
   name: z.string(),
   url: z.string().optional(),
   description: z.string(),
@@ -34,21 +34,21 @@ const zLibrary = z.object({
 });
 
 export type Collection = z.infer<typeof zCollection>;
-const zCollection = z.object({
+export const zCollection = z.object({
   name: z.string(),
   url: z.string(),
   description: z.string(),
 });
 
 export type PluginType = z.infer<typeof zPluginType>;
-const zPluginType = z.union([
+export const zPluginType = z.union([
   z.literal('Effect'),
   z.literal('Instrument'),
   z.literal('Misc'),
 ]);
 
 export type PluginFramework = z.infer<typeof zPluginFramework>;
-const zPluginFramework = z.union([
+export const zPluginFramework = z.union([
   z.literal('DPF'),
   z.literal('Faust'),
   z.literal('FLTK'),
@@ -67,20 +67,10 @@ const zPluginFramework = z.union([
 ]);
 
 export type Plugin = z.infer<typeof zPlugin>;
-const zPlugin = z.object({
+export const zPlugin = z.object({
   name: z.string(),
   url: z.string(),
   description: z.string(),
   type: zPluginType,
   frameworks: zPluginFramework.array(),
-});
-
-export type Data = z.infer<typeof zData>;
-export const zData = z.object({
-  apps: zAudioApp.array(),
-  collections: zCollection.array(),
-  libraries: zLibrary.array(),
-  plugins: zPlugin.array(),
-  resources: zCollection.array(),
-  samples: zCollection.array(),
 });

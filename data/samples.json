@@ -1,0 +1,17 @@
+[
+  {
+    "name": "FFTConvolver",
+    "url": "https://github.com/HiFi-LoFi/FFTConvolver",
+    "description": "audio convolution algorithm in C++ for real-time audio processing"
+  },
+  {
+    "name": "KlangFalter",
+    "url": "https://github.com/HiFi-LoFi/KlangFalter",
+    "description": "convolution audio plugin (e.g. for usage as convolution reverb)"
+  },
+  {
+    "name": "py-modular",
+    "url": "https://py-modular.readthedocs.io/",
+    "description": "modular and experimental programming environment with basic DSP routines in Python"
+  }
+]
