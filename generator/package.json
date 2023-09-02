@@ -3,8 +3,11 @@
   "scripts": {
     "test": "vitest",
     "test:lint": "eslint . --ext=.ts --max-warnings=0 --format=compact",
-    "test:format": "prettier . --check",
-    "generate": "tsc && node ./dist/index.js"
+    "test:format": "prettier '.' '../data' --check",
+    "generate": "tsc && node ./dist/generator/src/index.js"
+  },
+  "dependencies": {
+    "zod": "3.22.2"
   },
   "devDependencies": {
     "@types/node": "20.5.7",

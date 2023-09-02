@@ -1,14 +1,30 @@
 import fs from 'fs';
-import {plugins} from './data/plugins';
 import {pluginsRenderer} from './data/renderers/plugins.renderer';
-import {collections} from './data/collections';
 import {collectionsRenderer} from './data/renderers/collections.renderer';
-import {apps} from './data/apps';
 import {appsRenderer} from './data/renderers/apps.renderer';
-import {libraries} from './data/libraries';
 import {librariesRenderer} from './data/renderers/libraries.renderer';
-import {samples} from './data/samples';
-import {resources} from './data/resources';
+import {
+  zApps,
+  zCollections,
+  zLibraries,
+  zPlugins,
+  zResources,
+  zSamples,
+} from './data/types';
+
+import _apps from '../../data/apps.json';
+import _collections from '../../data/collections.json';
+import _libraries from '../../data/libraries.json';
+import _plugins from '../../data/plugins.json';
+import _resources from '../../data/resources.json';
+import _samples from '../../data/samples.json';
+
+const apps = zApps.parse(_apps);
+const collections = zCollections.parse(_collections);
+const libraries = zLibraries.parse(_libraries);
+const plugins = zPlugins.parse(_plugins);
+const resources = zResources.parse(_resources);
+const samples = zSamples.parse(_samples);
 
 fs.rmSync('out', {recursive: true, force: true});
 fs.mkdirSync('out');
@@ -68,9 +84,3 @@ Open Data Resources
 ${collectionsRenderer(resources)}
 `,
 );
-
-// Output API results
-fs.mkdirSync('out/api');
-fs.mkdirSync('out/api/v1');
-fs.writeFileSync('out/api/v1/plugins.json', JSON.stringify(plugins, null, 2));
-fs.writeFileSync('out/api/v1/apps.json', JSON.stringify(apps, null, 2));
