@@ -27,12 +27,14 @@ _Do not edit any other files as updating a generated file will cause your change
 
 Choose the collection to edit:
 
-- [Audio Plugins](./data/plugins.json)
-- [Collections](./data/collections.json)
-- [Audio Apps](./data/apps.json)
-- [Software Development Libraries](./data/libraries.json)
-- [Code Samples](./data/samples.json)
-- [Open Data Resources](./data/resources.json)
+<ul>
+  <li><a href="data/plugins.json">Audio Plugins</a></li>
+  <li><a href="data/collections.json">Collections</a></li>
+  <li><a href="data/apps.json">Audio Apps</a></li>
+  <li><a href="data/libraries.json">Software Development Libraries</a></li>
+  <li><a href="data/samples.json">Code Samples</a></li>
+  <li><a href="data/resources.json">Open Data Resources</a></li>
+</ul>
 </details>
 
 Audio Plugins
