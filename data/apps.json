@@ -69,6 +69,16 @@
     }
   },
   {
+    "name": "Coincident Spectra",
+    "url": "https://coincident-spectra.fission.app/",
+    "description": "A spectral-microtuning additive synthesizer",
+    "repository": {
+      "type": "GitHub",
+      "user": "bgins",
+      "repo": "coincident-spectra"
+    }
+  },
+  {
     "name": "Element",
     "url": "https://kushview.net/element/",
     "description": "Advanced Audio Plugin Host",
