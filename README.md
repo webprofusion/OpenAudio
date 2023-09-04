@@ -156,6 +156,7 @@ Audio Apps
 | [butterDAWg](https://github.com/Jaybee18/butterDAWg) | [Jaybee18/butterDAWg](https://github.com/Jaybee18/butterDAWg) | DAW (WIP) |
 | [Carla](https://kx.studio/Applications:Carla) | [falkTX/Carla](https://github.com/falkTX/Carla) | GNU/Linux Plugin Host |
 | [ChucK](https://chuck.stanford.edu/) | [ccrma/chuck](https://github.com/ccrma/chuck) | Strongly-timed, Concurrent, and On-the-fly Music Programming Language |
+| [Coincident Spectra](https://coincident-spectra.fission.app/) | [bgins/coincident-spectra](https://github.com/bgins/coincident-spectra) | A spectral-microtuning additive synthesizer |
 | [Element](https://kushview.net/element/) | [Kushview/Element](https://github.com/Kushview/Element) | Advanced Audio Plugin Host |
 | FlexASIO | [dechamps/FlexASIO](https://github.com/dechamps/FlexASIO) | Universal ASIO driver for Windows |
 | [Giada](https://www.giadamusic.com/) | [monocasual/giada](https://github.com/monocasual/giada) | Loop machine |
