@@ -602,6 +602,13 @@
     "frameworks": []
   },
   {
+    "name": "Wavetable",
+    "url": "https://github.com/FigBug/Wavetable",
+    "description": "A 2 oscillator wavetable synth with flexible modulation options",
+    "type": "Instrument",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "WebCZ101",
     "url": "https://github.com/webaudiomodules/webcz101",
     "description": "Virtual CZ101 synth in a browser",
