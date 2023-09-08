@@ -159,6 +159,7 @@ Audio Apps
 | [ChucK](https://chuck.stanford.edu/) | [ccrma/chuck](https://github.com/ccrma/chuck) | Strongly-timed, Concurrent, and On-the-fly Music Programming Language |
 | [Coincident Spectra](https://coincident-spectra.fission.app/) | [bgins/coincident-spectra](https://github.com/bgins/coincident-spectra) | A spectral-microtuning additive synthesizer |
 | [Element](https://kushview.net/element/) | [Kushview/Element](https://github.com/Kushview/Element) | Advanced Audio Plugin Host |
+| [Elementary Grid](https://teetow.com/elementary_grid/) | [teetow/elementary_grid](https://github.com/teetow/elementary_grid) | A tonegrid synth made with Elementary Audio and React |
 | FlexASIO | [dechamps/FlexASIO](https://github.com/dechamps/FlexASIO) | Universal ASIO driver for Windows |
 | [Giada](https://www.giadamusic.com/) | [monocasual/giada](https://github.com/monocasual/giada) | Loop machine |
 | [Guitarix](https://guitarix.org/) | [SourceForge → guitarix](https://sourceforge.net/projects/guitarix) | GNU/Linux Virtual Amplifier |
