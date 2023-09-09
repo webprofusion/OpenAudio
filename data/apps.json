@@ -89,6 +89,16 @@
     }
   },
   {
+    "name": "Elementary Grid",
+    "url": "https://teetow.com/elementary_grid/",
+    "description": "A tonegrid synth made with Elementary Audio and React",
+    "repository": {
+      "type": "GitHub",
+      "user": "teetow",
+      "repo": "elementary_grid"
+    }
+  },
+  {
     "name": "FlexASIO",
     "description": "Universal ASIO driver for Windows",
     "repository": {
