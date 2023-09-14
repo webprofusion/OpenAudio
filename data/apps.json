@@ -167,6 +167,16 @@
     }
   },
   {
+    "name": "JSS-01",
+    "url": "https://javascript-software-synthesizer.vercel.app/",
+    "description": "JavaScript Software Synthesizer",
+    "repository": {
+      "type": "GitHub",
+      "user": "michaelkolesidis",
+      "repo": "javascript-software-synthesizer"
+    }
+  },
+  {
     "name": "LMMS",
     "url": "https://lmms.io/",
     "description": "DAW",
