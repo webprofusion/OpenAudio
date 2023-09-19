@@ -236,6 +236,16 @@
     }
   },
   {
+    "name": "Patchcab",
+    "url": "https://patch.cab",
+    "description": "Modular Eurorack style synthesizer made with Web Audio",
+    "repository": {
+      "type": "GitHub",
+      "user": "spectrome",
+      "repo": "patchcab"
+    }
+  },
+  {
     "name": "Psycle",
     "url": "http://psycle.pastnotecut.org/portal.php",
     "description": "Modular music tracker",
