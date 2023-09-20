@@ -266,6 +266,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "jc303",
+    "url": "https://github.com/midilab/jc303",
+    "description": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2 and AU. A JUCE port of Open303 engine",
+    "type": "Instrument",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "JuceOPLVSTi",
     "url": "https://github.com/bsutherland/JuceOPLVSTi",
     "description": "FM synth based on Yamaha OPL2/3 emulation from DOSBox",
