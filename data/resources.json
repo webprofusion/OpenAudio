@@ -1,5 +1,10 @@
 [
   {
+    "name": "MoisesDB",
+    "url": "https://github.com/moises-ai/moises-db",
+    "description": "Source separation public dataset by Moises"
+  },
+  {
     "name": "OpenAIR",
     "url": "https://www.openairlib.net/",
     "description": "the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)"
