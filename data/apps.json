@@ -275,6 +275,16 @@
     }
   },
   {
+    "name": "Shape Your Music",
+    "url": "https://shapeyourmusic.dev/",
+    "description": "A web application for drawing music",
+    "repository": {
+      "type": "GitHub",
+      "user": "ejarzo",
+      "repo": "Shape-Your-Music"
+    }
+  },
+  {
     "name": "Sonic Pi",
     "url": "https://sonic-pi.net/",
     "description": "Code-based music creation and performance tool",
