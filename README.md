@@ -179,6 +179,7 @@ Audio Apps
 | [Psycle](http://psycle.pastnotecut.org/portal.php) | [SourceForge → psycle](https://sourceforge.net/projects/psycle) | Modular music tracker |
 | [SampleScanner](https://github.com/psobot/SampleScanner) | [psobot/SampleScanner](https://github.com/psobot/SampleScanner) | Tool for auto-sampling hardware instruments |
 | [SFZ to HISE converter](https://keypleezer.com/sfz-to-hise-converter/) | [anderseklov/SFZ-to-HISE-converter](https://github.com/anderseklov/SFZ-to-HISE-converter) | JavaScript app that translates SFZ instrument files into HISE samplemaps and JSON data objects. Runs in a modern web browser. MIT license. |
+| [Shape Your Music](https://shapeyourmusic.dev/) | [ejarzo/Shape-Your-Music](https://github.com/ejarzo/Shape-Your-Music) | A web application for drawing music |
 | [Sonic Pi](https://sonic-pi.net/) | [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) | Code-based music creation and performance tool |
 | Stargate DAW | [stargatedaw/stargate](https://github.com/stargatedaw/stargate) | Cross-platform, all-in-one DAW and plugin suite |
 | [StudioRack](https://studiorack.github.io/studiorack-site/) | [studiorack/studiorack](https://github.com/studiorack/studiorack) | Audio plugin manager |
