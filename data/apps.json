@@ -39,6 +39,16 @@
     }
   },
   {
+    "name": "AudioKit Synth One",
+    "url": "https://audiokitpro.com/synth/",
+    "description": "Open-Source iOS Synthesizer App",
+    "repository": {
+      "type": "GitHub",
+      "user": "AudioKit",
+      "repo": "AudioKitSynthOne"
+    }
+  },
+  {
     "name": "butterDAWg",
     "url": "https://github.com/Jaybee18/butterDAWg",
     "description": "DAW (WIP)",
