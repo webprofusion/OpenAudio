@@ -10,6 +10,16 @@
     }
   },
   {
+    "name": "AudioKit",
+    "url": "https://www.audiokit.io/",
+    "description": "Swift audio synthesis, processing, & analysis platform for iOS, macOS and tvOS",
+    "repository": {
+      "type": "GitHub",
+      "user": "AudioKit",
+      "repo": "AudioKit"
+    }
+  },
+  {
     "name": "Cabbage",
     "url": "https://cabbageaudio.com/",
     "description": "Framework for developing audio plugins and standalone instruments with Csound",
