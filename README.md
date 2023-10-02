@@ -155,6 +155,7 @@ Audio Apps
 | [Ardour](https://ardour.org/) | [Ardour/ardour](https://github.com/Ardour/ardour) | DAW |
 | ASIO2WASAPI | [levmin/ASIO2WASAPI](https://github.com/levmin/ASIO2WASAPI) | Universal ASIO driver for Windows |
 | [Audacity](https://www.audacityteam.org/) | [audacity/audacity](https://github.com/audacity/audacity) | Audio editor |
+| [AudioKit Synth One](https://audiokitpro.com/synth/) | [AudioKit/AudioKitSynthOne](https://github.com/AudioKit/AudioKitSynthOne) | Open-Source iOS Synthesizer App |
 | [butterDAWg](https://github.com/Jaybee18/butterDAWg) | [Jaybee18/butterDAWg](https://github.com/Jaybee18/butterDAWg) | DAW (WIP) |
 | [Carla](https://kx.studio/Applications:Carla) | [falkTX/Carla](https://github.com/falkTX/Carla) | GNU/Linux Plugin Host |
 | [ChucK](https://chuck.stanford.edu/) | [ccrma/chuck](https://github.com/ccrma/chuck) | Strongly-timed, Concurrent, and On-the-fly Music Programming Language |
@@ -193,6 +194,7 @@ Software Development Libraries & APIs
 
 | Library | Source | Description |
 | --- | --- | --- |
+| [AudioKit](https://www.audiokit.io/) | [AudioKit/AudioKit](https://github.com/AudioKit/AudioKit) | Swift audio synthesis, processing, & analysis platform for iOS, macOS and tvOS |
 | [Avendish](https://celtera.github.io/avendish) | [celtera/avendish](https://github.com/celtera/avendish) | C++20 framework for any sort of audio / video / midi media objects |
 | [Cabbage](https://cabbageaudio.com/) | [rorywalsh/cabbage](https://github.com/rorywalsh/cabbage) | Framework for developing audio plugins and standalone instruments with Csound |
 | [Clap](https://github.com/free-audio/clap) | [free-audio/clap](https://github.com/free-audio/clap) | CLAP stands for CLever Audio Plugin. It is an audio plugin ABI which defines a standard for Digital Audio Workstations and audio plugins (synthesizers, audio effects, ...) to work together. |
