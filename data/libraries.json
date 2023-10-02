@@ -1,15 +1,5 @@
 [
   {
-    "name": "Avendish",
-    "url": "https://celtera.github.io/avendish",
-    "description": "C++20 framework for any sort of audio / video / midi media objects",
-    "repository": {
-      "type": "GitHub",
-      "user": "celtera",
-      "repo": "avendish"
-    }
-  },
-  {
     "name": "AudioKit",
     "url": "https://www.audiokit.io/",
     "description": "Swift audio synthesis, processing, & analysis platform for iOS, macOS and tvOS",
@@ -17,6 +7,16 @@
       "type": "GitHub",
       "user": "AudioKit",
       "repo": "AudioKit"
+    }
+  },
+  {
+    "name": "Avendish",
+    "url": "https://celtera.github.io/avendish",
+    "description": "C++20 framework for any sort of audio / video / midi media objects",
+    "repository": {
+      "type": "GitHub",
+      "user": "celtera",
+      "repo": "avendish"
     }
   },
   {
