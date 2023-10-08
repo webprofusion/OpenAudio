@@ -125,6 +125,7 @@ Audio Plugins
 | [Temper](https://github.com/creativeintent/temper) | Digital distortion targeting VST, VST3, and AU for OS X and Windows | Effect | Faust, JUCE |
 | [traKmeter](https://github.com/mzuther/traKmeter) | Loudness meter for correctly setting up tracking and mixing levels | Effect | JUCE |
 | [Tunefish](https://github.com/paynebc/tunefish) | VST virtual analog synthesizer | Instrument | JUCE |
+| [Vaporizer2](https://github.com/VASTDynamics/Vaporizer2) | Hybrid wavetable additive / subtractive VST / AU / AAX synthesizer / sampler workstation plugin | Instrument | JUCE |
 | [VCV Rack](https://github.com/VCVRack/Rack) | Virtual modular synth | Misc | RtAudio |
 | [Vital](https://github.com/mtytel/vital) | Spectral warping wavetable synthesizer | Instrument | JUCE |
 | [VST2413](https://github.com/keijiro/vst2413) | FM synth based on emulator of YM2413 (OPLL) chip used in Sega Master System and FM-PAC MSX expansion | Instrument | N/A |

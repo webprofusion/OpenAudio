@@ -581,6 +581,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "Vaporizer2",
+    "url": "https://github.com/VASTDynamics/Vaporizer2",
+    "description": "Hybrid wavetable additive / subtractive VST / AU / AAX synthesizer / sampler workstation plugin",
+    "type": "Instrument",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "VCV Rack",
     "url": "https://github.com/VCVRack/Rack",
     "description": "Virtual modular synth",
