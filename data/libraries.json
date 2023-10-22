@@ -179,6 +179,15 @@
     }
   },
   {
+    "name": "NIH-plug",
+    "description": "Rust VST3 and CLAP plugin framework and plugins",
+    "repository": {
+      "type": "GitHub",
+      "user": "robbert-vdh",
+      "repo": "nih-plug"
+    }
+  },
+  {
     "name": "PortAudio",
     "url": "http://www.portaudio.com/",
     "description": "Cross-platform audio I/O library",
