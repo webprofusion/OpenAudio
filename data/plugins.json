@@ -434,6 +434,13 @@
     "frameworks": ["VSTGUI"]
   },
   {
+    "name": "Pulp Fiction",
+    "url": "https://github.com/enter-opy/pulp-fiction",
+    "description": "Multi-effects rack plugin",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "PulseDelay",
     "url": "https://github.com/teragonaudio/PulseDelay",
     "description": "Timed delay effect",
