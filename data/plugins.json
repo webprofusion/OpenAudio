@@ -266,6 +266,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "Hue",
+    "url": "https://github.com/bljustice/hue",
+    "description": "Mixes various noise types into the audio signal",
+    "type": "Effect",
+    "frameworks": ["Rust VST"]
+  },
+  {
     "name": "jc303",
     "url": "https://github.com/midilab/jc303",
     "description": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2 and AU. A JUCE port of Open303 engine",
