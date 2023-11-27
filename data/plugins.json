@@ -231,6 +231,13 @@
     "frameworks": ["iPlug2"]
   },
   {
+    "name": "Fusion",
+    "url": "https://github.com/enter-opy/fusion",
+    "description": "Additive Synth",
+    "type": "Instrument",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "GainPlugin",
     "url": "https://github.com/satelllte/GainPlugin",
     "description": "(Experimental) VST/AU audio plugin example based on JUCE with React-JUCE for UI.",
