@@ -16,9 +16,9 @@ jobs:
         working-directory: ./generator
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version-file: "./generator/.nvmrc"
       - name: Install
@@ -37,9 +37,9 @@ jobs:
         working-directory: ./generator
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Set up Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version-file: "./generator/.nvmrc"
       - name: Install
@@ -61,14 +61,14 @@ jobs:
       contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Download README.md file artifact
         uses: actions/download-artifact@v3
         with:
           name: readme-artifact
           path: .
       - name: Commit generated README.md file
-        uses: stefanzweifel/git-auto-commit-action@v4
+        uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: Update README.md
           file_pattern: ./README.md

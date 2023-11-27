@@ -80,6 +80,7 @@ Audio Plugins
 | [Helm](https://github.com/mtytel/helm) | Polyphonic synth with lots of modulation | Instrument | JUCE |
 | [hexter](https://github.com/smbolton/hexter) | Yamaha DX7 modeling FM synth for DSSI | Instrument | DPF |
 | [HiLoFilter](https://github.com/teragonaudio/HiLoFilter) | Simple hipass/lopass filter controlled with a single knob | Effect | JUCE |
+| [Hue](https://github.com/bljustice/hue) | Mixes various noise types into the audio signal | Effect | Rust VST |
 | [jc303](https://github.com/midilab/jc303) | A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2 and AU. A JUCE port of Open303 engine | Instrument | JUCE |
 | [JuceOPLVSTi](https://github.com/bsutherland/JuceOPLVSTi) | FM synth based on Yamaha OPL2/3 emulation from DOSBox | Instrument | JUCE |
 | [Juno 6](https://sourceforge.net/projects/juno6/) | Roland Juno 6/60 Synthesizer | Instrument | N/A |
@@ -104,6 +105,7 @@ Audio Plugins
 | [Odin2](https://github.com/TheWaveWarden/odin2) | Polyphonic Synth | Instrument | JUCE |
 | [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | Instrument | JUCE |
 | [Oxe FM Synth](https://github.com/oxesoft/oxefmsynth) | Multitimbral 8-operator FM synth (VST 2.4; Windows, Linux, macOS) | Instrument | VSTGUI |
+| [Pulp Fiction](https://github.com/enter-opy/pulp-fiction) | Multi-effects rack plugin | Effect | JUCE |
 | [PulseDelay](https://github.com/teragonaudio/PulseDelay) | Timed delay effect | Effect | N/A |
 | [QtVST](https://github.com/mbrucher/QtVST) | VST plugins with a Qt interface | Effect | Qt |
 | [REACH](https://github.com/Sinuslabs/Reach) | Extraterrestrial Reverb for Electronic Music | Effect | JUCE |
