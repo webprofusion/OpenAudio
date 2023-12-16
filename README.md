@@ -175,6 +175,7 @@ Audio Apps
 | [Hydrogen](http://hydrogen-music.org/) | [hydrogen-music/hydrogen](https://github.com/hydrogen-music/hydrogen) | Drum machine |
 | [JSS-01](https://javascript-software-synthesizer.vercel.app/) | [michaelkolesidis/javascript-software-synthesizer](https://github.com/michaelkolesidis/javascript-software-synthesizer) | JavaScript Software Synthesizer |
 | [LMMS](https://lmms.io/) | [LMMS/lmms](https://github.com/LMMS/lmms) | DAW |
+| [Musical garden](https://musicalgarden.eliasjarzombek.com/) | [ejarzo/musical-garden](https://github.com/ejarzo/musical-garden) | A web instrument that allows you to make music by tending to a virtual garden |
 | [NewMixer](https://github.com/jatinchowdhury18/NewMixer) | [jatinchowdhury18/NewMixer](https://github.com/jatinchowdhury18/NewMixer) | Mixing Software |
 | [OpenMPT](https://openmpt.org/) | [OpenMPT/openmpt](https://github.com/OpenMPT/openmpt) | Popular tracker (formerly ModPlug Tracker) for Windows with support for IT, XM, S3M, MOD modules, VST plugins and ASIO |
 | [orDrumbox](https://www.ordrumbox.com/) | [SourceForge → ordrumbox](https://sourceforge.net/projects/ordrumbox) | Drum machine |
