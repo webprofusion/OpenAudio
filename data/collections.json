@@ -1,5 +1,10 @@
 [
   {
+    "name": "Awesome JUCE",
+    "url": "https://github.com/sudara/awesome-juce",
+    "description": "list of JUCE libraries, plugins and utilities"
+  },
+  {
     "name": "Linux Synths",
     "url": "http://linuxsynths.com/",
     "description": "list of linux based synths, some of which are open-source"
