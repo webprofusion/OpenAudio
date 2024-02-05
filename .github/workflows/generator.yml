@@ -49,7 +49,7 @@ jobs:
       - name: Display generated README.md file
         run: cat ./out/README.md
       - name: Upload README.md file artifact
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: readme-artifact
           path: ./generator/out/README.md
@@ -63,7 +63,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       - name: Download README.md file artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: readme-artifact
           path: .
