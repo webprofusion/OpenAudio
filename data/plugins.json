@@ -168,6 +168,13 @@
     "frameworks": ["DPF"]
   },
   {
+    "name": "MultiMeter",
+    "url": "https://github.com/RealAlexZ/MultiMeter",
+    "description": "A comprehensive set of AU/VST audio analysis tools (level meters, histograms, spectrogram analyzer, goniometer, correlation meter)",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "Distrho MVerb",
     "url": "https://github.com/DISTRHO/MVerb",
     "description": "DPF-based version of MVerb",
