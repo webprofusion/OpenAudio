@@ -227,6 +227,16 @@
     }
   },
   {
+    "name": "OpenUtau",
+    "url": "https://www.openutau.com/",
+    "description": "Singing synthesis platform for Windows, Mac and Linux that support UTAU voicebanks and machine learning voicebanks.",
+    "repository": {
+      "type": "GitHub",
+      "user": "stakira",
+      "repo": "OpenUtau"
+    }
+  },
+  {
     "name": "orDrumbox",
     "url": "https://www.ordrumbox.com/",
     "description": "Drum machine",
