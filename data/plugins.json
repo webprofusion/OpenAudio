@@ -168,13 +168,6 @@
     "frameworks": ["DPF"]
   },
   {
-    "name": "MultiMeter",
-    "url": "https://github.com/RealAlexZ/MultiMeter",
-    "description": "A comprehensive set of AU/VST audio analysis tools (level meters, histograms, spectrogram analyzer, goniometer, correlation meter)",
-    "type": "Effect",
-    "frameworks": ["JUCE"]
-  },
-  {
     "name": "Distrho MVerb",
     "url": "https://github.com/DISTRHO/MVerb",
     "description": "DPF-based version of MVerb",
@@ -381,6 +374,13 @@
     "name": "modEQ",
     "url": "https://github.com/tobanteAudio/modEQ",
     "description": "EQ with modulation (VST3, AU)",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
+    "name": "MultiMeter",
+    "url": "https://github.com/RealAlexZ/MultiMeter",
+    "description": "A comprehensive set of AU/VST audio analysis tools (level meters, histograms, spectrogram analyzer, goniometer, correlation meter)",
     "type": "Effect",
     "frameworks": ["JUCE"]
   },
