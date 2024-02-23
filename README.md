@@ -179,6 +179,7 @@ Audio Apps
 | [Musical garden](https://musicalgarden.eliasjarzombek.com/) | [ejarzo/musical-garden](https://github.com/ejarzo/musical-garden) | A web instrument that allows you to make music by tending to a virtual garden |
 | [NewMixer](https://github.com/jatinchowdhury18/NewMixer) | [jatinchowdhury18/NewMixer](https://github.com/jatinchowdhury18/NewMixer) | Mixing Software |
 | [OpenMPT](https://openmpt.org/) | [OpenMPT/openmpt](https://github.com/OpenMPT/openmpt) | Popular tracker (formerly ModPlug Tracker) for Windows with support for IT, XM, S3M, MOD modules, VST plugins and ASIO |
+| [OpenUtau](https://www.openutau.com/) | [stakira/OpenUtau](https://github.com/stakira/OpenUtau) | Singing synthesis platform for Windows, Mac and Linux that support UTAU voicebanks and machine learning voicebanks. |
 | [orDrumbox](https://www.ordrumbox.com/) | [SourceForge → ordrumbox](https://sourceforge.net/projects/ordrumbox) | Drum machine |
 | [ossia score](https://ossia.io) | [ossia/score](https://github.com/ossia/score) | Cross-platform intermedia sequencer |
 | [OwlPlug](https://owlplug.com/) | [DropSnorz/OwlPlug](https://github.com/DropSnorz/OwlPlug) | Audio plugin manager |
