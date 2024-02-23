@@ -378,6 +378,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "MultiMeter",
+    "url": "https://github.com/RealAlexZ/MultiMeter",
+    "description": "A comprehensive set of AU/VST audio analysis tools (level meters, histograms, spectrogram analyzer, goniometer, correlation meter)",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "MVerb",
     "url": "https://github.com/martineastwood/mverb",
     "description": "Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure",
