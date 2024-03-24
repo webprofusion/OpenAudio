@@ -42,6 +42,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "Audible Planets",
+    "url": "https://github.com/gregrecco67/AudiblePlanets",
+    "description": "An expressive, quasi-Ptolemaic semi-modular synthesizer",
+    "type": "Instrument",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "Audio Effects",
     "url": "https://github.com/juandagilc/Audio-Effects",
     "description": "Plugins implemented from the explanations in the book “Audio Effects: Theory, Implementation and Application”",
