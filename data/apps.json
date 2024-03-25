@@ -325,6 +325,16 @@
     }
   },
   {
+    "name": "Soundshed",
+    "url": "https://soundshed.com",
+    "description": "Browse and manage favourite tones, control your smart amp/fx (Spark Amp etc), jam to video backing tracks, learn chords and scales.",
+    "repository": {
+      "type": "GitHub",
+      "user": "soundshed",
+      "repo": "soundshed-app"
+    }
+  },
+  {
     "name": "Stargate DAW",
     "description": "Cross-platform, all-in-one DAW and plugin suite",
     "repository": {
