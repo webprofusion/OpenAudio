@@ -28,5 +28,10 @@
     "name": "VCV library",
     "url": "https://github.com/VCVRack/library",
     "description": "library of plugins compatible with VCV Plugin Manager"
-  }
+  },
+  {
+    "name": "Hybrid Multimedia Production Suite",
+    "url": "https://github.com/forart/HyMPS",
+    "description": "Collection of open softwares for a platform-indipendent advanced audio/video contents production suite"
+  },
 ]
