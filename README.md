@@ -191,6 +191,7 @@ Audio Apps
 | [SFZ to HISE converter](https://keypleezer.com/sfz-to-hise-converter/) | [anderseklov/SFZ-to-HISE-converter](https://github.com/anderseklov/SFZ-to-HISE-converter) | JavaScript app that translates SFZ instrument files into HISE samplemaps and JSON data objects. Runs in a modern web browser. MIT license. |
 | [Shape Your Music](https://shapeyourmusic.dev/) | [ejarzo/Shape-Your-Music](https://github.com/ejarzo/Shape-Your-Music) | A web application for drawing music |
 | [Sonic Pi](https://sonic-pi.net/) | [sonic-pi-net/sonic-pi](https://github.com/sonic-pi-net/sonic-pi) | Code-based music creation and performance tool |
+| [Soundshed](https://soundshed.com) | [soundshed/soundshed-app](https://github.com/soundshed/soundshed-app) | Browse and manage favourite tones, control your smart amp/fx (Spark Amp etc), jam to video backing tracks, learn chords and scales. |
 | Stargate DAW | [stargatedaw/stargate](https://github.com/stargatedaw/stargate) | Cross-platform, all-in-one DAW and plugin suite |
 | [StudioRack](https://studiorack.github.io/studiorack-site/) | [studiorack/studiorack](https://github.com/studiorack/studiorack) | Audio plugin manager |
 | [SuperCollider](https://supercollider.github.io/) | [supercollider/supercollider](https://github.com/supercollider/supercollider) | SuperCollider is a platform for audio synthesis and algorithmic composition, used by musicians, artists, and researchers working with sound. |
