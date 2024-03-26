@@ -147,6 +147,7 @@ Collections
 -----------
 
 * [Awesome JUCE](https://github.com/sudara/awesome-juce) — list of JUCE libraries, plugins and utilities
+* [Hybrid Multimedia Production Suite](https://github.com/forart/HyMPS) — Collection of open software for a platform-independent advanced audio/video contents production suite
 * [Linux Synths](http://linuxsynths.com/) — list of linux based synths, some of which are open-source
 * [OpenAV](http://openavproductions.com/) — collection of instruments, effects, and development tool kits for Linux.
 * [SFZ Instruments](https://sfzinstruments.github.io/) — list of SFZ instruments, most of which are free
