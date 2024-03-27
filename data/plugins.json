@@ -77,6 +77,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "blocks",
+    "url": "https://github.com/dan-german/blocks",
+    "description": "Polyphonic modular synth",
+    "type": "Instrument",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "C1Bitcrusher",
     "url": "https://github.com/datajake1999/C1Bitcrusher",
     "description": "Experimental and accurate bit reduction",
