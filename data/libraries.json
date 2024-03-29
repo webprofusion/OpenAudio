@@ -331,5 +331,15 @@
       "user": "webaudiomodules",
       "repo": "api"
     }
+  },
+  {
+    "name": "WEBMIDI.js",
+    "url": "https://webmidijs.org/",
+    "description": "WEBMIDI.js makes it easy to interact with MIDI instruments directly from a web browser or from Node.js",
+    "repository": {
+      "type": "GitHub",
+      "user": "djipco",
+      "repo": "webmidi"
+    }
   }
 ]
