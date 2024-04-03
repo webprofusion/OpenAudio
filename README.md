@@ -42,6 +42,7 @@ Audio Plugins
 
 | Plugin | Description | Type | Framework |
 | --- | --- | --- | --- |
+| [8ridgelite](https://github.com/JamesStubbsEng/8ridgelite) | 8 string guitar virtual instrument | Instrument | JUCE |
 | [ADLplug](https://github.com/jpcima/ADLplug) | FM Chip Synthesizer — OPL & OPN | Instrument | JUCE |
 | [Airwindows](https://github.com/airwindows/airwindows) | Various small and experimental effect plugins | Effect | N/A |
 | [ampli-Fe](https://github.com/antonok-edm/ampli-Fe) | Cross-platform VST2 plugin written in Rust | Effect | Rust VST |
