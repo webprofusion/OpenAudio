@@ -1,5 +1,12 @@
 [
   {
+    "name": "8ridgelite",
+    "url": "https://github.com/JamesStubbsEng/8ridgelite",
+    "description": "8 string guitar virtual instrument",
+    "type": "Instrument",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "ADLplug",
     "url": "https://github.com/jpcima/ADLplug",
     "description": "FM Chip Synthesizer — OPL & OPN",
