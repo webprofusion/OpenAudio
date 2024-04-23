@@ -202,8 +202,8 @@
     "description": "A notation and sheet music app",
     "repository": {
       "type": "GitHub",
-      "user": "ejarzo",
-      "repo": "musical-garden"
+      "user": "musescore",
+      "repo": "Musescore"
     }
   },
   {
@@ -212,8 +212,8 @@
     "description": "A web instrument that allows you to make music by tending to a virtual garden",
     "repository": {
       "type": "GitHub",
-      "user": "musescore",
-      "repo": "MuseScore"
+      "user": "ejarzo",
+      "repo": "musical-garden"
     }
   },
   {
