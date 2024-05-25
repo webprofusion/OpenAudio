@@ -17,8 +17,9 @@
       "type": "GitHub",
       "user": "mikeoliphant",
       "repo": "AudioPlugSharp"
-    },
-    {
+    }
+  },
+  {
     "name": "Avendish",
     "url": "https://celtera.github.io/avendish",
     "description": "C++20 framework for any sort of audio / video / midi media objects",
