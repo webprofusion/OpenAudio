@@ -208,6 +208,7 @@ Software Development Libraries & APIs
 | Library | Source | Description |
 | --- | --- | --- |
 | [AudioKit](https://www.audiokit.io/) | [AudioKit/AudioKit](https://github.com/AudioKit/AudioKit) | Swift audio synthesis, processing, & analysis platform for iOS, macOS and tvOS |
+| [AudioPlugSharp](https://github.com/mikeoliphant/AudioPlugSharp/) | [mikeoliphant/AudioPlugSharp](https://github.com/mikeoliphant/AudioPlugSharp) | Easily create VST (VST3) audio plugins in C# .NET |
 | [Avendish](https://celtera.github.io/avendish) | [celtera/avendish](https://github.com/celtera/avendish) | C++20 framework for any sort of audio / video / midi media objects |
 | [Cabbage](https://cabbageaudio.com/) | [rorywalsh/cabbage](https://github.com/rorywalsh/cabbage) | Framework for developing audio plugins and standalone instruments with Csound |
 | [Clap](https://github.com/free-audio/clap) | [free-audio/clap](https://github.com/free-audio/clap) | CLAP stands for CLever Audio Plugin. It is an audio plugin ABI which defines a standard for Digital Audio Workstations and audio plugins (synthesizers, audio effects, ...) to work together. |
