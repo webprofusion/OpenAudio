@@ -10,6 +10,16 @@
     }
   },
   {
+    "name": "AudioPlugSharp",
+    "url": "https://github.com/mikeoliphant/AudioPlugSharp/",
+    "description": "Easily create VST (VST3) audio plugins in C# .NET",
+    "repository": {
+      "type": "GitHub",
+      "user": "mikeoliphant",
+      "repo": "AudioPlugSharp"
+    }
+  },
+  {
     "name": "Avendish",
     "url": "https://celtera.github.io/avendish",
     "description": "C++20 framework for any sort of audio / video / midi media objects",
