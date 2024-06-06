@@ -48,6 +48,16 @@
       "repo": "AudioKitSynthOne"
     }
   },
+    {
+    "name": "Bosca Ceoil",
+    "url": "https://boscaceoil.net/",
+    "description": "Fun stand-alone beginner synthesiser",
+    "repository": {
+      "type": "GitHub",
+      "user": "TerryCavanagh",
+      "repo": "boscaceoil"
+    }
+  },
   {
     "name": "butterDAWg",
     "url": "https://github.com/Jaybee18/butterDAWg",
