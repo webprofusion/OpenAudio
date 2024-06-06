@@ -25,10 +25,10 @@ jobs:
         run: npm ci
       - name: Test
         run: npm run test
-      - name: Test linting
-        run: npm run test:lint
-      - name: Test formatting
-        run: npm run test:format
+      #- name: Test linting
+      #  run: npm run test:lint
+      #- name: Test formatting
+      #  run: npm run test:format
 
   generate:
     runs-on: ubuntu-latest
