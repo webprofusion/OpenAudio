@@ -196,6 +196,16 @@
       "repo": "lmms"
     }
   },
+    {
+    "name": "Musescore",
+    "url": "https://musescore.org/en",
+    "description": "A notation and sheet music app",
+    "repository": {
+      "type": "GitHub",
+      "user": "musescore",
+      "repo": "Musescore"
+    }
+  },
   {
     "name": "Musical garden",
     "url": "https://musicalgarden.eliasjarzombek.com/",
