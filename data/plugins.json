@@ -441,6 +441,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "NodeSound",
+    "url": "https://github.com/Lubba-64/node_sound",
+    "description": "Expansive node graph based synth based on rodio, egui, and nih_plug",
+    "type": "Instrument",
+    "frameworks": ["Rust VST"]
+  },
+  {
     "name": "OB-Xd",
     "url": "https://github.com/reales/OB-Xd",
     "description": "Based on the Oberheim OB-X",
