@@ -207,6 +207,16 @@
     }
   },
   {
+    "name": "Qubx",
+    "url": "https://github.com/PasqualeMainolfi/Qubx",
+    "description": "Rust library for queue-based multithreaded real-time parallel audio streams processing and management",
+    "repository": {
+      "type": "GitHub",
+      "user": "PasqualeMainolfi",
+      "repo": "Qubx"
+    }
+  },
+  {
     "name": "r-audio",
     "url": "https://github.com/bbc/r-audio",
     "description": "A library of React components for building Web Audio graphs.",
