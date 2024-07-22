@@ -230,6 +230,7 @@ Software Development Libraries & APIs
 | [libspatialaudio](https://videolabs.io) | [videolabs/libspatialaudio](https://github.com/videolabs/libspatialaudio) | Cross-platform C++ library for Ambisonic encoding and decoding, filtering and binaural rendering |
 | NIH-plug | [robbert-vdh/nih-plug](https://github.com/robbert-vdh/nih-plug) | Rust VST3 and CLAP plugin framework and plugins |
 | [PortAudio](http://www.portaudio.com/) | [Assembla → portaudio](https://app.assembla.com/spaces/portaudio/git/source) | Cross-platform audio I/O library |
+| [Qubx](https://github.com/PasqualeMainolfi/Qubx) | [PasqualeMainolfi/Qubx](https://github.com/PasqualeMainolfi/Qubx) | Rust library for queue-based multithreaded real-time parallel audio streams processing and management |
 | [r-audio](https://github.com/bbc/r-audio) | [bbc/r-audio](https://github.com/bbc/r-audio) | A library of React components for building Web Audio graphs. |
 | [React-JUCE](https://docs.react-juce.dev/) | [JoshMarler/react-juce](https://github.com/JoshMarler/react-juce) | React-JUCE (formerly named Blueprint) is a hybrid JavaScript/C++ framework that enables a React.js frontend for a JUCE application or plugin. |
 | RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | C++ classes for cross-platform real-time audio I/O |
