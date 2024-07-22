@@ -4,10 +4,11 @@
     "url": "https://github.com/PasqualeMainolfi/Qubx",
     "description": "Rust library for queue-based multithreaded real-time parallel audio streams processing and management",
     "repository": {
-    "type": "GitHub",
-    "user": "PasqualeMainolfi",
-    "repo": "Qubx"
-  }
+      "type": "GitHub",
+      "user": "PasqualeMainolfi",
+      "repo": "Qubx"
+    }
+  },
   {
     "name": "AudioKit",
     "url": "https://www.audiokit.io/",
