@@ -100,6 +100,7 @@ Audio Plugins
 | [Mika Micro](https://github.com/tesselode/mika-micro) | Simple subtractive synth | Instrument | WDL-OL |
 | [modEQ](https://github.com/tobanteAudio/modEQ) | EQ with modulation (VST3, AU) | Effect | JUCE |
 | [MultiMeter](https://github.com/RealAlexZ/MultiMeter) | A comprehensive set of AU/VST audio analysis tools (level meters, histograms, spectrogram analyzer, goniometer, correlation meter) | Effect | JUCE |
+| [musegpt](https://github.com/greynewell/musegpt) | Chat with an AI Assistant running on local open-weights models in your favorite DAW via VST, AAX & AU | Effect | JUCE |
 | [MVerb](https://github.com/martineastwood/mverb) | Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure | Effect | VSTGUI |
 | [ndc Plugs](https://www.niallmoody.com/ndcplugs/plugins.htm) | VST plugins for Windows and OSX | Misc | N/A |
 | [Neural Amp Modeler LV2](https://github.com/mikeoliphant/neural-amp-modeler-lv2) | Neural amplifier modeler, LV2 version of Steven Atkinson's NAM plugin | Effect | N/A |
