@@ -217,6 +217,7 @@ Software Development Libraries & APIs
 | [Cmajor](https://cmajor.dev/) | [SoundStacks/cmajor](https://github.com/SoundStacks/cmajor) | Cmajor is a programming language for writing fast, portable audio software. |
 | [Csound](https://csound.com/) | [csound/csound](https://github.com/csound/csound) | Programming language for sound and music synthesis |
 | [DawDreamer](https://github.com/DBraun/DawDreamer) | [DBraun/DawDreamer](https://github.com/DBraun/DawDreamer) | Audio-processing Python framework supporting core DAW features written with JUCE |
+| [DawVert](https://github.com/SatyrDiamond/DawVert) | [SatyrDiamond/DawVert](https://github.com/SatyrDiamond/DawVert) | DAW Project File Converter written in Python |
 | [DPF](https://distrho.sourceforge.io/) | [DISTRHO/DPF](https://github.com/DISTRHO/DPF) | C++ framework for creating cross-platform audio plugins. DPF can build for LADSPA, DSSI, LV2, and VST formats. |
 | [Dplug](https://dplug.org/) | [AuburnSounds/Dplug](https://github.com/AuburnSounds/Dplug) | Dplug lets you create audio plug-ins with unmatched simplicity and speed, using the D language. |
 | [Elementary](https://www.elementary.audio/) | [elemaudio/elementary](https://github.com/elemaudio/elementary) | JavaScript runtime for writing native audio applications, as well as a library and framework for composing audio signal processes. |
