@@ -80,6 +80,16 @@
     }
   },
   {
+    "name": "DawVert",
+    "url": "https://github.com/SatyrDiamond/DawVert",
+    "description": "DAW Project File Converter written in Python",
+    "repository": {
+      "type": "GitHub",
+      "user": "SatyrDiamond",
+      "repo": "DawVert"
+    }
+  },
+  {
     "name": "DPF",
     "url": "https://distrho.sourceforge.io/",
     "description": "C++ framework for creating cross-platform audio plugins. DPF can build for LADSPA, DSSI, LV2, and VST formats.",
