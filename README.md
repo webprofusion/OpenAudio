@@ -110,6 +110,7 @@ Audio Plugins
 | [Odin2](https://github.com/TheWaveWarden/odin2) | Polyphonic Synth | Instrument | JUCE |
 | [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | Instrument | JUCE |
 | [Oxe FM Synth](https://github.com/oxesoft/oxefmsynth) | Multitimbral 8-operator FM synth (VST 2.4; Windows, Linux, macOS) | Instrument | VSTGUI |
+| [plugdata](https://github.com/plugdata-team/plugdata) | Plugin wrapper around Pure Data audio programming, with extended features. | Instrument / Effect | JUCE |
 | [Pulp Fiction](https://github.com/enter-opy/pulp-fiction) | Multi-effects rack plugin | Effect | JUCE |
 | [PulseDelay](https://github.com/teragonaudio/PulseDelay) | Timed delay effect | Effect | N/A |
 | [QtVST](https://github.com/mbrucher/QtVST) | VST plugins with a Qt interface | Effect | Qt |
