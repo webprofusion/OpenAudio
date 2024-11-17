@@ -175,6 +175,7 @@ Audio Apps
 | [Element](https://kushview.net/element/) | [Kushview/Element](https://github.com/Kushview/Element) | Advanced Audio Plugin Host |
 | [Elementary Grid](https://teetow.com/elementary_grid/) | [teetow/elementary_grid](https://github.com/teetow/elementary_grid) | A tonegrid synth made with Elementary Audio and React |
 | FlexASIO | [dechamps/FlexASIO](https://github.com/dechamps/FlexASIO) | Universal ASIO driver for Windows |
+| [Furnace](https://github.com/tildearrow/furnace) | [tildearrow/furnace](https://github.com/tildearrow/furnace) | Tracker sequencer with huge selection of system audio chips |
 | [Giada](https://www.giadamusic.com/) | [monocasual/giada](https://github.com/monocasual/giada) | Loop machine |
 | [Guitarix](https://guitarix.org/) | [SourceForge → guitarix](https://sourceforge.net/projects/guitarix) | GNU/Linux Virtual Amplifier |
 | [Harmonoid](https://github.com/harmonoid/harmonoid) | [harmonoid/harmonoid](https://github.com/harmonoid/harmonoid) | Cross-platform music player (Mobile & Desktop) written in Flutter |
