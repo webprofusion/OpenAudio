@@ -128,6 +128,16 @@
     }
   },
   {
+    "name": "Furnace",
+    "url": "https://github.com/tildearrow/furnace",
+    "description": "Tracker sequencer with a huge selection of game system chips",
+    "repository": {
+      "type": "GitHub",
+      "user": "tildearrow",
+      "repo": "furnace"
+    }
+  },
+  {
     "name": "Giada",
     "url": "https://www.giadamusic.com/",
     "description": "Loop machine",
