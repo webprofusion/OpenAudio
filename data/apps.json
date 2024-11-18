@@ -90,7 +90,7 @@
   },
   {
     "name": "Coincident Spectra",
-    "url": "https://coincident-spectra.fission.app/",
+    "url": "https://github.com/bgins/coincident-spectra",
     "description": "A spectral-microtuning additive synthesizer",
     "repository": {
       "type": "GitHub",
