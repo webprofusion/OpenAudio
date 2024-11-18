@@ -6,7 +6,7 @@
   },
   {
     "name": "OpenAIR",
-    "url": "https://www.openairlib.net/",
+    "url": "https://www.openair.hosted.york.ac.uk/",
     "description": "the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)"
   }
 ]
