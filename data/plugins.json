@@ -417,7 +417,7 @@
     "url": "https://www.niallmoody.com/ndcplugs/plugins.htm",
     "description": "VST plugins for Windows and OSX",
     "type": "Misc",
-    "frameworks": []
+    "frameworks": ["VSTGUI"]
   },
   {
     "name": "Neural Amp Modeler LV2",
