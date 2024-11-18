@@ -10,13 +10,18 @@
     "description": "Collection of open software for a platform-independent advanced audio/video contents production suite"
   },
   {
+    "name": "Linux DAW",
+    "url": "https://linuxdaw.org/",
+    "description": "list of audio software and plugins, many of which are open-source"
+  },
+  {
     "name": "Linux Synths",
-    "url": "http://linuxsynths.com/",
-    "description": "list of linux based synths, some of which are open-source"
+    "url": "https://linuxsynths.com/",
+    "description": "list of linux based synths, many of which are open-source"
   },
   {
     "name": "OpenAV",
-    "url": "http://openavproductions.com/",
+    "url": "https://openavproductions.com/",
     "description": "collection of instruments, effects, and development tool kits for Linux."
   },
   {
