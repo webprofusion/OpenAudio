@@ -238,7 +238,7 @@ Software Development Libraries & APIs
 | [r-audio](https://github.com/bbc/r-audio) | [bbc/r-audio](https://github.com/bbc/r-audio) | A library of React components for building Web Audio graphs. |
 | RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | C++ classes for cross-platform real-time audio I/O |
 | rust-vst | [rust-dsp/rust-vst](https://github.com/rust-dsp/rust-vst) | VST 2.4 API implementation in the Rust language |
-| [RustAudio](https://rust-audio.discourse.group/) | [rustaudio/](https://github.com/rustaudio/) | Collection of audio processing and plugin libraries for the Rust language |
+| [RustAudio](https://rust.audio/) | [rustaudio/](https://github.com/rustaudio/) | Collection of audio processing and plugin libraries for the Rust language |
 | [SAF](https://leomccormack.github.io/Spatial_Audio_Framework/) | [leomccormack/Spatial_Audio_Framework](https://github.com/leomccormack/Spatial_Audio_Framework) | Cross-platform framework for developing spatial audio related algorithms and software in C/C++ |
 | [SOUL](https://soul.dev/) | [soul-lang/SOUL](https://github.com/soul-lang/SOUL) | SOUL (SOUnd Language) is an attempt to modernise and optimise the way high-performance, low-latency audio code is written and executed. |
 | [Soundpipe](https://paulbatchelor.github.io/proj/soundpipe.html) | [PaulBatchelor/Soundpipe](https://github.com/PaulBatchelor/Soundpipe) | Lightweight music DSP library written in C; over 100 modules, many ported from Csound |
