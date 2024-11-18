@@ -247,7 +247,7 @@ Software Development Libraries & APIs
 | VSTGUI | [steinbergmedia/vstgui](https://github.com/steinbergmedia/vstgui) | User-interface toolkit mainly for audio plugins |
 | WDL-OL | [olilarkin/wdl-ol](https://github.com/olilarkin/wdl-ol) | Simple-to-use C++ framework for developing cross-platform audio plugins (superseded by iPlug 2) |
 | [Web Audio API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API) | [WebAudio/web-audio-api](https://github.com/WebAudio/web-audio-api) | The Web Audio API provides a powerful and versatile system for controlling audio on the Web, allowing developers to choose audio sources, add effects to audio, create audio visualizations, apply spatial effects (such as panning) and much more. |
-| [WebAudioModules](https://webaudiomodules.org/) | [webaudiomodules/api](https://github.com/webaudiomodules/api) | WAM (WebAudioModules) — synthesizers and audio effects processors for web browsers |
+| [WebAudioModules](https://www.webaudiomodules.com) | [webaudiomodules/](https://github.com/webaudiomodules/) | WAM (WebAudioModules) — synthesizers and audio effects processors for web browsers |
 | [WEBMIDI.js](https://webmidijs.org/) | [djipco/webmidi](https://github.com/djipco/webmidi) | WEBMIDI.js makes it easy to interact with MIDI instruments directly from a web browser or from Node.js |
 
 Code Samples
