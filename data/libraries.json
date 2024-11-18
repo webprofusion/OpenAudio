@@ -344,12 +344,12 @@
   },
   {
     "name": "WebAudioModules",
-    "url": "https://webaudiomodules.org/",
+    "url": "https://www.webaudiomodules.com",
     "description": "WAM (WebAudioModules) — synthesizers and audio effects processors for web browsers",
     "repository": {
       "type": "GitHub",
       "user": "webaudiomodules",
-      "repo": "api"
+      "repo": ""
     }
   },
   {
