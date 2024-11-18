@@ -236,7 +236,6 @@ Software Development Libraries & APIs
 | [PortAudio](http://www.portaudio.com/) | [Assembla → portaudio](https://app.assembla.com/spaces/portaudio/git/source) | Cross-platform audio I/O library |
 | [Qubx](https://github.com/PasqualeMainolfi/Qubx) | [PasqualeMainolfi/Qubx](https://github.com/PasqualeMainolfi/Qubx) | Rust library for queue-based multithreaded real-time parallel audio streams processing and management |
 | [r-audio](https://github.com/bbc/r-audio) | [bbc/r-audio](https://github.com/bbc/r-audio) | A library of React components for building Web Audio graphs. |
-| [React-JUCE](https://docs.react-juce.dev/) | [JoshMarler/react-juce](https://github.com/JoshMarler/react-juce) | React-JUCE (formerly named Blueprint) is a hybrid JavaScript/C++ framework that enables a React.js frontend for a JUCE application or plugin. |
 | RtAudio | [thestk/rtaudio](https://github.com/thestk/rtaudio) | C++ classes for cross-platform real-time audio I/O |
 | rust-vst | [rust-dsp/rust-vst](https://github.com/rust-dsp/rust-vst) | VST 2.4 API implementation in the Rust language |
 | [RustAudio](https://rust-audio.discourse.group/) | [rustaudio/](https://github.com/rustaudio/) | Collection of audio processing and plugin libraries for the Rust language |
