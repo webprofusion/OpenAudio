@@ -267,7 +267,7 @@
   },
   {
     "name": "Gverb/Gigaverb",
-    "url": "http://elements.byethost3.com/plugins.html",
+    "url": "https://github.com/v7b1/gigaverb",
     "description": "Reverb",
     "type": "Effect",
     "frameworks": ["VSTGUI"]
