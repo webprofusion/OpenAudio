@@ -297,7 +297,7 @@
   },
   {
     "name": "Patchcab",
-    "url": "https://patch.cab",
+    "url": "https://github.com/spectrome/patchcab",
     "description": "Modular Eurorack style synthesizer made with Web Audio",
     "repository": {
       "type": "GitHub",
