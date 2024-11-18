@@ -237,16 +237,6 @@
     }
   },
   {
-    "name": "React-JUCE",
-    "url": "https://docs.react-juce.dev/",
-    "description": "React-JUCE (formerly named Blueprint) is a hybrid JavaScript/C++ framework that enables a React.js frontend for a JUCE application or plugin.",
-    "repository": {
-      "type": "GitHub",
-      "user": "JoshMarler",
-      "repo": "react-juce"
-    }
-  },
-  {
     "name": "RtAudio",
     "description": "C++ classes for cross-platform real-time audio I/O",
     "repository": {
