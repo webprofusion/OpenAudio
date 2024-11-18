@@ -476,6 +476,13 @@
     "frameworks": ["VSTGUI"]
   },
   {
+    "name": "plugdata",
+    "url": "https://github.com/plugdata-team/plugdata",
+    "description": "Plugin wrapper around Pure Data, letting it be used as a plugin in your DAW",
+    "type": "Misc",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "Pulp Fiction",
     "url": "https://github.com/enter-opy/pulp-fiction",
     "description": "Multi-effects rack plugin",
