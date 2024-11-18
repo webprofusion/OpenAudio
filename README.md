@@ -80,7 +80,7 @@ Audio Plugins
 | [Flutterbird](https://github.com/tesselode/flutterbird) | Simple pitch fluctuation | Effect | iPlug2 |
 | [Fusion](https://github.com/enter-opy/fusion) | Additive Synth | Instrument | JUCE |
 | [GainPlugin](https://github.com/satelllte/GainPlugin) | (Experimental) VST/AU audio plugin example based on JUCE with React-JUCE for UI. | Misc | JUCE, React-JUCE |
-| [Gverb/Gigaverb](http://elements.byethost3.com/plugins.html) | Reverb | Effect | VSTGUI |
+| [Gverb/Gigaverb](https://github.com/v7b1/gigaverb) | Reverb | Effect | VSTGUI |
 | [Helm](https://github.com/mtytel/helm) | Polyphonic synth with lots of modulation | Instrument | JUCE |
 | [hexter](https://github.com/smbolton/hexter) | Yamaha DX7 modeling FM synth for DSSI | Instrument | DPF |
 | [HiLoFilter](https://github.com/teragonaudio/HiLoFilter) | Simple hipass/lopass filter controlled with a single knob | Effect | JUCE |
