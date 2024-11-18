@@ -256,7 +256,7 @@
   },
   {
     "name": "RustAudio",
-    "url": "https://rust-audio.discourse.group/",
+    "url": "https://rust.audio/",
     "description": "Collection of audio processing and plugin libraries for the Rust language",
     "repository": {
       "type": "GitHub",
