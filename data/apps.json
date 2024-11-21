@@ -99,6 +99,16 @@
     }
   },
   {
+    "name": "Drum Beat Repo",
+    "url": "https://github.com/babali42/drumbeatrepo",
+    "description": "An interactive library of drums patterns",
+    "repository": {
+      "type": "GitHub",
+      "user": "babali42",
+      "repo": "drumbeatrepo"
+    }
+  },
+  {
     "name": "Element",
     "url": "https://kushview.net/element/",
     "description": "Advanced Audio Plugin Host",
