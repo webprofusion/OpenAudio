@@ -154,8 +154,9 @@ Collections
 * [Linux DAW](https://linuxdaw.org/) — list of audio software and plugins, many of which are open-source
 * [Linux Synths](https://linuxsynths.com/) — list of linux based synths, many of which are open-source
 * [OpenAV](https://openavproductions.com/) — collection of instruments, effects, and development tool kits for Linux.
+* [Open Audio Stack](https://github.com/open-audio-stack) — audio plugin management software, registry of StudioRack, OwlPlug, etc.
 * [SFZ Instruments](https://sfzinstruments.github.io/) — list of SFZ instruments, most of which are free
-* [StudioRack](https://studiorack.github.io/studiorack-site/) — open-source audio plugin registry, app and command line tools
+* [StudioRack](https://studiorack.github.io/studiorack-site) — open-source audio plugin registry, app and command line tools
 * [VCV library](https://github.com/VCVRack/library) — library of plugins compatible with VCV Plugin Manager
 
 Audio Apps
