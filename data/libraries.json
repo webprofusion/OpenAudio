@@ -198,6 +198,15 @@
       "repo": "libspatialaudio"
     }
   },
+   {
+    "name": "Nallely",
+    "description": "Python library meta-synth oriented for scripting your MIDI devices, create virtual modules (LFOs, Envelope Generator, graphical visuals, ...), map all of them together dynamically. Also provides a websocket-bus to create visuals/modules with other languages and a websocket-based protocol to control the core library at run time.",
+    "repository": {
+      "type": "GitHub",
+      "user": "dr-schlange",
+      "repo": "nallely-midi"
+    }
+  },
   {
     "name": "NIH-plug",
     "description": "Rust VST3 and CLAP plugin framework and plugins",
