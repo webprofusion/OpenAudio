@@ -20,14 +20,14 @@
     "description": "list of linux based synths, many of which are open-source"
   },
   {
-    "name": "OpenAV",
-    "url": "https://openavproductions.com/",
-    "description": "collection of instruments, effects, and development tool kits for Linux."
-  },
-    {
     "name": "Open Audio Stack",
     "url": "https://github.com/open-audio-stack",
     "description": "audio plugin management software, registry of StudioRack, OwlPlug, etc."
+  },
+  {
+    "name": "OpenAV",
+    "url": "https://openavproductions.com/",
+    "description": "collection of instruments, effects, and development tool kits for Linux."
   },
   {
     "name": "SFZ Instruments",
