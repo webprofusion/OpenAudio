@@ -24,6 +24,11 @@
     "url": "https://openavproductions.com/",
     "description": "collection of instruments, effects, and development tool kits for Linux."
   },
+    {
+    "name": "Open Audio Stack",
+    "url": "https://github.com/open-audio-stack",
+    "description": "audio plugin management software, registry of StudioRack, OwlPlug, etc."
+  },
   {
     "name": "SFZ Instruments",
     "url": "https://sfzinstruments.github.io/",
