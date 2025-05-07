@@ -153,6 +153,7 @@ Collections
 * [Hybrid Multimedia Production Suite](https://github.com/forart/HyMPS) — Collection of open software for a platform-independent advanced audio/video contents production suite
 * [Linux DAW](https://linuxdaw.org/) — list of audio software and plugins, many of which are open-source
 * [Linux Synths](https://linuxsynths.com/) — list of linux based synths, many of which are open-source
+* [Open Audio Stack](https://github.com/open-audio-stack) — audio plugin management software, registry of StudioRack, OwlPlug, etc.
 * [OpenAV](https://openavproductions.com/) — collection of instruments, effects, and development tool kits for Linux.
 * [SFZ Instruments](https://sfzinstruments.github.io/) — list of SFZ instruments, most of which are free
 * [StudioRack](https://studiorack.github.io/studiorack-site/) — open-source audio plugin registry, app and command line tools
@@ -233,6 +234,7 @@ Software Development Libraries & APIs
 | [jVSTwRapper](http://jvstwrapper.sourceforge.net/) | [SourceForge → jvstwrapper](https://sourceforge.net/projects/jvstwrapper) | Wrapper to write audio plugins in Java (VST 2.4, AU, LADSPA; Windows, Linux, macOS) |
 | [libopenmpt](https://lib.openmpt.org/libopenmpt/) | [OpenMPT/openmpt](https://github.com/OpenMPT/openmpt) | Cross-platform C/C++ module-playback library based on OpenMPT |
 | [libspatialaudio](https://videolabs.io) | [videolabs/libspatialaudio](https://github.com/videolabs/libspatialaudio) | Cross-platform C++ library for Ambisonic encoding and decoding, filtering and binaural rendering |
+| Nallely | [dr-schlange/nallely-midi](https://github.com/dr-schlange/nallely-midi) | Python library meta-synth oriented for scripting your MIDI devices, create virtual modules (LFOs, Envelope Generator, graphical visuals, ...), map all of them together dynamically. Also provides a websocket-bus to create visuals/modules with other languages and a websocket-based protocol to control the core library at run time. |
 | NIH-plug | [robbert-vdh/nih-plug](https://github.com/robbert-vdh/nih-plug) | Rust VST3 and CLAP plugin framework and plugins |
 | [PortAudio](http://www.portaudio.com/) | [Assembla → portaudio](https://app.assembla.com/spaces/portaudio/git/source) | Cross-platform audio I/O library |
 | [Qubx](https://github.com/PasqualeMainolfi/Qubx) | [PasqualeMainolfi/Qubx](https://github.com/PasqualeMainolfi/Qubx) | Rust library for queue-based multithreaded real-time parallel audio streams processing and management |
