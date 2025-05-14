@@ -588,6 +588,13 @@
     "frameworks": ["SAF", "JUCE"]
   },
   {
+    "name": "Stone Mistress",
+    "url": "https://github.com/NaviCisco/StoneMistress",
+    "description": "Phase Shifter and Chorus audio plugin, inspired by Electro-Harmonix Stereo Electric Mistress and Small Stone pedals",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "Squeezer",
     "url": "https://github.com/mzuther/Squeezer",
     "description": "Compressor with side-chain, several detection modes and filters, etc",
