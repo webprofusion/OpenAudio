@@ -595,6 +595,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "Stone Mistress",
+    "url": "https://github.com/NaviCisco/StoneMistress",
+    "description": "Phase Shifter and Chorus audio plugin, inspired by Electro-Harmonix Stereo Electric Mistress and Small Stone pedals",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "Surge",
     "url": "https://surge-synthesizer.github.io/",
     "description": "Subtractive wavetable synth",

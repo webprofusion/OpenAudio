@@ -127,6 +127,7 @@ Audio Plugins
 | [Sound of Music](https://github.com/enter-opy/sound-of-music) | Multiband bitcrusher | Effect | JUCE |
 | [SPARTA](https://github.com/leomccormack/SPARTA) | Spatial audio focused plug-in suite (Ambisonics encoders/decoders, 3-D panners/spatialisers, etc.) | Effect | SAF, JUCE |
 | [Squeezer](https://github.com/mzuther/Squeezer) | Compressor with side-chain, several detection modes and filters, etc | Effect | JUCE |
+| [Stone Mistress](https://github.com/NaviCisco/StoneMistress) | Phase Shifter and Chorus audio plugin, inspired by Electro-Harmonix Stereo Electric Mistress and Small Stone pedals | Effect | JUCE |
 | [Surge](https://surge-synthesizer.github.io/) | Subtractive wavetable synth | Instrument | VSTGUI |
 | [Synister](https://github.com/the-synister/the-source) | Subtractive synth | Instrument | JUCE |
 | [Syntage](https://github.com/lis355/Syntage) | VST 2.4 .Net Study Synth | Instrument | N/A |
