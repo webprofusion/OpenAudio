@@ -68,7 +68,7 @@ jobs:
           name: readme-artifact
           path: .
       - name: Commit generated README.md file
-        uses: stefanzweifel/git-auto-commit-action@v5
+        uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: Update README.md
           file_pattern: ./README.md
