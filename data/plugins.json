@@ -252,6 +252,13 @@
     "frameworks": ["iPlug2"]
   },
   {
+    "name": "Setekh",
+    "url": "https://github.com/fullfxmedia/setekh",
+    "description": "A minimalistic yet sonically powerful distortion plugin created and distributed via Full FX Media",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  }
+  {
     "name": "Fusion",
     "url": "https://github.com/enter-opy/fusion",
     "description": "Additive Synth",
