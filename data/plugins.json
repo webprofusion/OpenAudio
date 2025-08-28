@@ -91,6 +91,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "BORIS Granular Station",
+    "url": "https://glesdora.github.io/boris-granular-station/",
+    "description": "A live-input granular plugin",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "C1Bitcrusher",
     "url": "https://github.com/datajake1999/C1Bitcrusher",
     "description": "Experimental and accurate bit reduction",
