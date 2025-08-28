@@ -120,6 +120,7 @@ Audio Plugins
 | [Roth-AIR](https://github.com/danielrothmann/Roth-AIR) | Mixing tool for easily adding airy, crispy presence to audio | Effect | JUCE |
 | [Schrammel OJD](https://github.com/JanosGit/Schrammel_OJD) | Model of a modern classic guitar distortion pedal | Effect | JUCE |
 | [ScorchCrafter Guitar FX](https://sourceforge.net/projects/scorchcrafter/) | Audio DSP FX and plugins, mostly for guitar (amp sim) and other FX | Effect | VSTGUI |
+| [Setekh](https://github.com/fullfxmedia/setekh) | A minimalistic yet sonically powerful distortion plugin created and distributed via Full FX Media | Effect | JUCE |
 | [sfizz](https://github.com/sfztools/sfizz) | SFZ parser library and instrument plugins | Instrument | VSTGUI |
 | [ShoutVST](https://github.com/Iunusov/ShoutVST) | VST for streaming sound into Icecast/Shoutcast directly from VST hosts | Effect | VSTGUI, FLUID |
 | [SmartGuitarAmp](https://github.com/GuitarML/SmartGuitarAmp) | Guitar amplifier-style plugin, that uses machine learning for emulating real world hardware | Instrument | JUCE |
