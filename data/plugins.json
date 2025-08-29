@@ -491,7 +491,7 @@
   },
   {
     "name": "Pulp Fiction",
-    "url": "https://github.com/enter-opy/pulp-fiction",
+    "url": "https://github.com/coconut-audio/pulp-fiction",
     "description": "Multi-effects rack plugin",
     "type": "Effect",
     "frameworks": ["JUCE"]
