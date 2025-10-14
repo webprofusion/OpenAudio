@@ -43,5 +43,10 @@
     "name": "VCV library",
     "url": "https://github.com/VCVRack/library",
     "description": "library of plugins compatible with VCV Plugin Manager"
+  },
+  {
+    "name": "Mach1 Spatial System",
+    "url": "https://github.com/mach1studios/m1-spatialsystem",
+    "description": "foundational plugins for spatial and multichannel audio mixing focused around vector panning"
   }
 ]
