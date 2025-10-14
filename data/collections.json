@@ -20,6 +20,11 @@
     "description": "list of linux based synths, many of which are open-source"
   },
   {
+    "name": "Mach1 Spatial System",
+    "url": "https://github.com/mach1studios/m1-spatialsystem",
+    "description": "foundational plugins for spatial and multichannel audio mixing focused around vector panning"
+  },
+  {
     "name": "Open Audio Stack",
     "url": "https://github.com/open-audio-stack",
     "description": "audio plugin management software, registry of StudioRack, OwlPlug, etc."
