@@ -156,6 +156,7 @@ Collections
 * [Hybrid Multimedia Production Suite](https://github.com/forart/HyMPS) — Collection of open software for a platform-independent advanced audio/video contents production suite
 * [Linux DAW](https://linuxdaw.org/) — list of audio software and plugins, many of which are open-source
 * [Linux Synths](https://linuxsynths.com/) — list of linux based synths, many of which are open-source
+* [Mach1 Spatial System](https://github.com/mach1studios/m1-spatialsystem) — foundational plugins for spatial and multichannel audio mixing focused around vector panning
 * [Open Audio Stack](https://github.com/open-audio-stack) — audio plugin management software, registry of StudioRack, OwlPlug, etc.
 * [OpenAV](https://openavproductions.com/) — collection of instruments, effects, and development tool kits for Linux.
 * [SFZ Instruments](https://sfzinstruments.github.io/) — list of SFZ instruments, most of which are free
