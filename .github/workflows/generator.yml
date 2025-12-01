@@ -16,7 +16,7 @@ jobs:
         working-directory: ./generator
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Set up Node.js
         uses: actions/setup-node@v5
         with:
@@ -37,7 +37,7 @@ jobs:
         working-directory: ./generator
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Set up Node.js
         uses: actions/setup-node@v5
         with:
@@ -61,7 +61,7 @@ jobs:
       contents: write
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Download README.md file artifact
         uses: actions/download-artifact@v5
         with:
