@@ -119,6 +119,13 @@
     "frameworks": ["DPF"]
   },
   {
+    "name": "Chorus Ex Machina",
+    "url": "https://github.com/peastman/ChorusExMachina",
+    "description": "Physically modelled chorus synthesizeer",
+    "type": "Instrument",
+    "frameworks": ["NIH-Plug"]
+  },
+  {
     "name": "CHOW",
     "url": "https://github.com/jatinchowdhury18/CHOW",
     "description": "Maximally truculent distortion effect",
