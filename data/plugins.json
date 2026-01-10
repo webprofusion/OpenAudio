@@ -121,7 +121,7 @@
   {
     "name": "Chorus Ex Machina",
     "url": "https://github.com/peastman/ChorusExMachina",
-    "description": "Physically modelled chorus synthesizeer",
+    "description": "Physically modelled chorus synthesizer",
     "type": "Instrument",
     "frameworks": ["NIH-Plug"]
   },
