@@ -59,6 +59,7 @@ Audio Plugins
 | [C1Bitcrusher](https://github.com/datajake1999/C1Bitcrusher) | Experimental and accurate bit reduction | Effect | N/A |
 | [Calf Studio Gear](https://github.com/calf-studio-gear/calf) | Many LV2 and Jack audio plug-ins | Effect | GTK |
 | [Cardinal](https://github.com/DISTRHO/Cardinal/) | Virtual modular synthesizer plugin | Instrument | DPF |
+| [Chorus Ex Machina](https://github.com/peastman/ChorusExMachina) | Physically modelled chorus synthesizer | Instrument | NIH-Plug |
 | [CHOW](https://github.com/jatinchowdhury18/CHOW) | Maximally truculent distortion effect | Effect | JUCE |
 | [Cloud Seed](https://github.com/ValdemarOrn/CloudSeed) | Algorithmic reverb for emulating huge, endless spaces and modulated echoes | Effect | N/A |
 | [Cocoa Delay](https://github.com/tesselode/cocoa-delay) | Warm and lively delay | Effect | WDL-OL |
