@@ -56,6 +56,7 @@ export const zPluginFramework = z.union([
   z.literal('GTK'),
   z.literal('iPlug2'),
   z.literal('JUCE'),
+  z.literal('NIH-Plug'),
   z.literal('Qt'),
   z.literal('React-JUCE'),
   z.literal('RtAudio'),

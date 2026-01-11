@@ -3,7 +3,7 @@
   "scripts": {
     "test": "vitest",
     "test:lint": "eslint . --ext=.ts --max-warnings=0 --format=compact",
-    "test:format": "prettier '.' '../data' --check",
+    "test:format": "prettier . ../data --check",
     "generate": "tsc && node ./dist/generator/src/index.js"
   },
   "dependencies": {
