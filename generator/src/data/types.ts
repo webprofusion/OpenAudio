@@ -3,7 +3,26 @@ import {z} from 'zod';
 export type Repository = z.infer<typeof zRepository>;
 export const zRepository = z.union([
   z.object({
+    type: z.literal('Assembla'),
+    space: z.string(),
+  }),
+  z.object({
+    type: z.literal('Bitbucket'),
+    workspace: z.string(),
+    repo: z.string(),
+  }),
+  z.object({
+    type: z.literal('Codeberg'),
+    user: z.string(),
+    repo: z.string(),
+  }),
+  z.object({
     type: z.literal('GitHub'),
+    user: z.string(),
+    repo: z.string(),
+  }),
+  z.object({
+    type: z.literal('GitLab'),
     user: z.string(),
     repo: z.string(),
   }),
@@ -12,8 +31,9 @@ export const zRepository = z.union([
     project: z.string(),
   }),
   z.object({
-    type: z.literal('Assembla'),
-    space: z.string(),
+    type: z.literal('SourceHut'),
+    user: z.string(),
+    repo: z.string(),
   }),
 ]);
 
