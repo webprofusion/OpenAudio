@@ -2,6 +2,8 @@
 
 Thanks for helping grow OpenAudio! This project is fully data‑driven: the website and README are generated from JSON collections under `data/`. Contributions are made by proposing JSON changes ("patches") via Pull Requests.
 
+**To make a quick data contribution, use our issue template to provide the info, this will automatically be submitted for review and saves you having to edit any code/config : https://github.com/webprofusion/OpenAudio/issues**
+
 ## How Contributions Work (JSON patches)
 
 - Edit only the relevant file in `data/`:
