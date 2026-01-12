@@ -22,6 +22,7 @@ https://openaudio.webprofusion.com
 <summary>Contributing links</summary>
 
 To contribute new links, fill out our issue template and the change will be prepare automatically and reviewed by an editor: https://github.com/webprofusion/OpenAudio/issues 
+</details>
 
 Audio Plugins
 -------------
