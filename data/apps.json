@@ -375,6 +375,16 @@
     }
   },
   {
+    "name": "Soundshed Guitar FX",
+    "description": "Guitar FX app and plugin",
+    "repository": {
+      "type": "GitHub",
+      "user": "soundshed",
+      "repo": "soundshed"
+    },
+    "url": "https://soundshed.com"
+  },
+  {
     "name": "Stargate DAW",
     "description": "Cross-platform, all-in-one DAW and plugin suite",
     "repository": {
