@@ -1,0 +1,48 @@
+name: Submit Collection/Resource/Sample
+description: Submit a new collection, resource, or sample pack
+title: "[Collection] "
+labels: ["submission", "collection"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a collection, resource, or sample pack!
+
+  - type: dropdown
+    id: collection_type
+    attributes:
+      label: Type
+      description: What kind of submission is this?
+      options:
+        - Collection (curated list of audio resources)
+        - Resource (educational material, documentation, etc.)
+        - Sample (sample packs, sound libraries, etc.)
+    validations:
+      required: true
+
+  - type: input
+    id: name
+    attributes:
+      label: Name
+      description: The name of the collection/resource/sample
+      placeholder: e.g., Awesome Music Production
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: The URL where this can be found
+      placeholder: e.g., https://github.com/ad-si/awesome-music-production
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of what this contains
+      placeholder: e.g., A curated list of software, services and resources for music production
+    validations:
+      required: true

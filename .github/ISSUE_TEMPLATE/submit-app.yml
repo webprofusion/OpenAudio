@@ -1,0 +1,76 @@
+name: Submit App
+description: Submit a new open-source audio application
+title: "[App] "
+labels: ["submission", "app"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting an audio application! Please fill out the form below.
+
+  - type: input
+    id: name
+    attributes:
+      label: App Name
+      description: The name of the application
+      placeholder: e.g., Audacity
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: App URL (optional)
+      description: The main website or homepage URL (if different from repository)
+      placeholder: e.g., https://www.audacityteam.org/
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of what the application does
+      placeholder: e.g., Free, open source, cross-platform audio software
+    validations:
+      required: true
+
+  - type: dropdown
+    id: repo_type
+    attributes:
+      label: Repository Type
+      description: Where is the source code hosted?
+      options:
+        - GitHub
+        - GitLab
+        - Bitbucket
+        - Codeberg
+        - SourceHut
+        - SourceForge
+        - Assembla
+    validations:
+      required: true
+
+  - type: input
+    id: repo_user
+    attributes:
+      label: Repository User/Workspace
+      description: |
+        For GitHub/GitLab/Codeberg/SourceHut: the username or organization
+        For Bitbucket: the workspace name
+        For SourceForge/Assembla: leave blank
+      placeholder: e.g., audacity
+    validations:
+      required: false
+
+  - type: input
+    id: repo_name
+    attributes:
+      label: Repository Name
+      description: |
+        For GitHub/GitLab/Bitbucket/Codeberg/SourceHut: the repository name
+        For SourceForge: the project name
+        For Assembla: the space name
+      placeholder: e.g., audacity
+    validations:
+      required: true

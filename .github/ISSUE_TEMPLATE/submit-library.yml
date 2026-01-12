@@ -1,0 +1,76 @@
+name: Submit Library
+description: Submit a new open-source audio library
+title: "[Library] "
+labels: ["submission", "library"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting an audio library! Please fill out the form below.
+
+  - type: input
+    id: name
+    attributes:
+      label: Library Name
+      description: The name of the library
+      placeholder: e.g., JUCE
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Library URL (optional)
+      description: The main website or documentation URL (if different from repository)
+      placeholder: e.g., https://juce.com/
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of what the library provides
+      placeholder: e.g., Cross-platform C++ framework for audio applications and plugins
+    validations:
+      required: true
+
+  - type: dropdown
+    id: repo_type
+    attributes:
+      label: Repository Type
+      description: Where is the source code hosted?
+      options:
+        - GitHub
+        - GitLab
+        - Bitbucket
+        - Codeberg
+        - SourceHut
+        - SourceForge
+        - Assembla
+    validations:
+      required: true
+
+  - type: input
+    id: repo_user
+    attributes:
+      label: Repository User/Workspace
+      description: |
+        For GitHub/GitLab/Codeberg/SourceHut: the username or organization
+        For Bitbucket: the workspace name
+        For SourceForge/Assembla: leave blank
+      placeholder: e.g., juce-framework
+    validations:
+      required: false
+
+  - type: input
+    id: repo_name
+    attributes:
+      label: Repository Name
+      description: |
+        For GitHub/GitLab/Bitbucket/Codeberg/SourceHut: the repository name
+        For SourceForge: the project name
+        For Assembla: the space name
+      placeholder: e.g., JUCE
+    validations:
+      required: true

@@ -1,0 +1,75 @@
+name: Submit Plugin
+description: Submit a new open-source audio plugin
+title: "[Plugin] "
+labels: ["submission", "plugin"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for submitting a plugin! Please fill out the form below.
+        All fields are required unless marked optional.
+
+  - type: input
+    id: name
+    attributes:
+      label: Plugin Name
+      description: The name of the plugin
+      placeholder: e.g., Dexed
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Plugin URL
+      description: The main website or homepage URL
+      placeholder: e.g., https://asb2m10.github.io/dexed/
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: A brief description of what the plugin does
+      placeholder: e.g., FM synthesizer closely modeled on the Yamaha DX7
+    validations:
+      required: true
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Plugin Type
+      description: What type of plugin is this?
+      options:
+        - Effect
+        - Instrument
+        - Misc
+    validations:
+      required: true
+
+  - type: dropdown
+    id: frameworks
+    attributes:
+      label: Frameworks
+      description: What framework(s) does this plugin use? (Select all that apply)
+      multiple: true
+      options:
+        - DPF
+        - Faust
+        - FLTK
+        - FLUID
+        - GTK
+        - iPlug2
+        - JUCE
+        - NIH-Plug
+        - Qt
+        - React-JUCE
+        - RtAudio
+        - Rust VST
+        - SAF
+        - VSTGUI
+        - WAM
+        - WDL-OL
+    validations:
+      required: true

@@ -1,0 +1,251 @@
+name: Process Submission
+
+on:
+    issues:
+        types: [opened]
+
+jobs:
+    process:
+        if: contains(github.event.issue.labels.*.name, 'submission')
+        runs-on: ubuntu-latest
+        permissions:
+            contents: write
+            pull-requests: write
+            issues: write
+
+        steps:
+            - name: Checkout repository
+              uses: actions/checkout@v4
+
+            - name: Setup Node.js
+              uses: actions/setup-node@v4
+              with:
+                  node-version: "20"
+
+            - name: Install dependencies
+              run: cd generator && npm ci
+
+            - name: Parse issue and create entry
+              id: parse
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      const issue = context.payload.issue;
+                      const body = issue.body;
+                      const labels = issue.labels.map(l => l.name);
+
+                      // Parse form fields from issue body
+                      const parseField = (fieldName) => {
+                        const regex = new RegExp(`### ${fieldName}\\s*\\n\\s*([^\\n#]+)`, 'i');
+                        const match = body.match(regex);
+                        return match ? match[1].trim() : '';
+                      };
+
+                      const parseMultiSelect = (fieldName) => {
+                        const regex = new RegExp(`### ${fieldName}\\s*\\n\\s*([^#]+?)(?=###|$)`, 'i');
+                        const match = body.match(regex);
+                        if (!match) return [];
+                        return match[1].split(',').map(s => s.trim()).filter(s => s && s !== '_No response_');
+                      };
+
+                      let entry = {};
+                      let targetFile = '';
+                      let entryType = '';
+
+                      if (labels.includes('plugin')) {
+                        entryType = 'plugin';
+                        targetFile = 'data/plugins.json';
+                        entry = {
+                          name: parseField('Plugin Name'),
+                          url: parseField('Plugin URL'),
+                          description: parseField('Description'),
+                          type: parseField('Plugin Type'),
+                          frameworks: parseMultiSelect('Frameworks')
+                        };
+                      } else if (labels.includes('app')) {
+                        entryType = 'app';
+                        targetFile = 'data/apps.json';
+                        const repoType = parseField('Repository Type');
+                        const repoUser = parseField('Repository User/Workspace');
+                        const repoName = parseField('Repository Name');
+                        
+                        let repository = {};
+                        if (repoType === 'GitHub' || repoType === 'GitLab' || repoType === 'Codeberg' || repoType === 'SourceHut') {
+                          repository = { type: repoType, user: repoUser, repo: repoName };
+                        } else if (repoType === 'Bitbucket') {
+                          repository = { type: repoType, workspace: repoUser, repo: repoName };
+                        } else if (repoType === 'SourceForge') {
+                          repository = { type: repoType, project: repoName };
+                        } else if (repoType === 'Assembla') {
+                          repository = { type: repoType, space: repoName };
+                        }
+                        
+                        entry = {
+                          name: parseField('App Name'),
+                          description: parseField('Description'),
+                          repository: repository
+                        };
+                        
+                        const url = parseField('App URL \\(optional\\)');
+                        if (url && url !== '_No response_') {
+                          entry.url = url;
+                        }
+                      } else if (labels.includes('library')) {
+                        entryType = 'library';
+                        targetFile = 'data/libraries.json';
+                        const repoType = parseField('Repository Type');
+                        const repoUser = parseField('Repository User/Workspace');
+                        const repoName = parseField('Repository Name');
+                        
+                        let repository = {};
+                        if (repoType === 'GitHub' || repoType === 'GitLab' || repoType === 'Codeberg' || repoType === 'SourceHut') {
+                          repository = { type: repoType, user: repoUser, repo: repoName };
+                        } else if (repoType === 'Bitbucket') {
+                          repository = { type: repoType, workspace: repoUser, repo: repoName };
+                        } else if (repoType === 'SourceForge') {
+                          repository = { type: repoType, project: repoName };
+                        } else if (repoType === 'Assembla') {
+                          repository = { type: repoType, space: repoName };
+                        }
+                        
+                        entry = {
+                          name: parseField('Library Name'),
+                          description: parseField('Description'),
+                          repository: repository
+                        };
+                        
+                        const url = parseField('Library URL \\(optional\\)');
+                        if (url && url !== '_No response_') {
+                          entry.url = url;
+                        }
+                      } else if (labels.includes('collection')) {
+                        const collectionType = parseField('Type');
+                        entryType = 'collection';
+                        
+                        if (collectionType.toLowerCase().includes('resource')) {
+                          targetFile = 'data/resources.json';
+                        } else if (collectionType.toLowerCase().includes('sample')) {
+                          targetFile = 'data/samples.json';
+                        } else {
+                          targetFile = 'data/collections.json';
+                        }
+                        
+                        entry = {
+                          name: parseField('Name'),
+                          url: parseField('URL'),
+                          description: parseField('Description')
+                        };
+                      }
+
+                      core.setOutput('entry', JSON.stringify(entry));
+                      core.setOutput('targetFile', targetFile);
+                      core.setOutput('entryType', entryType);
+                      core.setOutput('entryName', entry.name);
+
+            - name: Insert entry into JSON file
+              run: |
+                  node << 'EOF'
+                  const fs = require('fs');
+                  const path = require('path');
+
+                  const entry = JSON.parse(process.env.ENTRY);
+                  const targetFile = process.env.TARGET_FILE;
+
+                  // Read existing data
+                  const filePath = path.join(process.cwd(), targetFile);
+                  const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+                  // Find insertion index (alphabetical by name, case-insensitive)
+                  const insertIndex = data.findIndex(item => 
+                    item.name.toLowerCase() > entry.name.toLowerCase()
+                  );
+
+                  // Insert at correct position
+                  if (insertIndex === -1) {
+                    data.push(entry);
+                  } else {
+                    data.splice(insertIndex, 0, entry);
+                  }
+
+                  // Write back with consistent formatting
+                  fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + '\n');
+
+                  console.log(`Inserted "${entry.name}" into ${targetFile}`);
+                  EOF
+              env:
+                  ENTRY: ${{ steps.parse.outputs.entry }}
+                  TARGET_FILE: ${{ steps.parse.outputs.targetFile }}
+
+            - name: Run validation tests
+              id: validate
+              run: |
+                  cd generator
+                  npm test -- --run 2>&1 | tee test-output.txt
+                  echo "test_passed=$?" >> $GITHUB_OUTPUT
+              continue-on-error: true
+
+            - name: Create Pull Request
+              if: steps.validate.outcome == 'success'
+              uses: peter-evans/create-pull-request@v6
+              with:
+                  token: ${{ secrets.GITHUB_TOKEN }}
+                  commit-message: "Add ${{ steps.parse.outputs.entryType }}: ${{ steps.parse.outputs.entryName }}"
+                  branch: submission/${{ steps.parse.outputs.entryType }}/${{ github.event.issue.number }}
+                  title: "Add ${{ steps.parse.outputs.entryType }}: ${{ steps.parse.outputs.entryName }}"
+                  body: |
+                      ## Automated Submission
+
+                      This PR was automatically generated from issue #${{ github.event.issue.number }}.
+
+                      **Type:** ${{ steps.parse.outputs.entryType }}
+                      **Name:** ${{ steps.parse.outputs.entryName }}
+
+                      ### Entry Details
+                      ```json
+                      ${{ steps.parse.outputs.entry }}
+                      ```
+
+                      ---
+
+                      ✅ Validation tests passed
+
+                      Please review this submission before merging.
+
+                      Closes #${{ github.event.issue.number }}
+                  labels: |
+                      submission
+                      needs-review
+
+            - name: Comment on issue (success)
+              if: steps.validate.outcome == 'success'
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      github.rest.issues.createComment({
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        issue_number: context.issue.number,
+                        body: `✅ Your submission has been processed successfully!\n\nA pull request has been created for review. Once approved by a maintainer, your entry will be added to the list.\n\nThank you for contributing!`
+                      });
+
+            - name: Comment on issue (failure)
+              if: steps.validate.outcome == 'failure'
+              uses: actions/github-script@v7
+              with:
+                  script: |
+                      const fs = require('fs');
+                      const testOutput = fs.readFileSync('generator/test-output.txt', 'utf8');
+
+                      github.rest.issues.createComment({
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        issue_number: context.issue.number,
+                        body: `❌ Your submission could not be validated. Please check the details below and update your submission.\n\n<details>\n<summary>Validation Output</summary>\n\n\`\`\`\n${testOutput}\n\`\`\`\n</details>\n\nCommon issues:\n- Missing required fields\n- Invalid URL format\n- Invalid repository information`
+                      });
+
+                      github.rest.issues.addLabels({
+                        owner: context.repo.owner,
+                        repo: context.repo.repo,
+                        issue_number: context.issue.number,
+                        labels: ['validation-failed']
+                      });

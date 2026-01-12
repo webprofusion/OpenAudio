@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions or Discussion
+    url: https://github.com/issues
+    about: For general questions, please open a discussion instead
