@@ -6,7 +6,11 @@ on:
 
 jobs:
     process:
-        if: contains(github.event.issue.labels.*.name, 'submission')
+        if: |
+            startsWith(github.event.issue.title, '[Plugin]') ||
+            startsWith(github.event.issue.title, '[App]') ||
+            startsWith(github.event.issue.title, '[Library]') ||
+            startsWith(github.event.issue.title, '[Collection]')
         runs-on: ubuntu-latest
         permissions:
             contents: write
@@ -32,7 +36,13 @@ jobs:
                   script: |
                       const issue = context.payload.issue;
                       const body = issue.body;
-                      const labels = issue.labels.map(l => l.name);
+                      const title = issue.title;
+
+                      // Determine type from title prefix
+                      const isPlugin = title.startsWith('[Plugin]');
+                      const isApp = title.startsWith('[App]');
+                      const isLibrary = title.startsWith('[Library]');
+                      const isCollection = title.startsWith('[Collection]');
 
                       // Parse form fields from issue body
                       const parseField = (fieldName) => {
@@ -52,7 +62,7 @@ jobs:
                       let targetFile = '';
                       let entryType = '';
 
-                      if (labels.includes('plugin')) {
+                      if (isPlugin) {
                         entryType = 'plugin';
                         targetFile = 'data/plugins.json';
                         entry = {
@@ -62,7 +72,7 @@ jobs:
                           type: parseField('Plugin Type'),
                           frameworks: parseMultiSelect('Frameworks')
                         };
-                      } else if (labels.includes('app')) {
+                      } else if (isApp) {
                         entryType = 'app';
                         targetFile = 'data/apps.json';
                         const repoType = parseField('Repository Type');
@@ -90,7 +100,7 @@ jobs:
                         if (url && url !== '_No response_') {
                           entry.url = url;
                         }
-                      } else if (labels.includes('library')) {
+                      } else if (isLibrary) {
                         entryType = 'library';
                         targetFile = 'data/libraries.json';
                         const repoType = parseField('Repository Type');
@@ -118,7 +128,7 @@ jobs:
                         if (url && url !== '_No response_') {
                           entry.url = url;
                         }
-                      } else if (labels.includes('collection')) {
+                      } else if (isCollection) {
                         const collectionType = parseField('Type');
                         entryType = 'collection';
                         
