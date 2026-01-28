@@ -266,13 +266,6 @@
     "frameworks": ["iPlug2"]
   },
   {
-    "name": "Fusion",
-    "url": "https://github.com/enter-opy/fusion",
-    "description": "Additive Synth",
-    "type": "Instrument",
-    "frameworks": ["JUCE"]
-  },
-  {
     "name": "GainPlugin",
     "url": "https://github.com/satelllte/GainPlugin",
     "description": "(Experimental) VST/AU audio plugin example based on JUCE with React-JUCE for UI.",
@@ -596,7 +589,7 @@
   },
   {
     "name": "Sound of Music",
-    "url": "https://github.com/enter-opy/sound-of-music",
+    "url": "https://github.com/coconut-audio/sound-of-music",
     "description": "Multiband bitcrusher",
     "type": "Effect",
     "frameworks": ["JUCE"]
@@ -649,6 +642,13 @@
     "description": "Digital distortion targeting VST, VST3, and AU for OS X and Windows",
     "type": "Effect",
     "frameworks": ["Faust", "JUCE"]
+  },
+  {
+    "name": "There will be blood",
+    "url": "https://github.com/coconut-audio/there-will-be-blood",
+    "description": "Drum bleed reduction plugin",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
   },
   {
     "name": "traKmeter",
