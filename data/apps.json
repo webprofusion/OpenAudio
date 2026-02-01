@@ -99,6 +99,16 @@
     }
   },
   {
+    "name": "ComposeYogi",
+    "description": "The open-source Ableton-style music composer for the web",
+    "repository": {
+      "type": "GitHub",
+      "user": "AppsYogi-com",
+      "repo": "ComposeYogi"
+    },
+    "url": "https://composeyogi.com"
+  },
+  {
     "name": "Drum Beat Repo",
     "url": "https://github.com/babali42/drumbeatrepo",
     "description": "An interactive library of drums patterns",
