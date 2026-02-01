@@ -1,5 +1,12 @@
 [
   {
+    "name": "3HSPlug",
+    "url": "https://github.com/src3453/3HSPlug",
+    "description": "GM/GS Compatible Multi-timbal 8-operator FM/PCM Syntheizer, uses 3HS88PWN4 (Fantasy sound chip) to make sound.",
+    "type": "Instrument",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "8ridgelite",
     "url": "https://github.com/JamesStubbsEng/8ridgelite",
     "description": "8 string guitar virtual instrument",
