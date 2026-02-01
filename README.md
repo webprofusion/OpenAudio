@@ -29,6 +29,7 @@ Audio Plugins
 
 | Plugin | Description | Type | Framework |
 | --- | --- | --- | --- |
+| [3HSPlug](https://github.com/src3453/3HSPlug) | GM/GS Compatible Multi-timbal 8-operator FM/PCM Syntheizer, uses 3HS88PWN4 (Fantasy sound chip) to make sound. | Instrument | JUCE |
 | [8ridgelite](https://github.com/JamesStubbsEng/8ridgelite) | 8 string guitar virtual instrument | Instrument | JUCE |
 | [ADLplug](https://github.com/jpcima/ADLplug) | FM Chip Synthesizer — OPL & OPN | Instrument | JUCE |
 | [Airwindows](https://github.com/airwindows/airwindows) | Various small and experimental effect plugins | Effect | N/A |
@@ -67,7 +68,6 @@ Audio Plugins
 | [Element](https://github.com/kushview/Element) | Advanced Audio Plugin Host | Misc | JUCE |
 | [Eurorack](https://github.com/VCVRack/AudibleInstruments) | Diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synths, and utility modules | Misc | N/A |
 | [Flutterbird](https://github.com/tesselode/flutterbird) | Simple pitch fluctuation | Effect | iPlug2 |
-| [Fusion](https://github.com/enter-opy/fusion) | Additive Synth | Instrument | JUCE |
 | [GainPlugin](https://github.com/satelllte/GainPlugin) | (Experimental) VST/AU audio plugin example based on JUCE with React-JUCE for UI. | Misc | JUCE, React-JUCE |
 | [Gverb/Gigaverb](https://github.com/v7b1/gigaverb) | Reverb | Effect | VSTGUI |
 | [Helm](https://github.com/mtytel/helm) | Polyphonic synth with lots of modulation | Instrument | JUCE |
@@ -114,7 +114,7 @@ Audio Plugins
 | [SmartGuitarAmp](https://github.com/GuitarML/SmartGuitarAmp) | Guitar amplifier-style plugin, that uses machine learning for emulating real world hardware | Instrument | JUCE |
 | [SmartGuitarPedal](https://github.com/GuitarML/SmartGuitarPedal) | Guitar pedal-style plugin, that uses machine learning for emulating real world hardware | Effect | JUCE |
 | [Sound Analyser](https://github.com/adamstark/Sound-Analyser) | Real-time audio analysis to allow anyone to quickly set up and experiment with different algorithms | Effect | JUCE |
-| [Sound of Music](https://github.com/enter-opy/sound-of-music) | Multiband bitcrusher | Effect | JUCE |
+| [Sound of Music](https://github.com/coconut-audio/sound-of-music) | Multiband bitcrusher | Effect | JUCE |
 | [SPARTA](https://github.com/leomccormack/SPARTA) | Spatial audio focused plug-in suite (Ambisonics encoders/decoders, 3-D panners/spatialisers, etc.) | Effect | SAF, JUCE |
 | [Squeezer](https://github.com/mzuther/Squeezer) | Compressor with side-chain, several detection modes and filters, etc | Effect | JUCE |
 | [Stone Mistress](https://github.com/NaviCisco/StoneMistress) | Phase Shifter and Chorus audio plugin, inspired by Electro-Harmonix Stereo Electric Mistress and Small Stone pedals | Effect | JUCE |
@@ -122,6 +122,7 @@ Audio Plugins
 | [Synister](https://github.com/the-synister/the-source) | Subtractive synth | Instrument | JUCE |
 | [Syntage](https://github.com/lis355/Syntage) | VST 2.4 .Net Study Synth | Instrument | N/A |
 | [Temper](https://github.com/creativeintent/temper) | Digital distortion targeting VST, VST3, and AU for OS X and Windows | Effect | Faust, JUCE |
+| [There will be blood](https://github.com/coconut-audio/there-will-be-blood) | Drum bleed reduction plugin | Effect | JUCE |
 | [traKmeter](https://github.com/mzuther/traKmeter) | Loudness meter for correctly setting up tracking and mixing levels | Effect | JUCE |
 | [Tunefish](https://github.com/paynebc/tunefish) | VST virtual analog synthesizer | Instrument | JUCE |
 | [Vaporizer2](https://github.com/VASTDynamics/Vaporizer2) | Hybrid wavetable additive / subtractive VST / AU / AAX synthesizer / sampler workstation plugin | Instrument | JUCE |
