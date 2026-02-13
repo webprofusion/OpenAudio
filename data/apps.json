@@ -277,6 +277,16 @@
     }
   },
   {
+    "name": "OpenX32",
+    "description": "Linux and Custom Firmware for the Behringer X32 Audio-Mixing-Console.",
+    "repository": {
+      "type": "GitHub",
+      "user": "OpenMixerProject",
+      "repo": "OpenX32"
+    },
+    "url": "https://discourse.openmixerproject.de/"
+  },
+  {
     "name": "orDrumbox",
     "url": "https://www.ordrumbox.com/",
     "description": "Drum machine",
