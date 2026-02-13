@@ -6,18 +6,18 @@
 [7m[1m[36m RUN [39m[22m[27m [36mv0.34.3[39m [90m/home/runner/work/OpenAudio/OpenAudio/generator[39m
 
  [32m✓[39m src/data/renderers/libraries.renderer.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 6[2mms[22m[39m
- [32m✓[39m src/data/renderers/apps.renderer.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 8[2mms[22m[39m
- [32m✓[39m src/data/data.test.ts [2m ([22m[2m6 tests[22m[2m)[22m[90m 10[2mms[22m[39m
- [32m✓[39m src/data/renderers/plugins.renderer.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 4[2mms[22m[39m
- [32m✓[39m src/data/renderers/utils/renderRepository.test.ts [2m ([22m[2m3 tests[22m[2m)[22m[90m 5[2mms[22m[39m
+ [32m✓[39m src/data/renderers/apps.renderer.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 7[2mms[22m[39m
+ [32m✓[39m src/data/data.test.ts [2m ([22m[2m6 tests[22m[2m)[22m[90m 12[2mms[22m[39m
+ [32m✓[39m src/data/renderers/plugins.renderer.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 6[2mms[22m[39m
+ [32m✓[39m src/data/renderers/utils/renderRepository.test.ts [2m ([22m[2m3 tests[22m[2m)[22m[90m 7[2mms[22m[39m
  [32m✓[39m src/utils/markdown/renderTable.test.ts [2m ([22m[2m2 tests[22m[2m)[22m[90m 6[2mms[22m[39m
  [32m✓[39m src/data/renderers/collections.renderer.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 4[2mms[22m[39m
- [32m✓[39m src/utils/array/isSortedCaseInsensitive.test.ts [2m ([22m[2m2 tests[22m[2m)[22m[90m 4[2mms[22m[39m
- [32m✓[39m src/utils/markdown/renderList.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 6[2mms[22m[39m
+ [32m✓[39m src/utils/markdown/renderList.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 5[2mms[22m[39m
+ [32m✓[39m src/utils/array/isSortedCaseInsensitive.test.ts [2m ([22m[2m2 tests[22m[2m)[22m[90m 5[2mms[22m[39m
  [32m✓[39m src/utils/markdown/renderLink.test.ts [2m ([22m[2m1 test[22m[2m)[22m[90m 3[2mms[22m[39m
 
 [2m Test Files [22m [1m[32m10 passed[39m[22m[90m (10)[39m
 [2m      Tests [22m [1m[32m19 passed[39m[22m[90m (19)[39m
-[2m   Start at [22m 06:07:09
-[2m   Duration [22m 1.54s[2m (transform 260ms, setup 0ms, collect 580ms, tests 56ms, environment 3ms, prepare 979ms)[22m
+[2m   Start at [22m 05:34:41
+[2m   Duration [22m 1.35s[2m (transform 247ms, setup 1ms, collect 574ms, tests 61ms, environment 2ms, prepare 879ms)[22m
 
