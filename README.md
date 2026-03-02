@@ -171,6 +171,7 @@ Audio Apps
 | [Drum Beat Repo](https://github.com/babali42/drumbeatrepo) | [babali42/drumbeatrepo](https://github.com/babali42/drumbeatrepo) | An interactive library of drums patterns |
 | [Element](https://kushview.net/element/) | [Kushview/Element](https://github.com/Kushview/Element) | Advanced Audio Plugin Host |
 | [Elementary Grid](https://teetow.com/elementary_grid/) | [teetow/elementary_grid](https://github.com/teetow/elementary_grid) | A tonegrid synth made with Elementary Audio and React |
+| [FFAB](https://www.disuye.com/ffab) | [disuye/FFAB](https://github.com/disuye/FFAB) | FFAB is a cross-platform, complex audio batch processor, drag & drop effects rack, command builder & graphical user interface for FFmpeg. Audio only, but with video passthrough. Easily create filter chains, save presets, run or export FFmpeg commands, multi-input/-output batching algorithms, divide jobs across parallel FFmpeg instances... with full logs to file. It does everything FFmpeg does, but in a less cryptic manner. |
 | FlexASIO | [dechamps/FlexASIO](https://github.com/dechamps/FlexASIO) | Universal ASIO driver for Windows |
 | [Furnace](https://github.com/tildearrow/furnace) | [tildearrow/furnace](https://github.com/tildearrow/furnace) | Tracker sequencer with a huge selection of game system chips |
 | [Giada](https://www.giadamusic.com/) | [monocasual/giada](https://github.com/monocasual/giada) | Loop machine |
