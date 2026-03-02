@@ -139,6 +139,16 @@
     }
   },
   {
+    "name": "FFAB",
+    "description": "FFAB is a cross-platform, complex audio batch processor, drag & drop effects rack, command builder & graphical user interface for FFmpeg. Audio only, but with video passthrough. Easily create filter chains, save presets, run or export FFmpeg commands, multi-input/-output batching algorithms, divide jobs across parallel FFmpeg instances... with full logs to file. It does everything FFmpeg does, but in a less cryptic manner.",
+    "repository": {
+      "type": "GitHub",
+      "user": "disuye",
+      "repo": "FFAB"
+    },
+    "url": "https://www.disuye.com/ffab"
+  },
+  {
     "name": "FlexASIO",
     "description": "Universal ASIO driver for Windows",
     "repository": {
