@@ -79,6 +79,16 @@
     }
   },
   {
+    "name": "Carla",
+    "description": "Modular audio plugin HOST (similar to Element, but different features I use it for like remote control over network with OSC)",
+    "repository": {
+      "type": "GitHub",
+      "user": "falkTX",
+      "repo": "Carla"
+    },
+    "url": "https://kx.studio/carla"
+  },
+  {
     "name": "ChucK",
     "url": "https://chuck.stanford.edu/",
     "description": "Strongly-timed, Concurrent, and On-the-fly Music Programming Language",
