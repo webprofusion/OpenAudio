@@ -353,6 +353,15 @@
     ]
   },
   {
+    "name": "FreeEQ8",
+    "url": "https://github.com/GareBear99/FreeEQ8",
+    "description": "FreeEQ8 is a professional-grade, free and open-source 8-band parametric EQ plugin for macOS, Linux, and Windows.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "GainPlugin",
     "url": "https://github.com/satelllte/GainPlugin",
     "description": "(Experimental) VST/AU audio plugin example based on JUCE with React-JUCE for UI.",
