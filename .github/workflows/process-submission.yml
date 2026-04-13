@@ -45,7 +45,7 @@ jobs:
             let issue;
 
             if (context.eventName === 'workflow_dispatch') {
-              const rawIssueNumber = core.getInput('issue_number');
+              const rawIssueNumber = `${context.payload.inputs?.issue_number ?? ''}`.trim();
               issueNumber = Number.parseInt(rawIssueNumber, 10);
 
               if (!Number.isInteger(issueNumber) || issueNumber <= 0) {
