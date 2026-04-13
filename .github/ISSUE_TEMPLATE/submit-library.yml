@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         Thanks for submitting an audio library! Please fill out the form below.
+        Do not edit the issue title tag [Library] or your submission will not be processed.
 
   - type: input
     id: name

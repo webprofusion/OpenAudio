@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         Thanks for submitting a collection, resource, or sample pack!
+        Do not edit the issue title tag [Collection] or your submission will not be processed.
 
   - type: dropdown
     id: collection_type

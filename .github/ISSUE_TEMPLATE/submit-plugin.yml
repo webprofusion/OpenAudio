@@ -7,6 +7,7 @@ body:
     attributes:
       value: |
         Thanks for submitting a plugin! Please fill out the form below.
+        Do not edit the issue title tag [Plugin] or your submission will not be processed.
         All fields are required unless marked optional.
 
   - type: input
