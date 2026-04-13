@@ -1,5 +1,15 @@
 [
   {
+    "name": "4Track",
+    "description": "4track.cc is a web-based reimagining of a classic 4-track tape recorder, built with Svelte 5. Users can record, mix, and play back audio across four independent tracks, like the physical cassette recorders used by home musicians. Finished recordings (\"cassettes\") can be saved locally or shared with others via a link.",
+    "repository": {
+      "type": "GitHub",
+      "user": "https://github.com/andreboekhorst/",
+      "repo": "4-track-recorder"
+    },
+    "url": "https://www.4track.cc"
+  },
+  {
     "name": "ADSR",
     "url": "https://adsr.vercel.app/",
     "description": "Simple web-based ADSR synth",
