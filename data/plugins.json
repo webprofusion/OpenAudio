@@ -328,6 +328,15 @@
     ]
   },
   {
+    "name": "Drummock",
+    "url": "https://github.com/ameyakakade/drummock",
+    "description": "Drum sampler plugin with retro pitch shifting and hard clipper. Just drag and drop to load samples and start playing.",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Element",
     "url": "https://github.com/kushview/Element",
     "description": "Advanced Audio Plugin Host",
