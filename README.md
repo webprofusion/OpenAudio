@@ -66,6 +66,7 @@ Audio Plugins
 | [Distrho ProM](https://github.com/DISTRHO/ProM) | Music-visualizer plugin based on projectM | Effect | DPF |
 | [Dragonfly Reverb](https://github.com/michaelwillis/dragonfly-reverb) | Hall-style reverb based on Freeverb3 algorithms | Effect | DPF |
 | [Drops](https://github.com/clearly-broken-software/drops) | Single file audio player | Instrument | DPF |
+| [Drummock](https://github.com/ameyakakade/drummock) | Drum sampler plugin with retro pitch shifting and hard clipper. Just drag and drop to load samples and start playing. | Instrument | JUCE |
 | [Element](https://github.com/kushview/Element) | Advanced Audio Plugin Host | Misc | JUCE |
 | [Eurorack](https://github.com/VCVRack/AudibleInstruments) | Diverse set of physical modeling sources, organic processors, wavetable oscillators, waveshapers, granular synths, and utility modules | Misc | N/A |
 | [Flutterbird](https://github.com/tesselode/flutterbird) | Simple pitch fluctuation | Effect | iPlug2 |
