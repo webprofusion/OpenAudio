@@ -234,6 +234,8 @@ jobs:
         uses: peter-evans/create-pull-request@v6
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
+          add-paths: |
+            ${{ steps.parse.outputs.targetFile }}
           commit-message: "Add ${{ steps.parse.outputs.entryType }}: ${{ steps.parse.outputs.entryName }}"
           branch: submission/${{ steps.parse.outputs.entryType }}/${{ steps.parse.outputs.issueNumber }}
           title: "Add ${{ steps.parse.outputs.entryType }}: ${{ steps.parse.outputs.entryName }}"
