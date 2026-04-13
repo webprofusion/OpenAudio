@@ -910,6 +910,15 @@
     "frameworks": []
   },
   {
+    "name": "VstProfiler",
+    "url": "https://github.com/QuentinStoll/VstProfiler",
+    "description": "We are working on an open source JUCE vst3 plug-in that capture guitar amplifier and cabinet and emulate them in real time for guitarists.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "VSTSID",
     "url": "https://github.com/igorski/VSTSID",
     "description": "SID synthesizer instrument",
