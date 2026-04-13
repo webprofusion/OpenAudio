@@ -546,6 +546,15 @@
     ]
   },
   {
+    "name": "Musializer Plugin",
+    "url": "https://github.com/ameyakakade/musializer-plugin",
+    "description": "Spectrum visualizer plugin",
+    "type": "Misc",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "MVerb",
     "url": "https://github.com/martineastwood/mverb",
     "description": "Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure",
