@@ -162,6 +162,7 @@ Audio Apps
 
 | Software | Source | Description |
 | --- | --- | --- |
+| [4Track](https://www.4track.cc) | [https://github.com/andreboekhorst//4-track-recorder](https://github.com/https://github.com/andreboekhorst//4-track-recorder) | 4track.cc is a web-based reimagining of a classic 4-track tape recorder, built with Svelte 5. Users can record, mix, and play back audio across four independent tracks, like the physical cassette recorders used by home musicians. Finished recordings ("cassettes") can be saved locally or shared with others via a link. |
 | [ADSR](https://adsr.vercel.app/) | [satelllte/adsr](https://github.com/satelllte/adsr) | Simple web-based ADSR synth |
 | [Ardour](https://ardour.org/) | [Ardour/ardour](https://github.com/Ardour/ardour) | DAW |
 | ASIO2WASAPI | [levmin/ASIO2WASAPI](https://github.com/levmin/ASIO2WASAPI) | Universal ASIO driver for Windows |
