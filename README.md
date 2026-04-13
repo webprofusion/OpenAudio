@@ -132,6 +132,7 @@ Audio Plugins
 | [VCV Rack](https://github.com/VCVRack/Rack) | Virtual modular synth | Misc | RtAudio |
 | [Vital](https://github.com/mtytel/vital) | Spectral warping wavetable synthesizer | Instrument | JUCE |
 | [VST2413](https://github.com/keijiro/vst2413) | FM synth based on emulator of YM2413 (OPLL) chip used in Sega Master System and FM-PAC MSX expansion | Instrument | N/A |
+| [VstProfiler](https://github.com/QuentinStoll/VstProfiler) | We are working on an open source JUCE vst3 plug-in that capture guitar amplifier and cabinet and emulate them in real time for guitarists. | Effect | JUCE |
 | [VSTSID](https://github.com/igorski/VSTSID) | SID synthesizer instrument | Instrument | N/A |
 | [Wavetable](https://github.com/FigBug/Wavetable) | A 2 oscillator wavetable synth with flexible modulation options | Instrument | JUCE |
 | [WebCZ101](https://github.com/webaudiomodules/webcz101) | Virtual CZ101 synth in a browser | Instrument | WAM |
