@@ -53,10 +53,10 @@ body:
     id: frameworks
     attributes:
       label: Frameworks
-      description: What framework(s) does this plugin use? (Select all that apply, or choose None)
+      description: What framework(s) does this plugin use?
       multiple: true
       options:
-        - None
+        - No Framework
         - DPF
         - Faust
         - FLTK
