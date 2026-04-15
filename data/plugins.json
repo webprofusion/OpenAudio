@@ -734,10 +734,7 @@
     "name": "Scream",
     "url": "https://github.com/Cure-Audio/Scream",
     "description": "Scream is a versatile VST plugin that recreates the legendary Scream filter from Massive. Known for its aggressive, resonant tone and raw energy.",
-    "type": "Effect",
-    "frameworks": [
-      "DPF"
-    ]
+    "type": "Effect"
   },
   {
     "name": "Setekh",
