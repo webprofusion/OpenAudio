@@ -89,7 +89,10 @@ jobs:
               const regex = new RegExp(`### ${fieldName}\\s*\\n\\s*([^#]+?)(?=###|$)`, 'i');
               const match = body.match(regex);
               if (!match) return [];
-              return match[1].split(',').map(s => s.trim()).filter(s => s && s !== '_No response_');
+              return match[1]
+                .split(',')
+                .map(s => s.trim())
+                .filter(s => s && s !== '_No response_' && s.toLowerCase() !== 'none');
             };
 
             let entry = {};
