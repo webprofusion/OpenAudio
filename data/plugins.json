@@ -867,6 +867,15 @@
     ]
   },
   {
+    "name": "The Analog Molecule",
+    "url": "https://forum.cockos.com/showthread.php?t=305604",
+    "description": "JSFX Based frame plugin for Reaper.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
     "name": "There will be blood",
     "url": "https://github.com/coconut-audio/there-will-be-blood",
     "description": "Drum bleed reduction plugin",
