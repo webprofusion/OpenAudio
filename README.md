@@ -267,3 +267,6 @@ Open Data Resources
 
 * [MoisesDB](https://github.com/moises-ai/moises-db) — Source separation public dataset by Moises
 * [OpenAIR](https://www.openair.hosted.york.ac.uk/) — the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)
+
+
+* [Remove audio from video](https://remove-audio.com) - Free, browser-based audio remover. Local processing via WebAssembly. No signup, no watermarks. Batch up to 20 clips.
