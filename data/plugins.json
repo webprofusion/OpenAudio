@@ -238,6 +238,15 @@
     ]
   },
   {
+    "name": "Disflux",
+    "url": "https://github.com/Dimethoxy/Disflux",
+    "description": "Disflux is a free and open-source phase dispersion effect designed to add insane amounts of punch, depth, and character to your sound.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Distrho glBars",
     "url": "https://github.com/DISTRHO/glBars",
     "description": "OpenGL bars visualization plugin (as seen in XMMS and XBMC/Kodi) adapted from jack_glbars",
