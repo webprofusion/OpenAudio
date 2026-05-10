@@ -634,6 +634,15 @@
     ]
   },
   {
+    "name": "Overdraw",
+    "url": "https://github.com/unevens/Overdraw",
+    "description": "[Overdraw](https://www.unevens.net/overdraw.html) is an audio plug-in that implements a waveshaper in which the transfer function of each channel is an automatable spline.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "OwlBass",
     "url": "https://github.com/PentagramPro/OwlBass",
     "description": "Additive bass synth",
