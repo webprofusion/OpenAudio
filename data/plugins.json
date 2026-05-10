@@ -451,6 +451,15 @@
     "frameworks": []
   },
   {
+    "name": "Just a Sample",
+    "url": "https://github.com/BOBONA/Just-a-Sample",
+    "description": "Just a Sample is a powerful, modern audio sampler, with a focus on simplicity and ease of use. Best of all, it's free and open-source! I spent a lot of time on this project, and I think it will be a great addition to your plugin collection.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "K-Meter",
     "url": "https://github.com/mzuther/K-Meter",
     "description": "Implementation of a K-System meter according to Bob Katz’ specifications",
