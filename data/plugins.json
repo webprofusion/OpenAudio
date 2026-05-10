@@ -435,6 +435,15 @@
     ]
   },
   {
+    "name": "JS Inflator",
+    "url": "https://github.com/Kiriki-liszt/JS_Inflator",
+    "description": "JS Inflator is a copy of Sonox Inflator.",
+    "type": "Effect",
+    "frameworks": [
+      "No Framework"
+    ]
+  },
+  {
     "name": "JuceOPLVSTi",
     "url": "https://github.com/bsutherland/JuceOPLVSTi",
     "description": "FM synth based on Yamaha OPL2/3 emulation from DOSBox",
