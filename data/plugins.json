@@ -220,6 +220,15 @@
     ]
   },
   {
+    "name": "DAFx19-Gamelanizer",
+    "url": "https://github.com/lukemcraig/DAFx19-Gamelanizer",
+    "description": "Accompanying material for the paper 'A Real-Time Audio Effect Plug-In Inspired by the Processes of Traditional Indonesian Gamelan Music'",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Dexed",
     "url": "https://github.com/asb2m10/dexed",
     "description": "DX7 FM plugin synth",
