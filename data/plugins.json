@@ -220,6 +220,15 @@
     ]
   },
   {
+    "name": "Curvessor 2",
+    "url": "https://github.com/unevens/Curvessor",
+    "description": "[Curvessor](https://www.unevens.net/curvessor.html) is an audio plug-in that implements a dynamic range processor in which the response curve of each channel is an automatable spline.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Dexed",
     "url": "https://github.com/asb2m10/dexed",
     "description": "DX7 FM plugin synth",
