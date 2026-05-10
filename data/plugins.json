@@ -589,6 +589,15 @@
     "frameworks": []
   },
   {
+    "name": "Neural Resonator VST",
+    "url": "https://github.com/rodrigodzf/NeuralResonatorVST",
+    "description": "This is a VST plugin that uses a neural network to generate filters based on arbitrary 2D shapes and materials. It is possible to use midi to trigger simple impulses to excite these filters. Additionally any audio signal can be used as input to the filters.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Ninjas 2",
     "url": "https://github.com/clearly-broken-software/ninjas2",
     "description": "Sample slicer, rewrite of Ninjas",
