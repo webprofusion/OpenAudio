@@ -704,6 +704,15 @@
     ]
   },
   {
+    "name": "RipplerX",
+    "url": "https://github.com/tiagolr/ripplerx",
+    "description": "RipplerX is a physically modeled synth, capable of sounds similar to AAS Chromaphone and Ableton Collision.",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Roth-AIR",
     "url": "https://github.com/danielrothmann/Roth-AIR",
     "description": "Mixing tool for easily adding airy, crispy presence to audio",
