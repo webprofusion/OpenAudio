@@ -519,6 +519,15 @@
     ]
   },
   {
+    "name": "Microbiome",
+    "url": "https://github.com/dsmaugy/microbiome",
+    "description": "Microbiome is a real-time audio effects plugin that uses delay lines and looping to create vibrant audio artifacts mimicking the nature of evolutionary biology.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "MidiChords",
     "url": "https://github.com/markwilkins/midi-chord-reader",
     "description": "Detect chord names from a MIDI track and display them in a scrolling window during track playback",
