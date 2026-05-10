@@ -106,6 +106,15 @@
     ]
   },
   {
+    "name": "BiRR",
+    "url": "https://github.com/odoare/BiRR",
+    "description": "BiRR (and her ambisonic sister AmbiRR) are room simulators that accurately emulate the sound produced by two monophonic and omnidirectionnal sources perceived by a listener in a rectangular (2D) or parallelepipedic (3D) room. The dimensions (x,y,z) of the room can be adjusted, as well as the source and listener positions. The generated stereo output can simulate different microphone positions (XY, MS, with different angles), or a binaural receiver.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "BlackBird",
     "url": "https://khrykin.github.io/BlackBird",
     "description": "Analog-inspired software synth with its own voice",
