@@ -894,6 +894,15 @@
     ]
   },
   {
+    "name": "Uhhyou Plugins",
+    "url": "https://ryukau.github.io/VSTPlugins/index.html",
+    "description": "Uhhyou Plugins Collection",
+    "type": "Effect",
+    "frameworks": [
+      "No Framework"
+    ]
+  },
+  {
     "name": "Vaporizer2",
     "url": "https://github.com/VASTDynamics/Vaporizer2",
     "description": "Hybrid wavetable additive / subtractive VST / AU / AAX synthesizer / sampler workstation plugin",
