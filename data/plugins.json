@@ -768,6 +768,15 @@
     ]
   },
   {
+    "name": "Sirial",
+    "url": "https://github.com/tiagolr/sirial",
+    "description": "Sirial is a Rhythmic Delay where each tap can be placed and configured with different amplitudes and feedback giving total control on how the delay responds and the patterns it creates.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "SmartGuitarAmp",
     "url": "https://github.com/GuitarML/SmartGuitarAmp",
     "description": "Guitar amplifier-style plugin, that uses machine learning for emulating real world hardware",
