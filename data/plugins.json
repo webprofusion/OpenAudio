@@ -812,6 +812,15 @@
     ]
   },
   {
+    "name": "Resonarium",
+    "url": "https://github.com/gabrielsoule/resonarium",
+    "description": "Resonarium is a MPE-compatible physical modeling synthesizer, based on coupled string waveguide models. It is designed to encourage abstract sound design, exploration, and open-ended play.",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Roth-AIR",
     "url": "https://github.com/danielrothmann/Roth-AIR",
     "description": "Mixing tool for easily adding airy, crispy presence to audio",
