@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "ÆLAPSE",
+    "url": "https://github.com/smiarx/aelapse",
+    "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "Airwindows",
     "url": "https://github.com/airwindows/airwindows",
     "description": "Various small and experimental effect plugins",
@@ -410,7 +417,7 @@
     "url": "https://github.com/Kiriki-liszt/JS_Inflator",
     "description": "JS Inflator is a copy of Sonox Inflator.",
     "type": "Effect",
-    "frameworks": ["No Framework"]
+    "frameworks": []
   },
   {
     "name": "JuceOPLVSTi",
@@ -725,9 +732,7 @@
     "url": "https://github.com/tiagolr/ripplerx",
     "description": "RipplerX is a physically modeled synth, capable of sounds similar to AAS Chromaphone and Ableton Collision.",
     "type": "Instrument",
-    "frameworks": [
-      "JUCE"
-    ]
+    "frameworks": ["JUCE"]
   },
   {
     "name": "Roth-AIR",
@@ -762,7 +767,7 @@
     "url": "https://github.com/Cure-Audio/Scream",
     "description": "Scream is a versatile VST plugin that recreates the legendary Scream filter from Massive. Known for its aggressive, resonant tone and raw energy.",
     "type": "Effect",
-    "frameworks": ["No Framework"]
+    "frameworks": []
   },
   {
     "name": "Setekh",
@@ -884,6 +889,13 @@
     "frameworks": ["Faust", "JUCE"]
   },
   {
+    "name": "The Analog Molecule",
+    "url": "https://forum.cockos.com/showthread.php?t=305604",
+    "description": "JSFX Based frame plugin for Reaper.",
+    "type": "Effect",
+    "frameworks": ["DPF"]
+  },
+  {
     "name": "There will be blood",
     "url": "https://github.com/coconut-audio/there-will-be-blood",
     "description": "Drum bleed reduction plugin",
@@ -923,7 +935,7 @@
     "url": "https://ryukau.github.io/VSTPlugins/index.html",
     "description": "Uhhyou Plugins Collection",
     "type": "Effect",
-    "frameworks": ["No Framework"]
+    "frameworks": []
   },
   {
     "name": "Valentine",
@@ -1029,12 +1041,5 @@
     "description": "Additive/Subtractive AM/FM synthesizer with effects",
     "type": "Instrument",
     "frameworks": ["FLTK"]
-  },
-  {
-    "name": "ÆLAPSE",
-    "url": "https://github.com/smiarx/aelapse",
-    "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
-    "type": "Effect",
-    "frameworks": ["JUCE"]
   }
 ]
