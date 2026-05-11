@@ -957,6 +957,15 @@
     ]
   },
   {
+    "name": "Transfer",
+    "url": "https://github.com/MeijisIrlnd/Transfer",
+    "description": "Transfer is a waveshaper based distortion, except the transfer function is JIT compiled from text inputted by the user. Starting as a tool for testing different transfer functions in other projects, it has evolved into a pretty cool and unique plugin (disclaimer it might not be that unique I have done absolutely no market research whatsoever). It also has a built in gate, and an emphasis filter, which applies the filters to the signal pre waveshaping, then applies the exact opposite filter post waveshaping. Due to popular demand (by popular I mean that one guy on reddit), it now also has has 16x oversampling and you can't turn it off sorry I don't make the rules.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Tunefish",
     "url": "https://github.com/paynebc/tunefish",
     "description": "VST virtual analog synthesizer",
