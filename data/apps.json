@@ -149,6 +149,15 @@
     }
   },
   {
+    "name": "EmuSC",
+    "description": "EmuSC is a software synthesizer that aims to emulate the Roland Sound Canvas SC-55 lineup to recreate the original sounds of these '90s era synthesizers. Emulation is done by extracting relevant information from the original control and PCM ROMs and reimplement the synth's behavior in modern C+",
+    "repository": {
+      "type": "GitHub",
+      "user": "_No response_",
+      "repo": "https://github.com/skjelten/emusc"
+    }
+  },
+  {
     "name": "FFAB",
     "description": "FFAB is a cross-platform, complex audio batch processor, drag & drop effects rack, command builder & graphical user interface for FFmpeg. Audio only, but with video passthrough. Easily create filter chains, save presets, run or export FFmpeg commands, multi-input/-output batching algorithms, divide jobs across parallel FFmpeg instances... with full logs to file. It does everything FFmpeg does, but in a less cryptic manner.",
     "repository": {
