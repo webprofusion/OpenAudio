@@ -1065,6 +1065,15 @@
     ]
   },
   {
+    "name": "TIME-12",
+    "url": "https://github.com/tiagolr/time12",
+    "description": "TIME-12 is a cross-platform is a delay modulator inspired by plugins like GrossBeat and ShaperBox. It can be used for a wide range of effects like stuttering, tape stop, glitch, scratch, reverse, pitch shift and more. It is the second version of [TIME-1](https://github.com/tiagolr/time1) rebuilt from scratch using the JUCE framework.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "traKmeter",
     "url": "https://github.com/mzuther/traKmeter",
     "description": "Loudness meter for correctly setting up tracking and mixing levels",
