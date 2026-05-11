@@ -261,8 +261,8 @@
     "description": "Mididash is an open source MIDI routing software with a node-based interface and Lua scripting. A modern take on programs like [MIDI-OX](http://www.midiox.com/).",
     "repository": {
       "type": "GitHub",
-      "user": "_No response_",
-      "repo": "https://github.com/tiagolr/mididash"
+      "user": "tiagolr",
+      "repo": "mididash"
     },
     "url": "https://tiagolr.github.io/mididash/"
   },
