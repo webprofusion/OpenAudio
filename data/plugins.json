@@ -1012,6 +1012,15 @@
     ]
   },
   {
+    "name": "SpectralAbyss Multiband-Saturation",
+    "url": "https://github.com/pschaupp/spectral-abyss-multiband-saturation",
+    "description": "SpectralAbyss is a multiband saturation audio plugin built with [JUCE](https://juce.com/). It allows the distortion of three individual frequency bands using two different distortion algorithms.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Squeezer",
     "url": "https://github.com/mzuther/Squeezer",
     "description": "Compressor with side-chain, several detection modes and filters, etc",
