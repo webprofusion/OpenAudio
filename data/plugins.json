@@ -417,6 +417,15 @@
     ]
   },
   {
+    "name": "Hammer & Meißel",
+    "url": "https://github.com/Mrugalla/Hammer-and-Meiszel",
+    "description": "Hammer & Meißel is a keytracked polyphonic modal filter (and more).",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Helm",
     "url": "https://github.com/mtytel/helm",
     "description": "Polyphonic synth with lots of modulation",
