@@ -1128,6 +1128,15 @@
     ]
   },
   {
+    "name": "Uhhyou Plugins",
+    "url": "https://ryukau.github.io/VSTPlugins/index.html",
+    "description": "Uhhyou Plugins Collection",
+    "type": "Effect",
+    "frameworks": [
+      "No Framework"
+    ]
+  },
+  {
     "name": "Valentine",
     "url": "https://github.com/tote-bag-labs/valentine",
     "description": "Valentine is a compressor and distortion processor. It was inspired by the hyper compressed and crushed textures in the seminal Justice record, †. Using it is easy: turning input up makes the signal louder, more compressed, and more saturated. Turning crush up adds digital distortion.",
