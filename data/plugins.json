@@ -201,6 +201,15 @@
     "frameworks": []
   },
   {
+    "name": "CloudReverb",
+    "url": "https://github.com/xunil-cloud/CloudReverb",
+    "description": "This is an audio plugin for algorithmic reverb. The algorithm is borrowed from [CloudSeed VST](https://github.com/ValdemarOrn/CloudSeed/tree/legacy-v1) by Valdemar Erlingsson.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Cocoa Delay",
     "url": "https://github.com/tesselode/cocoa-delay",
     "description": "Warm and lively delay",
