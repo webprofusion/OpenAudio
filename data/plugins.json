@@ -4,28 +4,45 @@
     "url": "https://github.com/src3453/3HSPlug",
     "description": "GM/GS Compatible Multi-timbal 8-operator FM/PCM Syntheizer, uses 3HS88PWN4 (Fantasy sound chip) to make sound.",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "8ridgelite",
     "url": "https://github.com/JamesStubbsEng/8ridgelite",
     "description": "8 string guitar virtual instrument",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "ADLplug",
     "url": "https://github.com/jpcima/ADLplug",
     "description": "FM Chip Synthesizer — OPL & OPN",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Gammou",
+    "url": "https://github.com/aliefhooghe/Gammou",
+    "description": "Gammou is a polyphonic modular sound synthesizer that be run as VST or standalone on Linux and Windows.",
+    "type": "Instrument",
+    "frameworks": [
+      "No Framework"
+    ]
   },
   {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Airwindows",
@@ -39,91 +56,117 @@
     "url": "https://github.com/antonok-edm/ampli-Fe",
     "description": "Cross-platform VST2 plugin written in Rust",
     "type": "Effect",
-    "frameworks": ["Rust VST"]
+    "frameworks": [
+      "Rust VST"
+    ]
   },
   {
     "name": "amsynth",
     "url": "https://github.com/amsynth/amsynth",
     "description": "Analog-modelling (virtual analog) synthesizer",
     "type": "Instrument",
-    "frameworks": ["GTK"]
+    "frameworks": [
+      "GTK"
+    ]
   },
   {
     "name": "andes",
     "url": "https://github.com/artfwo/andes",
     "description": "Sound synthesiser plugin based on Perlin noise",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Argotlunar",
     "url": "https://github.com/mourednik/argotlunar",
     "description": "Real-time delay-line granulator",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Audible Planets",
     "url": "https://github.com/gregrecco67/AudiblePlanets",
     "description": "An expressive, quasi-Ptolemaic semi-modular synthesizer",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Audio Effects",
     "url": "https://github.com/juandagilc/Audio-Effects",
     "description": "Plugins implemented from the explanations in the book “Audio Effects: Theory, Implementation and Application”",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Bespoke",
     "url": "https://github.com/awwbees/BespokeSynth",
     "description": "Node-based modular synth with live coding",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "BinAural VST",
     "url": "https://github.com/twoz/binaural-vst",
     "description": "Mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "BiRR",
     "url": "https://github.com/odoare/BiRR",
     "description": "BiRR (and her ambisonic sister AmbiRR) are room simulators that accurately emulate the sound produced by two monophonic and omnidirectionnal sources perceived by a listener in a rectangular (2D) or parallelepipedic (3D) room. The dimensions (x,y,z) of the room can be adjusted, as well as the source and listener positions. The generated stereo output can simulate different microphone positions (XY, MS, with different angles), or a binaural receiver.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "BlackBird",
     "url": "https://khrykin.github.io/BlackBird",
     "description": "Analog-inspired software synth with its own voice",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "blocks",
     "url": "https://github.com/dan-german/blocks",
     "description": "Polyphonic modular synth",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "BORIS Granular Station",
     "url": "https://glesdora.github.io/boris-granular-station/",
     "description": "A live-input granular plugin",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Breathalyzer",
     "url": "https://github.com/bgunnison/breathalyzer",
     "description": "Breathalyzer is a VST3 instrument that turns MIDI notes into playable breath-and-voice gestures. It is not a sample player and not a speech synthesizer. The design goal is a compact expressive instrument whose mouth color, noise, growl, and vowel motion can all be performed from a small control surface.",
     "type": "Instrument",
-    "frameworks": ["VSTGUI"]
+    "frameworks": [
+      "VSTGUI"
+    ]
   },
   {
     "name": "C1Bitcrusher",
@@ -137,28 +180,36 @@
     "url": "https://github.com/calf-studio-gear/calf",
     "description": "Many LV2 and Jack audio plug-ins",
     "type": "Effect",
-    "frameworks": ["GTK"]
+    "frameworks": [
+      "GTK"
+    ]
   },
   {
     "name": "Cardinal",
     "url": "https://github.com/DISTRHO/Cardinal/",
     "description": "Virtual modular synthesizer plugin",
     "type": "Instrument",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "Chorus Ex Machina",
     "url": "https://github.com/peastman/ChorusExMachina",
     "description": "Physically modelled chorus synthesizer",
     "type": "Instrument",
-    "frameworks": ["NIH-Plug"]
+    "frameworks": [
+      "NIH-Plug"
+    ]
   },
   {
     "name": "CHOW",
     "url": "https://github.com/jatinchowdhury18/CHOW",
     "description": "Maximally truculent distortion effect",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Cloud Seed",
@@ -172,147 +223,190 @@
     "url": "https://github.com/xunil-cloud/CloudReverb",
     "description": "This is an audio plugin for algorithmic reverb. The algorithm is borrowed from [CloudSeed VST](https://github.com/ValdemarOrn/CloudSeed/tree/legacy-v1) by Valdemar Erlingsson.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Cocoa Delay",
     "url": "https://github.com/tesselode/cocoa-delay",
     "description": "Warm and lively delay",
     "type": "Effect",
-    "frameworks": ["WDL-OL"]
+    "frameworks": [
+      "WDL-OL"
+    ]
   },
   {
     "name": "Convolver",
     "url": "https://github.com/teragonaudio/Convolver",
     "description": "Impulse-response reverb",
     "type": "Effect",
-    "frameworks": ["JUCE", "VSTGUI"]
+    "frameworks": [
+      "JUCE",
+      "VSTGUI"
+    ]
   },
   {
     "name": "cStop",
     "url": "https://github.com/calgoheen/cStop",
     "description": "Tape stop",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Curvessor 2",
     "url": "https://github.com/unevens/Curvessor",
     "description": "[Curvessor](https://www.unevens.net/curvessor.html) is an audio plug-in that implements a dynamic range processor in which the response curve of each channel is an automatable spline.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "DAFx19-Gamelanizer",
     "url": "https://github.com/lukemcraig/DAFx19-Gamelanizer",
     "description": "Accompanying material for the paper 'A Real-Time Audio Effect Plug-In Inspired by the Processes of Traditional Indonesian Gamelan Music'",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Dexed",
     "url": "https://github.com/asb2m10/dexed",
     "description": "DX7 FM plugin synth",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Digits",
     "url": "https://github.com/LouisGorenfeld/DigitsVst",
     "description": "Phase-distortion synth inspired by Casio CZ series",
     "type": "Instrument",
-    "frameworks": ["VSTGUI"]
+    "frameworks": [
+      "VSTGUI"
+    ]
   },
   {
     "name": "Disflux",
     "url": "https://github.com/Dimethoxy/Disflux",
     "description": "Disflux is a free and open-source phase dispersion effect designed to add insane amounts of punch, depth, and character to your sound.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Distrho glBars",
     "url": "https://github.com/DISTRHO/glBars",
     "description": "OpenGL bars visualization plugin (as seen in XMMS and XBMC/Kodi) adapted from jack_glbars",
     "type": "Effect",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "Distrho Juice Plugins",
     "url": "https://github.com/DISTRHO/JuicePlugins",
     "description": "",
     "type": "Misc",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "Distrho Kars",
     "url": "https://github.com/DISTRHO/Kars",
     "description": "Simple karplus-strong plucked string synth based on the karplong DSSI example synth",
     "type": "Instrument",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "Distrho Mini-Series",
     "url": "https://github.com/DISTRHO/Mini-Series",
     "description": "Collection of small plugins based on LOSER-Dev Plugins",
     "type": "Effect",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "Distrho MVerb",
     "url": "https://github.com/DISTRHO/MVerb",
     "description": "DPF-based version of MVerb",
     "type": "Effect",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "Distrho ndc Plugs",
     "url": "https://github.com/DISTRHO/ndc-Plugs",
     "description": "DPF-based versions of some of ndc Plugs",
     "type": "Effect",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "Distrho Nekobi",
     "url": "https://github.com/DISTRHO/Nekobi",
     "description": "Simple single-oscillator synth based on Roland TB-303",
     "type": "Instrument",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "Distrho ProM",
     "url": "https://github.com/DISTRHO/ProM",
     "description": "Music-visualizer plugin based on projectM",
     "type": "Effect",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "Dragonfly Reverb",
     "url": "https://github.com/michaelwillis/dragonfly-reverb",
     "description": "Hall-style reverb based on Freeverb3 algorithms",
     "type": "Effect",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "Drops",
     "url": "https://github.com/clearly-broken-software/drops",
     "description": "Single file audio player",
     "type": "Instrument",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "Drummock",
     "url": "https://github.com/ameyakakade/drummock",
     "description": "Drum sampler plugin with retro pitch shifting and hard clipper. Just drag and drop to load samples and start playing.",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Element",
     "url": "https://github.com/kushview/Element",
     "description": "Advanced Audio Plugin Host",
     "type": "Misc",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Eurorack",
@@ -326,91 +420,118 @@
     "url": "https://github.com/tiagolr/filtr",
     "description": "FILT-R is a cross-platform filter modulator based on plugins like ShaperBox and FilterShaper. It is the second version of [FLTR-1 JSFX](https://github.com/tiagolr/tilr_jsfx?tab=readme-ov-file)",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Flutterbird",
     "url": "https://github.com/tesselode/flutterbird",
     "description": "Simple pitch fluctuation",
     "type": "Effect",
-    "frameworks": ["iPlug2"]
+    "frameworks": [
+      "iPlug2"
+    ]
   },
   {
     "name": "FreeEQ8",
     "url": "https://github.com/GareBear99/FreeEQ8",
     "description": "FreeEQ8 is a professional-grade, free and open-source 8-band parametric EQ plugin for macOS, Linux, and Windows.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "GainPlugin",
     "url": "https://github.com/satelllte/GainPlugin",
     "description": "(Experimental) VST/AU audio plugin example based on JUCE with React-JUCE for UI.",
     "type": "Misc",
-    "frameworks": ["JUCE", "React-JUCE"]
+    "frameworks": [
+      "JUCE",
+      "React-JUCE"
+    ]
   },
   {
     "name": "GATE-12",
     "url": "https://github.com/tiagolr/gate12",
     "description": "GATE-12 is a cross-platform envelope generator for gate/volume control inspired by plugins like GrossBeat and ShaperBox. It is the second version of [GATE-1](https://github.com/tiagolr/gate1) rebuilt from scratch using the JUCE framework.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Gverb/Gigaverb",
     "url": "https://github.com/v7b1/gigaverb",
     "description": "Reverb",
     "type": "Effect",
-    "frameworks": ["VSTGUI"]
+    "frameworks": [
+      "VSTGUI"
+    ]
   },
   {
     "name": "Hammer & Meißel",
     "url": "https://github.com/Mrugalla/Hammer-and-Meiszel",
     "description": "Hammer & Meißel is a keytracked polyphonic modal filter (and more).",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Helm",
     "url": "https://github.com/mtytel/helm",
     "description": "Polyphonic synth with lots of modulation",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "hexter",
     "url": "https://github.com/smbolton/hexter",
     "description": "Yamaha DX7 modeling FM synth for DSSI",
     "type": "Instrument",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "HiLoFilter",
     "url": "https://github.com/teragonaudio/HiLoFilter",
     "description": "Simple hipass/lopass filter controlled with a single knob",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Hue",
     "url": "https://github.com/bljustice/hue",
     "description": "Mixes various noise types into the audio signal",
     "type": "Effect",
-    "frameworks": ["Rust VST"]
+    "frameworks": [
+      "Rust VST"
+    ]
   },
   {
     "name": "INTERSECT",
     "url": "https://github.com/tucktuckg00se/INTERSECT",
     "description": "INTERSECT is a sample slicer instrument plugin (VST3/AU/Standalone) with multi-sample sessions, per-slice locking, slice note ranges, multiple time/pitch algorithms, and MIDI-triggered slice playback.",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "jc303",
     "url": "https://github.com/midilab/jc303",
     "description": "A Free Roland TB-303 Plugin for Windows, MacOS and Linux: VST2, VST3, LV2 and AU. A JUCE port of Open303 engine",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "JS Inflator",
@@ -424,7 +545,9 @@
     "url": "https://github.com/bsutherland/JuceOPLVSTi",
     "description": "FM synth based on Yamaha OPL2/3 emulation from DOSBox",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Juno 6",
@@ -438,35 +561,45 @@
     "url": "https://github.com/BOBONA/Just-a-Sample",
     "description": "Just a Sample is a powerful, modern audio sampler, with a focus on simplicity and ease of use. Best of all, it's free and open-source! I spent a lot of time on this project, and I think it will be a great addition to your plugin collection.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "K-Meter",
     "url": "https://github.com/mzuther/K-Meter",
     "description": "Implementation of a K-System meter according to Bob Katz’ specifications",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "keithhearne/VSTPlugins",
     "url": "https://github.com/keithhearne/VSTPlugins",
     "description": "Collection of VST plugins",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Key Repeat",
     "url": "https://michael-jan.github.io/key-repeat/",
     "description": "Beat repeat sampler",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "KickMaker",
     "url": "https://github.com/teragonaudio/KickMaker",
     "description": "Synth specifically to create kick-drum sounds",
     "type": "Instrument",
-    "frameworks": ["VSTGUI"]
+    "frameworks": [
+      "VSTGUI"
+    ]
   },
   {
     "name": "LameVST",
@@ -480,14 +613,18 @@
     "url": "https://github.com/MikeMorenoDSP/LIRA-8",
     "description": "The Lira•8 is a digital attempt at emulating SOMA Lab's Lyra-8 signal flow and sound.",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Magical8bitPlug 2",
     "url": "https://github.com/yokemura/Magical8bitPlug2",
     "description": "Old 8bit game console style synth",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "mda",
@@ -501,70 +638,90 @@
     "url": "https://github.com/hollance/mda-plugins-juce",
     "description": "JUCE implementations of the classic MDA audio plug-ins",
     "type": "Misc",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Microbiome",
     "url": "https://github.com/dsmaugy/microbiome",
     "description": "Microbiome is a real-time audio effects plugin that uses delay lines and looping to create vibrant audio artifacts mimicking the nature of evolutionary biology.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "MidiChords",
     "url": "https://github.com/markwilkins/midi-chord-reader",
     "description": "Detect chord names from a MIDI track and display them in a scrolling window during track playback",
     "type": "Misc",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Mika Micro",
     "url": "https://github.com/tesselode/mika-micro",
     "description": "Simple subtractive synth",
     "type": "Instrument",
-    "frameworks": ["WDL-OL"]
+    "frameworks": [
+      "WDL-OL"
+    ]
   },
   {
     "name": "Modal Synthesiser",
     "url": "https://github.com/crispinha/modal-synth",
     "description": "This is a software synthesiser that uses modal synthesis, a physical modelling technique using banks of resonators to filter an exciter signal, to create sounds with a parametrically controlled frequency spectrum. This synthesiser is designed to allow for the composition and performance of spectral music, and it produces sounds with timbres similar to those of natural materials such as wood, metal, and glass.",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "modEQ",
     "url": "https://github.com/tobanteAudio/modEQ",
     "description": "EQ with modulation (VST3, AU)",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "MultiMeter",
     "url": "https://github.com/RealAlexZ/MultiMeter",
     "description": "A comprehensive set of AU/VST audio analysis tools (level meters, histograms, spectrogram analyzer, goniometer, correlation meter)",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Musializer Plugin",
     "url": "https://github.com/ameyakakade/musializer-plugin",
     "description": "Spectrum visualizer plugin",
     "type": "Misc",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "MVerb",
     "url": "https://github.com/martineastwood/mverb",
     "description": "Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure",
     "type": "Effect",
-    "frameworks": ["VSTGUI"]
+    "frameworks": [
+      "VSTGUI"
+    ]
   },
   {
     "name": "ndc Plugs",
     "url": "https://www.niallmoody.com/ndcplugs/plugins.htm",
     "description": "VST plugins for Windows and OSX",
     "type": "Misc",
-    "frameworks": ["VSTGUI"]
+    "frameworks": [
+      "VSTGUI"
+    ]
   },
   {
     "name": "Neural Amp Modeler LV2",
@@ -578,91 +735,117 @@
     "url": "https://github.com/rodrigodzf/NeuralResonatorVST",
     "description": "This is a VST plugin that uses a neural network to generate filters based on arbitrary 2D shapes and materials. It is possible to use midi to trigger simple impulses to excite these filters. Additionally any audio signal can be used as input to the filters.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Ninjas 2",
     "url": "https://github.com/clearly-broken-software/ninjas2",
     "description": "Sample slicer, rewrite of Ninjas",
     "type": "Instrument",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "NotNotchFilter",
     "url": "https://github.com/teragonaudio/NotNotchFilter",
     "description": "Performance-oriented filter designed to replace the mid-EQ found in a standard 3-band DJ mixer",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "OB-Xd",
     "url": "https://github.com/reales/OB-Xd",
     "description": "Based on the Oberheim OB-X",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "OctaSine",
     "url": "https://github.com/greatest-ape/OctaSine",
     "description": "VST2 frequency modulation synthesizer written in Rust",
     "type": "Instrument",
-    "frameworks": ["Rust VST"]
+    "frameworks": [
+      "Rust VST"
+    ]
   },
   {
     "name": "Odin2",
     "url": "https://github.com/TheWaveWarden/odin2",
     "description": "Polyphonic Synth",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Overdraw",
     "url": "https://github.com/unevens/Overdraw",
     "description": "[Overdraw](https://www.unevens.net/overdraw.html) is an audio plug-in that implements a waveshaper in which the transfer function of each channel is an automatable spline.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "OwlBass",
     "url": "https://github.com/PentagramPro/OwlBass",
     "description": "Additive bass synth",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Oxe FM Synth",
     "url": "https://github.com/oxesoft/oxefmsynth",
     "description": "Multitimbral 8-operator FM synth (VST 2.4; Windows, Linux, macOS)",
     "type": "Instrument",
-    "frameworks": ["VSTGUI"]
+    "frameworks": [
+      "VSTGUI"
+    ]
   },
   {
     "name": "PeakEater",
     "url": "https://github.com/vvvar/PeakEater",
     "description": "PeakEater is a free, easy-to-use wave-shaping plugin. PeakEater lets you choose between different [wave-shaping](https://en.wikipedia.org/wiki/Waveshaper) [functions](https://en.wikipedia.org/wiki/Sigmoid_function) to clip everything above ceiling level. Therefore, you can boost the overall volume of your track safely without worrying that some nasty peak would go above the maximum allowed volume level of your DAW.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Plasma",
     "url": "https://github.com/Dimethoxy/Plasma",
     "description": "Plasma is a free & open-source distortion powerhouse for VST3 hosts. Originally designed for Hardstyle, Gabber, Hardcore, and anything that needs raw, aggressive energy, Plasma lets you twist and destroy your sound with 12 brutal distortion styles and filters with extreme resonance capabilities.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "plugdata",
     "url": "https://github.com/plugdata-team/plugdata",
     "description": "Plugin wrapper around Pure Data, letting it be used as a plugin in your DAW",
     "type": "Misc",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Pulp Fiction",
     "url": "https://github.com/coconut-audio/pulp-fiction",
     "description": "Multi-effects rack plugin",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "PulseDelay",
@@ -676,91 +859,117 @@
     "url": "https://github.com/tiagolr/qdelay",
     "description": "QDelay (short for quick-delay) is a dual-delay with more features than it should for a free plugin that's supposed to be quick. While it offers nothing groundbreaking it is based on popular units like ReplikaXT and EchoBoy. The main goal is to create a free and open plug-in for my own productions, an alternative to the popular [Deelay](https://sixthsample.com/deelay/) by SixthSample without premium versions or trimmed features or on-line activation.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "QtVST",
     "url": "https://github.com/mbrucher/QtVST",
     "description": "VST plugins with a Qt interface",
     "type": "Effect",
-    "frameworks": ["Qt"]
+    "frameworks": [
+      "Qt"
+    ]
   },
   {
     "name": "RCSiner",
     "url": "https://github.com/RCJacH/RCSiner",
     "description": "RCSiner is an audio plugin that employs phase-distortion and waveshaping techniques utilizing the sine function. It provides a collection of selectable formulas, each equipped with three adjustable parameters and the capability to transform through multiple processing stages. This versatile tool offers and extensive range of sonic possibilities, from subtle harmonic saturation to full-on destruction of the audio signal.",
     "type": "Effect",
-    "frameworks": ["iPlug2"]
+    "frameworks": [
+      "iPlug2"
+    ]
   },
   {
     "name": "RE201models",
     "url": "https://github.com/je3928/RE201models/tree/main",
     "description": "This repository is dedicated to digital modelling of the Roland RE-201.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "REACH",
     "url": "https://github.com/Sinuslabs/Reach",
     "description": "Extraterrestrial Reverb for Electronic Music",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "REEV-R",
     "url": "https://github.com/tiagolr/reevr",
     "description": "REEV-R is a cross-platform convolution reverb with modulation for pre/send and post/volume signals.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Regrader",
     "url": "https://github.com/igorski/regrader",
     "description": "Degenerative delay",
     "type": "Effect",
-    "frameworks": ["VSTGUI"]
+    "frameworks": [
+      "VSTGUI"
+    ]
   },
   {
     "name": "Resonarium",
     "url": "https://github.com/gabrielsoule/resonarium",
     "description": "Resonarium is a MPE-compatible physical modeling synthesizer, based on coupled string waveguide models. It is designed to encourage abstract sound design, exploration, and open-ended play.",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "RipplerX",
     "url": "https://github.com/tiagolr/ripplerx",
     "description": "RipplerX is a physically modeled synth, capable of sounds similar to AAS Chromaphone and Ableton Collision.",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Roth-AIR",
     "url": "https://github.com/danielrothmann/Roth-AIR",
     "description": "Mixing tool for easily adding airy, crispy presence to audio",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Rotor",
     "url": "https://github.com/blackboxaudio/rotor",
     "description": "Rotor is a variable waveform ring modulation plugin targeting VST3 and AU for OS X and Windows platforms. It uses wavetable synthesis to generate various simple waveforms that act as the modulation signal for the input. It is compiled using the [JUCE](https://juce.com/) framework for C++.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Schrammel OJD",
     "url": "https://github.com/JanosGit/Schrammel_OJD",
     "description": "Model of a modern classic guitar distortion pedal",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "ScorchCrafter Guitar FX",
     "url": "https://sourceforge.net/projects/scorchcrafter/",
     "description": "Audio DSP FX and plugins, mostly for guitar (amp sim) and other FX",
     "type": "Effect",
-    "frameworks": ["VSTGUI"]
+    "frameworks": [
+      "VSTGUI"
+    ]
   },
   {
     "name": "Scream",
@@ -774,98 +983,128 @@
     "url": "https://github.com/fullfxmedia/setekh",
     "description": "A minimalistic yet sonically powerful distortion plugin created and distributed via Full FX Media",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "sfizz",
     "url": "https://github.com/sfztools/sfizz",
     "description": "SFZ parser library and instrument plugins",
     "type": "Instrument",
-    "frameworks": ["VSTGUI"]
+    "frameworks": [
+      "VSTGUI"
+    ]
   },
   {
     "name": "ShoutVST",
     "url": "https://github.com/Iunusov/ShoutVST",
     "description": "VST for streaming sound into Icecast/Shoutcast directly from VST hosts",
     "type": "Effect",
-    "frameworks": ["VSTGUI", "FLUID"]
+    "frameworks": [
+      "VSTGUI",
+      "FLUID"
+    ]
   },
   {
     "name": "Sirial",
     "url": "https://github.com/tiagolr/sirial",
     "description": "Sirial is a Rhythmic Delay where each tap can be placed and configured with different amplitudes and feedback giving total control on how the delay responds and the patterns it creates.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "SmartGuitarAmp",
     "url": "https://github.com/GuitarML/SmartGuitarAmp",
     "description": "Guitar amplifier-style plugin, that uses machine learning for emulating real world hardware",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "SmartGuitarPedal",
     "url": "https://github.com/GuitarML/SmartGuitarPedal",
     "description": "Guitar pedal-style plugin, that uses machine learning for emulating real world hardware",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Sound Analyser",
     "url": "https://github.com/adamstark/Sound-Analyser",
     "description": "Real-time audio analysis to allow anyone to quickly set up and experiment with different algorithms",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Sound of Music",
     "url": "https://github.com/coconut-audio/sound-of-music",
     "description": "Multiband bitcrusher",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "SPARTA",
     "url": "https://github.com/leomccormack/SPARTA",
     "description": "Spatial audio focused plug-in suite (Ambisonics encoders/decoders, 3-D panners/spatialisers, etc.)",
     "type": "Effect",
-    "frameworks": ["SAF", "JUCE"]
+    "frameworks": [
+      "SAF",
+      "JUCE"
+    ]
   },
   {
     "name": "SpectralAbyss Multiband-Saturation",
     "url": "https://github.com/pschaupp/spectral-abyss-multiband-saturation",
     "description": "SpectralAbyss is a multiband saturation audio plugin built with [JUCE](https://juce.com/). It allows the distortion of three individual frequency bands using two different distortion algorithms.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Squeezer",
     "url": "https://github.com/mzuther/Squeezer",
     "description": "Compressor with side-chain, several detection modes and filters, etc",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Stone Mistress",
     "url": "https://github.com/NaviCisco/StoneMistress",
     "description": "Phase Shifter and Chorus audio plugin, inspired by Electro-Harmonix Stereo Electric Mistress and Small Stone pedals",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Surge",
     "url": "https://surge-synthesizer.github.io/",
     "description": "Subtractive wavetable synth",
     "type": "Instrument",
-    "frameworks": ["VSTGUI"]
+    "frameworks": [
+      "VSTGUI"
+    ]
   },
   {
     "name": "Synister",
     "url": "https://github.com/the-synister/the-source",
     "description": "Subtractive synth",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Syntage",
@@ -879,56 +1118,73 @@
     "url": "https://github.com/odoare/TeAr",
     "description": "TeAr is an advanced polyrhythmic and polyphonic MIDI arpeggiator plugin. It features four independent arpeggiator engines, each with its own pattern, subdivision, and MIDI output channel. This allows for the creation of complex, evolving musical phrases and textures.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Temper",
     "url": "https://github.com/creativeintent/temper",
     "description": "Digital distortion targeting VST, VST3, and AU for OS X and Windows",
     "type": "Effect",
-    "frameworks": ["Faust", "JUCE"]
+    "frameworks": [
+      "Faust",
+      "JUCE"
+    ]
   },
   {
     "name": "The Analog Molecule",
     "url": "https://forum.cockos.com/showthread.php?t=305604",
     "description": "JSFX Based frame plugin for Reaper.",
     "type": "Effect",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "There will be blood",
     "url": "https://github.com/coconut-audio/there-will-be-blood",
     "description": "Drum bleed reduction plugin",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "TIME-12",
     "url": "https://github.com/tiagolr/time12",
     "description": "TIME-12 is a cross-platform is a delay modulator inspired by plugins like GrossBeat and ShaperBox. It can be used for a wide range of effects like stuttering, tape stop, glitch, scratch, reverse, pitch shift and more. It is the second version of [TIME-1](https://github.com/tiagolr/time1) rebuilt from scratch using the JUCE framework.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "traKmeter",
     "url": "https://github.com/mzuther/traKmeter",
     "description": "Loudness meter for correctly setting up tracking and mixing levels",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Transfer",
     "url": "https://github.com/MeijisIrlnd/Transfer",
     "description": "Transfer is a waveshaper based distortion, except the transfer function is JIT compiled from text inputted by the user. Starting as a tool for testing different transfer functions in other projects, it has evolved into a pretty cool and unique plugin (disclaimer it might not be that unique I have done absolutely no market research whatsoever). It also has a built in gate, and an emphasis filter, which applies the filters to the signal pre waveshaping, then applies the exact opposite filter post waveshaping. Due to popular demand (by popular I mean that one guy on reddit), it now also has has 16x oversampling and you can't turn it off sorry I don't make the rules.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Tunefish",
     "url": "https://github.com/paynebc/tunefish",
     "description": "VST virtual analog synthesizer",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Uhhyou Plugins",
@@ -942,28 +1198,36 @@
     "url": "https://github.com/tote-bag-labs/valentine",
     "description": "Valentine is a compressor and distortion processor. It was inspired by the hyper compressed and crushed textures in the seminal Justice record, †. Using it is easy: turning input up makes the signal louder, more compressed, and more saturated. Turning crush up adds digital distortion.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Vaporizer2",
     "url": "https://github.com/VASTDynamics/Vaporizer2",
     "description": "Hybrid wavetable additive / subtractive VST / AU / AAX synthesizer / sampler workstation plugin",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "VCV Rack",
     "url": "https://github.com/VCVRack/Rack",
     "description": "Virtual modular synth",
     "type": "Misc",
-    "frameworks": ["RtAudio"]
+    "frameworks": [
+      "RtAudio"
+    ]
   },
   {
     "name": "Vital",
     "url": "https://github.com/mtytel/vital",
     "description": "Spectral warping wavetable synthesizer",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "VST2413",
@@ -977,7 +1241,9 @@
     "url": "https://github.com/QuentinStoll/VstProfiler",
     "description": "We are working on an open source JUCE vst3 plug-in that capture guitar amplifier and cabinet and emulate them in real time for guitarists.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "VSTSID",
@@ -991,55 +1257,71 @@
     "url": "https://github.com/ManasWolrd/WarpCore",
     "description": "WarpCore is a multi-band spectrum inversion plugin, similar to the time-domain local spectrum inversion effect of PiWarp/Wormhole.",
     "type": "Effect",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Wavetable",
     "url": "https://github.com/FigBug/Wavetable",
     "description": "A 2 oscillator wavetable synth with flexible modulation options",
     "type": "Instrument",
-    "frameworks": ["JUCE"]
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "WebCZ101",
     "url": "https://github.com/webaudiomodules/webcz101",
     "description": "Virtual CZ101 synth in a browser",
     "type": "Instrument",
-    "frameworks": ["WAM"]
+    "frameworks": [
+      "WAM"
+    ]
   },
   {
     "name": "WebDX7",
     "url": "https://github.com/webaudiomodules/webdx7",
     "description": "Virtual Yamaha DX7 synth in a browser",
     "type": "Instrument",
-    "frameworks": ["WAM"]
+    "frameworks": [
+      "WAM"
+    ]
   },
   {
     "name": "Wolf Shaper",
     "url": "https://github.com/pdesaulniers/wolf-shaper",
     "description": "Waveshaper plugin with spline-based graph editor",
     "type": "Effect",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "YK Chorus",
     "url": "https://github.com/SpotlightKid/ykchorus",
     "description": "Chorus audio effect plugin based on DSP code by TAL",
     "type": "Effect",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "zam-plugins",
     "url": "https://github.com/zamaudio/zam-plugins",
     "description": "LADSPA/LV2/VST/JACK audio plugins for high-quality processing",
     "type": "Effect",
-    "frameworks": ["DPF"]
+    "frameworks": [
+      "DPF"
+    ]
   },
   {
     "name": "zynaddsubfx",
     "url": "https://github.com/zynaddsubfx/zynaddsubfx",
     "description": "Additive/Subtractive AM/FM synthesizer with effects",
     "type": "Instrument",
-    "frameworks": ["FLTK"]
+    "frameworks": [
+      "FLTK"
+    ]
   }
 ]
