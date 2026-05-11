@@ -464,6 +464,15 @@
     }
   },
   {
+    "name": "VocalShaper",
+    "description": "A JUCE-based Open Source DAW. This DAW is lightweight and can meet most daily usage needs.",
+    "repository": {
+      "type": "GitHub",
+      "user": "_No response_",
+      "repo": "https://github.com/Do-sth-sharp/VocalShaper"
+    }
+  },
+  {
     "name": "yabridge",
     "description": "Linux bridge for Windows VSTs",
     "repository": {
