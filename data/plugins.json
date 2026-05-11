@@ -839,6 +839,15 @@
     ]
   },
   {
+    "name": "RCSiner",
+    "url": "https://github.com/RCJacH/RCSiner",
+    "description": "RCSiner is an audio plugin that employs phase-distortion and waveshaping techniques utilizing the sine function. It provides a collection of selectable formulas, each equipped with three adjustable parameters and the capability to transform through multiple processing stages. This versatile tool offers and extensive range of sonic possibilities, from subtle harmonic saturation to full-on destruction of the audio signal.",
+    "type": "Effect",
+    "frameworks": [
+      "iPlug2"
+    ]
+  },
+  {
     "name": "RE201models",
     "url": "https://github.com/je3928/RE201models/tree/main",
     "description": "This repository is dedicated to digital modelling of the Roland RE-201.",
