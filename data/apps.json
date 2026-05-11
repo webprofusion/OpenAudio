@@ -425,6 +425,16 @@
     }
   },
   {
+    "name": "SpectMorph",
+    "description": "SpectMorph is a free software project which allows to analyze samples of musical instruments, and to combine them (morphing). It can be used to construct hybrid sounds, for instance a sound between a trumpet and a flute; or smooth transitions, for instance a sound that starts as a trumpet and then gradually changes to a flute",
+    "repository": {
+      "type": "GitHub",
+      "user": "_No response_",
+      "repo": "https://github.com/swesterfeld/spectmorph"
+    },
+    "url": "https://www.spectmorph.org/"
+  },
+  {
     "name": "Stargate DAW",
     "description": "Cross-platform, all-in-one DAW and plugin suite",
     "repository": {
