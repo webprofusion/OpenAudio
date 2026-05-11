@@ -929,6 +929,15 @@
     "frameworks": []
   },
   {
+    "name": "TeAr",
+    "url": "https://github.com/odoare/TeAr",
+    "description": "TeAr is an advanced polyrhythmic and polyphonic MIDI arpeggiator plugin. It features four independent arpeggiator engines, each with its own pattern, subdivision, and MIDI output channel. This allows for the creation of complex, evolving musical phrases and textures.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Temper",
     "url": "https://github.com/creativeintent/temper",
     "description": "Digital distortion targeting VST, VST3, and AU for OS X and Windows",
