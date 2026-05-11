@@ -839,6 +839,15 @@
     ]
   },
   {
+    "name": "REEV-R",
+    "url": "https://github.com/tiagolr/reevr",
+    "description": "REEV-R is a cross-platform convolution reverb with modulation for pre/send and post/volume signals.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Regrader",
     "url": "https://github.com/igorski/regrader",
     "description": "Degenerative delay",
