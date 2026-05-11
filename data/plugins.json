@@ -1070,6 +1070,15 @@
     "frameworks": []
   },
   {
+    "name": "WarpCore",
+    "url": "https://github.com/ManasWolrd/WarpCore",
+    "description": "WarpCore is a multi-band spectrum inversion plugin, similar to the time-domain local spectrum inversion effect of PiWarp/Wormhole.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Wavetable",
     "url": "https://github.com/FigBug/Wavetable",
     "description": "A 2 oscillator wavetable synth with flexible modulation options",
