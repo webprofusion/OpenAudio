@@ -317,7 +317,7 @@
   {
     "name": "FILT-R",
     "url": "https://github.com/tiagolr/filtr",
-    "description": "FILT-R is a cross-platform filter modulator based on plugins like ShaperBox and FilterShaper. It is the second version of [FLTR-1 JSFX](https://github.com/tiagolr/tilr_jsfx?tab=readme-ov-file",
+    "description": "FILT-R is a cross-platform filter modulator based on plugins like ShaperBox and FilterShaper. It is the second version of [FLTR-1 JSFX](https://github.com/tiagolr/tilr_jsfx?tab=readme-ov-file)",
     "type": "Effect",
     "frameworks": ["JUCE"]
   },
