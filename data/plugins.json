@@ -758,6 +758,15 @@
     ]
   },
   {
+    "name": "Rotor",
+    "url": "https://github.com/blackboxaudio/rotor",
+    "description": "Rotor is a variable waveform ring modulation plugin targeting VST3 and AU for OS X and Windows platforms. It uses wavetable synthesis to generate various simple waveforms that act as the modulation signal for the input. It is compiled using the [JUCE](https://juce.com/) framework for C++.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Schrammel OJD",
     "url": "https://github.com/JanosGit/Schrammel_OJD",
     "description": "Model of a modern classic guitar distortion pedal",
