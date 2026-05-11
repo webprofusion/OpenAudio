@@ -618,6 +618,15 @@
     ]
   },
   {
+    "name": "Modal Synthesiser",
+    "url": "https://github.com/crispinha/modal-synth",
+    "description": "This is a software synthesiser that uses modal synthesis, a physical modelling technique using banks of resonators to filter an exciter signal, to create sounds with a parametrically controlled frequency spectrum. This synthesiser is designed to allow for the composition and performance of spectral music, and it produces sounds with timbres similar to those of natural materials such as wood, metal, and glass.",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "modEQ",
     "url": "https://github.com/tobanteAudio/modEQ",
     "description": "EQ with modulation (VST3, AU)",
