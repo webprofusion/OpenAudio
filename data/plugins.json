@@ -686,6 +686,15 @@
     ]
   },
   {
+    "name": "RE201models",
+    "url": "https://github.com/je3928/RE201models/tree/main",
+    "description": "This repository is dedicated to digital modelling of the Roland RE-201.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "REACH",
     "url": "https://github.com/Sinuslabs/Reach",
     "description": "Extraterrestrial Reverb for Electronic Music",
