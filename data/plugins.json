@@ -539,6 +539,15 @@
     "frameworks": []
   },
   {
+    "name": "LIRA•8",
+    "url": "https://github.com/MikeMorenoDSP/LIRA-8",
+    "description": "The Lira•8 is a digital attempt at emulating SOMA Lab's Lyra-8 signal flow and sound.",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Magical8bitPlug 2",
     "url": "https://github.com/yokemura/Magical8bitPlug2",
     "description": "Old 8bit game console style synth",
