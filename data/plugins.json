@@ -426,6 +426,15 @@
     ]
   },
   {
+    "name": "GATE-12",
+    "url": "https://github.com/tiagolr/gate12",
+    "description": "GATE-12 is a cross-platform envelope generator for gate/volume control inspired by plugins like GrossBeat and ShaperBox. It is the second version of [GATE-1](https://github.com/tiagolr/gate1) rebuilt from scratch using the JUCE framework.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Gverb/Gigaverb",
     "url": "https://github.com/v7b1/gigaverb",
     "description": "Reverb",
