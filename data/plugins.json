@@ -697,6 +697,15 @@
     ]
   },
   {
+    "name": "Plasma",
+    "url": "https://github.com/Dimethoxy/Plasma",
+    "description": "Plasma is a free & open-source distortion powerhouse for VST3 hosts. Originally designed for Hardstyle, Gabber, Hardcore, and anything that needs raw, aggressive energy, Plasma lets you twist and destroy your sound with 12 brutal distortion styles and filters with extreme resonance capabilities.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "plugdata",
     "url": "https://github.com/plugdata-team/plugdata",
     "description": "Plugin wrapper around Pure Data, letting it be used as a plugin in your DAW",
