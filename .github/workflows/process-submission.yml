@@ -232,10 +232,20 @@ jobs:
           const path = require('path');
           const {createRequire} = require('module');
 
-          const requireFromGenerator = createRequire(
-            path.join(process.cwd(), 'generator/package.json')
-          );
-          const prettier = requireFromGenerator('prettier');
+          let prettier;
+
+          try {
+            const requireFromGenerator = createRequire(
+              path.join(process.cwd(), 'generator/package.json')
+            );
+            prettier = requireFromGenerator('prettier');
+          } catch (error) {
+            console.error(
+              'Unable to load Prettier from generator dependencies. Ensure generator/npm ci has completed successfully.'
+            );
+            console.error(error);
+            process.exit(1);
+          }
 
           const main = async () => {
             const entry = JSON.parse(process.env.ENTRY);
@@ -258,15 +268,24 @@ jobs:
             }
 
             // Write back with repository formatting to avoid noisy diffs
-            const formattedData = await prettier.format(JSON.stringify(data), {
-              filepath: filePath,
-            });
+            let formattedData;
+
+            try {
+              formattedData = await prettier.format(JSON.stringify(data), {
+                filepath: filePath,
+              });
+            } catch (error) {
+              console.error(`Failed to format updated JSON for ${targetFile}.`);
+              throw error;
+            }
+
             fs.writeFileSync(filePath, formattedData);
 
             console.log(`Inserted "${entry.name}" into ${targetFile}`);
           };
 
           main().catch(error => {
+            console.error('Failed to insert the submission entry into the target JSON file.');
             console.error(error);
             process.exit(1);
           });
