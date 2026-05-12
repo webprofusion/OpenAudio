@@ -27,6 +27,15 @@
     ]
   },
   {
+    "name": "DCOffsetter",
+    "url": "https://github.com/wheatBread1306/DCOffsetter",
+    "description": "DCOffsetter - DC Offset Audio Plugin is allows you to adjust the direct current (DC) component of audio signals by adding DC offset (bias) to the audio signal. It provides independent bias control for left and right stereo channels, supporting various audio processing applications from fine adjustments to significant modifications.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
