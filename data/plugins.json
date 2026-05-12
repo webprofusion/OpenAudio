@@ -36,6 +36,15 @@
     ]
   },
   {
+    "name": "NEL",
+    "url": "https://github.com/Mrugalla/NEL-19",
+    "description": "NEL is a vibrato plugin. It uses a feed-forward delay to modulate the signal in pitch and time. Various modulators can be used to create all kinds of vibrato textures.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "PodcastPlugins",
     "url": "https://github.com/trummerschlunk/PodcastPlugins",
     "description": "Podcast Plugins are easy-to-use plugins for speech enhancement, specifically designed for podcasters who can't or don't want to dig deeper into the craft of sound engineering.",
