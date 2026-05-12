@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "AnalogChannel",
+    "url": "https://github.com/FilTer87/VST-AnalogChannel",
+    "description": "AnalogChannel is a VST3 channel strip plugin designed for mixing engineers who demand fast and characterful results in their workflow.",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
