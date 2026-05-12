@@ -373,7 +373,7 @@
   {
     "name": "DCOffsetter",
     "url": "https://github.com/wheatBread1306/DCOffsetter",
-    "description": "DCOffsetter - DC Offset Audio Plugin is allows you to adjust the direct current (DC) component of audio signals by adding DC offset (bias) to the audio signal. It provides independent bias control for left and right stereo channels, supporting various audio processing applications from fine adjustments to significant modifications.",
+    "description": "DCOffsetter - DC Offset Audio Plugin allows you to adjust the direct current (DC) component of audio signals by adding DC offset (bias) to the audio signal. It provides independent bias control for left and right stereo channels, supporting various audio processing applications from fine adjustments to significant modifications.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -596,7 +596,7 @@
   {
     "name": "Frequalizer",
     "url": "https://github.com/ffAudio/Frequalizer",
-    "description": "The [Frequalizer](https://foleysfinest.com/plugins/frequalizer/) is an 6-band EQ with integrated Analyzer",
+    "description": "The [Frequalizer](https://foleysfinest.com/plugins/frequalizer/) is a 6-band EQ with integrated analyzer",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -631,7 +631,7 @@
   {
     "name": "Gripverb",
     "url": "https://github.com/ashaydave/Gripverb",
-    "description": "[Gripverb](https://ashay-dave.me/gripverb) is Implementation of a Schroeder Reverb (4 all-pass filters into 8 comb filters) in JUCE.",
+    "description": "[Gripverb](https://ashay-dave.me/gripverb) is an implementation of a Schroeder reverb (4 all-pass filters into 8 comb filters) in JUCE.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -1662,7 +1662,7 @@
   {
     "name": "VinSynth",
     "url": "https://github.com/ashaydave/VinSynth",
-    "description": "[Is](https://ashay-dave.me/vinsynth) a monophonic synthesizer with MIDI input, an interpolated delay effect, a lo-fi style bit crusher with a speed control that affects how fast the bit crushing happens, and a low/high pass filter",
+    "description": "[VinSynth](https://ashay-dave.me/vinsynth) is a monophonic synthesizer with MIDI input, an interpolated delay effect, a lo-fi style bit crusher with a speed control that affects how fast the bit crushing happens, and a low/high pass filter",
     "type": "Effect",
     "frameworks": [
       "JUCE"
