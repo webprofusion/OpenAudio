@@ -36,6 +36,15 @@
     ]
   },
   {
+    "name": "Ultramaster KR-106",
+    "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106",
+    "description": "A synthesizer plugin emulating the Roland Juno-6, Juno-60, and Juno-106",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
