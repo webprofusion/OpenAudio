@@ -140,6 +140,7 @@ Audio Plugins
 | [Musializer Plugin](https://github.com/ameyakakade/musializer-plugin) | Spectrum visualizer plugin | Misc | JUCE |
 | [MVerb](https://github.com/martineastwood/mverb) | Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure | Effect | VSTGUI |
 | [ndc Plugs](https://www.niallmoody.com/ndcplugs/plugins.htm) | VST plugins for Windows and OSX | Misc | VSTGUI |
+| [NEL](https://github.com/Mrugalla/NEL-19) | NEL is a vibrato plugin. It uses a feed-forward delay to modulate the signal in pitch and time. Various modulators can be used to create all kinds of vibrato textures. | Effect | JUCE |
 | [Neural Amp Modeler LV2](https://github.com/mikeoliphant/neural-amp-modeler-lv2) | Neural amplifier modeler, LV2 version of Steven Atkinson's NAM plugin | Effect | N/A |
 | [Neural Resonator VST](https://github.com/rodrigodzf/NeuralResonatorVST) | This is a VST plugin that uses a neural network to generate filters based on arbitrary 2D shapes and materials. It is possible to use midi to trigger simple impulses to excite these filters. Additionally any audio signal can be used as input to the filters. | Effect | JUCE |
 | [Ninjas 2](https://github.com/clearly-broken-software/ninjas2) | Sample slicer, rewrite of Ninjas | Instrument | DPF |
