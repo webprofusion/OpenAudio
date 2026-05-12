@@ -27,25 +27,6 @@
     ]
   },
   {
-    "name": "BeatCrafter",
-    "url": "https://github.com/innermost47/beatcrafter",
-    "description": "Intelligent MIDI Drum Pattern Generator VST3 - Proof of Concept",
-    "type": "Effect",
-    "frameworks": [
-      "JUCE"
-    ]
-  },
-  {
-    "name": "PodcastPlugins",
-    "url": "https://github.com/trummerschlunk/PodcastPlugins",
-    "description": "Podcast Plugins are easy-to-use plugins for speech enhancement, specifically designed for podcasters who can't or don't want to dig deeper into the craft of sound engineering.",
-    "type": "Effect",
-    "frameworks": [
-      "DPF",
-      "Faust"
-    ]
-  },
-  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
@@ -130,6 +111,15 @@
     "description": "Axiom is an extremely flexible node-based realtime audio synthesizer. It was originally designed for size-constrained environments such as PC intros in the demoscene, but is entirely open source and is becoming an excellent free tool for any musician.",
     "type": "Instrument",
     "frameworks": []
+  },
+  {
+    "name": "BeatCrafter",
+    "url": "https://github.com/innermost47/beatcrafter",
+    "description": "Intelligent MIDI Drum Pattern Generator VST3 - Proof of Concept",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
   },
   {
     "name": "Bespoke",
@@ -381,6 +371,15 @@
     ]
   },
   {
+    "name": "DCOffsetter",
+    "url": "https://github.com/wheatBread1306/DCOffsetter",
+    "description": "DCOffsetter - DC Offset Audio Plugin is allows you to adjust the direct current (DC) component of audio signals by adding DC offset (bias) to the audio signal. It provides independent bias control for left and right stereo channels, supporting various audio processing applications from fine adjustments to significant modifications.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Delirion",
     "url": "https://github.com/igorski/delirion",
     "description": "A VST audio plugin that is a multi-band doppler shifter with band specific distortion and reverberation effects. The less scientific and more romantic definition is that it makes any incoming audio sound like remembered in a fever dream",
@@ -516,6 +515,15 @@
     ]
   },
   {
+    "name": "DtBlkFx",
+    "url": "https://codeberg.org/skullzy/DtBlkFx",
+    "description": "DtBlkFx is a Fast-Fourier-Transform (FFT) based VST plug-in",
+    "type": "Effect",
+    "frameworks": [
+      "VSTGUI"
+    ]
+  },
+  {
     "name": "Element",
     "url": "https://github.com/kushview/Element",
     "description": "Advanced Audio Plugin Host",
@@ -586,6 +594,15 @@
     ]
   },
   {
+    "name": "Frequalizer",
+    "url": "https://github.com/ffAudio/Frequalizer",
+    "description": "The [Frequalizer](https://foleysfinest.com/plugins/frequalizer/) is an 6-band EQ with integrated Analyzer",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "GainPlugin",
     "url": "https://github.com/satelllte/GainPlugin",
     "description": "(Experimental) VST/AU audio plugin example based on JUCE with React-JUCE for UI.",
@@ -606,6 +623,15 @@
     "name": "GATE-12",
     "url": "https://github.com/tiagolr/gate12",
     "description": "GATE-12 is a cross-platform envelope generator for gate/volume control inspired by plugins like GrossBeat and ShaperBox. It is the second version of [GATE-1](https://github.com/tiagolr/gate1) rebuilt from scratch using the JUCE framework.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Gripverb",
+    "url": "https://github.com/ashaydave/Gripverb",
+    "description": "[Gripverb](https://ashay-dave.me/gripverb) is Implementation of a Schroeder Reverb (4 all-pass filters into 8 comb filters) in JUCE.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -826,6 +852,15 @@
     "type": "Instrument",
     "frameworks": [
       "JUCE"
+    ]
+  },
+  {
+    "name": "master_me",
+    "url": "https://github.com/trummerschlunk/master_me",
+    "description": "Automatic audio mastering plugin for live-streaming and internet radio stations.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
     ]
   },
   {
@@ -1093,6 +1128,16 @@
     ]
   },
   {
+    "name": "PodcastPlugins",
+    "url": "https://github.com/trummerschlunk/PodcastPlugins",
+    "description": "Podcast Plugins are easy-to-use plugins for speech enhancement, specifically designed for podcasters who can't or don't want to dig deeper into the craft of sound engineering.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF",
+      "Faust"
+    ]
+  },
+  {
     "name": "Pulp Fiction",
     "url": "https://github.com/coconut-audio/pulp-fiction",
     "description": "Multi-effects rack plugin",
@@ -1134,6 +1179,13 @@
     "frameworks": [
       "Qt"
     ]
+  },
+  {
+    "name": "Ratatouille",
+    "url": "https://github.com/brummer10/Ratatouille.lv2",
+    "description": "Ratatouille is a Neural Model loader and mixer",
+    "type": "Effect",
+    "frameworks": []
   },
   {
     "name": "RCSiner",
@@ -1221,6 +1273,24 @@
     "url": "https://github.com/gabrielsoule/resonarium",
     "description": "Resonarium is a MPE-compatible physical modeling synthesizer, based on coupled string waveguide models. It is designed to encourage abstract sound design, exploration, and open-ended play.",
     "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "RetroPlug",
+    "url": "https://github.com/tommitytom/RetroPlug",
+    "description": "A frontend for the SameBoy GameBoy emulator, with a focus on music creation",
+    "type": "Effect",
+    "frameworks": [
+      "iPlug2"
+    ]
+  },
+  {
+    "name": "Ripchord",
+    "url": "https://github.com/trackbout/ripchord",
+    "description": "Ripchord is a free MIDI plugin for creating and remixing chord progressions. You can create custom chord presets from scratch, load expansion packs, or import any MIDI file that contains chords and Ripchord will automatically create a preset from it",
+    "type": "Misc",
     "frameworks": [
       "JUCE"
     ]
@@ -1547,6 +1617,15 @@
     "frameworks": []
   },
   {
+    "name": "Ultramaster KR-106",
+    "url": "https://github.com/kayrockscreenprinting/ultramaster_kr106",
+    "description": "A synthesizer plugin emulating the Roland Juno-6, Juno-60, and Juno-106",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "VAC-6V Volume Analyzer & Controller",
     "url": "https://codeberg.org/pongasoft/vst-vac-6v",
     "description": "NOTE : i put no framework, and i think could be added [Jamba](https://codeberg.org/pongasoft/jamba) as new framework option in drop down",
@@ -1578,6 +1657,15 @@
     "type": "Misc",
     "frameworks": [
       "RtAudio"
+    ]
+  },
+  {
+    "name": "VinSynth",
+    "url": "https://github.com/ashaydave/VinSynth",
+    "description": "[Is](https://ashay-dave.me/vinsynth) a monophonic synthesizer with MIDI input, an interpolated delay effect, a lo-fi style bit crusher with a speed control that affects how fast the bit crushing happens, and a low/high pass filter",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
     ]
   },
   {
