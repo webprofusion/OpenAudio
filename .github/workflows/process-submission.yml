@@ -230,30 +230,65 @@ jobs:
           node << 'EOF'
           const fs = require('fs');
           const path = require('path');
+          const {createRequire} = require('module');
 
-          const entry = JSON.parse(process.env.ENTRY);
-          const targetFile = process.env.TARGET_FILE;
+          let prettier;
 
-          // Read existing data
-          const filePath = path.join(process.cwd(), targetFile);
-          const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
-
-          // Find insertion index (alphabetical by name, case-insensitive)
-          const insertIndex = data.findIndex(item =>
-            item.name.toLowerCase() > entry.name.toLowerCase()
-          );
-
-          // Insert at correct position
-          if (insertIndex === -1) {
-            data.push(entry);
-          } else {
-            data.splice(insertIndex, 0, entry);
+          try {
+            const requireFromGenerator = createRequire(
+              path.join(process.cwd(), 'generator/package.json')
+            );
+            prettier = requireFromGenerator('prettier');
+          } catch (error) {
+            console.error(
+              'Unable to load Prettier from generator dependencies. Ensure generator/npm ci has completed successfully.'
+            );
+            console.error(error);
+            process.exit(1);
           }
 
-          // Write back with consistent formatting
-          fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + '\n');
+          const main = async () => {
+            const entry = JSON.parse(process.env.ENTRY);
+            const targetFile = process.env.TARGET_FILE;
 
-          console.log(`Inserted "${entry.name}" into ${targetFile}`);
+            // Read existing data
+            const filePath = path.join(process.cwd(), targetFile);
+            const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+            // Find insertion index (alphabetical by name, case-insensitive)
+            const insertIndex = data.findIndex(item =>
+              item.name.toLowerCase() > entry.name.toLowerCase()
+            );
+
+            // Insert at correct position
+            if (insertIndex === -1) {
+              data.push(entry);
+            } else {
+              data.splice(insertIndex, 0, entry);
+            }
+
+            // Write back with repository formatting to avoid noisy diffs
+            let formattedData;
+
+            try {
+              formattedData = await prettier.format(JSON.stringify(data), {
+                filepath: filePath,
+              });
+            } catch (error) {
+              console.error(`Failed to format updated JSON for ${targetFile}.`);
+              throw error;
+            }
+
+            fs.writeFileSync(filePath, formattedData);
+
+            console.log(`Inserted "${entry.name}" into ${targetFile}`);
+          };
+
+          main().catch(error => {
+            console.error('Failed to insert the submission entry into the target JSON file.');
+            console.error(error);
+            process.exit(1);
+          });
           EOF
         env:
           ENTRY: ${{ steps.parse.outputs.entry }}
