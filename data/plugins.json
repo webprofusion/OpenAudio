@@ -979,6 +979,15 @@
     ]
   },
   {
+    "name": "NEL",
+    "url": "https://github.com/Mrugalla/NEL-19",
+    "description": "NEL is a vibrato plugin. It uses a feed-forward delay to modulate the signal in pitch and time. Various modulators can be used to create all kinds of vibrato textures.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Neural Amp Modeler LV2",
     "url": "https://github.com/mikeoliphant/neural-amp-modeler-lv2",
     "description": "Neural amplifier modeler, LV2 version of Steven Atkinson's NAM plugin",
