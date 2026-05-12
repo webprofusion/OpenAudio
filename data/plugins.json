@@ -27,6 +27,15 @@
     ]
   },
   {
+    "name": "Gripverb",
+    "url": "https://github.com/ashaydave/Gripverb",
+    "description": "[Gripverb](https://ashay-dave.me/gripverb) is Implementation of a Schroeder Reverb (4 all-pass filters into 8 comb filters) in JUCE.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
