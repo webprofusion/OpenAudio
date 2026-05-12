@@ -27,10 +27,10 @@
     ]
   },
   {
-    "name": "ÆLAPSE",
-    "url": "https://github.com/smiarx/aelapse",
-    "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
-    "type": "Effect",
+    "name": "Aeolus",
+    "url": "https://github.com/Archie3d/aeolus_plugin",
+    "description": "Pipe organ emulator using additive synthesis as a VST, AU, or CLAP plugin (or a stand-alone executable)",
+    "type": "Instrument",
     "frameworks": [
       "JUCE"
     ]
@@ -97,6 +97,15 @@
     ]
   },
   {
+    "name": "Axiom",
+    "url": "https://github.com/monadgroup/axiom",
+    "description": "Axiom is an extremely flexible node-based realtime audio synthesizer. It was originally designed for size-constrained environments such as PC intros in the demoscene, but is entirely open source and is becoming an excellent free tool for any musician.",
+    "type": "Instrument",
+    "frameworks": [
+      "No Framework"
+    ]
+  },
+  {
     "name": "Bespoke",
     "url": "https://github.com/awwbees/BespokeSynth",
     "description": "Node-based modular synth with live coding",
@@ -118,6 +127,15 @@
     "name": "BiRR",
     "url": "https://github.com/odoare/BiRR",
     "description": "BiRR (and her ambisonic sister AmbiRR) are room simulators that accurately emulate the sound produced by two monophonic and omnidirectionnal sources perceived by a listener in a rectangular (2D) or parallelepipedic (3D) room. The dimensions (x,y,z) of the room can be adjusted, as well as the source and listener positions. The generated stereo output can simulate different microphone positions (XY, MS, with different angles), or a binaural receiver.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Biztortion",
+    "url": "https://github.com/killbizz/Biztortion",
+    "description": "Modular distortion plugin for VST-based hosts made with C++ and JUCE framework.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -185,6 +203,15 @@
     ]
   },
   {
+    "name": "CetoneSynthLight",
+    "url": "https://github.com/AnClark/CetoneSynthLight",
+    "description": "CetoneSynthLight is a light-weight polyphonic synthesizer by Neotec Software. It aims to give you a light but professional synthesizer experience. Originally written by [René Jeschke](https://github.com/rjeschke).",
+    "type": "Instrument",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
     "name": "Chorus Ex Machina",
     "url": "https://github.com/peastman/ChorusExMachina",
     "description": "Physically modelled chorus synthesizer",
@@ -203,9 +230,27 @@
     ]
   },
   {
+    "name": "Classic Reverb RE-02",
+    "url": "https://github.com/AnClark/ClassicReverb-RE02",
+    "description": "Classic Reverb RE-02 is a reversed engineering of Kjaerhus Classic Reverb, a studio-quality free reverb plugin. It is a variant of [Classic Reverb RE-04](https://github.com/AnClark/ClassicReverb-RE04). They have the same controls, but RE-02 has a different timbre.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
     "name": "Classic Reverb RE-03",
     "url": "https://github.com/AnClark/ClassicReverb-RE03",
     "description": "Classic Reverb RE-03 is a reversed engineering of Kjaerhus Classic Reverb, a studio-quality free reverb plugin. It is a variant of [Classic Reverb RE-04](https://github.com/AnClark/ClassicReverb-RE04), with a different flavor of sound style and controls",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
+    "name": "Classic Reverb RE-04",
+    "url": "https://github.com/AnClark/ClassicReverb-RE04",
+    "description": "Classic Reverb RE-04 is a reversed engineering of Kjaerhus Classic Reverb, a studio-quality free reverb plugin. It sounds professional, with a flavor of vintage reverb, suitable for many applications from vocals to instruments.",
     "type": "Effect",
     "frameworks": [
       "DPF"
@@ -228,12 +273,30 @@
     ]
   },
   {
+    "name": "CMBNEX",
+    "url": "https://github.com/KaixoCode/CMBNEX",
+    "description": "CMBNEX Is a 4 oscillator VST3 synth with a unique tuneable 2 dimensional waveshaper and 3 combiners that use several algorithms to combine incoming signals. All parameters have 4 slots for internal modulation from several modulation sources like envelopes, LFOs, and macros",
+    "type": "Instrument",
+    "frameworks": [
+      "VSTGUI"
+    ]
+  },
+  {
     "name": "Cocoa Delay",
     "url": "https://github.com/tesselode/cocoa-delay",
     "description": "Warm and lively delay",
     "type": "Effect",
     "frameworks": [
       "WDL-OL"
+    ]
+  },
+  {
+    "name": "Comprez",
+    "url": "https://github.com/AnClark/Comprez",
+    "description": "Comprez is a simple but fast, versatile compressor plug-in. It's ready to give you a special compressor experience you may never have before. Although there are only 4 controllers currently, it does not limit your creation.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
     ]
   },
   {
@@ -244,6 +307,15 @@
     "frameworks": [
       "JUCE",
       "VSTGUI"
+    ]
+  },
+  {
+    "name": "CrushClone",
+    "url": "https://github.com/doxiedevops/CrushClone",
+    "description": "A faithful recreation of the legendary CamelCrusher multi-effect plugin",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
     ]
   },
   {
@@ -268,6 +340,24 @@
     "name": "DAFx19-Gamelanizer",
     "url": "https://github.com/lukemcraig/DAFx19-Gamelanizer",
     "description": "Accompanying material for the paper 'A Real-Time Audio Effect Plug-In Inspired by the Processes of Traditional Indonesian Gamelan Music'",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Darvaza",
+    "url": "https://github.com/igorski/darvaza",
+    "description": "Darvaza is a VST/AU plug-in which provides a gating effect. The gate can use different waveforms and its speed is individually controllable across channels. The gates oscillators are synchronized to the host tempo and time signature.",
+    "type": "Effect",
+    "frameworks": [
+      "VSTGUI"
+    ]
+  },
+  {
+    "name": "Delirion",
+    "url": "https://github.com/igorski/delirion",
+    "description": "A VST audio plugin that is a multi-band doppler shifter with band specific distortion and reverberation effects. The less scientific and more romantic definition is that it makes any incoming audio sound like remembered in a fever dream",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -425,12 +515,39 @@
     ]
   },
   {
+    "name": "Fire",
+    "url": "https://github.com/jerryuhoo/Fire",
+    "description": "This is a multi-band distortion plugin [『Fire』](https://www.bluewingsmusic.com/fire.html).",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Flappy Chord",
+    "url": "https://github.com/odoare/FlappyChord",
+    "description": "Flappy Chord is a simple prototype of musical game that reimagines the classic \"Flappy Bird\" formula as a fun tool for learning music. The bird is controlled by playing notes and chords on a connected MIDI keyboard.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Flutterbird",
     "url": "https://github.com/tesselode/flutterbird",
     "description": "Simple pitch fluctuation",
     "type": "Effect",
     "frameworks": [
       "iPlug2"
+    ]
+  },
+  {
+    "name": "FOGPAD",
+    "url": "https://github.com/igorski/fogpad",
+    "description": "[FogPad](https://www.igorski.nl/download/fogpad) is a multichannel reverb effect with a little twist: instead of aiming to recreate a large amount of acoustic spaces, FogPad provides a murky nebula of frozen thoughts, recollecting long forgotten events. The reflections can be bent and transformed through use of its fully automatable parameters.",
+    "type": "Effect",
+    "frameworks": [
+      "VSTGUI"
     ]
   },
   {
@@ -450,6 +567,15 @@
     "frameworks": [
       "JUCE",
       "React-JUCE"
+    ]
+  },
+  {
+    "name": "Gammou",
+    "url": "https://github.com/aliefhooghe/Gammou",
+    "description": "Gammou is a polyphonic modular sound synthesizer that be run as VST or standalone on Linux and Windows.",
+    "type": "Instrument",
+    "frameworks": [
+      "No Framework"
     ]
   },
   {
@@ -474,6 +600,15 @@
     "name": "Hammer & Meißel",
     "url": "https://github.com/Mrugalla/Hammer-and-Meiszel",
     "description": "Hammer & Meißel is a keytracked polyphonic modal filter (and more).",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Harpejji-VST",
+    "url": "https://github.com/ABSounds/Harpejji-VST",
+    "description": "VST plugin is a virtual instrument that emulates the sound of an Harpejji, created as my Bachelor's thesis project using physical modeling synthesis techniques.",
     "type": "Instrument",
     "frameworks": [
       "JUCE"
@@ -507,6 +642,15 @@
     ]
   },
   {
+    "name": "Homecorrupter",
+    "url": "https://github.com/igorski/homecorrupter",
+    "description": "Homecorrupter is a VST/AU plug-in which allows the reduction of sample rate, bit depth and playback speed of any incoming audio, on the fly.",
+    "type": "Effect",
+    "frameworks": [
+      "VSTGUI"
+    ]
+  },
+  {
     "name": "Hue",
     "url": "https://github.com/bljustice/hue",
     "description": "Mixes various noise types into the audio signal",
@@ -516,12 +660,31 @@
     ]
   },
   {
+    "name": "HybridReverb2",
+    "url": "https://github.com/jpcima/HybridReverb2",
+    "description": "HybridReverb2 is a convolution-based reverberation effect which combines the superior sound quality of a convolution reverb with the tuning capability of a feedback delay network.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "INTERSECT",
     "url": "https://github.com/tucktuckg00se/INTERSECT",
     "description": "INTERSECT is a sample slicer instrument plugin (VST3/AU/Standalone) with multi-sample sessions, per-slice locking, slice note ranges, multiple time/pitch algorithms, and MIDI-triggered slice playback.",
     "type": "Instrument",
     "frameworks": [
       "JUCE"
+    ]
+  },
+  {
+    "name": "IR: LV2 Convolution Reverb",
+    "url": "https://git.hq.sig7.se/ir.lv2.git",
+    "description": "NOTE : Please kindly recheck, i think this also use LV2 , which i think could be added to dropdown",
+    "type": "Effect",
+    "frameworks": [
+      "GTK",
+      "No Framework"
     ]
   },
   {
@@ -539,6 +702,15 @@
     "description": "JS Inflator is a copy of Sonox Inflator.",
     "type": "Effect",
     "frameworks": []
+  },
+  {
+    "name": "JS80P",
+    "url": "https://github.com/attilammagyar/js80p",
+    "description": "JS80P is a MIDI driven, performance oriented, versatile, free and open source [synthesizer VST® plugin](https://en.wikipedia.org/wiki/Virtual_Studio_Technology) for Linux, Windows, and macOS.",
+    "type": "Instrument",
+    "frameworks": [
+      "No Framework"
+    ]
   },
   {
     "name": "JuceOPLVSTi",
@@ -618,6 +790,15 @@
     ]
   },
   {
+    "name": "Luftikus",
+    "url": "https://github.com/lkjbdsp/lkjb-plugins/tree/master/Luftikus",
+    "description": "Luftikus is a digital adaptation of an analog EQ with fixed half-octave bands and additional high frequency boost. As an improvement to the hardware it allows deeper cuts and supports a keep-gain mode where overall gain changes are avoided.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Magical8bitPlug 2",
     "url": "https://github.com/yokemura/Magical8bitPlug2",
     "description": "Old 8bit game console style synth",
@@ -667,6 +848,24 @@
     "type": "Instrument",
     "frameworks": [
       "WDL-OL"
+    ]
+  },
+  {
+    "name": "Minaton-XT",
+    "url": "https://github.com/AnClark/Minaton-XT",
+    "description": "Minaton - A monophonic, subtractive, beefy analogue style bass and lead synthesizer. Originally written by Nick Bailey (ThunderOx Software) ([@thunderox](https://github.com/thunderox/Minaton))",
+    "type": "Instrument",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
+    "name": "MixCompare",
+    "url": "https://github.com/Jun-Murakami/MixCompare",
+    "description": "A professional audio plugin for DAW final stage mixing that provides instant switching between your work-in-progress mix and reference audio sources. Built with JUCE framework and modern web technologies.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
     ]
   },
   {
@@ -812,9 +1011,45 @@
     ]
   },
   {
+    "name": "Panacea",
+    "url": "https://github.com/consint/Panacea",
+    "description": "NOTE : i think there should be new framework added, since this is using [Cabbage](https://cabbageaudio.com/) , so for now i pick \"No Framework\" as option",
+    "type": "Effect",
+    "frameworks": [
+      "No Framework"
+    ]
+  },
+  {
     "name": "PeakEater",
     "url": "https://github.com/vvvar/PeakEater",
     "description": "PeakEater is a free, easy-to-use wave-shaping plugin. PeakEater lets you choose between different [wave-shaping](https://en.wikipedia.org/wiki/Waveshaper) [functions](https://en.wikipedia.org/wiki/Sigmoid_function) to clip everything above ceiling level. Therefore, you can boost the overall volume of your track safely without worrying that some nasty peak would go above the maximum allowed volume level of your DAW.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "PerceptoMap",
+    "url": "https://github.com/hqrrr/PerceptoMap",
+    "description": "PerceptoMap is an open-source audio plugin (VST3) that visualizes psychoacoustic features of audio signals in real time",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Phlegetron",
+    "url": "https://github.com/igorski/phlegetron",
+    "description": "An audio plugin that provides multiple distortion effects with simple parameter control. The distortion can operate on two independent channels, either split by a crossover frequency or by harmonic bins. Tweaking the controls should allow you to tune in to specific frequencies for creating either pleasing or disturbing harmonic distortion, depending on what takes your fancy.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "PitchedDelay",
+    "url": "https://github.com/lkjbdsp/lkjb-plugins/tree/master/PitchedDelay",
+    "description": "PitchedDelay is a delay that allows the pitching the delayed signal. This can be done within or outside the feedback loop.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -855,6 +1090,15 @@
     "frameworks": []
   },
   {
+    "name": "Pult-EQ",
+    "url": "https://github.com/consint/Pult-EQ",
+    "description": "Pult EQ is a free and open source Pultec style tube EQ VST3 plugin (64bit) for Linux and Windows. Pult EQ is not made for fine detailed work, but for adding mojo and sound coloration. You can boost the lows, the highs and the mids. You can saturate your sound or, of course, do the “Pultec trick”. The EQ features stereo and mid/side processing and the saturation comes with automatic gain compensation and up to 16 times oversampling.",
+    "type": "Effect",
+    "frameworks": [
+      "Faust"
+    ]
+  },
+  {
     "name": "QDelay",
     "url": "https://github.com/tiagolr/qdelay",
     "description": "QDelay (short for quick-delay) is a dual-delay with more features than it should for a free plugin that's supposed to be quick. While it offers nothing groundbreaking it is based on popular units like ReplikaXT and EchoBoy. The main goal is to create a free and open plug-in for my own productions, an alternative to the popular [Deelay](https://sixthsample.com/deelay/) by SixthSample without premium versions or trimmed features or on-line activation.",
@@ -882,6 +1126,15 @@
     ]
   },
   {
+    "name": "RdPiano",
+    "url": "https://github.com/giulioz/rdpiano",
+    "description": "RdPiano accurately emulates SA-synthesis digital pianos, such as the Roland MKS-20, RD1000 and the Rhodes MK-80 electric piano. It simulates the CPU-B board reused in different models, emulating the CPU and the custom chips. The emulation of the custom chips is derived from silicon analysis. It also approximates the BBD chorus and tremolo effect, albeit less accurately than the digital emulation.",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "RE201models",
     "url": "https://github.com/je3928/RE201models/tree/main",
     "description": "This repository is dedicated to digital modelling of the Roland RE-201.",
@@ -900,9 +1153,36 @@
     ]
   },
   {
+    "name": "Real-time Noise Suppression Plugin",
+    "url": "https://github.com/werman/noise-suppression-for-voice",
+    "description": "A real-time noise suppression plugin for voice based on [Xiph's RNNoise](https://github.com/xiph/rnnoise). [More info about the base library](https://people.xiph.org/~jm/demo/rnnoise/).",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Rechoir",
+    "url": "https://github.com/igorski/rechoir",
+    "description": "Rechoir is a delay plug-in in which the echoes are pitch shifted to create a tempo synchronized harmony from the input signal.",
+    "type": "Effect",
+    "frameworks": [
+      "VSTGUI"
+    ]
+  },
+  {
     "name": "REEV-R",
     "url": "https://github.com/tiagolr/reevr",
     "description": "REEV-R is a cross-platform convolution reverb with modulation for pre/send and post/volume signals.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "ReFine",
+    "url": "https://github.com/lkjbdsp/lkjb-plugins/tree/master/ReFine",
+    "description": "ReFine is a plugin that allows to add a final polishing to your tracks, busses and masters. It extracts psycho-acoustic parameters from the source and thus allows to add warmth, space and punch to your mixes. This is done level dependent and rather subtle; you probably won't be able to create heavy distortion effects with this plugin.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -931,6 +1211,15 @@
     "url": "https://github.com/tiagolr/ripplerx",
     "description": "RipplerX is a physically modeled synth, capable of sounds similar to AAS Chromaphone and Ableton Collision.",
     "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Room Reverb",
+    "url": "https://github.com/cvde/RoomReverb",
+    "description": "Room Reverb is a mono/stereo to stereo algorithmic reverb audio plugin with many presets. It uses the implementation of Moorer's early reflection model and Jon Dattorro's Progenitor Reverb from the Freeverb3 signal processing library.",
+    "type": "Effect",
     "frameworks": [
       "JUCE"
     ]
@@ -1071,6 +1360,15 @@
     ]
   },
   {
+    "name": "Spice FX - Open Source Edition",
+    "url": "https://github.com/DatanoiseTV/spice-oss",
+    "description": "A high-quality analog saturation VST3/AU/LV2 plugin with multiple distortion models. Open sourced in October 2025.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Squeezer",
     "url": "https://github.com/mzuther/Squeezer",
     "description": "Compressor with side-chain, several detection modes and filters, etc",
@@ -1083,6 +1381,15 @@
     "name": "Stone Mistress",
     "url": "https://github.com/NaviCisco/StoneMistress",
     "description": "Phase Shifter and Chorus audio plugin, inspired by Electro-Harmonix Stereo Electric Mistress and Small Stone pedals",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "SuperSpread",
+    "url": "https://github.com/lkjbdsp/lkjb-plugins/tree/master/SuperSpread",
+    "description": "SuperSpread uses multiple pitch shifters to spread a signal thus allowing supersawing any input it is given.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -1133,6 +1440,15 @@
     ]
   },
   {
+    "name": "Terrain",
+    "url": "https://github.com/aaronaanderson/Terrain",
+    "description": "Terrain is a Wave Terrain Synthesis instrument. In wave terrain synthesis, a sound is produced via a 2D trajectory scanning over a 3D surface, or terrain. The timbre produced is dependent on the shape and parameters of the trajectory, as well as the shape of the scanned terrain.",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "The Analog Molecule",
     "url": "https://forum.cockos.com/showthread.php?t=305604",
     "description": "JSFX Based frame plugin for Reaper.",
@@ -1178,6 +1494,15 @@
     ]
   },
   {
+    "name": "TRANSFORMANT",
+    "url": "https://github.com/igorski/transformant",
+    "description": "Transformant is a VST/AU plug-in which provides a stereo formant filter effect, driven by oscillators and obliterated to gravel through bit crushing or wave shaping.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Tumult",
     "url": "https://github.com/consint/Tumult",
     "description": "Tumult makes noise. Tumult texturizes, accentuates and adds warmth and age. Tumult comes with 100 hand-picked noises. You can choose one of them or import your own samples and play them raw, let them follow your sounds or duck them away. Tumult comes with an 5-band EQ that lets you shape the noises to your liking. Tumult is a free and open source 64bit VST3 effect plugin for Linux and Windows.",
@@ -1201,6 +1526,15 @@
     "description": "Uhhyou Plugins Collection",
     "type": "Effect",
     "frameworks": []
+  },
+  {
+    "name": "VAC-6V Volume Analyzer & Controller",
+    "url": "https://codeberg.org/pongasoft/vst-vac-6v",
+    "description": "NOTE : i put no framework, and i think could be added [Jamba](https://codeberg.org/pongasoft/jamba) as new framework option in drop down",
+    "type": "Effect",
+    "frameworks": [
+      "No Framework"
+    ]
   },
   {
     "name": "Valentine",
@@ -1307,6 +1641,24 @@
     ]
   },
   {
+    "name": "WSTD DL3Y",
+    "url": "https://github.com/Wasted-Audio/wstd-dl3y",
+    "description": "Multiband [delay](https://wasted.audio/software/wstd_dl3y) plugin.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
+    "name": "WSTD FLANGR",
+    "url": "https://github.com/Wasted-Audio/wstd-flangr",
+    "description": "Simple stereo [Flanger](https://wasted.audio/software/wstd_flangr) plugin.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
     "name": "YK Chorus",
     "url": "https://github.com/SpotlightKid/ykchorus",
     "description": "Chorus audio effect plugin based on DSP code by TAL",
@@ -1325,12 +1677,48 @@
     ]
   },
   {
+    "name": "ZeroComp",
+    "url": "https://github.com/Jun-Murakami/ZeroComp",
+    "description": "A zero-latency feedforward compressor for broadcast, streaming, and live production, with four analog-flavored modes (VCA / Opto / FET / Vari-Mu).",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "ZeroEQ",
+    "url": "https://github.com/Jun-Murakami/ZeroEQ",
+    "description": "A zero-latency, spectrum-analyzer-integrated parametric equalizer for broadcast, streaming, live, and mastering work. 11 fixed-slot bands of minimum-phase IIR (2× HPF + Low Shelf + 6× Bell + High Shelf + LPF), with per-band drag, overlaid on a Pre / Post FFT analyzer",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "ZeroLimit",
+    "url": "https://github.com/Jun-Murakami/ZeroLimit",
+    "description": "A zero-latency brickwall limiter for broadcast, streaming, and music mastering",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "zynaddsubfx",
     "url": "https://github.com/zynaddsubfx/zynaddsubfx",
     "description": "Additive/Subtractive AM/FM synthesizer with effects",
     "type": "Instrument",
     "frameworks": [
       "FLTK"
+    ]
+  },
+  {
+    "name": "ÆLAPSE",
+    "url": "https://github.com/smiarx/aelapse",
+    "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
     ]
   }
 ]
