@@ -28,6 +28,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "The Kiss of Shame",
+    "url": "https://github.com/hollance/TheKissOfShame",
+    "description": "The Kiss of Shame – Tape Desecration Processor, debuted at the Audio Engineering Society Convention 2014 in Los Angeles, was a pioneering DAW plugin that leveraged commercial UX/UI design principles to shape its magnetic tape + circuitry emulation algorithms.",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
