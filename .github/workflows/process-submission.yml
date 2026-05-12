@@ -230,30 +230,41 @@ jobs:
           node << 'EOF'
           const fs = require('fs');
           const path = require('path');
+          const prettier = require('./generator/node_modules/prettier');
 
-          const entry = JSON.parse(process.env.ENTRY);
-          const targetFile = process.env.TARGET_FILE;
+          const main = async () => {
+            const entry = JSON.parse(process.env.ENTRY);
+            const targetFile = process.env.TARGET_FILE;
 
-          // Read existing data
-          const filePath = path.join(process.cwd(), targetFile);
-          const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+            // Read existing data
+            const filePath = path.join(process.cwd(), targetFile);
+            const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
 
-          // Find insertion index (alphabetical by name, case-insensitive)
-          const insertIndex = data.findIndex(item =>
-            item.name.toLowerCase() > entry.name.toLowerCase()
-          );
+            // Find insertion index (alphabetical by name, case-insensitive)
+            const insertIndex = data.findIndex(item =>
+              item.name.toLowerCase() > entry.name.toLowerCase()
+            );
 
-          // Insert at correct position
-          if (insertIndex === -1) {
-            data.push(entry);
-          } else {
-            data.splice(insertIndex, 0, entry);
-          }
+            // Insert at correct position
+            if (insertIndex === -1) {
+              data.push(entry);
+            } else {
+              data.splice(insertIndex, 0, entry);
+            }
 
-          // Write back with consistent formatting
-          fs.writeFileSync(filePath, JSON.stringify(data, null, 2) + '\n');
+            // Write back with repository formatting to avoid noisy diffs
+            const formattedData = await prettier.format(JSON.stringify(data), {
+              parser: 'json',
+            });
+            fs.writeFileSync(filePath, formattedData);
 
-          console.log(`Inserted "${entry.name}" into ${targetFile}`);
+            console.log(`Inserted "${entry.name}" into ${targetFile}`);
+          };
+
+          main().catch(error => {
+            console.error(error);
+            process.exit(1);
+          });
           EOF
         env:
           ENTRY: ${{ steps.parse.outputs.entry }}
