@@ -27,15 +27,6 @@
     ]
   },
   {
-    "name": "Tumult",
-    "url": "https://github.com/consint/Tumult",
-    "description": "Tumult makes noise. Tumult texturizes, accentuates and adds warmth and age. Tumult comes with 100 hand-picked noises. You can choose one of them or import your own samples and play them raw, let them follow your sounds or duck them away. Tumult comes with an 5-band EQ that lets you shape the noises to your liking. Tumult is a free and open source 64bit VST3 effect plugin for Linux and Windows.",
-    "type": "Effect",
-    "frameworks": [
-      "JUCE"
-    ]
-  },
-  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
@@ -209,6 +200,15 @@
     "type": "Effect",
     "frameworks": [
       "JUCE"
+    ]
+  },
+  {
+    "name": "Classic Reverb RE-03",
+    "url": "https://github.com/AnClark/ClassicReverb-RE03",
+    "description": "Classic Reverb RE-03 is a reversed engineering of Kjaerhus Classic Reverb, a studio-quality free reverb plugin. It is a variant of [Classic Reverb RE-04](https://github.com/AnClark/ClassicReverb-RE04), with a different flavor of sound style and controls",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
     ]
   },
   {
@@ -1172,6 +1172,15 @@
     "name": "Transfer",
     "url": "https://github.com/MeijisIrlnd/Transfer",
     "description": "Transfer is a waveshaper based distortion, except the transfer function is JIT compiled from text inputted by the user. Starting as a tool for testing different transfer functions in other projects, it has evolved into a pretty cool and unique plugin (disclaimer it might not be that unique I have done absolutely no market research whatsoever). It also has a built in gate, and an emphasis filter, which applies the filters to the signal pre waveshaping, then applies the exact opposite filter post waveshaping. Due to popular demand (by popular I mean that one guy on reddit), it now also has has 16x oversampling and you can't turn it off sorry I don't make the rules.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Tumult",
+    "url": "https://github.com/consint/Tumult",
+    "description": "Tumult makes noise. Tumult texturizes, accentuates and adds warmth and age. Tumult comes with 100 hand-picked noises. You can choose one of them or import your own samples and play them raw, let them follow your sounds or duck them away. Tumult comes with an 5-band EQ that lets you shape the noises to your liking. Tumult is a free and open source 64bit VST3 effect plugin for Linux and Windows.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
