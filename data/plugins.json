@@ -36,6 +36,16 @@
     ]
   },
   {
+    "name": "PodcastPlugins",
+    "url": "https://github.com/trummerschlunk/PodcastPlugins",
+    "description": "Podcast Plugins are easy-to-use plugins for speech enhancement, specifically designed for podcasters who can't or don't want to dig deeper into the craft of sound engineering.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF",
+      "Faust"
+    ]
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
