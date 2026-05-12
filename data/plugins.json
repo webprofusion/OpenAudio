@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "Midiverb/Midiverb II emulator",
+    "url": "https://github.com/thement/midiverb_emulator",
+    "description": "This is an emulator for the original Midiverb, Midifex and Midiverb II effect units made by Alesis.",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
