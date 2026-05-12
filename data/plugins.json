@@ -27,6 +27,15 @@
     ]
   },
   {
+    "name": "master_me",
+    "url": "https://github.com/trummerschlunk/master_me",
+    "description": "Automatic audio mastering plugin for live-streaming and internet radio stations.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
