@@ -230,7 +230,12 @@ jobs:
           node << 'EOF'
           const fs = require('fs');
           const path = require('path');
-          const prettier = require('./generator/node_modules/prettier');
+          const {createRequire} = require('module');
+
+          const requireFromGenerator = createRequire(
+            path.join(process.cwd(), 'generator/package.json')
+          );
+          const prettier = requireFromGenerator('prettier');
 
           const main = async () => {
             const entry = JSON.parse(process.env.ENTRY);
@@ -254,7 +259,7 @@ jobs:
 
             // Write back with repository formatting to avoid noisy diffs
             const formattedData = await prettier.format(JSON.stringify(data), {
-              parser: 'json',
+              filepath: filePath,
             });
             fs.writeFileSync(filePath, formattedData);
 
