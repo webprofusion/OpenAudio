@@ -82,7 +82,9 @@ jobs:
             const parseField = (fieldName) => {
               const regex = new RegExp(`### ${fieldName}\\s*\\n\\s*([^\\n#]+)`, 'i');
               const match = body.match(regex);
-              return match ? match[1].trim() : '';
+              if (!match) return '';
+              const value = match[1].trim();
+              return value === '_No response_' ? '' : value;
             };
 
             const parseMultiSelect = (fieldName) => {
@@ -92,7 +94,34 @@ jobs:
               return match[1]
                 .split(',')
                 .map(s => s.trim())
-                .filter(s => s && s !== '_No response_' && s.toLowerCase() !== 'none');
+                .filter(s => s && s !== '_No response_' && s.toLowerCase() !== 'none' && s.toLowerCase() !== 'no framework');
+            };
+
+            const normalizeRepository = (repoType, repoUser, repoName) => {
+              const normalizedUser = repoUser === '_No response_' ? '' : repoUser;
+              const normalizedName = repoName === '_No response_' ? '' : repoName;
+
+              if (!normalizedUser && ['GitHub', 'GitLab', 'Codeberg', 'SourceHut'].includes(repoType)) {
+                const patterns = {
+                  GitHub: /^(?:https?:\/\/)?(?:www\.)?github\.com\/([^/\s]+)\/([^/\s?#]+?)(?:\.git)?\/?$/i,
+                  GitLab: /^(?:https?:\/\/)?(?:www\.)?gitlab\.com\/([^/\s]+)\/([^/\s?#]+?)(?:\.git)?\/?$/i,
+                  Codeberg: /^(?:https?:\/\/)?(?:www\.)?codeberg\.org\/([^/\s]+)\/([^/\s?#]+?)(?:\.git)?\/?$/i,
+                  SourceHut: /^(?:https?:\/\/)?(?:git\.)?sr\.ht\/~?([^/\s]+)\/([^/\s?#]+?)(?:\.git)?\/?$/i,
+                };
+                const match = normalizedName.match(patterns[repoType]);
+
+                if (match) {
+                  return {
+                    repoUser: match[1],
+                    repoName: match[2],
+                  };
+                }
+              }
+
+              return {
+                repoUser: normalizedUser,
+                repoName: normalizedName,
+              };
             };
 
             let entry = {};
@@ -113,8 +142,11 @@ jobs:
               entryType = 'app';
               targetFile = 'data/apps.json';
               const repoType = parseField('Repository Type');
-              const repoUser = parseField('Repository User/Workspace');
-              const repoName = parseField('Repository Name');
+              const {repoUser, repoName} = normalizeRepository(
+                repoType,
+                parseField('Repository User/Workspace'),
+                parseField('Repository Name'),
+              );
 
               let repository = {};
               if (repoType === 'GitHub' || repoType === 'GitLab' || repoType === 'Codeberg' || repoType === 'SourceHut') {
@@ -141,8 +173,11 @@ jobs:
               entryType = 'library';
               targetFile = 'data/libraries.json';
               const repoType = parseField('Repository Type');
-              const repoUser = parseField('Repository User/Workspace');
-              const repoName = parseField('Repository Name');
+              const {repoUser, repoName} = normalizeRepository(
+                repoType,
+                parseField('Repository User/Workspace'),
+                parseField('Repository Name'),
+              );
 
               let repository = {};
               if (repoType === 'GitHub' || repoType === 'GitLab' || repoType === 'Codeberg' || repoType === 'SourceHut') {

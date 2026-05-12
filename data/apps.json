@@ -153,8 +153,8 @@
     "description": "EmuSC is a software synthesizer that aims to emulate the Roland Sound Canvas SC-55 lineup to recreate the original sounds of these '90s era synthesizers. Emulation is done by extracting relevant information from the original control and PCM ROMs and reimplement the synth's behavior in modern C+",
     "repository": {
       "type": "GitHub",
-      "user": "_No response_",
-      "repo": "https://github.com/skjelten/emusc"
+      "user": "skjelten",
+      "repo": "emusc"
     }
   },
   {
@@ -438,8 +438,8 @@
     "description": "SpectMorph is a free software project which allows to analyze samples of musical instruments, and to combine them (morphing). It can be used to construct hybrid sounds, for instance a sound between a trumpet and a flute; or smooth transitions, for instance a sound that starts as a trumpet and then gradually changes to a flute",
     "repository": {
       "type": "GitHub",
-      "user": "_No response_",
-      "repo": "https://github.com/swesterfeld/spectmorph"
+      "user": "swesterfeld",
+      "repo": "spectmorph"
     },
     "url": "https://www.spectmorph.org/"
   },
@@ -487,8 +487,8 @@
     "description": "A JUCE-based Open Source DAW. This DAW is lightweight and can meet most daily usage needs.",
     "repository": {
       "type": "GitHub",
-      "user": "_No response_",
-      "repo": "https://github.com/Do-sth-sharp/VocalShaper"
+      "user": "Do-sth-sharp",
+      "repo": "VocalShaper"
     }
   },
   {
