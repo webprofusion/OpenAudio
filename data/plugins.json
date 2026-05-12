@@ -36,6 +36,15 @@
     ]
   },
   {
+    "name": "Ripchord",
+    "url": "https://github.com/trackbout/ripchord",
+    "description": "Ripchord is a free MIDI plugin for creating and remixing chord progressions. You can create custom chord presets from scratch, load expansion packs, or import any MIDI file that contains chords and Ripchord will automatically create a preset from it",
+    "type": "Misc",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
