@@ -596,7 +596,7 @@
   {
     "name": "Frequalizer",
     "url": "https://github.com/ffAudio/Frequalizer",
-    "description": "The [Frequalizer](https://foleysfinest.com/plugins/frequalizer/) is a 6-band EQ with integrated analyzer",
+    "description": "Frequalizer is a 6-band EQ with integrated analyzer",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -631,7 +631,7 @@
   {
     "name": "Gripverb",
     "url": "https://github.com/ashaydave/Gripverb",
-    "description": "[Gripverb](https://ashay-dave.me/gripverb) is an implementation of a Schroeder reverb (4 all-pass filters into 8 comb filters) in JUCE.",
+    "description": "Gripverb is an implementation of a Schroeder reverb (4 all-pass filters into 8 comb filters) in JUCE.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -1281,7 +1281,7 @@
     "name": "RetroPlug",
     "url": "https://github.com/tommitytom/RetroPlug",
     "description": "A frontend for the SameBoy GameBoy emulator, with a focus on music creation",
-    "type": "Effect",
+    "type": "Instrument",
     "frameworks": [
       "iPlug2"
     ]
@@ -1662,8 +1662,8 @@
   {
     "name": "VinSynth",
     "url": "https://github.com/ashaydave/VinSynth",
-    "description": "[VinSynth](https://ashay-dave.me/vinsynth) is a monophonic synthesizer with MIDI input, an interpolated delay effect, a lo-fi style bit crusher with a speed control that affects how fast the bit crushing happens, and a low/high pass filter",
-    "type": "Effect",
+    "description": "VinSynth is a monophonic synthesizer with MIDI input, an interpolated delay effect, a lo-fi style bit crusher with a speed control that affects how fast the bit crushing happens, and a low/high pass filter",
+    "type": "Instrument",
     "frameworks": [
       "JUCE"
     ]
