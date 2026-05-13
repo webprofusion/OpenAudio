@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "SoyBoy SP",
+    "url": "https://github.com/t-sin/soyboy-sp.vst3",
+    "description": "SoyBoy SP is a VST3 instrument plugin to generate some GameBoy-like sounds.",
+    "type": "Instrument",
+    "frameworks": ["Rust VST"]
+  },
+  {
     "name": "The Kiss of Shame",
     "url": "https://github.com/hollance/TheKissOfShame",
     "description": "The Kiss of Shame – Tape Desecration Processor, debuted at the Audio Engineering Society Convention 2014 in Los Angeles, was a pioneering DAW plugin that leveraged commercial UX/UI design principles to shape its magnetic tape + circuitry emulation algorithms.",
