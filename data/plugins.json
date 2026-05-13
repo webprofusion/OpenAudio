@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "EP-MK1",
+    "url": "https://github.com/MikeMorenoDSP/EP-MK1",
+    "description": "EP-MK1 is a real-time physical model of an Electric Piano built using Pure Data and Camomile.",
+    "type": "Effect",
+    "frameworks": []
+  },
+  {
     "name": "The Kiss of Shame",
     "url": "https://github.com/hollance/TheKissOfShame",
     "description": "The Kiss of Shame – Tape Desecration Processor, debuted at the Audio Engineering Society Convention 2014 in Los Angeles, was a pioneering DAW plugin that leveraged commercial UX/UI design principles to shape its magnetic tape + circuitry emulation algorithms.",
