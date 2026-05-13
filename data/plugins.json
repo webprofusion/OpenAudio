@@ -28,6 +28,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "YK Chorus",
+    "url": "https://github.com/SpotlightKid/ykchorus",
+    "description": "A chorus effect inspired by the one found in certain well-known Japanese vintage analog synthesizers",
+    "type": "Effect",
+    "frameworks": ["DPF"]
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
