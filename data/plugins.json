@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "RS Algorithmic Verb",
+    "url": "https://github.com/reillypascal/RSAlgorithmicVerb",
+    "description": "Implements a number of different reverb algorithms, including plate and hall reverbs from Dattorro; Gardner's 1992 room reverbs; 4 feedback delay network reverbs using the \"[FDN Toolbox](https://www.researchgate.net/publication/344467473_FDNTB_The_Feedback_Delay_Network_Toolbox)\"; and two experimental/special-effect reverbs.",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "The Kiss of Shame",
     "url": "https://github.com/hollance/TheKissOfShame",
     "description": "The Kiss of Shame – Tape Desecration Processor, debuted at the Audio Engineering Society Convention 2014 in Los Angeles, was a pioneering DAW plugin that leveraged commercial UX/UI design principles to shape its magnetic tape + circuitry emulation algorithms.",
