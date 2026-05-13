@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "GuitarD",
+    "url": "https://github.com/TobiasKozel/GuitarD",
+    "description": "It's a basic multi effects processor which follows a node based approach. It's fairly unstable and experimental but contains most of the important features.",
+    "type": "Effect",
+    "frameworks": ["iPlug2"]
+  },
+  {
     "name": "The Kiss of Shame",
     "url": "https://github.com/hollance/TheKissOfShame",
     "description": "The Kiss of Shame – Tape Desecration Processor, debuted at the Audio Engineering Society Convention 2014 in Los Angeles, was a pioneering DAW plugin that leveraged commercial UX/UI design principles to shape its magnetic tape + circuitry emulation algorithms.",
