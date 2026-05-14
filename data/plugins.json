@@ -246,6 +246,15 @@
     ]
   },
   {
+    "name": "Classic Master Limiter RE-01",
+    "url": "https://github.com/AnClark/ClassicMasterLimiter-RE01",
+    "description": "Classic Master Limiter RE-01 is a reverse-engineered recreation of Kjaerhus Audio's Classic Master Limiter, a 32-bit Delphi VST2 mastering limiter from the early 2000s.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
     "name": "Classic Reverb RE-02",
     "url": "https://github.com/AnClark/ClassicReverb-RE02",
     "description": "Classic Reverb RE-02 is a reversed engineering of Kjaerhus Classic Reverb, a studio-quality free reverb plugin. It is a variant of [Classic Reverb RE-04](https://github.com/AnClark/ClassicReverb-RE04). They have the same controls, but RE-02 has a different timbre.",
@@ -1008,6 +1017,15 @@
     "url": "https://github.com/rodrigodzf/NeuralResonatorVST",
     "description": "This is a VST plugin that uses a neural network to generate filters based on arbitrary 2D shapes and materials. It is possible to use midi to trigger simple impulses to excite these filters. Additionally any audio signal can be used as input to the filters.",
     "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "NeuralNote",
+    "url": "https://github.com/DamRsn/NeuralNote",
+    "description": "NeuralNote is the audio plugin that brings state-of-the-art Audio to MIDI conversion into your favorite DAW",
+    "type": "Misc",
     "frameworks": [
       "JUCE"
     ]
