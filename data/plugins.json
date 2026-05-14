@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "Roboverb",
+    "url": "https://github.com/kushview/roboverb",
+    "description": "Roboverb is designed to produce a distinctive, \"robotic\" or metallic reverb sound, and its parameters are somewhat unique compared to typical reverb plugins.",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "The Kiss of Shame",
     "url": "https://github.com/hollance/TheKissOfShame",
     "description": "The Kiss of Shame – Tape Desecration Processor, debuted at the Audio Engineering Society Convention 2014 in Los Angeles, was a pioneering DAW plugin that leveraged commercial UX/UI design principles to shape its magnetic tape + circuitry emulation algorithms.",
