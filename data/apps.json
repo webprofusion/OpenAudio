@@ -13,40 +13,24 @@
     "name": "ADSR",
     "url": "https://adsr.vercel.app/",
     "description": "Simple web-based ADSR synth",
-    "repository": {
-      "type": "GitHub",
-      "user": "satelllte",
-      "repo": "adsr"
-    }
+    "repository": { "type": "GitHub", "user": "satelllte", "repo": "adsr" }
   },
   {
     "name": "Ardour",
     "url": "https://ardour.org/",
     "description": "DAW",
-    "repository": {
-      "type": "GitHub",
-      "user": "Ardour",
-      "repo": "ardour"
-    }
+    "repository": { "type": "GitHub", "user": "Ardour", "repo": "ardour" }
   },
   {
     "name": "ASIO2WASAPI",
     "description": "Universal ASIO driver for Windows",
-    "repository": {
-      "type": "GitHub",
-      "user": "levmin",
-      "repo": "ASIO2WASAPI"
-    }
+    "repository": { "type": "GitHub", "user": "levmin", "repo": "ASIO2WASAPI" }
   },
   {
     "name": "Audacity",
     "url": "https://www.audacityteam.org/",
     "description": "Audio editor",
-    "repository": {
-      "type": "GitHub",
-      "user": "audacity",
-      "repo": "audacity"
-    }
+    "repository": { "type": "GitHub", "user": "audacity", "repo": "audacity" }
   },
   {
     "name": "AudioKit Synth One",
@@ -72,31 +56,19 @@
     "name": "butterDAWg",
     "url": "https://github.com/Jaybee18/butterDAWg",
     "description": "DAW (WIP)",
-    "repository": {
-      "type": "GitHub",
-      "user": "Jaybee18",
-      "repo": "butterDAWg"
-    }
+    "repository": { "type": "GitHub", "user": "Jaybee18", "repo": "butterDAWg" }
   },
   {
     "name": "Carla",
     "url": "https://kx.studio/Applications:Carla",
     "description": "GNU/Linux Plugin Host",
-    "repository": {
-      "type": "GitHub",
-      "user": "falkTX",
-      "repo": "Carla"
-    }
+    "repository": { "type": "GitHub", "user": "falkTX", "repo": "Carla" }
   },
   {
     "name": "ChucK",
     "url": "https://chuck.stanford.edu/",
     "description": "Strongly-timed, Concurrent, and On-the-fly Music Programming Language",
-    "repository": {
-      "type": "GitHub",
-      "user": "ccrma",
-      "repo": "chuck"
-    }
+    "repository": { "type": "GitHub", "user": "ccrma", "repo": "chuck" }
   },
   {
     "name": "Coincident Spectra",
@@ -132,11 +104,7 @@
     "name": "Element",
     "url": "https://kushview.net/element/",
     "description": "Advanced Audio Plugin Host",
-    "repository": {
-      "type": "GitHub",
-      "user": "Kushview",
-      "repo": "Element"
-    }
+    "repository": { "type": "GitHub", "user": "Kushview", "repo": "Element" }
   },
   {
     "name": "Elementary Grid",
@@ -151,69 +119,42 @@
   {
     "name": "EmuSC",
     "description": "EmuSC is a software synthesizer that aims to emulate the Roland Sound Canvas SC-55 lineup to recreate the original sounds of these '90s era synthesizers. Emulation is done by extracting relevant information from the original control and PCM ROMs and reimplement the synth's behavior in modern C+",
-    "repository": {
-      "type": "GitHub",
-      "user": "skjelten",
-      "repo": "emusc"
-    }
+    "repository": { "type": "GitHub", "user": "skjelten", "repo": "emusc" }
   },
   {
     "name": "FFAB",
     "description": "FFAB is a cross-platform, complex audio batch processor, drag & drop effects rack, command builder & graphical user interface for FFmpeg. Audio only, but with video passthrough. Easily create filter chains, save presets, run or export FFmpeg commands, multi-input/-output batching algorithms, divide jobs across parallel FFmpeg instances... with full logs to file. It does everything FFmpeg does, but in a less cryptic manner.",
-    "repository": {
-      "type": "GitHub",
-      "user": "disuye",
-      "repo": "FFAB"
-    },
+    "repository": { "type": "GitHub", "user": "disuye", "repo": "FFAB" },
     "url": "https://www.disuye.com/ffab"
   },
   {
     "name": "FlexASIO",
     "description": "Universal ASIO driver for Windows",
-    "repository": {
-      "type": "GitHub",
-      "user": "dechamps",
-      "repo": "FlexASIO"
-    }
+    "repository": { "type": "GitHub", "user": "dechamps", "repo": "FlexASIO" }
   },
   {
     "name": "Furnace",
     "url": "https://github.com/tildearrow/furnace",
     "description": "Tracker sequencer with a huge selection of game system chips",
-    "repository": {
-      "type": "GitHub",
-      "user": "tildearrow",
-      "repo": "furnace"
-    }
+    "repository": { "type": "GitHub", "user": "tildearrow", "repo": "furnace" }
   },
   {
     "name": "Giada",
     "url": "https://www.giadamusic.com/",
     "description": "Loop machine",
-    "repository": {
-      "type": "GitHub",
-      "user": "monocasual",
-      "repo": "giada"
-    }
+    "repository": { "type": "GitHub", "user": "monocasual", "repo": "giada" }
   },
   {
     "name": "Guitarix",
     "url": "https://guitarix.org/",
     "description": "GNU/Linux Virtual Amplifier",
-    "repository": {
-      "type": "SourceForge",
-      "project": "guitarix"
-    }
+    "repository": { "type": "SourceForge", "project": "guitarix" }
   },
   {
     "name": "Harmonoid",
     "url": "https://github.com/harmonoid/harmonoid",
     "description": "Cross-platform music player (Mobile & Desktop) written in Flutter",
-    "repository": {
-      "type": "GitHub",
-      "user": "harmonoid",
-      "repo": "harmonoid"
-    }
+    "repository": { "type": "GitHub", "user": "harmonoid", "repo": "harmonoid" }
   },
   {
     "name": "Helio Workstation",
@@ -229,11 +170,7 @@
     "name": "HISE",
     "url": "http://hise.audio/",
     "description": "Cross-platform framework/application for building sample-based virtual instruments (VST, AU, AAX)",
-    "repository": {
-      "type": "GitHub",
-      "user": "christophhart",
-      "repo": "HISE"
-    }
+    "repository": { "type": "GitHub", "user": "christophhart", "repo": "HISE" }
   },
   {
     "name": "Hydrogen",
@@ -259,31 +196,25 @@
     "name": "LMMS",
     "url": "https://lmms.io/",
     "description": "DAW",
-    "repository": {
-      "type": "GitHub",
-      "user": "LMMS",
-      "repo": "lmms"
-    }
+    "repository": { "type": "GitHub", "user": "LMMS", "repo": "lmms" }
+  },
+  {
+    "name": "Matchering 2.0",
+    "description": "[Matchering 2.0](https://github.com/sergree/matchering) is a novel [Containerized Web Application](https://github.com/sergree/matchering",
+    "repository": { "type": "GitHub", "user": "sergree", "repo": "matchering" },
+    "url": "https://pypi.org/project/matchering/"
   },
   {
     "name": "Mididash",
     "description": "Mididash is an open source MIDI routing software with a node-based interface and Lua scripting. A modern take on programs like [MIDI-OX](http://www.midiox.com/).",
-    "repository": {
-      "type": "GitHub",
-      "user": "tiagolr",
-      "repo": "mididash"
-    },
+    "repository": { "type": "GitHub", "user": "tiagolr", "repo": "mididash" },
     "url": "https://tiagolr.github.io/mididash/"
   },
   {
     "name": "Musescore",
     "url": "https://musescore.org/en",
     "description": "A notation and sheet music app",
-    "repository": {
-      "type": "GitHub",
-      "user": "musescore",
-      "repo": "Musescore"
-    }
+    "repository": { "type": "GitHub", "user": "musescore", "repo": "Musescore" }
   },
   {
     "name": "Musical garden",
@@ -309,21 +240,13 @@
     "name": "OpenMPT",
     "url": "https://openmpt.org/",
     "description": "Popular tracker (formerly ModPlug Tracker) for Windows with support for IT, XM, S3M, MOD modules, VST plugins and ASIO",
-    "repository": {
-      "type": "GitHub",
-      "user": "OpenMPT",
-      "repo": "openmpt"
-    }
+    "repository": { "type": "GitHub", "user": "OpenMPT", "repo": "openmpt" }
   },
   {
     "name": "OpenUtau",
     "url": "https://www.openutau.com/",
     "description": "Singing synthesis platform for Windows, Mac and Linux that support UTAU voicebanks and machine learning voicebanks.",
-    "repository": {
-      "type": "GitHub",
-      "user": "stakira",
-      "repo": "OpenUtau"
-    }
+    "repository": { "type": "GitHub", "user": "stakira", "repo": "OpenUtau" }
   },
   {
     "name": "OpenX32",
@@ -339,49 +262,31 @@
     "name": "orDrumbox",
     "url": "https://www.ordrumbox.com/",
     "description": "Drum machine",
-    "repository": {
-      "type": "SourceForge",
-      "project": "ordrumbox"
-    }
+    "repository": { "type": "SourceForge", "project": "ordrumbox" }
   },
   {
     "name": "ossia score",
     "url": "https://ossia.io",
     "description": "Cross-platform intermedia sequencer",
-    "repository": {
-      "type": "GitHub",
-      "user": "ossia",
-      "repo": "score"
-    }
+    "repository": { "type": "GitHub", "user": "ossia", "repo": "score" }
   },
   {
     "name": "OwlPlug",
     "url": "https://owlplug.com/",
     "description": "Audio plugin manager",
-    "repository": {
-      "type": "GitHub",
-      "user": "DropSnorz",
-      "repo": "OwlPlug"
-    }
+    "repository": { "type": "GitHub", "user": "DropSnorz", "repo": "OwlPlug" }
   },
   {
     "name": "Patchcab",
     "url": "https://github.com/spectrome/patchcab",
     "description": "Modular Eurorack style synthesizer made with Web Audio",
-    "repository": {
-      "type": "GitHub",
-      "user": "spectrome",
-      "repo": "patchcab"
-    }
+    "repository": { "type": "GitHub", "user": "spectrome", "repo": "patchcab" }
   },
   {
     "name": "Psycle",
     "url": "http://psycle.pastnotecut.org/portal.php",
     "description": "Modular music tracker",
-    "repository": {
-      "type": "SourceForge",
-      "project": "psycle"
-    }
+    "repository": { "type": "SourceForge", "project": "psycle" }
   },
   {
     "name": "SampleScanner",
@@ -476,11 +381,7 @@
     "name": "VCV Rack",
     "url": "https://vcvrack.com/",
     "description": "Modular synth",
-    "repository": {
-      "type": "GitHub",
-      "user": "VCVRack",
-      "repo": "Rack"
-    }
+    "repository": { "type": "GitHub", "user": "VCVRack", "repo": "Rack" }
   },
   {
     "name": "VocalShaper",
@@ -504,10 +405,6 @@
     "name": "Zrythm",
     "url": "https://www.zrythm.org/",
     "description": "DAW",
-    "repository": {
-      "type": "GitHub",
-      "user": "zrythm",
-      "repo": "zrythm"
-    }
+    "repository": { "type": "GitHub", "user": "zrythm", "repo": "zrythm" }
   }
 ]
