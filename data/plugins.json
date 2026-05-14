@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "pMix",
+    "url": "https://github.com/olilarkin/pMix2",
+    "description": "pMix (short for preset mixer) is a sound design, composition and performance tool that facilitates the control of multiple parameters using an intuitive graphical interface",
+    "type": "Misc",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "The Kiss of Shame",
     "url": "https://github.com/hollance/TheKissOfShame",
     "description": "The Kiss of Shame – Tape Desecration Processor, debuted at the Audio Engineering Society Convention 2014 in Los Angeles, was a pioneering DAW plugin that leveraged commercial UX/UI design principles to shape its magnetic tape + circuitry emulation algorithms.",
