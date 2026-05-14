@@ -674,7 +674,7 @@
   {
     "name": "FxBox",
     "url": "https://github.com/marc365/FxBox",
-    "description": "Real-time multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3.",
+    "description": "Real-time multi-loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3.",
     "type": "Effect",
     "frameworks": []
   },
@@ -1003,7 +1003,7 @@
   {
     "name": "Melodrumatic",
     "url": "https://github.com/usdivad/Melodrumatic",
-    "description": "Melodrumatic is an audio plugin that lets you \"pitch-shift\" via delay (i.e. the Doppler effect) to turn unpitched audio into melodies. Controllable via MIDI or mouse",
+    "description": "Melodrumatic is an audio plugin that lets you \"pitch-shift\" via delay (i.e. the Doppler effect) to turn unpitched audio into melodies. Controllable via MIDI or mouse.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
