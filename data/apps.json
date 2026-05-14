@@ -267,7 +267,7 @@
   },
   {
     "name": "Matchering 2.0",
-    "description": "[Matchering 2.0](https://github.com/sergree/matchering) is a novel [Containerized Web Application](https://github.com/sergree/matchering).",
+    "description": "Open-source audio mastering web application built on [Matchering 2.0](https://github.com/sergree/matchering).",
     "repository": {
       "type": "GitHub",
       "user": "sergree",

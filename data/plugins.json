@@ -3,7 +3,7 @@
     "name": "3HSPlug",
     "url": "https://github.com/src3453/3HSPlug",
     "description": "GM/GS Compatible Multi-timbal 8-operator FM/PCM Syntheizer, uses 3HS88PWN4 (Fantasy sound chip) to make sound.",
-    "type": "Instrument",
+    "type": "Effect",
     "frameworks": [
       "JUCE"
     ]
@@ -30,7 +30,7 @@
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
-    "type": "Instrument",
+    "type": "Effect",
     "frameworks": [
       "JUCE"
     ]
@@ -48,14 +48,14 @@
     "name": "Airwindows",
     "url": "https://github.com/airwindows/airwindows",
     "description": "Various small and experimental effect plugins",
-    "type": "Effect",
+    "type": "Instrument",
     "frameworks": []
   },
   {
     "name": "ampli-Fe",
     "url": "https://github.com/antonok-edm/ampli-Fe",
     "description": "Cross-platform VST2 plugin written in Rust",
-    "type": "Effect",
+    "type": "Misc",
     "frameworks": [
       "Rust VST"
     ]
@@ -249,7 +249,7 @@
     "name": "Chartchotic",
     "url": "https://github.com/noahbaxter/chartchotic",
     "description": "Chartchotic is a VST3/AU plugin that visualizes MIDI as rhythm game highways -- Clone Hero, YARG, and Rock Band style. Preview your charts in real time as you write them.",
-    "type": "Effect",
+    "type": "Misc",
     "frameworks": [
       "JUCE"
     ]
@@ -572,7 +572,7 @@
     "name": "EP-MK1",
     "url": "https://github.com/MikeMorenoDSP/EP-MK1",
     "description": "EP-MK1 is a real-time physical model of an Electric Piano built using Pure Data and Camomile.",
-    "type": "Effect",
+    "type": "Instrument",
     "frameworks": []
   },
   {
@@ -674,7 +674,7 @@
   {
     "name": "FxBox",
     "url": "https://github.com/marc365/FxBox",
-    "description": "Realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3",
+    "description": "Realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3.",
     "type": "Effect",
     "frameworks": []
   },
@@ -1057,7 +1057,7 @@
   {
     "name": "mioSynth",
     "url": "https://github.com/YeshiNamkhai/mioSynth",
-    "description": "Simple way to build an orchestra for [cSound](https://csound.com/) and play your favorite melody. Run it in [Cabbage](https://cabbageaudio.com/), standalone, or as VST plugin within your own DAW. Listen to the [demo](https://github.com/YeshiNamkhai/mioSynth/blob/master/mioSynth_demo.mp3).",
+    "description": "Simple way to build an orchestra for [Csound](https://csound.com/) and play your favorite melody. Run it in [Cabbage](https://cabbageaudio.com/), standalone, or as VST plugin within your own DAW. Listen to the [demo](https://github.com/YeshiNamkhai/mioSynth/blob/master/mioSynth_demo.mp3).",
     "type": "Instrument",
     "frameworks": []
   },
@@ -1170,7 +1170,7 @@
   {
     "name": "Niner",
     "url": "https://github.com/hyperfocusdsp/niner",
-    "description": "A three-layer synthesized kick drum plugin with a parallel 909-style clap voice. SUB sine, MID sine+noise, and a band-passed click TOP mix into a five-voice distortion palette, a tilt/low/notch master EQ, and a full master bus",
+    "description": "A three-layer synthesized kick drum plugin with a parallel 909-style clap voice. SUB sine, MID sine+noise, and a band-passed click TOP mix into a five-voice distortion palette, a tilt/low/notch master EQ, and a full master bus.",
     "type": "Instrument",
     "frameworks": [
       "NIH-Plug"
@@ -1224,7 +1224,7 @@
   {
     "name": "ORchestra",
     "url": "https://github.com/Tronhjem/ORchestra",
-    "description": "Is still in development, and not even in an alpha stage. ORchestra is a powerful MIDI sequencer plugin that generates and combines sequences of notes or midi CC messages.",
+    "description": "Powerful MIDI sequencer plugin that generates and combines sequences of notes or MIDI CC messages.",
     "type": "Misc",
     "frameworks": [
       "JUCE"
@@ -2081,7 +2081,7 @@
   {
     "name": "WX CRUSHER",
     "url": "https://github.com/wxxminjeong/WX_CRUSHER",
-    "description": "WX CRUSHER is a high-gain, digital distortion engine engineered for Rage, Digicore, and Dark Trap production. Abandoning analog warmth for digital coldness",
+    "description": "WX CRUSHER is a high-gain, digital distortion engine engineered for Rage, Digicore, and Dark Trap production, abandoning analog warmth for digital coldness.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
