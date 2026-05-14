@@ -266,6 +266,16 @@
     }
   },
   {
+    "name": "Matchering 2.0",
+    "description": "Open-source web application for automatic reference-based audio mastering.",
+    "repository": {
+      "type": "GitHub",
+      "user": "sergree",
+      "repo": "matchering"
+    },
+    "url": "https://pypi.org/project/matchering/"
+  },
+  {
     "name": "Mididash",
     "description": "Mididash is an open source MIDI routing software with a node-based interface and Lua scripting. A modern take on programs like [MIDI-OX](http://www.midiox.com/).",
     "repository": {
@@ -450,6 +460,15 @@
       "type": "GitHub",
       "user": "stargatedaw",
       "repo": "stargate"
+    }
+  },
+  {
+    "name": "Strauss",
+    "description": "Strauss is a Digital Audio Workstation / Notation software that attempts to create a more efficient workflow for the modern composer",
+    "repository": {
+      "type": "GitHub",
+      "user": "Noahdw",
+      "repo": "Strauss"
     }
   },
   {
