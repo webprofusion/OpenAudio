@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "Melodrumatic",
+    "url": "https://github.com/usdivad/Melodrumatic",
+    "description": "Melodrumatic is an audio plugin that lets you \"pitch-shift\" via delay (i.e. the Doppler effect) to turn unpitched audio into melodies. Controllable via MIDI or mouse",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "NeuralNote",
     "url": "https://github.com/DamRsn/NeuralNote",
     "description": "NeuralNote is the audio plugin that brings state-of-the-art Audio to MIDI conversion into your favorite DAW",
