@@ -1750,7 +1750,7 @@
   {
     "name": "Super Destroy FX",
     "url": "https://github.com/sophiapoirier/destroyfx",
-    "description": "These is part of the [Destroy FX](http://destroyfx.org)http://destroyfx.org/ plugin pack. Destroy FX is a music software project of Sophia Poirier and Tom Murphy 7. Mostly audio effect plugins that destroy your sound.",
+    "description": "This is part of the [Destroy FX](http://destroyfx.org/) plugin pack. Destroy FX is a music software project of Sophia Poirier and Tom Murphy 7. Mostly audio effect plugins that destroy your sound.",
     "type": "Effect",
     "frameworks": [
       "VSTGUI"

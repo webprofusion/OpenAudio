@@ -267,7 +267,7 @@
   },
   {
     "name": "Matchering 2.0",
-    "description": "[Matchering 2.0](https://github.com/sergree/matchering) is a novel [Containerized Web Application](https://github.com/sergree/matchering",
+    "description": "[Matchering 2.0](https://github.com/sergree/matchering) is a novel [Containerized Web Application](https://github.com/sergree/matchering).",
     "repository": {
       "type": "GitHub",
       "user": "sergree",
@@ -464,7 +464,7 @@
   },
   {
     "name": "Strauss",
-    "description": "Strauss is a Digital Audio Workstation / Notation software that attemps to create a more efficient workflow for the modern composer",
+    "description": "Strauss is a Digital Audio Workstation / Notation software that attempts to create a more efficient workflow for the modern composer",
     "repository": {
       "type": "GitHub",
       "user": "Noahdw",
