@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "ORchestra",
+    "url": "https://github.com/Tronhjem/ORchestra",
+    "description": "Is still in development, and not even in an alpha stage. ORchestra is a powerful MIDI sequencer plugin that generates and combines sequences of notes or midi CC messages.",
+    "type": "Misc",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "The Kiss of Shame",
     "url": "https://github.com/hollance/TheKissOfShame",
     "description": "The Kiss of Shame – Tape Desecration Processor, debuted at the Audio Engineering Society Convention 2014 in Los Angeles, was a pioneering DAW plugin that leveraged commercial UX/UI design principles to shape its magnetic tape + circuitry emulation algorithms.",
