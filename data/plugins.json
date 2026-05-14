@@ -28,6 +28,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "VisiMusic",
+    "url": "https://github.com/darilin98/visimusic",
+    "description": "Effect plugin that applies audio modulation, configured based on a live video input. This creates unique soundscapes connected to visual content.",
+    "type": "Effect",
+    "frameworks": []
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
