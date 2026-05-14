@@ -21,6 +21,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "GamepadMidi",
+    "url": "https://github.com/Tronhjem/GamepadMidiVST",
+    "description": "Reads gamepad and joystick input via SDL3 and outputs MIDI CC messages. Each button, axis, and hat on the connected controller gets its own row in the UI where you can configure the target CC number and the output value range (min/max within 0–127).",
+    "type": "Misc",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "The Kiss of Shame",
     "url": "https://github.com/hollance/TheKissOfShame",
     "description": "The Kiss of Shame – Tape Desecration Processor, debuted at the Audio Engineering Society Convention 2014 in Los Angeles, was a pioneering DAW plugin that leveraged commercial UX/UI design principles to shape its magnetic tape + circuitry emulation algorithms.",
