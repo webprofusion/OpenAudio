@@ -267,7 +267,7 @@
   },
   {
     "name": "Matchering 2.0",
-    "description": "Open-source audio mastering web application built on [Matchering 2.0](https://github.com/sergree/matchering).",
+    "description": "Open-source web application for automatic reference-based audio mastering.",
     "repository": {
       "type": "GitHub",
       "user": "sergree",
