@@ -674,7 +674,7 @@
   {
     "name": "FxBox",
     "url": "https://github.com/marc365/FxBox",
-    "description": "Realtime multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3.",
+    "description": "Real-time multi loop processor editor for the Amiga range of computers m68k-amigaos >= 1.3.",
     "type": "Effect",
     "frameworks": []
   },
