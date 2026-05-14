@@ -28,6 +28,13 @@
     "frameworks": ["JUCE"]
   },
   {
+    "name": "WX CRUSHER",
+    "url": "https://github.com/wxxminjeong/WX_CRUSHER",
+    "description": "WX CRUSHER is a high-gain, digital distortion engine engineered for Rage, Digicore, and Dark Trap production. Abandoning analog warmth for digital coldness",
+    "type": "Effect",
+    "frameworks": ["JUCE"]
+  },
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
