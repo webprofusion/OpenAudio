@@ -1648,7 +1648,7 @@
   {
     "name": "RhyGa",
     "url": "https://github.com/odoare/RhyGa",
-    "description": "RhyGa is a simple yet versatile rhythmic gate effect for your DAW. It allows us to create tempo-synced patterns by modulating the volume of an incoming audio signal",
+    "description": "RhyGa is a simple yet versatile rhythmic gate effect for your DAW. It allows you to create tempo-synced patterns by modulating the volume of an incoming audio signal",
     "type": "Effect",
     "frameworks": [
       "JUCE"
