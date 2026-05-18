@@ -326,7 +326,7 @@ jobs:
                 throw new Error(`Top-level JSON item range count (${ranges.length}) does not match parsed entry count (${data.length}).`);
               }
 
-              if (insertIndex === data.length - 1) {
+              if (insertIndex === data.length) {
                 const previousItemRange = ranges.at(-1);
                 return `${source.slice(0, previousItemRange.end)},${eol}${formattedEntry}${source.slice(previousItemRange.end)}`;
               }
@@ -345,14 +345,7 @@ jobs:
               item.name.toLowerCase() > entry.name.toLowerCase()
             );
 
-            // Insert at correct position
-            if (insertIndex === -1) {
-              data.push(entry);
-            } else {
-              data.splice(insertIndex, 0, entry);
-            }
-
-            const normalizedInsertIndex = insertIndex === -1 ? data.length - 1 : insertIndex;
+            const normalizedInsertIndex = insertIndex === -1 ? data.length : insertIndex;
             const updatedSource = insertEntryIntoArraySource(source, entry, normalizedInsertIndex);
 
             fs.writeFileSync(filePath, updatedSource);
