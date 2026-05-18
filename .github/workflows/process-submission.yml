@@ -230,56 +230,130 @@ jobs:
           node << 'EOF'
           const fs = require('fs');
           const path = require('path');
-          const {createRequire} = require('module');
-
-          let prettier;
-
-          try {
-            const requireFromGenerator = createRequire(
-              path.join(process.cwd(), 'generator/package.json')
-            );
-            prettier = requireFromGenerator('prettier');
-          } catch (error) {
-            console.error(
-              'Unable to load Prettier from generator dependencies. Ensure generator/npm ci has completed successfully.'
-            );
-            console.error(error);
-            process.exit(1);
-          }
 
           const main = async () => {
             const entry = JSON.parse(process.env.ENTRY);
             const targetFile = process.env.TARGET_FILE;
+            const eol = '\n';
+            const defaultIndent = '  ';
+
+            // Track top-level object ranges so the new entry can be spliced into the source without reformatting existing items.
+            const collectTopLevelObjectRanges = source => {
+              const ranges = [];
+              let depth = 0;
+              let inString = false;
+              let isEscaped = false;
+              let objectStartIndex = -1;
+
+              for (let charIndex = 0; charIndex < source.length; charIndex += 1) {
+                const char = source[charIndex];
+
+                if (inString) {
+                  if (isEscaped) {
+                    isEscaped = false;
+                    continue;
+                  }
+
+                  if (char === '\\') {
+                    isEscaped = true;
+                    continue;
+                  }
+
+                  if (char === '"') {
+                    inString = false;
+                  }
+
+                  continue;
+                }
+
+                if (char === '"') {
+                  inString = true;
+                  continue;
+                }
+
+                if (char === '[' || char === '{') {
+                  if (char === '{' && depth === 1) {
+                    objectStartIndex = charIndex;
+                  }
+
+                  depth += 1;
+                  continue;
+                }
+
+                if (char === ']' || char === '}') {
+                  if (char === '}' && depth === 2 && objectStartIndex !== -1) {
+                    ranges.push({
+                      start: objectStartIndex,
+                      end: charIndex + 1,
+                    });
+                    objectStartIndex = -1;
+                  }
+
+                  depth -= 1;
+                }
+              }
+
+              return ranges;
+            };
+
+            const inferItemIndent = (source, ranges) => {
+              if (ranges.length === 0) {
+                return defaultIndent;
+              }
+
+              const firstItemStart = ranges[0].start;
+              const lineStart = source.lastIndexOf(eol, firstItemStart - 1);
+              const indent = lineStart === -1
+                ? ''
+                : source.slice(lineStart + 1, firstItemStart);
+              return /^[ \t]*$/.test(indent) ? indent : defaultIndent;
+            };
+
+            const formatEntry = (value, indent) =>
+              JSON.stringify(value, null, 2)
+                .split('\n')
+                .map(line => `${indent}${line}`)
+                .join(eol);
+
+            // Insert the formatted entry at the computed top-level position while preserving all untouched source text.
+            const insertEntryIntoArraySource = (source, value, insertIndex, itemCount, fileName) => {
+              const ranges = collectTopLevelObjectRanges(source);
+              const indent = inferItemIndent(source, ranges);
+              const formattedEntry = formatEntry(value, indent);
+
+              if (ranges.length === 0) {
+                const openBracketIndex = source.indexOf('[');
+                const closeBracketIndex = source.lastIndexOf(']');
+                return `${source.slice(0, openBracketIndex + 1)}${eol}${formattedEntry}${eol}${source.slice(closeBracketIndex)}`;
+              }
+
+              if (ranges.length !== itemCount) {
+                throw new Error(`Top-level JSON item range count (${ranges.length}) does not match parsed entry count (${itemCount}). This may indicate malformed JSON or unexpected file content in ${fileName}.`);
+              }
+
+              if (insertIndex === itemCount) {
+                const previousItemRange = ranges.at(-1);
+                return `${source.slice(0, previousItemRange.end)},${eol}${formattedEntry}${source.slice(previousItemRange.end)}`;
+              }
+
+              const nextItemRange = ranges[insertIndex];
+              return `${source.slice(0, nextItemRange.start)}${formattedEntry},${eol}${source.slice(nextItemRange.start)}`;
+            };
 
             // Read existing data
             const filePath = path.join(process.cwd(), targetFile);
-            const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+            const source = fs.readFileSync(filePath, 'utf8');
+            const data = JSON.parse(source);
 
             // Find insertion index (alphabetical by name, case-insensitive)
             const insertIndex = data.findIndex(item =>
               item.name.toLowerCase() > entry.name.toLowerCase()
             );
 
-            // Insert at correct position
-            if (insertIndex === -1) {
-              data.push(entry);
-            } else {
-              data.splice(insertIndex, 0, entry);
-            }
+            const normalizedInsertIndex = insertIndex === -1 ? data.length : insertIndex;
+            const updatedSource = insertEntryIntoArraySource(source, entry, normalizedInsertIndex, data.length, targetFile);
 
-            // Write back with repository formatting to avoid noisy diffs
-            let formattedData;
-
-            try {
-              formattedData = await prettier.format(JSON.stringify(data), {
-                filepath: filePath,
-              });
-            } catch (error) {
-              console.error(`Failed to format updated JSON for ${targetFile}.`);
-              throw error;
-            }
-
-            fs.writeFileSync(filePath, formattedData);
+            fs.writeFileSync(filePath, updatedSource);
 
             console.log(`Inserted "${entry.name}" into ${targetFile}`);
           };
