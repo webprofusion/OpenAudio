@@ -129,6 +129,16 @@
     }
   },
   {
+    "name": "Easy Effects",
+    "description": "Limiter, compressor, convolver, equalizer and auto volume and many other plugins for PipeWire applications",
+    "repository": {
+      "type": "GitHub",
+      "user": "wwmm",
+      "repo": "easyeffects"
+    },
+    "url": "https://wwmm.github.io/easyeffects/"
+  },
+  {
     "name": "Element",
     "url": "https://kushview.net/element/",
     "description": "Advanced Audio Plugin Host",
@@ -256,6 +266,15 @@
     }
   },
   {
+    "name": "Kholors",
+    "description": "A digital audio workstation without tracks and where you edit samples in the frequency domains directly. See [this demo](https://www.youtube.com/watch?v=TeF4ExiSIbU).",
+    "repository": {
+      "type": "GitHub",
+      "user": "QuentinFAIDIDE",
+      "repo": "Kholors"
+    }
+  },
+  {
     "name": "LMMS",
     "url": "https://lmms.io/",
     "description": "DAW",
@@ -313,6 +332,15 @@
       "type": "GitHub",
       "user": "jatinchowdhury18",
       "repo": "NewMixer"
+    }
+  },
+  {
+    "name": "OpenDaw",
+    "description": "A free, open-source Digital Audio Workstation for Windows, macOS, and Linux",
+    "repository": {
+      "type": "GitHub",
+      "user": "glenwrhodes",
+      "repo": "OpenDaw"
     }
   },
   {
@@ -432,6 +460,16 @@
       "user": "sonic-pi-net",
       "repo": "sonic-pi"
     }
+  },
+  {
+    "name": "SonoBus",
+    "description": "SonoBus is an easy to use application for streaming high-quality, low-latency peer-to-peer audio between devices over the internet or a local network.",
+    "repository": {
+      "type": "GitHub",
+      "user": "sonosaurus",
+      "repo": "sonobus"
+    },
+    "url": "https://sonobus.net/"
   },
   {
     "name": "Soundshed",

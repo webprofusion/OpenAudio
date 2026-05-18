@@ -115,6 +115,24 @@
     ]
   },
   {
+    "name": "Autokit",
+    "url": "https://github.com/Hornfisk/autokit",
+    "description": "A sample-based drum machine plugin that scans your library, classifies oneshots by type (kick, snare, hihat, etc.) using spectral analysis, and plots them on an interactive 2D map. Assign samples to pads, sequence with a Digitakt-style step sequencer, and randomize kits with dice.",
+    "type": "Instrument",
+    "frameworks": [
+      "NIH-Plug"
+    ]
+  },
+  {
+    "name": "Automatic Double Tracking",
+    "url": "https://github.com/SpotlightKid/adt",
+    "description": "[Automatic double tracking](https://en.wikipedia.org/wiki/Automatic_double_tracking) (not only) for vocals.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
     "name": "Axiom",
     "url": "https://github.com/monadgroup/axiom",
     "description": "Axiom is an extremely flexible node-based realtime audio synthesizer. It was originally designed for size-constrained environments such as PC intros in the demoscene, but is entirely open source and is becoming an excellent free tool for any musician.",
@@ -129,6 +147,13 @@
     "frameworks": [
       "JUCE"
     ]
+  },
+  {
+    "name": "Beatrice 2",
+    "url": "https://github.com/prj-beatrice/beatrice-vst",
+    "description": "[Beatrice 2](https://prj-beatrice.com/) is free, lightweight, and ultra-low latency real-time voice quality conversion VST3 plugin.",
+    "type": "Effect",
+    "frameworks": []
   },
   {
     "name": "Bespoke",
@@ -234,6 +259,16 @@
     "type": "Instrument",
     "frameworks": [
       "DPF"
+    ]
+  },
+  {
+    "name": "CChorus",
+    "url": "https://github.com/SpotlightKid/cchorus",
+    "description": "A versatile stereo chorus, multi-format audio effect plugin",
+    "type": "Effect",
+    "frameworks": [
+      "DPF",
+      "Faust"
     ]
   },
   {
@@ -343,6 +378,15 @@
     ]
   },
   {
+    "name": "Comp",
+    "url": "https://github.com/DawidKwaskiewicz/Comp",
+    "description": "Compressor+expander (downward+upward) VST with curve display created with JUCE",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Comprez",
     "url": "https://github.com/AnClark/Comprez",
     "description": "Comprez is a simple but fast, versatile compressor plug-in. It's ready to give you a special compressor experience you may never have before. Although there are only 4 controllers currently, it does not limit your creation.",
@@ -375,6 +419,15 @@
     "url": "https://github.com/calgoheen/cStop",
     "description": "Tape stop",
     "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "CtrlrX",
+    "url": "https://github.com/damiensellier/CtrlrX",
+    "description": "CtrlrX is an enhanced version of Roman Kubiak's CTRLR. CtrlrX can control any MIDI-enabled hardware, synthesizers, drum machines, samplers, effects and more.",
+    "type": "Misc",
     "frameworks": [
       "JUCE"
     ]
@@ -431,6 +484,24 @@
     "type": "Instrument",
     "frameworks": [
       "JUCE"
+    ]
+  },
+  {
+    "name": "DF JPverb",
+    "url": "https://github.com/SpotlightKid/dfjpverb",
+    "description": "A lush algorithmic reverb designed to sound great with synthetic sound sources, built with DPF and based on FAUST library demo code",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
+    "name": "DF Zita Rev1",
+    "url": "https://github.com/SpotlightKid/dfzitarev1",
+    "description": "A feedback-delay-network reverb plugin built with [DPF](https://github.com/DISTRHO/DPF) and based on a [FAUST](https://faust.grame.fr/) library demo",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
     ]
   },
   {
@@ -546,6 +617,15 @@
     "url": "https://github.com/ameyakakade/drummock",
     "description": "Drum sampler plugin with retro pitch shifting and hard clipper. Just drag and drop to load samples and start playing.",
     "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "DSP4Guitar",
+    "url": "https://github.com/GizzZmo/DSP4Guitar",
+    "description": "A professional-grade, multi-effect VST3/AU plugin built with the JUCE framework, wrapped in a full cyberpunk / Matrix-terminal aesthetic",
+    "type": "Effect",
     "frameworks": [
       "JUCE"
     ]
@@ -679,6 +759,15 @@
     "frameworks": []
   },
   {
+    "name": "Gain Booster",
+    "url": "https://github.com/Moebytes/Gain-Booster",
+    "description": "Gain Booster is a VST/AU plugin for gain control, panning, and some LFO modulation.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "GainPlugin",
     "url": "https://github.com/satelllte/GainPlugin",
     "description": "(Experimental) VST/AU audio plugin example based on JUCE with React-JUCE for UI.",
@@ -712,6 +801,13 @@
     "frameworks": [
       "JUCE"
     ]
+  },
+  {
+    "name": "Grace",
+    "url": "https://github.com/s-oram/Grace",
+    "description": "[Grace](http://onesmallclue.com/plugin/grace/) is Sampler VST Plugin for Windows",
+    "type": "Instrument",
+    "frameworks": []
   },
   {
     "name": "Gripverb",
@@ -754,6 +850,15 @@
     "url": "https://github.com/Mrugalla/Hammer-and-Meiszel",
     "description": "Hammer & Meißel is a keytracked polyphonic modal filter (and more).",
     "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Hand Control",
+    "url": "https://github.com/Cookseyyyyyy/hand-control-vst",
+    "description": "Hand-tracking VST3/AU plugin - port of OSCHandcontrol with per-hand mappable DAW params",
+    "type": "Misc",
     "frameworks": [
       "JUCE"
     ]
@@ -924,12 +1029,30 @@
     ]
   },
   {
+    "name": "Kholors Station",
+    "url": "https://github.com/QuentinFAIDIDE/KholorsStation",
+    "description": "Live, color-coded spectrogram of your DAW tracks in a single window.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "KickMaker",
     "url": "https://github.com/teragonaudio/KickMaker",
     "description": "Synth specifically to create kick-drum sounds",
     "type": "Instrument",
     "frameworks": [
       "VSTGUI"
+    ]
+  },
+  {
+    "name": "Kotoist",
+    "url": "https://github.com/ales-tsurko/kotoist",
+    "description": "A VST plugin for live coding and algorithmic composition",
+    "type": "Instrument",
+    "frameworks": [
+      "NIH-Plug"
     ]
   },
   {
@@ -1168,6 +1291,15 @@
     ]
   },
   {
+    "name": "Nine Strip",
+    "url": "https://github.com/blablack/nine-strip",
+    "description": "A VST3/AU/LV2 channel strip plugin built with JUCE, incorporating classic Airwindows processing algorithms into a comprehensive mixing tool.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Niner",
     "url": "https://github.com/hyperfocusdsp/niner",
     "description": "A three-layer synthesized kick drum plugin with a parallel 909-style clap voice. SUB sine, MID sine+noise, and a band-passed click TOP mix into a five-voice distortion palette, a tilt/low/notch master EQ, and a full master bus.",
@@ -1204,6 +1336,15 @@
     ]
   },
   {
+    "name": "OBSIDIAN-Neural",
+    "url": "https://github.com/innermost47/ai-dj",
+    "description": "8 tracks, 8 AI models, 30 seconds of patience per loop. It occasionally hallucinates. Not a song generator — you still have to do the work. Stay human.",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "OctaSine",
     "url": "https://github.com/greatest-ape/OctaSine",
     "description": "VST2 frequency modulation synthesizer written in Rust",
@@ -1217,6 +1358,15 @@
     "url": "https://github.com/TheWaveWarden/odin2",
     "description": "Polyphonic Synth",
     "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Orbital Bass Engine",
+    "url": "https://github.com/tywr/orbital-bass-engine",
+    "description": "bass guitar audio plugin provides a complete signal processing chain designed specifically for bass guitar, featuring analog-modeled compression, vintage-style drive amplification, and a post-amp effects rack.",
+    "type": "Effect",
     "frameworks": [
       "JUCE"
     ]
@@ -1496,6 +1646,15 @@
     ]
   },
   {
+    "name": "RhyGa",
+    "url": "https://github.com/odoare/RhyGa",
+    "description": "RhyGa is a simple yet versatile rhythmic gate effect for your DAW. It allows us to create tempo-synced patterns by modulating the volume of an incoming audio signal",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Ripchord",
     "url": "https://github.com/trackbout/ripchord",
     "description": "Ripchord is a free MIDI plugin for creating and remixing chord progressions. You can create custom chord presets from scratch, load expansion packs, or import any MIDI file that contains chords and Ripchord will automatically create a preset from it",
@@ -1557,6 +1716,13 @@
     "frameworks": [
       "JUCE"
     ]
+  },
+  {
+    "name": "SAM-SPL 64",
+    "url": "https://pongasoft.com/vst/SAM-SPL64.html",
+    "description": "[SAM-SPL 64](https://pongasoft.com/vst/SAM-SPL64.html) is an audio plugin which lets you easily split a sample in up to 64 slices",
+    "type": "Instrument",
+    "frameworks": []
   },
   {
     "name": "Schrammel OJD",
@@ -1657,6 +1823,15 @@
     ]
   },
   {
+    "name": "SMPLComp",
+    "url": "https://github.com/p-hlp/SMPLComp",
+    "description": "A simple audio compressor plugin created with [JUCE](https://juce.com/)",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Sound Analyser",
     "url": "https://github.com/adamstark/Sound-Analyser",
     "description": "Real-time audio analysis to allow anyone to quickly set up and experiment with different algorithms",
@@ -1703,6 +1878,15 @@
     ]
   },
   {
+    "name": "Spectral Forge",
+    "url": "https://github.com/Taikakim/spectral-forge",
+    "description": "A spectral, modular CLAP/VST3 multi-fx plugin for Linux/Windows/Mac. The plugin can do spectral dynamics and a number of other things in the frequency domain.",
+    "type": "Effect",
+    "frameworks": [
+      "NIH-Plug"
+    ]
+  },
+  {
     "name": "SpectralAbyss Multiband-Saturation",
     "url": "https://github.com/pschaupp/spectral-abyss-multiband-saturation",
     "description": "SpectralAbyss is a multiband saturation audio plugin built with [JUCE](https://juce.com/). It allows the distortion of three individual frequency bands using two different distortion algorithms.",
@@ -1721,12 +1905,58 @@
     ]
   },
   {
+    "name": "Spiro",
+    "url": "https://github.com/p-o-l-e/spiro",
+    "description": "Semi-modular VST / Standalone Synthesizer",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Squeezer",
     "url": "https://github.com/mzuther/Squeezer",
     "description": "Compressor with side-chain, several detection modes and filters, etc",
     "type": "Effect",
     "frameworks": [
       "JUCE"
+    ]
+  },
+  {
+    "name": "SquelchBox",
+    "url": "https://github.com/Hornfisk/squelchbox",
+    "description": "Emulation of Roland TB-303 Bass Line Synthesizer",
+    "type": "Instrument",
+    "frameworks": [
+      "NIH-Plug"
+    ]
+  },
+  {
+    "name": "Stem Extractor",
+    "url": "https://github.com/dan-k-k/stem-extractor",
+    "description": "A real-time, AI-powered audio source separation plugin built with PyTorch, ONNX Runtime, and JUCE. This plugin dynamically isolates Vocals, Drums, Bass, and Other instruments from a full mix directly inside your DAW",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Stereo Cross Delay",
+    "url": "https://github.com/SpotlightKid/stereocrossdelay",
+    "description": "A stereo delay plugin with feedback and cross-mixing",
+    "type": "Effect",
+    "frameworks": [
+      "DPF",
+      "Faust"
+    ]
+  },
+  {
+    "name": "Stereo Gain",
+    "url": "https://github.com/osam-cologne/stereogain",
+    "description": "A stereo gain plugin with parameter smoothing",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
     ]
   },
   {
@@ -1828,6 +2058,15 @@
     ]
   },
   {
+    "name": "TestTone",
+    "url": "https://github.com/Jun-Murakami/TestTone",
+    "description": "A minimal test-signal generator built on the same JUCE + WebView (Vite / React 19 / MUI 7) stack as the sibling plugins (ZeroComp / ZeroLimit / ZeroEQ).",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "The Analog Molecule",
     "url": "https://forum.cockos.com/showthread.php?t=305604",
     "description": "JSFX Based frame plugin for Reaper.",
@@ -1861,6 +2100,24 @@
     "type": "Effect",
     "frameworks": [
       "JUCE"
+    ]
+  },
+  {
+    "name": "TinyVU",
+    "url": "https://github.com/Jun-Murakami/TinyVU",
+    "description": "A minimalist VU meter plugin built with the same JUCE + WebView (Vite / React / MUI) stack as the sister plugins (ZeroComp / ZeroLimit / ZeroEQ / TestTone).",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Tract Plugin Pack",
+    "url": "https://github.com/xxx/tract-plugin-pack",
+    "description": "A collection of audio effect plugins (VST3, CLAP, standalone) built with [nih-plug](https://github.com/robbert-vdh/nih-plug) in Rust.",
+    "type": "Effect",
+    "frameworks": [
+      "NIH-Plug"
     ]
   },
   {
@@ -1993,6 +2250,24 @@
     ]
   },
   {
+    "name": "vitOTTx",
+    "url": "https://github.com/Sakhnovkrg/vitOTTx",
+    "description": "Multiband compressor from famous spectral warping synthesizer.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Vocal Gate",
+    "url": "https://github.com/dan-k-k/vocal-gate",
+    "description": "Free real-time AI Noise Gate VST3/AU plugin. Removes coughs, sneezes, and other artifacts from your live streams, podcasts, and videos.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "VST2413",
     "url": "https://github.com/keijiro/vst2413",
     "description": "FM synth based on emulator of YM2413 (OPLL) chip used in Sega Master System and FM-PAC MSX expansion",
@@ -2088,6 +2363,15 @@
     ]
   },
   {
+    "name": "XenRoll",
+    "url": "https://github.com/Ankalot/XenRoll",
+    "description": "Unique microtonal piano roll audio plugin",
+    "type": "Misc",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "YK Chorus",
     "url": "https://github.com/SpotlightKid/ykchorus",
     "description": "Chorus audio effect plugin based on DSP code by TAL",
@@ -2139,6 +2423,15 @@
     "type": "Effect",
     "frameworks": [
       "Rust VST"
+    ]
+  },
+  {
+    "name": "zmann",
+    "url": "https://github.com/zmann-org/zmann",
+    "description": "Collection of range of instruments, designed to elevate your audio production experience.",
+    "type": "Instrument",
+    "frameworks": [
+      "NIH-Plug"
     ]
   },
   {
