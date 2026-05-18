@@ -230,30 +230,115 @@ jobs:
           node << 'EOF'
           const fs = require('fs');
           const path = require('path');
-          const {createRequire} = require('module');
-
-          let prettier;
-
-          try {
-            const requireFromGenerator = createRequire(
-              path.join(process.cwd(), 'generator/package.json')
-            );
-            prettier = requireFromGenerator('prettier');
-          } catch (error) {
-            console.error(
-              'Unable to load Prettier from generator dependencies. Ensure generator/npm ci has completed successfully.'
-            );
-            console.error(error);
-            process.exit(1);
-          }
 
           const main = async () => {
             const entry = JSON.parse(process.env.ENTRY);
             const targetFile = process.env.TARGET_FILE;
+            const eol = '\n';
+
+            const collectTopLevelObjectRanges = source => {
+              const ranges = [];
+              let depth = 0;
+              let inString = false;
+              let isEscaped = false;
+              let objectStart = -1;
+
+              for (let index = 0; index < source.length; index += 1) {
+                const character = source[index];
+
+                if (inString) {
+                  if (isEscaped) {
+                    isEscaped = false;
+                    continue;
+                  }
+
+                  if (character === '\\') {
+                    isEscaped = true;
+                    continue;
+                  }
+
+                  if (character === '"') {
+                    inString = false;
+                  }
+
+                  continue;
+                }
+
+                if (character === '"') {
+                  inString = true;
+                  continue;
+                }
+
+                if (character === '[' || character === '{') {
+                  if (character === '{' && depth === 1) {
+                    objectStart = index;
+                  }
+
+                  depth += 1;
+                  continue;
+                }
+
+                if (character === ']' || character === '}') {
+                  if (character === '}' && depth === 2 && objectStart !== -1) {
+                    ranges.push({
+                      start: objectStart,
+                      end: index + 1,
+                    });
+                    objectStart = -1;
+                  }
+
+                  depth -= 1;
+                }
+              }
+
+              return ranges;
+            };
+
+            const inferItemIndent = (source, ranges) => {
+              if (ranges.length === 0) {
+                return '  ';
+              }
+
+              const firstItemStart = ranges[0].start;
+              const lineStart = source.lastIndexOf(eol, firstItemStart - 1);
+              const indent = source.slice(lineStart + 1, firstItemStart);
+              return /^[ \t]*$/.test(indent) ? indent : '  ';
+            };
+
+            const formatEntry = (value, indent) =>
+              JSON.stringify(value, null, 2)
+                .split('\n')
+                .map(line => `${indent}${line}`)
+                .join(eol);
+
+            const insertEntryIntoArraySource = (source, value, insertIndex) => {
+              const ranges = collectTopLevelObjectRanges(source);
+              const indent = inferItemIndent(source, ranges);
+              const formattedEntry = formatEntry(value, indent);
+
+              if (ranges.length === 0) {
+                const openBracketIndex = source.indexOf('[');
+                const closeBracketIndex = source.lastIndexOf(']');
+                return `${source.slice(0, openBracketIndex + 1)}${eol}${formattedEntry}${eol}${source.slice(closeBracketIndex)}`;
+              }
+
+              if (ranges.length !== data.length) {
+                throw new Error(`Top-level JSON item range count (${ranges.length}) does not match parsed entry count (${data.length}).`);
+              }
+
+              if (insertIndex === data.length - 1) {
+                const previousItemRange = ranges.at(-1);
+                return `${source.slice(0, previousItemRange.end)},${eol}${formattedEntry}${source.slice(previousItemRange.end)}`;
+              }
+
+              const nextItemRange = ranges[insertIndex];
+              return `${source.slice(0, nextItemRange.start)}${formattedEntry},${eol}${source.slice(nextItemRange.start)}`;
+            };
 
             // Read existing data
             const filePath = path.join(process.cwd(), targetFile);
-            const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+            const source = fs.readFileSync(filePath, 'utf8');
+            const data = JSON.parse(source);
 
             // Find insertion index (alphabetical by name, case-insensitive)
             const insertIndex = data.findIndex(item =>
@@ -267,19 +352,10 @@ jobs:
               data.splice(insertIndex, 0, entry);
             }
 
-            // Write back with repository formatting to avoid noisy diffs
-            let formattedData;
+            const normalizedInsertIndex = insertIndex === -1 ? data.length - 1 : insertIndex;
+            const updatedSource = insertEntryIntoArraySource(source, entry, normalizedInsertIndex);
 
-            try {
-              formattedData = await prettier.format(JSON.stringify(data), {
-                filepath: filePath,
-              });
-            } catch (error) {
-              console.error(`Failed to format updated JSON for ${targetFile}.`);
-              throw error;
-            }
-
-            fs.writeFileSync(filePath, formattedData);
+            fs.writeFileSync(filePath, updatedSource);
 
             console.log(`Inserted "${entry.name}" into ${targetFile}`);
           };
