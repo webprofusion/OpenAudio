@@ -243,10 +243,10 @@ jobs:
               let depth = 0;
               let inString = false;
               let isEscaped = false;
-              let objectStart = -1;
+              let objectStartIndex = -1;
 
-              for (let index = 0; index < source.length; index += 1) {
-                const character = source[index];
+              for (let charIndex = 0; charIndex < source.length; charIndex += 1) {
+                const char = source[charIndex];
 
                 if (inString) {
                   if (isEscaped) {
@@ -254,39 +254,39 @@ jobs:
                     continue;
                   }
 
-                  if (character === '\\') {
+                  if (char === '\\') {
                     isEscaped = true;
                     continue;
                   }
 
-                  if (character === '"') {
+                  if (char === '"') {
                     inString = false;
                   }
 
                   continue;
                 }
 
-                if (character === '"') {
+                if (char === '"') {
                   inString = true;
                   continue;
                 }
 
-                if (character === '[' || character === '{') {
-                  if (character === '{' && depth === 1) {
-                    objectStart = index;
+                if (char === '[' || char === '{') {
+                  if (char === '{' && depth === 1) {
+                    objectStartIndex = charIndex;
                   }
 
                   depth += 1;
                   continue;
                 }
 
-                if (character === ']' || character === '}') {
-                  if (character === '}' && depth === 2 && objectStart !== -1) {
+                if (char === ']' || char === '}') {
+                  if (char === '}' && depth === 2 && objectStartIndex !== -1) {
                     ranges.push({
-                      start: objectStart,
-                      end: index + 1,
+                      start: objectStartIndex,
+                      end: charIndex + 1,
                     });
-                    objectStart = -1;
+                    objectStartIndex = -1;
                   }
 
                   depth -= 1;
@@ -314,7 +314,7 @@ jobs:
                 .join(eol);
 
             // Insert the formatted entry at the computed top-level position while preserving all untouched source text.
-            const insertEntryIntoArraySource = (source, value, insertIndex, itemCount) => {
+            const insertEntryIntoArraySource = (source, value, insertIndex, itemCount, fileName) => {
               const ranges = collectTopLevelObjectRanges(source);
               const indent = inferItemIndent(source, ranges);
               const formattedEntry = formatEntry(value, indent);
@@ -326,7 +326,7 @@ jobs:
               }
 
               if (ranges.length !== itemCount) {
-                throw new Error(`Top-level JSON item range count (${ranges.length}) does not match parsed entry count (${itemCount}). This may indicate malformed JSON or unexpected file content in ${targetFile}.`);
+                throw new Error(`Top-level JSON item range count (${ranges.length}) does not match parsed entry count (${itemCount}). This may indicate malformed JSON or unexpected file content in ${fileName}.`);
               }
 
               if (insertIndex === itemCount) {
@@ -349,7 +349,7 @@ jobs:
             );
 
             const normalizedInsertIndex = insertIndex === -1 ? data.length : insertIndex;
-            const updatedSource = insertEntryIntoArraySource(source, entry, normalizedInsertIndex, data.length);
+            const updatedSource = insertEntryIntoArraySource(source, entry, normalizedInsertIndex, data.length, targetFile);
 
             fs.writeFileSync(filePath, updatedSource);
 
