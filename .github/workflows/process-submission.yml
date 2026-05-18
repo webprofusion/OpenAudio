@@ -235,7 +235,9 @@ jobs:
             const entry = JSON.parse(process.env.ENTRY);
             const targetFile = process.env.TARGET_FILE;
             const eol = '\n';
+            const defaultIndent = '  ';
 
+            // Track top-level object ranges so the new entry can be spliced into the source without reformatting existing items.
             const collectTopLevelObjectRanges = source => {
               const ranges = [];
               let depth = 0;
@@ -296,13 +298,13 @@ jobs:
 
             const inferItemIndent = (source, ranges) => {
               if (ranges.length === 0) {
-                return '  ';
+                return defaultIndent;
               }
 
               const firstItemStart = ranges[0].start;
               const lineStart = source.lastIndexOf(eol, firstItemStart - 1);
               const indent = source.slice(lineStart + 1, firstItemStart);
-              return /^[ \t]*$/.test(indent) ? indent : '  ';
+              return /^[ \t]*$/.test(indent) ? indent : defaultIndent;
             };
 
             const formatEntry = (value, indent) =>
@@ -311,6 +313,7 @@ jobs:
                 .map(line => `${indent}${line}`)
                 .join(eol);
 
+            // Insert the formatted entry at the computed top-level position while preserving all untouched source text.
             const insertEntryIntoArraySource = (source, value, insertIndex, itemCount) => {
               const ranges = collectTopLevelObjectRanges(source);
               const indent = inferItemIndent(source, ranges);
@@ -323,7 +326,7 @@ jobs:
               }
 
               if (ranges.length !== itemCount) {
-                throw new Error(`Top-level JSON item range count (${ranges.length}) does not match parsed entry count (${itemCount}).`);
+                throw new Error(`Top-level JSON item range count (${ranges.length}) does not match parsed entry count (${itemCount}). This may indicate malformed JSON or unexpected file content in ${targetFile}.`);
               }
 
               if (insertIndex === itemCount) {
