@@ -1365,7 +1365,7 @@
   {
     "name": "Orbital Bass Engine",
     "url": "https://github.com/tywr/orbital-bass-engine",
-    "description": "bass guitar audio plugin provides a complete signal processing chain designed specifically for bass guitar, featuring analog-modeled compression, vintage-style drive amplification, and a post-amp effects rack.",
+    "description": "Bass guitar audio plugin that provides a complete signal processing chain designed specifically for bass guitar, featuring analog-modeled compression, vintage-style drive amplification, and a post-amp effects rack.",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -2428,7 +2428,7 @@
   {
     "name": "zmann",
     "url": "https://github.com/zmann-org/zmann",
-    "description": "Collection of range of instruments, designed to elevate your audio production experience.",
+    "description": "Collection of instruments designed to elevate your audio production experience.",
     "type": "Instrument",
     "frameworks": [
       "NIH-Plug"
