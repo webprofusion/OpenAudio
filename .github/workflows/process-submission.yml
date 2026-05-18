@@ -311,7 +311,7 @@ jobs:
                 .map(line => `${indent}${line}`)
                 .join(eol);
 
-            const insertEntryIntoArraySource = (source, value, insertIndex) => {
+            const insertEntryIntoArraySource = (source, value, insertIndex, itemCount) => {
               const ranges = collectTopLevelObjectRanges(source);
               const indent = inferItemIndent(source, ranges);
               const formattedEntry = formatEntry(value, indent);
@@ -322,11 +322,11 @@ jobs:
                 return `${source.slice(0, openBracketIndex + 1)}${eol}${formattedEntry}${eol}${source.slice(closeBracketIndex)}`;
               }
 
-              if (ranges.length !== data.length) {
-                throw new Error(`Top-level JSON item range count (${ranges.length}) does not match parsed entry count (${data.length}).`);
+              if (ranges.length !== itemCount) {
+                throw new Error(`Top-level JSON item range count (${ranges.length}) does not match parsed entry count (${itemCount}).`);
               }
 
-              if (insertIndex === data.length) {
+              if (insertIndex === itemCount) {
                 const previousItemRange = ranges.at(-1);
                 return `${source.slice(0, previousItemRange.end)},${eol}${formattedEntry}${source.slice(previousItemRange.end)}`;
               }
@@ -346,7 +346,7 @@ jobs:
             );
 
             const normalizedInsertIndex = insertIndex === -1 ? data.length : insertIndex;
-            const updatedSource = insertEntryIntoArraySource(source, entry, normalizedInsertIndex);
+            const updatedSource = insertEntryIntoArraySource(source, entry, normalizedInsertIndex, data.length);
 
             fs.writeFileSync(filePath, updatedSource);
 
