@@ -303,7 +303,9 @@ jobs:
 
               const firstItemStart = ranges[0].start;
               const lineStart = source.lastIndexOf(eol, firstItemStart - 1);
-              const indent = source.slice(lineStart + 1, firstItemStart);
+              const indent = lineStart === -1
+                ? ''
+                : source.slice(lineStart + 1, firstItemStart);
               return /^[ \t]*$/.test(indent) ? indent : defaultIndent;
             };
 
