@@ -345,9 +345,9 @@ jobs:
             const source = fs.readFileSync(filePath, 'utf8');
             const data = JSON.parse(source);
 
-            // Find insertion index (alphabetical by name, case-insensitive)
+            // Find insertion index (alphabetical by name, case-insensitive, locale-aware)
             const insertIndex = data.findIndex(item =>
-              item.name.toLowerCase() > entry.name.toLowerCase()
+              item.name.localeCompare(entry.name, undefined, {sensitivity: 'accent'}) > 0
             );
 
             const normalizedInsertIndex = insertIndex === -1 ? data.length : insertIndex;
