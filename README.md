@@ -109,6 +109,7 @@ Audio Plugins
 | [FILT-R](https://github.com/tiagolr/filtr) | FILT-R is a cross-platform filter modulator based on plugins like ShaperBox and FilterShaper. It is the second version of [FLTR-1 JSFX](https://github.com/tiagolr/tilr_jsfx?tab=readme-ov-file) | Effect | JUCE |
 | [Fire](https://github.com/jerryuhoo/Fire) | This is a multi-band distortion plugin [『Fire』](https://www.bluewingsmusic.com/fire.html). | Effect | JUCE |
 | [Flappy Chord](https://github.com/odoare/FlappyChord) | Flappy Chord is a simple prototype of musical game that reimagines the classic "Flappy Bird" formula as a fun tool for learning music. The bird is controlled by playing notes and chords on a connected MIDI keyboard. | Effect | JUCE |
+| [Floe](https://github.com/floe-audio/Floe) | Sample library platform with a simple, powerful interface | CLAP, VST3, AU | Instrument | N/A |
 | [Flutterbird](https://github.com/tesselode/flutterbird) | Simple pitch fluctuation | Effect | iPlug2 |
 | [FOGPAD](https://github.com/igorski/fogpad) | [FogPad](https://www.igorski.nl/download/fogpad) is a multichannel reverb effect with a little twist: instead of aiming to recreate a large amount of acoustic spaces, FogPad provides a murky nebula of frozen thoughts, recollecting long forgotten events. The reflections can be bent and transformed through use of its fully automatable parameters. | Effect | VSTGUI |
 | [FreeEQ8](https://github.com/GareBear99/FreeEQ8) | FreeEQ8 is a professional-grade, free and open-source 8-band parametric EQ plugin for macOS, Linux, and Windows. | Effect | JUCE |
