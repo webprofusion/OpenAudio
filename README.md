@@ -338,6 +338,7 @@ Audio Apps
 | [ChucK](https://chuck.stanford.edu/) | [ccrma/chuck](https://github.com/ccrma/chuck) | Strongly-timed, Concurrent, and On-the-fly Music Programming Language |
 | [Coincident Spectra](https://github.com/bgins/coincident-spectra) | [bgins/coincident-spectra](https://github.com/bgins/coincident-spectra) | A spectral-microtuning additive synthesizer |
 | [ComposeYogi](https://composeyogi.com) | [AppsYogi-com/ComposeYogi](https://github.com/AppsYogi-com/ComposeYogi) | The open-source Ableton-style music composer for the web |
+| [ConvertWithMoss](https://www.mossgrabers.de/Software/ConvertWithMoss/ConvertWithMoss.html) | [git-moss/ConvertWithMoss](https://github.com/git-moss/ConvertWithMoss) | Converts multisamples from a source format (WAV, multisample, KMP, wavestate, NKI, SFZ, SoundFont 2) to a different destination format. |
 | [Drum Beat Repo](https://github.com/babali42/drumbeatrepo) | [babali42/drumbeatrepo](https://github.com/babali42/drumbeatrepo) | An interactive library of drums patterns |
 | [Easy Effects](https://wwmm.github.io/easyeffects/) | [wwmm/easyeffects](https://github.com/wwmm/easyeffects) | Limiter, compressor, convolver, equalizer and auto volume and many other plugins for PipeWire applications |
 | [Element](https://kushview.net/element/) | [Kushview/Element](https://github.com/Kushview/Element) | Advanced Audio Plugin Host |
