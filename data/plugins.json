@@ -26,13 +26,6 @@
       "JUCE"
     ]
   },
-    {
-    "name": "Floe",
-    "url": "https://github.com/floe-audio/Floe",
-    "description": "Sample library platform with a simple, powerful interface | CLAP, VST3, AU",
-    "type": "Instrument",
-    "frameworks": []
-  },
 {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
@@ -712,6 +705,13 @@
     "frameworks": [
       "JUCE"
     ]
+  },
+  {
+    "name": "Floe",
+    "url": "https://github.com/floe-audio/Floe",
+    "description": "Sample library platform with a simple, powerful interface | CLAP, VST3, AU",
+    "type": "Instrument",
+    "frameworks": []
   },
   {
     "name": "Flutterbird",
