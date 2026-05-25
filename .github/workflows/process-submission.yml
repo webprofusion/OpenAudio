@@ -347,7 +347,7 @@ jobs:
 
             // Find insertion index (alphabetical by name, case-insensitive, locale-aware)
             const insertIndex = data.findIndex(item =>
-              item.name.toLowerCase().localeCompare(entry.name.toLowerCase()) > 0
+              item.name.localeCompare(entry.name, undefined, {sensitivity: 'accent'}) > 0
             );
 
             const normalizedInsertIndex = insertIndex === -1 ? data.length : insertIndex;
