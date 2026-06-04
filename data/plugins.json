@@ -51,7 +51,16 @@
     "type": "Instrument",
     "frameworks": []
   },
-  {
+    {
+    "name": "Ambience",
+    "url": "https://github.com/OTODESK4193/Ambience1.0.1",
+    "description": "Ambience is a high-quality, open-source algorithmic reverb VST3 plugin built on a 16-channel Feedback Delay Network (FDN) architecture.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+{
     "name": "ampli-Fe",
     "url": "https://github.com/antonok-edm/ampli-Fe",
     "description": "Cross-platform VST2 plugin written in Rust",
