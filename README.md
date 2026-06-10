@@ -35,6 +35,7 @@ Audio Plugins
 | [ÆLAPSE](https://github.com/smiarx/aelapse) | ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs. | Effect | JUCE |
 | [Aeolus](https://github.com/Archie3d/aeolus_plugin) | Pipe organ emulator using additive synthesis as a VST, AU, or CLAP plugin (or a stand-alone executable) | Instrument | JUCE |
 | [Airwindows](https://github.com/airwindows/airwindows) | Various small and experimental effect plugins | Instrument | N/A |
+| [Ambience](https://github.com/OTODESK4193/Ambience1.0.1) | Ambience is a high-quality, open-source algorithmic reverb VST3 plugin built on a 16-channel Feedback Delay Network (FDN) architecture. | Effect | JUCE |
 | [ampli-Fe](https://github.com/antonok-edm/ampli-Fe) | Cross-platform VST2 plugin written in Rust | Misc | Rust VST |
 | [amsynth](https://github.com/amsynth/amsynth) | Analog-modelling (virtual analog) synthesizer | Instrument | GTK |
 | [AnalogChannel](https://github.com/FilTer87/VST-AnalogChannel) | AnalogChannel is a VST3 channel strip plugin designed for mixing engineers who demand fast and characterful results in their workflow. | Effect | JUCE |
