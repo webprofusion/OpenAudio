@@ -1865,7 +1865,16 @@
       "JUCE"
     ]
   },
-  {
+    {
+    "name": "Soundshed Guitar",
+    "url": "https://guitar.soundshed.com",
+    "description": "Soundshed Guitar is a fully featured guitar/bass effects app and plugin with easy preset selection, extensive signal chain editing, Neural Amp Modelling (NAM A2 etc), Community presets, Jam backing jam tracks.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+{
     "name": "SoyBoy SP",
     "url": "https://github.com/t-sin/soyboy-sp.vst3",
     "description": "SoyBoy SP is a VST3 instrument plugin to generate some GameBoy-like sounds.",
