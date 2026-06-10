@@ -241,6 +241,7 @@ Audio Plugins
 | [SMPLComp](https://github.com/p-hlp/SMPLComp) | A simple audio compressor plugin created with [JUCE](https://juce.com/) | Effect | JUCE |
 | [Sound Analyser](https://github.com/adamstark/Sound-Analyser) | Real-time audio analysis to allow anyone to quickly set up and experiment with different algorithms | Effect | JUCE |
 | [Sound of Music](https://github.com/coconut-audio/sound-of-music) | Multiband bitcrusher | Effect | JUCE |
+| [Soundshed Guitar](https://guitar.soundshed.com) | Soundshed Guitar is a fully featured guitar/bass effects app and plugin with easy preset selection, extensive signal chain editing, Neural Amp Modelling (NAM A2 etc), Community presets, Jam backing jam tracks. | Effect | JUCE |
 | [SoyBoy SP](https://github.com/t-sin/soyboy-sp.vst3) | SoyBoy SP is a VST3 instrument plugin to generate some GameBoy-like sounds. | Instrument | Rust VST |
 | [Space Dust Synthesizer](https://github.com/gadalleore/Space_Dust_Synthesizer) | A pure CMake-based polyphonic synthesizer VST3 plugin built with JUCE 8. Cosmic particles of sound. | Instrument | JUCE |
 | [SPARTA](https://github.com/leomccormack/SPARTA) | Spatial audio focused plug-in suite (Ambisonics encoders/decoders, 3-D panners/spatialisers, etc.) | Effect | SAF, JUCE |
