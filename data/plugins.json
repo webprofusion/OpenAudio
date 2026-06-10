@@ -2396,7 +2396,14 @@
       "JUCE"
     ]
   },
-  {
+    {
+    "name": "Xolotl",
+    "url": "https://github.com/publicsamples/Xolotl",
+    "description": "Xolotl is an open source \"harmonic\" synthesiser built with [HISE](https://github.com/christophhart/HISE)",
+    "type": "Instrument",
+    "frameworks": []
+  },
+{
     "name": "YK Chorus",
     "url": "https://github.com/SpotlightKid/ykchorus",
     "description": "Chorus audio effect plugin based on DSP code by TAL",
