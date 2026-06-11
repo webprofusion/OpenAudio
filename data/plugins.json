@@ -1555,7 +1555,14 @@
       "JUCE"
     ]
   },
-  {
+    {
+    "name": "Quetzalcoatl",
+    "url": "https://github.com/publicsamples/Quetzalcoatl/",
+    "description": "Quetzalcoatl is an 8 layer sample playback plugin",
+    "type": "Instrument",
+    "frameworks": []
+  },
+{
     "name": "Ratatouille",
     "url": "https://github.com/brummer10/Ratatouille.lv2",
     "description": "Ratatouille is a Neural Model loader and mixer",
