@@ -431,7 +431,17 @@
       "project": "psycle"
     }
   },
-  {
+    {
+    "name": "ReBuzz Digital Audio Workstation",
+    "description": "ReBuzz is a modular digital audio workstation (DAW) built upon the foundation of [Jeskola Buzz](https://jeskola.net/buzz/) software. Written in C",
+    "repository": {
+      "type": "GitHub",
+      "user": "",
+      "repo": "ReBuzz"
+    },
+    "url": "https://github.com/wasteddesign/ReBuzz"
+  },
+{
     "name": "SampleScanner",
     "url": "https://github.com/psobot/SampleScanner",
     "description": "Tool for auto-sampling hardware instruments",
