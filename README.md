@@ -448,3 +448,4 @@ Open Data Resources
 
 * [MoisesDB](https://github.com/moises-ai/moises-db) — Source separation public dataset by Moises
 * [OpenAIR](https://www.openair.hosted.york.ac.uk/) — the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)
+* [Tonalux Audio Analyzer](https://tonalux.org/analyzer.html) — open source (MIT) in-browser audio analyzer: LUFS/EBU R128, True Peak, BPM, key, spectrum, stereo. No upload. [Source](https://github.com/Exenye/tonalux-analyzer).
