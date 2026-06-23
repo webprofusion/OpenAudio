@@ -92,7 +92,7 @@
   {
     "name": "DPF",
     "url": "https://distrho.sourceforge.io/",
-    "description": "C++ framework for creating cross-platform audio plugins. DPF can build for LADSPA, DSSI, LV2, and VST formats.",
+    "description": "C++ framework for creating cross-platform audio plugins. DPF can build for LADSPA, DSSI, LV2, VST2, VST3, CLAP, and AU formats.",
     "repository": {
       "type": "GitHub",
       "user": "DISTRHO",
@@ -142,7 +142,7 @@
   {
     "name": "Heavy",
     "url": "https://wasted-audio.github.io/hvcc/",
-    "description": "The heavy hvcc compiler for Pure Data patches. With generators for Bela, Fabric, js, pdext, Unity, Daisy, DPF, and Wwise frameworks.",
+    "description": "The heavy hvcc compiler for Pure Data patches. With generators for Daisy, DPF, FMOD, JS, OWL, PD External, Unity, and Wwise frameworks.",
     "repository": {
       "type": "GitHub",
       "user": "Wasted-Audio",
