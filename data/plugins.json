@@ -87,7 +87,16 @@
       "JUCE"
     ]
   },
-  {
+    {
+    "name": "ANATOMY",
+    "url": "https://github.com/OTODESK4193/ANATOMY",
+    "description": "ANATOMY is a high-performance, open-source VST3 plugin that performs Transient/Tonal audio separation using a cos² crossfade algorithm, routing each component through its own independent multi-effect chain.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+{
     "name": "andes",
     "url": "https://github.com/artfwo/andes",
     "description": "Sound synthesiser plugin based on Perlin noise",
