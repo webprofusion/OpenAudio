@@ -1546,7 +1546,16 @@
       "Qt"
     ]
   },
-  {
+    {
+    "name": "Quad Morph Filter",
+    "url": "https://github.com/OTODESK4193/QuadMorphFilter",
+    "description": "Quad Morph Filter is a high-performance, open-source VST3 plugin featuring 28 meticulously modeled filter algorithms that can be morphed together in real-time using an intuitive XY pad interface",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+{
     "name": "quantumVerb",
     "url": "https://github.com/QVbDev/quantumVerb",
     "description": "Convolution reverb plugin developed for [Quantum Music](http://www.quantum-music.ca/) (and the rest of the world) by 4th-year engineering students at [Polytechnique Montréal](http://www.polymtl.ca/en).",
