@@ -1139,7 +1139,16 @@
       "JUCE"
     ]
   },
-  {
+    {
+    "name": "MechanOdd",
+    "url": "https://github.com/odoare/Mechanodd",
+    "description": "MechanOdd is a polyphonic physical-modelling synthesizer plugin (VST3/AU) built with JUCE",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+{
     "name": "Melodrumatic",
     "url": "https://github.com/usdivad/Melodrumatic",
     "description": "Melodrumatic is an audio plugin that lets you \"pitch-shift\" via delay (i.e. the Doppler effect) to turn unpitched audio into melodies. Controllable via MIDI or mouse.",
