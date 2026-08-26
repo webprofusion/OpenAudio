@@ -431,6 +431,16 @@
       "project": "psycle"
     }
   },
+  {
+    "name": "PulseQuaver",
+    "url": "https://valent-in.github.io/pulseq",
+    "description": "Minimalistic web-application for creating electronic music with digital synthesizers. Initially designed as sketching tool but can be used for making full-fledged tracks",
+    "repository": {
+      "type": "GitHub",
+      "user": "Valent-in",
+      "repo": "pulseq"
+    }
+  },
     {
     "name": "ReBuzz Digital Audio Workstation",
     "description": "ReBuzz is a modular digital audio workstation (DAW) built upon the foundation of [Jeskola Buzz](https://jeskola.net/buzz/) software. Written in C",
