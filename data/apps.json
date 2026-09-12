@@ -345,6 +345,16 @@
     }
   },
   {
+    "name": "Nota",
+    "url": "https://github.com/nota-daw/nota",
+    "description": "Nota is a cross-platform digital audio workstation (DAW) written in C++/C#/Avalonia/JUCE",
+    "repository": {
+      "type": "GitHub",
+      "user": "nota-daw",
+      "repo": "Nota"
+    }
+  },
+  {
     "name": "OpenDaw",
     "description": "A free, open-source Digital Audio Workstation for Windows, macOS, and Linux",
     "repository": {
