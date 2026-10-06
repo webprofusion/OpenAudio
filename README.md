@@ -138,6 +138,7 @@ Audio Plugins
 | [Homecorrupter](https://github.com/igorski/homecorrupter) | Homecorrupter is a VST/AU plug-in which allows the reduction of sample rate, bit depth and playback speed of any incoming audio, on the fly. | Effect | VSTGUI |
 | [Hue](https://github.com/bljustice/hue) | Mixes various noise types into the audio signal | Effect | Rust VST |
 | [HybridReverb2](https://github.com/jpcima/HybridReverb2) | HybridReverb2 is a convolution-based reverberation effect which combines the superior sound quality of a convolution reverb with the tuning capability of a feedback delay network. | Effect | JUCE |
+| [Intellectual Gate](https://github.com/CoconutAudio) | Plugin that lets you remove drum bleed without compromising punch. | Effect | JUCE |
 | [INTERSECT](https://github.com/tucktuckg00se/INTERSECT) | INTERSECT is a sample slicer instrument plugin (VST3/AU/Standalone) with multi-sample sessions, per-slice locking, slice note ranges, multiple time/pitch algorithms, and MIDI-triggered slice playback. | Instrument | JUCE |
 | [IR: LV2 Convolution Reverb](https://git.hq.sig7.se/ir.lv2.git) | NOTE : Please kindly recheck, i think this also use LV2 , which i think could be added to dropdown | Effect | GTK |
 | [IV-X Delay](https://github.com/qbroquetas/IV-XDelay) | IV-X Delay is a delay effect modelled after a renowned vintage tape recorder. | Effect | JUCE |
@@ -174,6 +175,7 @@ Audio Plugins
 | [modEQ](https://github.com/tobanteAudio/modEQ) | EQ with modulation (VST3, AU) | Effect | JUCE |
 | [MultiBandEQ](https://github.com/GiorgosChr/MultiBandEQ) | A multi-band equalizer audio plugin built with [JUCE](https://juce.com/) | Effect | JUCE |
 | [MultiMeter](https://github.com/RealAlexZ/MultiMeter) | A comprehensive set of AU/VST audio analysis tools (level meters, histograms, spectrogram analyzer, goniometer, correlation meter) | Effect | JUCE |
+| [Multiply and Replenish](https://github.com/CoconutAudio) | A neural vocal pitch editor that lets you create multiple instances of a vocal take and manipulate each differently to create realistic harmonies. Supports ARA. | Effect | JUCE |
 | [Musializer Plugin](https://github.com/ameyakakade/musializer-plugin) | Spectrum visualizer plugin | Misc | JUCE |
 | [MVerb](https://github.com/martineastwood/mverb) | Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure | Effect | VSTGUI |
 | [ndc Plugs](https://www.niallmoody.com/ndcplugs/plugins.htm) | VST plugins for Windows and OSX | Misc | VSTGUI |
@@ -203,7 +205,7 @@ Audio Plugins
 | [plugdata](https://github.com/plugdata-team/plugdata) | Plugin wrapper around Pure Data, letting it be used as a plugin in your DAW | Misc | JUCE |
 | [pMix](https://github.com/olilarkin/pMix2) | pMix (short for preset mixer) is a sound design, composition and performance tool that facilitates the control of multiple parameters using an intuitive graphical interface | Misc | JUCE |
 | [PodcastPlugins](https://github.com/trummerschlunk/PodcastPlugins) | Podcast Plugins are easy-to-use plugins for speech enhancement, specifically designed for podcasters who can't or don't want to dig deeper into the craft of sound engineering. | Effect | DPF, Faust |
-| [Pulp Fiction](https://github.com/coconut-audio/pulp-fiction) | Multi-effects rack plugin | Effect | JUCE |
+| [Pulp Fiction](https://github.com/CoconutAudio) | Multi-effects rack plugin | Effect | JUCE |
 | [PulseDelay](https://github.com/teragonaudio/PulseDelay) | Timed delay effect | Effect | N/A |
 | [Pult-EQ](https://github.com/consint/Pult-EQ) | Pult EQ is a free and open source Pultec style tube EQ VST3 plugin (64bit) for Linux and Windows. Pult EQ is not made for fine detailed work, but for adding mojo and sound coloration. You can boost the lows, the highs and the mids. You can saturate your sound or, of course, do the “Pultec trick”. The EQ features stereo and mid/side processing and the saturation comes with automatic gain compensation and up to 16 times oversampling. | Effect | Faust |
 | [QDelay](https://github.com/tiagolr/qdelay) | QDelay (short for quick-delay) is a dual-delay with more features than it should for a free plugin that's supposed to be quick. While it offers nothing groundbreaking it is based on popular units like ReplikaXT and EchoBoy. The main goal is to create a free and open plug-in for my own productions, an alternative to the popular [Deelay](https://sixthsample.com/deelay/) by SixthSample without premium versions or trimmed features or on-line activation. | Effect | JUCE |
@@ -245,7 +247,7 @@ Audio Plugins
 | [SmartGuitarPedal](https://github.com/GuitarML/SmartGuitarPedal) | Guitar pedal-style plugin, that uses machine learning for emulating real world hardware | Effect | JUCE |
 | [SMPLComp](https://github.com/p-hlp/SMPLComp) | A simple audio compressor plugin created with [JUCE](https://juce.com/) | Effect | JUCE |
 | [Sound Analyser](https://github.com/adamstark/Sound-Analyser) | Real-time audio analysis to allow anyone to quickly set up and experiment with different algorithms | Effect | JUCE |
-| [Sound of Music](https://github.com/coconut-audio/sound-of-music) | Multiband bitcrusher | Effect | JUCE |
+| [Sound of Music](https://github.com/CoconutAudio) | Multiband bitcrusher | Effect | JUCE |
 | [Soundshed Guitar](https://guitar.soundshed.com) | Soundshed Guitar is a fully featured guitar/bass effects app and plugin with easy preset selection, extensive signal chain editing, Neural Amp Modelling (NAM A2 etc), Community presets, Jam backing jam tracks. | Effect | JUCE |
 | [SoyBoy SP](https://github.com/t-sin/soyboy-sp.vst3) | SoyBoy SP is a VST3 instrument plugin to generate some GameBoy-like sounds. | Instrument | Rust VST |
 | [Space Dust Synthesizer](https://github.com/gadalleore/Space_Dust_Synthesizer) | A pure CMake-based polyphonic synthesizer VST3 plugin built with JUCE 8. Cosmic particles of sound. | Instrument | JUCE |
@@ -273,7 +275,6 @@ Audio Plugins
 | [TestTone](https://github.com/Jun-Murakami/TestTone) | A minimal test-signal generator built on the same JUCE + WebView (Vite / React 19 / MUI 7) stack as the sibling plugins (ZeroComp / ZeroLimit / ZeroEQ). | Effect | JUCE |
 | [The Analog Molecule](https://forum.cockos.com/showthread.php?t=305604) | JSFX Based frame plugin for Reaper. | Effect | DPF |
 | [The Kiss of Shame](https://github.com/hollance/TheKissOfShame) | The Kiss of Shame – Tape Desecration Processor, debuted at the Audio Engineering Society Convention 2014 in Los Angeles, was a pioneering DAW plugin that leveraged commercial UX/UI design principles to shape its magnetic tape + circuitry emulation algorithms. | Effect | JUCE |
-| [There will be blood](https://github.com/coconut-audio/there-will-be-blood) | Drum bleed reduction plugin | Effect | JUCE |
 | [TIME-12](https://github.com/tiagolr/time12) | TIME-12 is a cross-platform is a delay modulator inspired by plugins like GrossBeat and ShaperBox. It can be used for a wide range of effects like stuttering, tape stop, glitch, scratch, reverse, pitch shift and more. It is the second version of [TIME-1](https://github.com/tiagolr/time1) rebuilt from scratch using the JUCE framework. | Effect | JUCE |
 | [TinyVU](https://github.com/Jun-Murakami/TinyVU) | A minimalist VU meter plugin built with the same JUCE + WebView (Vite / React / MUI) stack as the sister plugins (ZeroComp / ZeroLimit / ZeroEQ / TestTone). | Effect | JUCE |
 | [Tract Plugin Pack](https://github.com/xxx/tract-plugin-pack) | A collection of audio effect plugins (VST3, CLAP, standalone) built with [nih-plug](https://github.com/robbert-vdh/nih-plug) in Rust. | Effect | NIH-Plug |

@@ -961,6 +961,15 @@
     ]
   },
   {
+    "name": "Intellectual Gate",
+    "url": "https://github.com/CoconutAudio",
+    "description": "Plugin that lets you remove drum bleed without compromising punch.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "INTERSECT",
     "url": "https://github.com/tucktuckg00se/INTERSECT",
     "description": "INTERSECT is a sample slicer instrument plugin (VST3/AU/Standalone) with multi-sample sessions, per-slice locking, slice note ranges, multiple time/pitch algorithms, and MIDI-triggered slice playback.",
@@ -1273,6 +1282,15 @@
     ]
   },
   {
+    "name": "Multiply and Replenish",
+    "url": "https://github.com/CoconutAudio",
+    "description": "A neural vocal pitch editor that lets you create multiple instances of a vocal take and manipulate each differently to create realistic harmonies. Supports ARA.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Musializer Plugin",
     "url": "https://github.com/ameyakakade/musializer-plugin",
     "description": "Spectrum visualizer plugin",
@@ -1532,7 +1550,7 @@
   },
   {
     "name": "Pulp Fiction",
-    "url": "https://github.com/coconut-audio/pulp-fiction",
+    "url": "https://github.com/CoconutAudio",
     "description": "Multi-effects rack plugin",
     "type": "Effect",
     "frameworks": [
@@ -1901,7 +1919,7 @@
   },
   {
     "name": "Sound of Music",
-    "url": "https://github.com/coconut-audio/sound-of-music",
+    "url": "https://github.com/CoconutAudio",
     "description": "Multiband bitcrusher",
     "type": "Effect",
     "frameworks": [
@@ -2147,15 +2165,6 @@
     "name": "The Kiss of Shame",
     "url": "https://github.com/hollance/TheKissOfShame",
     "description": "The Kiss of Shame – Tape Desecration Processor, debuted at the Audio Engineering Society Convention 2014 in Los Angeles, was a pioneering DAW plugin that leveraged commercial UX/UI design principles to shape its magnetic tape + circuitry emulation algorithms.",
-    "type": "Effect",
-    "frameworks": [
-      "JUCE"
-    ]
-  },
-  {
-    "name": "There will be blood",
-    "url": "https://github.com/coconut-audio/there-will-be-blood",
-    "description": "Drum bleed reduction plugin",
     "type": "Effect",
     "frameworks": [
       "JUCE"
