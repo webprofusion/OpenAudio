@@ -1469,6 +1469,15 @@
     ]
   },
   {
+    "name": "Pakku",
+    "url": "https://danielalves96.github.io/pakku-vst/",
+    "description": "Free and open-source multiband transient shaper with three-band or full-range processing for macOS and Windows",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Panacea",
     "url": "https://github.com/consint/Panacea",
     "description": "NOTE : i think there should be new framework added, since this is using [Cabbage](https://cabbageaudio.com/) , so for now i pick \"No Framework\" as option",
