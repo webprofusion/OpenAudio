@@ -1,5 +1,14 @@
 [
   {
+    "name": "AAP",
+    "description": "Plugin format for Android. Supports JUCE and LV2.",
+    "repository": {
+      "type": "GitHub",
+      "user": "atsushieno",
+      "repo": "aap-core"
+    }
+  },
+  {
     "name": "AudioKit",
     "url": "https://www.audiokit.io/",
     "description": "Swift audio synthesis, processing, & analysis platform for iOS, macOS and tvOS",
