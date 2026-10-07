@@ -59,6 +59,7 @@ Audio Plugins
 | [BORIS Granular Station](https://glesdora.github.io/boris-granular-station/) | A live-input granular plugin | Effect | JUCE |
 | [Breathalyzer](https://github.com/bgunnison/breathalyzer) | Breathalyzer is a VST3 instrument that turns MIDI notes into playable breath-and-voice gestures. It is not a sample player and not a speech synthesizer. The design goal is a compact expressive instrument whose mouth color, noise, growl, and vowel motion can all be performed from a small control surface. | Instrument | VSTGUI |
 | [C1Bitcrusher](https://github.com/datajake1999/C1Bitcrusher) | Experimental and accurate bit reduction | Effect | N/A |
+| [C99Gonio](https://github.com/ihateemoji/C99Gonio) | Minimal, low-CPU goniometer CLAP plugin written in C99, built to work with Bitwig Studio. Linux-only (requires X11). | Misc | N/A |
 | [Calf Studio Gear](https://github.com/calf-studio-gear/calf) | Many LV2 and Jack audio plug-ins | Effect | GTK |
 | [Cardinal](https://github.com/DISTRHO/Cardinal/) | Virtual modular synthesizer plugin | Instrument | DPF |
 | [CChorus](https://github.com/SpotlightKid/cchorus) | A versatile stereo chorus, multi-format audio effect plugin | Effect | DPF, Faust |
@@ -408,6 +409,7 @@ Software Development Libraries & APIs
 
 | Library | Source | Description |
 | --- | --- | --- |
+| AAP | [atsushieno/aap-core](https://github.com/atsushieno/aap-core) | Plugin format for Android. Supports JUCE and LV2. |
 | [AudioKit](https://www.audiokit.io/) | [AudioKit/AudioKit](https://github.com/AudioKit/AudioKit) | Swift audio synthesis, processing, & analysis platform for iOS, macOS and tvOS |
 | [AudioPlugSharp](https://github.com/mikeoliphant/AudioPlugSharp/) | [mikeoliphant/AudioPlugSharp](https://github.com/mikeoliphant/AudioPlugSharp) | Easily create VST (VST3) audio plugins in C# .NET |
 | [Avendish](https://celtera.github.io/avendish) | [celtera/avendish](https://github.com/celtera/avendish) | C++20 framework for any sort of audio / video / midi media objects |
