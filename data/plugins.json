@@ -1451,6 +1451,15 @@
     ]
   },
   {
+    "name": "OVNI ORBIT",
+    "url": "https://ovniaudio.com/orbit",
+    "description": "A free, open-source binaural movement engine: place a sound around your head, orbit it or fly it past. Set angle and distance on a radar, tempo-sync the orbit, add chaos and room, and the fly-by bends the pitch with real Doppler that emerges from propagation delay, not a pitch-shifter. IN PHASE keeps it mono-safe. VST3 + AU on macOS (universal), VST3 on Windows. AGPL-3.0, source at https://github.com/ovniaudio/orbita",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "OVNI TELESCOPE",
     "url": "https://ovniaudio.com/telescope",
     "description": "A free, open-source audio analyser that measures your mix and writes down what it found: thirteen lenses over one engine, covering loudness to ITU-R BS.1770 with true peak, dynamics, spectrum, stereo and tonal balance. The thirteenth lens, VERDICT, runs 21 deterministic rules and writes each finding with the number and the rule that produced it. 0 samples of latency, bit-exact pass-through. VST3 + AU on macOS 11+ (universal). AGPL-3.0, source at https://github.com/ovniaudio/ovni",
