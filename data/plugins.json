@@ -264,7 +264,7 @@
   {
     "name": "C99Gonio",
     "url": "https://github.com/ihateemoji/C99Gonio",
-    "description": "This is a minimal C99 .clap plugin I have been working on. The goal is to solve a very simple problem: the lack of an open-source goniometer that works with Bitwig Studio and uses very little CPU. It is Linux-only because it relies on X11.",
+    "description": "Minimal, low-CPU goniometer CLAP plugin written in C99, built to work with Bitwig Studio. Linux-only (requires X11).",
     "type": "Misc",
     "frameworks": []
   },
