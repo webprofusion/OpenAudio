@@ -262,6 +262,13 @@
     "frameworks": []
   },
   {
+    "name": "C99Gonio",
+    "url": "https://github.com/ihateemoji/C99Gonio",
+    "description": "Minimal, low-CPU goniometer CLAP plugin written in C99, built to work with Bitwig Studio. Linux-only (requires X11).",
+    "type": "Misc",
+    "frameworks": []
+  },
+  {
     "name": "Calf Studio Gear",
     "url": "https://github.com/calf-studio-gear/calf",
     "description": "Many LV2 and Jack audio plug-ins",
