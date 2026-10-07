@@ -14,7 +14,7 @@ Thanks for helping grow OpenAudio! This project is fully data‑driven: the webs
   - `data/samples.json` — Code Samples
   - `data/resources.json` — Open Data Resources
 - Add or update entries as small, focused JSON diffs. Your PR will effectively be a "JSON patch" to these lists. Do not modify generated files (e.g. README or any `out/` files).
-- Keep entries alphabetically sorted by the `name` field (case‑insensitive). CI tests enforce this.
+- You don’t need to keep entries in alphabetical order. The generator sorts each file by `name` (case‑insensitive) and commits the result when it rebuilds the README. Run `npm run sort:data` in `generator/` if you want to sort locally.
 - Follow the schema for each collection:
   - Plugins: `{ name, url, description, type, frameworks[] }`
   - Apps: `{ name, description, repository, url? }`
@@ -28,7 +28,6 @@ Thanks for helping grow OpenAudio! This project is fully data‑driven: the webs
 ## Recommended PR Checklist
 
 - Minimal JSON change only (no formatting churn).
-- Sorted `name` entries.
 - Valid URLs and concise descriptions.
 - Correct `type` and `frameworks` for plugins.
 - Use existing project naming conventions.
@@ -46,14 +45,15 @@ All build/test commands live in the `generator/` folder.
 ```bash
 cd generator
 npm ci
-npm test            # Runs unit tests (vitest)
+npm test            # Runs unit tests and validates data against the schema (vitest)
+npm run sort:data   # Sorts data/*.json entries by name
 npm run test:lint   # ESLint (TypeScript)
 npm run test:format # Prettier formatting check
 ```
 
 ### Generate README (build)
 
-This compiles TypeScript and generates the site README into `out/README.md`.
+This compiles TypeScript, sorts the `data/*.json` files by name, and generates the site README into `out/README.md`.
 
 ```bash
 cd generator

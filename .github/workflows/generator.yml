@@ -44,31 +44,37 @@ jobs:
           node-version-file: "./generator/.nvmrc"
       - name: Install
         run: npm ci
-      - name: Generate
+      - name: Generate (sorts data files by name, then renders README.md)
         run: npm run generate
       - name: Display generated README.md file
         run: cat ./out/README.md
-      - name: Upload README.md file artifact
+      - name: Copy generated README.md into place
+        run: cp ./out/README.md ../README.md
+      - name: Upload generated files artifact
         uses: actions/upload-artifact@v6
         with:
-          name: readme-artifact
-          path: ./generator/out/README.md
+          name: generated-files
+          path: |
+            ./README.md
+            ./data/*.json
 
   update_readme:
     needs: [test, generate]
+    # On pull requests the checkout is a detached merge commit that can't be pushed to.
+    if: github.event_name == 'push'
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v7
-      - name: Download README.md file artifact
+      - name: Download generated files artifact
         uses: actions/download-artifact@v7
         with:
-          name: readme-artifact
+          name: generated-files
           path: .
-      - name: Commit generated README.md file
+      - name: Commit generated README.md and sorted data files
         uses: stefanzweifel/git-auto-commit-action@v6
         with:
           commit_message: Update README.md
-          file_pattern: ./README.md
+          file_pattern: README.md data/*.json
