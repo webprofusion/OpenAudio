@@ -118,7 +118,7 @@
     },
     "url": "https://composeyogi.com"
   },
-    {
+  {
     "name": "ConvertWithMoss",
     "description": "Converts multisamples from a source format (WAV, multisample, KMP, wavestate, NKI, SFZ, SoundFont 2) to a different destination format.",
     "repository": {
@@ -128,7 +128,7 @@
     },
     "url": "https://www.mossgrabers.de/Software/ConvertWithMoss/ConvertWithMoss.html"
   },
-{
+  {
     "name": "Drum Beat Repo",
     "url": "https://github.com/babali42/drumbeatrepo",
     "description": "An interactive library of drums patterns",
@@ -451,7 +451,7 @@
       "repo": "pulseq"
     }
   },
-    {
+  {
     "name": "ReBuzz Digital Audio Workstation",
     "description": "ReBuzz is a modular digital audio workstation (DAW) built upon the foundation of [Jeskola Buzz](https://jeskola.net/buzz/) software. Written in C",
     "repository": {
@@ -461,7 +461,7 @@
     },
     "url": "https://github.com/wasteddesign/ReBuzz"
   },
-{
+  {
     "name": "SampleScanner",
     "url": "https://github.com/psobot/SampleScanner",
     "description": "Tool for auto-sampling hardware instruments",

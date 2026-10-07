@@ -4,7 +4,8 @@
     "test": "vitest",
     "test:lint": "eslint . --ext=.ts --max-warnings=0 --format=compact",
     "test:format": "prettier . ../data --check",
-    "generate": "tsc && node ./dist/generator/src/index.js"
+    "sort:data": "tsc && node ./dist/generator/src/sortData.js",
+    "generate": "npm run sort:data && node ./dist/generator/src/index.js"
   },
   "dependencies": {
     "zod": "3.22.2"

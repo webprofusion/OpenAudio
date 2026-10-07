@@ -338,8 +338,13 @@ jobs:
                 return `${source.slice(0, previousItemRange.end)},${eol}${formattedEntry}${source.slice(previousItemRange.end)}`;
               }
 
+              // Insert at the start of the next item's line: the formatted entry brings its own indent, and the next item keeps its original indent.
               const nextItemRange = ranges[insertIndex];
-              return `${source.slice(0, nextItemRange.start)}${formattedEntry},${eol}${source.slice(nextItemRange.start)}`;
+              const nextItemLineStart = source.lastIndexOf(eol, nextItemRange.start - 1) + 1;
+              const insertAt = /^[ \t]*$/.test(source.slice(nextItemLineStart, nextItemRange.start))
+                ? nextItemLineStart
+                : nextItemRange.start;
+              return `${source.slice(0, insertAt)}${formattedEntry},${eol}${source.slice(insertAt)}`;
             };
 
             // Read existing data
