@@ -1,5 +1,4 @@
 import {describe, expect} from 'vitest';
-import {isSortedCaseInsensitive} from '../utils/array/isSortedCaseInsensitive';
 import {
   zApps,
   zCollections,
@@ -16,52 +15,41 @@ import _plugins from '../../../data/plugins.json';
 import _resources from '../../../data/resources.json';
 import _samples from '../../../data/samples.json';
 
-const apps = zApps.parse(_apps);
-const collections = zCollections.parse(_collections);
-const libraries = zLibraries.parse(_libraries);
-const plugins = zPlugins.parse(_plugins);
-const resources = zResources.parse(_resources);
-const samples = zSamples.parse(_samples);
-
+// Item order is not checked here: the generator sorts the data files by name.
 describe('data', () => {
   describe('apps', (they) => {
-    they('are sorted by name', () => {
-      expectAllNamesSorted(apps);
+    they('match the schema', () => {
+      expect(() => zApps.parse(_apps)).not.toThrow();
     });
   });
 
   describe('collections', (they) => {
-    they('are sorted by name', () => {
-      expectAllNamesSorted(collections);
+    they('match the schema', () => {
+      expect(() => zCollections.parse(_collections)).not.toThrow();
     });
   });
 
   describe('libraries', (they) => {
-    they('are sorted by name', () => {
-      expectAllNamesSorted(libraries);
+    they('match the schema', () => {
+      expect(() => zLibraries.parse(_libraries)).not.toThrow();
     });
   });
 
   describe('plugins', (they) => {
-    they('are sorted by name', () => {
-      expectAllNamesSorted(plugins);
+    they('match the schema', () => {
+      expect(() => zPlugins.parse(_plugins)).not.toThrow();
     });
   });
 
   describe('resources', (they) => {
-    they('are sorted by name', () => {
-      expectAllNamesSorted(resources);
+    they('match the schema', () => {
+      expect(() => zResources.parse(_resources)).not.toThrow();
     });
   });
 
   describe('samples', (they) => {
-    they('are sorted by name', () => {
-      expectAllNamesSorted(samples);
+    they('match the schema', () => {
+      expect(() => zSamples.parse(_samples)).not.toThrow();
     });
   });
 });
-
-const expectAllNamesSorted = (array: Array<{name: string}>) => {
-  const names = array.map(({name}) => name);
-  expect(isSortedCaseInsensitive(names)).toBe(true);
-};

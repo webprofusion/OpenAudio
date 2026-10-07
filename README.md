@@ -126,6 +126,7 @@ Audio Plugins
 | [GATE-12](https://github.com/tiagolr/gate12) | GATE-12 is a cross-platform envelope generator for gate/volume control inspired by plugins like GrossBeat and ShaperBox. It is the second version of [GATE-1](https://github.com/tiagolr/gate1) rebuilt from scratch using the JUCE framework. | Effect | JUCE |
 | [Grace](https://github.com/s-oram/Grace) | [Grace](http://onesmallclue.com/plugin/grace/) is Sampler VST Plugin for Windows | Instrument | N/A |
 | [Gripverb](https://github.com/ashaydave/Gripverb) | Gripverb is an implementation of a Schroeder reverb (4 all-pass filters into 8 comb filters) in JUCE. | Effect | JUCE |
+| [Grisey](https://github.com/ZhiyuAlexZhang/Grisey) | Free, open-source metering suite: LUFS loudness (EBU R 128), true peak, spectrum, spectrogram and goniometer in one window | Effect | JUCE |
 | [GroovOliou](https://github.com/oliou/GroovOliou) | Simple drum sample player that easily browses a long list of samples. | Instrument | JUCE |
 | [GuitarD](https://github.com/TobiasKozel/GuitarD) | It's a basic multi effects processor which follows a node based approach. It's fairly unstable and experimental but contains most of the important features. | Effect | iPlug2 |
 | [Gverb/Gigaverb](https://github.com/v7b1/gigaverb) | Reverb | Effect | VSTGUI |
@@ -174,7 +175,6 @@ Audio Plugins
 | [Modal Synthesiser](https://github.com/crispinha/modal-synth) | This is a software synthesiser that uses modal synthesis, a physical modelling technique using banks of resonators to filter an exciter signal, to create sounds with a parametrically controlled frequency spectrum. This synthesiser is designed to allow for the composition and performance of spectral music, and it produces sounds with timbres similar to those of natural materials such as wood, metal, and glass. | Instrument | JUCE |
 | [modEQ](https://github.com/tobanteAudio/modEQ) | EQ with modulation (VST3, AU) | Effect | JUCE |
 | [MultiBandEQ](https://github.com/GiorgosChr/MultiBandEQ) | A multi-band equalizer audio plugin built with [JUCE](https://juce.com/) | Effect | JUCE |
-| [MultiMeter](https://github.com/RealAlexZ/MultiMeter) | A comprehensive set of AU/VST audio analysis tools (level meters, histograms, spectrogram analyzer, goniometer, correlation meter) | Effect | JUCE |
 | [Multiply and Replenish](https://github.com/CoconutAudio) | A neural vocal pitch editor that lets you create multiple instances of a vocal take and manipulate each differently to create realistic harmonies. Supports ARA. | Effect | JUCE |
 | [Musializer Plugin](https://github.com/ameyakakade/musializer-plugin) | Spectrum visualizer plugin | Misc | JUCE |
 | [MVerb](https://github.com/martineastwood/mverb) | Studio-quality reverb using the Dattorro’s figure-of-eight reverb structure | Effect | VSTGUI |
@@ -194,8 +194,10 @@ Audio Plugins
 | [Orbital Bass Engine](https://github.com/tywr/orbital-bass-engine) | Bass guitar audio plugin that provides a complete signal processing chain designed specifically for bass guitar, featuring analog-modeled compression, vintage-style drive amplification, and a post-amp effects rack. | Effect | JUCE |
 | [ORchestra](https://github.com/Tronhjem/ORchestra) | Powerful MIDI sequencer plugin that generates and combines sequences of notes or MIDI CC messages. | Misc | JUCE |
 | [Overdraw](https://github.com/unevens/Overdraw) | [Overdraw](https://www.unevens.net/overdraw.html) is an audio plug-in that implements a waveshaper in which the transfer function of each channel is an automatable spline. | Effect | JUCE |
+| [OVNI TELESCOPE](https://ovniaudio.com/telescope) | A free, open-source audio analyser that measures your mix and writes down what it found: thirteen lenses over one engine, covering loudness to ITU-R BS.1770 with true peak, dynamics, spectrum, stereo and tonal balance. The thirteenth lens, VERDICT, runs 21 deterministic rules and writes each finding with the number and the rule that produced it. 0 samples of latency, bit-exact pass-through. VST3 + AU on macOS 11+ (universal). AGPL-3.0, source at https://github.com/ovniaudio/ovni | Effect | JUCE |
 | [OwlBass](https://github.com/PentagramPro/OwlBass) | Additive bass synth | Instrument | JUCE |
 | [Oxe FM Synth](https://github.com/oxesoft/oxefmsynth) | Multitimbral 8-operator FM synth (VST 2.4; Windows, Linux, macOS) | Instrument | VSTGUI |
+| [Pakku](https://danielalves96.github.io/pakku-vst/) | Free and open-source multiband transient shaper with three-band or full-range processing for macOS and Windows | Effect | JUCE |
 | [Panacea](https://github.com/consint/Panacea) | NOTE : i think there should be new framework added, since this is using [Cabbage](https://cabbageaudio.com/) , so for now i pick "No Framework" as option | Effect | N/A |
 | [PeakEater](https://github.com/vvvar/PeakEater) | PeakEater is a free, easy-to-use wave-shaping plugin. PeakEater lets you choose between different [wave-shaping](https://en.wikipedia.org/wiki/Waveshaper) [functions](https://en.wikipedia.org/wiki/Sigmoid_function) to clip everything above ceiling level. Therefore, you can boost the overall volume of your track safely without worrying that some nasty peak would go above the maximum allowed volume level of your DAW. | Effect | JUCE |
 | [PerceptoMap](https://github.com/hqrrr/PerceptoMap) | PerceptoMap is an open-source audio plugin (VST3) that visualizes psychoacoustic features of audio signals in real time | Effect | JUCE |
@@ -371,6 +373,7 @@ Audio Apps
 | [Musescore](https://musescore.org/en) | [musescore/Musescore](https://github.com/musescore/Musescore) | A notation and sheet music app |
 | [Musical garden](https://musicalgarden.eliasjarzombek.com/) | [ejarzo/musical-garden](https://github.com/ejarzo/musical-garden) | A web instrument that allows you to make music by tending to a virtual garden |
 | [NewMixer](https://github.com/jatinchowdhury18/NewMixer) | [jatinchowdhury18/NewMixer](https://github.com/jatinchowdhury18/NewMixer) | Mixing Software |
+| [Nota](https://github.com/nota-daw/nota) | [nota-daw/Nota](https://github.com/nota-daw/Nota) | Nota is a cross-platform digital audio workstation (DAW) written in C++/C#/Avalonia/JUCE |
 | OpenDaw | [glenwrhodes/OpenDaw](https://github.com/glenwrhodes/OpenDaw) | A free, open-source Digital Audio Workstation for Windows, macOS, and Linux |
 | [OpenMPT](https://openmpt.org/) | [OpenMPT/openmpt](https://github.com/OpenMPT/openmpt) | Popular tracker (formerly ModPlug Tracker) for Windows with support for IT, XM, S3M, MOD modules, VST plugins and ASIO |
 | [OpenUtau](https://www.openutau.com/) | [stakira/OpenUtau](https://github.com/stakira/OpenUtau) | Singing synthesis platform for Windows, Mac and Linux that support UTAU voicebanks and machine learning voicebanks. |

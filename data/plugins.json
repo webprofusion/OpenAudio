@@ -26,7 +26,7 @@
       "JUCE"
     ]
   },
-{
+  {
     "name": "ÆLAPSE",
     "url": "https://github.com/smiarx/aelapse",
     "description": "ÆLAPSE is a delay and reverb plugin. The delay is based on tape-delay mechanisms, while the reverb is inspired by (but not limited to) spring reverbs.",
@@ -51,7 +51,7 @@
     "type": "Instrument",
     "frameworks": []
   },
-    {
+  {
     "name": "Ambience",
     "url": "https://github.com/OTODESK4193/Ambience1.0.1",
     "description": "Ambience is a high-quality, open-source algorithmic reverb VST3 plugin built on a 16-channel Feedback Delay Network (FDN) architecture.",
@@ -60,7 +60,7 @@
       "JUCE"
     ]
   },
-{
+  {
     "name": "ampli-Fe",
     "url": "https://github.com/antonok-edm/ampli-Fe",
     "description": "Cross-platform VST2 plugin written in Rust",
@@ -87,7 +87,7 @@
       "JUCE"
     ]
   },
-    {
+  {
     "name": "ANATOMY",
     "url": "https://github.com/OTODESK4193/ANATOMY",
     "description": "ANATOMY is a high-performance, open-source VST3 plugin that performs Transient/Tonal audio separation using a cos² crossfade algorithm, routing each component through its own independent multi-effect chain.",
@@ -96,7 +96,7 @@
       "JUCE"
     ]
   },
-{
+  {
     "name": "andes",
     "url": "https://github.com/artfwo/andes",
     "description": "Sound synthesiser plugin based on Perlin noise",
@@ -697,7 +697,7 @@
       "JUCE"
     ]
   },
-    {
+  {
     "name": "Feral",
     "url": "https://github.com/jmcgill-public/feral",
     "description": "Free dirt pedal dedicated to Jimothy",
@@ -706,7 +706,7 @@
       "JUCE"
     ]
   },
-{
+  {
     "name": "FILT-R",
     "url": "https://github.com/tiagolr/filtr",
     "description": "FILT-R is a cross-platform filter modulator based on plugins like ShaperBox and FilterShaper. It is the second version of [FLTR-1 JSFX](https://github.com/tiagolr/tilr_jsfx?tab=readme-ov-file)",
@@ -847,6 +847,15 @@
     "name": "Gripverb",
     "url": "https://github.com/ashaydave/Gripverb",
     "description": "Gripverb is an implementation of a Schroeder reverb (4 all-pass filters into 8 comb filters) in JUCE.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
+    "name": "Grisey",
+    "url": "https://github.com/ZhiyuAlexZhang/Grisey",
+    "description": "Free, open-source metering suite: LUFS loudness (EBU R 128), true peak, spectrum, spectrogram and goniometer in one window",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -1166,7 +1175,7 @@
       "JUCE"
     ]
   },
-    {
+  {
     "name": "MechanOdd",
     "url": "https://github.com/odoare/Mechanodd",
     "description": "MechanOdd is a polyphonic physical-modelling synthesizer plugin (VST3/AU) built with JUCE",
@@ -1175,7 +1184,7 @@
       "JUCE"
     ]
   },
-{
+  {
     "name": "Melodrumatic",
     "url": "https://github.com/usdivad/Melodrumatic",
     "description": "Melodrumatic is an audio plugin that lets you \"pitch-shift\" via delay (i.e. the Doppler effect) to turn unpitched audio into melodies. Controllable via MIDI or mouse.",
@@ -1267,15 +1276,6 @@
     "name": "MultiBandEQ",
     "url": "https://github.com/GiorgosChr/MultiBandEQ",
     "description": "A multi-band equalizer audio plugin built with [JUCE](https://juce.com/)",
-    "type": "Effect",
-    "frameworks": [
-      "JUCE"
-    ]
-  },
-  {
-    "name": "Grisey",
-    "url": "https://github.com/ZhiyuAlexZhang/Grisey",
-    "description": "Free, open-source metering suite: LUFS loudness (EBU R 128), true peak, spectrum, spectrogram and goniometer in one window",
     "type": "Effect",
     "frameworks": [
       "JUCE"
@@ -1450,7 +1450,7 @@
       "JUCE"
     ]
   },
-    {
+  {
     "name": "OVNI ORBIT",
     "url": "https://ovniaudio.com/orbit",
     "description": "A free, open-source binaural movement engine: place a sound around your head, orbit it or fly it past. Set angle and distance on a radar, tempo-sync the orbit, add chaos and room, and the fly-by bends the pitch with real Doppler that emerges from propagation delay, not a pitch-shifter. IN PHASE keeps it mono-safe. VST3 + AU on macOS (universal), VST3 on Windows. AGPL-3.0, source at https://github.com/ovniaudio/orbita",
@@ -1459,7 +1459,16 @@
       "JUCE"
     ]
   },
-{
+  {
+    "name": "OVNI TELESCOPE",
+    "url": "https://ovniaudio.com/telescope",
+    "description": "A free, open-source audio analyser that measures your mix and writes down what it found: thirteen lenses over one engine, covering loudness to ITU-R BS.1770 with true peak, dynamics, spectrum, stereo and tonal balance. The thirteenth lens, VERDICT, runs 21 deterministic rules and writes each finding with the number and the rule that produced it. 0 samples of latency, bit-exact pass-through. VST3 + AU on macOS 11+ (universal). AGPL-3.0, source at https://github.com/ovniaudio/ovni",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "OwlBass",
     "url": "https://github.com/PentagramPro/OwlBass",
     "description": "Additive bass synth",
@@ -1609,7 +1618,7 @@
       "Qt"
     ]
   },
-    {
+  {
     "name": "Quad Morph Filter",
     "url": "https://github.com/OTODESK4193/QuadMorphFilter",
     "description": "Quad Morph Filter is a high-performance, open-source VST3 plugin featuring 28 meticulously modeled filter algorithms that can be morphed together in real-time using an intuitive XY pad interface",
@@ -1618,7 +1627,7 @@
       "JUCE"
     ]
   },
-{
+  {
     "name": "quantumVerb",
     "url": "https://github.com/QVbDev/quantumVerb",
     "description": "Convolution reverb plugin developed for [Quantum Music](http://www.quantum-music.ca/) (and the rest of the world) by 4th-year engineering students at [Polytechnique Montréal](http://www.polymtl.ca/en).",
@@ -1627,14 +1636,14 @@
       "JUCE"
     ]
   },
-    {
+  {
     "name": "Quetzalcoatl",
     "url": "https://github.com/publicsamples/Quetzalcoatl/",
     "description": "Quetzalcoatl is an 8 layer sample playback plugin",
     "type": "Instrument",
     "frameworks": []
   },
-{
+  {
     "name": "Ratatouille",
     "url": "https://github.com/brummer10/Ratatouille.lv2",
     "description": "Ratatouille is a Neural Model loader and mixer",
@@ -1944,7 +1953,7 @@
       "JUCE"
     ]
   },
-    {
+  {
     "name": "Soundshed Guitar",
     "url": "https://guitar.soundshed.com",
     "description": "Soundshed Guitar is a fully featured guitar/bass effects app and plugin with easy preset selection, extensive signal chain editing, Neural Amp Modelling (NAM A2 etc), Community presets, Jam backing jam tracks.",
@@ -1953,7 +1962,7 @@
       "JUCE"
     ]
   },
-{
+  {
     "name": "SoyBoy SP",
     "url": "https://github.com/t-sin/soyboy-sp.vst3",
     "description": "SoyBoy SP is a VST3 instrument plugin to generate some GameBoy-like sounds.",
@@ -2466,14 +2475,14 @@
       "JUCE"
     ]
   },
-    {
+  {
     "name": "Xolotl",
     "url": "https://github.com/publicsamples/Xolotl",
     "description": "Xolotl is an open source \"harmonic\" synthesiser built with [HISE](https://github.com/christophhart/HISE)",
     "type": "Instrument",
     "frameworks": []
   },
-{
+  {
     "name": "YK Chorus",
     "url": "https://github.com/SpotlightKid/ykchorus",
     "description": "Chorus audio effect plugin based on DSP code by TAL",

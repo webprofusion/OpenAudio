@@ -3,6 +3,7 @@ import {pluginsRenderer} from './data/renderers/plugins.renderer';
 import {collectionsRenderer} from './data/renderers/collections.renderer';
 import {appsRenderer} from './data/renderers/apps.renderer';
 import {librariesRenderer} from './data/renderers/libraries.renderer';
+import {sortByNameCaseInsensitive} from './utils/array/sortByNameCaseInsensitive';
 import {
   zApps,
   zCollections,
@@ -19,12 +20,13 @@ import _plugins from '../../data/plugins.json';
 import _resources from '../../data/resources.json';
 import _samples from '../../data/samples.json';
 
-const apps = zApps.parse(_apps);
-const collections = zCollections.parse(_collections);
-const libraries = zLibraries.parse(_libraries);
-const plugins = zPlugins.parse(_plugins);
-const resources = zResources.parse(_resources);
-const samples = zSamples.parse(_samples);
+// Sort here as well as in sortData so the README is ordered even if the data files are not.
+const apps = sortByNameCaseInsensitive(zApps.parse(_apps));
+const collections = sortByNameCaseInsensitive(zCollections.parse(_collections));
+const libraries = sortByNameCaseInsensitive(zLibraries.parse(_libraries));
+const plugins = sortByNameCaseInsensitive(zPlugins.parse(_plugins));
+const resources = sortByNameCaseInsensitive(zResources.parse(_resources));
+const samples = sortByNameCaseInsensitive(zSamples.parse(_samples));
 
 fs.rmSync('out', {recursive: true, force: true});
 fs.mkdirSync('out');
