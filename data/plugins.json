@@ -1273,9 +1273,9 @@
     ]
   },
   {
-    "name": "MultiMeter",
-    "url": "https://github.com/RealAlexZ/MultiMeter",
-    "description": "A comprehensive set of AU/VST audio analysis tools (level meters, histograms, spectrogram analyzer, goniometer, correlation meter)",
+    "name": "Grisey",
+    "url": "https://github.com/ZhiyuAlexZhang/Grisey",
+    "description": "Free, open-source metering suite: LUFS loudness (EBU R 128), true peak, spectrum, spectrogram and goniometer in one window",
     "type": "Effect",
     "frameworks": [
       "JUCE"
