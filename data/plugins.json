@@ -262,6 +262,13 @@
     "frameworks": []
   },
   {
+    "name": "C99Euclid",
+    "url": "https://github.com/ihateemoji/C99Euclid",
+    "description": "It is a very simple Euclidean sequencer in the style of my goniometer C99Gonio. As it is a more complex plugin, it is still in the work-in-progress state; however, I have been successfully using it on my end without any issues at this stage.",
+    "type": "Misc",
+    "frameworks": []
+  },
+  {
     "name": "C99Gonio",
     "url": "https://github.com/ihateemoji/C99Gonio",
     "description": "Minimal, low-CPU goniometer CLAP plugin written in C99, built to work with Bitwig Studio. Linux-only (requires X11).",
