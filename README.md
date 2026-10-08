@@ -59,6 +59,7 @@ Audio Plugins
 | [BORIS Granular Station](https://glesdora.github.io/boris-granular-station/) | A live-input granular plugin | Effect | JUCE |
 | [Breathalyzer](https://github.com/bgunnison/breathalyzer) | Breathalyzer is a VST3 instrument that turns MIDI notes into playable breath-and-voice gestures. It is not a sample player and not a speech synthesizer. The design goal is a compact expressive instrument whose mouth color, noise, growl, and vowel motion can all be performed from a small control surface. | Instrument | VSTGUI |
 | [C1Bitcrusher](https://github.com/datajake1999/C1Bitcrusher) | Experimental and accurate bit reduction | Effect | N/A |
+| [C99Euclid](https://github.com/ihateemoji/C99Euclid) | It is a very simple Euclidean sequencer in the style of my goniometer C99Gonio. As it is a more complex plugin, it is still in the work-in-progress state; however, I have been successfully using it on my end without any issues at this stage. | Misc | N/A |
 | [C99Gonio](https://github.com/ihateemoji/C99Gonio) | Minimal, low-CPU goniometer CLAP plugin written in C99, built to work with Bitwig Studio. Linux-only (requires X11). | Misc | N/A |
 | [Calf Studio Gear](https://github.com/calf-studio-gear/calf) | Many LV2 and Jack audio plug-ins | Effect | GTK |
 | [Cardinal](https://github.com/DISTRHO/Cardinal/) | Virtual modular synthesizer plugin | Instrument | DPF |
