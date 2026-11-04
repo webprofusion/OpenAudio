@@ -1877,6 +1877,15 @@
     "frameworks": []
   },
   {
+    "name": "SCVB (Synchain Vocal Balancer)",
+    "url": "https://github.com/synchain-oss/scvb",
+    "description": "SCVB (Synchain Vocal Balancer) is a free, open-source (GPL-3.0-or-later) VST3 plugin built with JUCE. It analyses all the vocal tracks in a project together, works out pan and volume curves for each one and writes them into the DAW as ordinary automation that the user can edit. Tracks are cut into segments by phrase, every segment has its own editable and lockable pan and volume, and segments are joined with 20–300 ms ramps.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Setekh",
     "url": "https://github.com/fullfxmedia/setekh",
     "description": "A minimalistic yet sonically powerful distortion plugin created and distributed via Full FX Media",
