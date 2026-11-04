@@ -243,6 +243,7 @@ Audio Plugins
 | [Schrammel OJD](https://github.com/JanosGit/Schrammel_OJD) | Model of a modern classic guitar distortion pedal | Effect | JUCE |
 | [ScorchCrafter Guitar FX](https://sourceforge.net/projects/scorchcrafter/) | Audio DSP FX and plugins, mostly for guitar (amp sim) and other FX | Effect | VSTGUI |
 | [Scream](https://github.com/Cure-Audio/Scream) | Scream is a versatile VST plugin that recreates the legendary Scream filter from Massive. Known for its aggressive, resonant tone and raw energy. | Effect | N/A |
+| [SCVB (Synchain Vocal Balancer)](https://github.com/synchain-oss/scvb) | SCVB (Synchain Vocal Balancer) is a free, open-source (GPL-3.0-or-later) VST3 plugin built with JUCE. It analyses all the vocal tracks in a project together, works out pan and volume curves for each one and writes them into the DAW as ordinary automation that the user can edit. Tracks are cut into segments by phrase, every segment has its own editable and lockable pan and volume, and segments are joined with 20–300 ms ramps. | Effect | JUCE |
 | [Setekh](https://github.com/fullfxmedia/setekh) | A minimalistic yet sonically powerful distortion plugin created and distributed via Full FX Media | Effect | JUCE |
 | [sfizz](https://github.com/sfztools/sfizz) | SFZ parser library and instrument plugins | Instrument | VSTGUI |
 | [ShoutVST](https://github.com/Iunusov/ShoutVST) | VST for streaming sound into Icecast/Shoutcast directly from VST hosts | Effect | VSTGUI, FLUID |
@@ -348,6 +349,7 @@ Audio Apps
 | ASIO2WASAPI | [levmin/ASIO2WASAPI](https://github.com/levmin/ASIO2WASAPI) | Universal ASIO driver for Windows |
 | [Audacity](https://www.audacityteam.org/) | [audacity/audacity](https://github.com/audacity/audacity) | Audio editor |
 | [AudioKit Synth One](https://audiokitpro.com/synth/) | [AudioKit/AudioKitSynthOne](https://github.com/AudioKit/AudioKitSynthOne) | Open-Source iOS Synthesizer App |
+| [AudioLens for VS Code](https://marketplace.visualstudio.com/items?itemName=simzhou.audiolens) | [SimZhou/vscode-audiolens](https://github.com/SimZhou/vscode-audiolens) | VS Code extension for audio playback, per-channel waveforms and spectrograms, selection analysis, and WAV export. |
 | [Bosca Ceoil](https://boscaceoil.net/) | [TerryCavanagh/boscaceoil](https://github.com/TerryCavanagh/boscaceoil) | Fun stand-alone beginner synthesiser |
 | [butterDAWg](https://github.com/Jaybee18/butterDAWg) | [Jaybee18/butterDAWg](https://github.com/Jaybee18/butterDAWg) | DAW (WIP) |
 | [Carla](https://kx.studio/Applications:Carla) | [falkTX/Carla](https://github.com/falkTX/Carla) | GNU/Linux Plugin Host |
