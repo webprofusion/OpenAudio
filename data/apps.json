@@ -59,6 +59,16 @@
     }
   },
   {
+    "name": "AudioLens for VS Code",
+    "description": "VS Code extension for audio playback, per-channel waveforms and spectrograms, selection analysis, and WAV export.",
+    "repository": {
+      "type": "GitHub",
+      "user": "SimZhou",
+      "repo": "vscode-audiolens"
+    },
+    "url": "https://marketplace.visualstudio.com/items?itemName=simzhou.audiolens"
+  },
+  {
     "name": "Bosca Ceoil",
     "url": "https://boscaceoil.net/",
     "description": "Fun stand-alone beginner synthesiser",
