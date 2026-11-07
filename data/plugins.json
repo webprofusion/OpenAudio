@@ -45,6 +45,15 @@
     ]
   },
   {
+    "name": "air",
+    "url": "https://github.com/Planetary-Records/air-synth",
+    "description": "Free, open-source Windows VST3 rack synthesizer with effects, drum sampling and editable MIDI patterns. Early alpha; expect bugs. Manual use works offline. Optional GPT features require a compatible paid ChatGPT subscription. Feedback and contributions welcome.",
+    "type": "Instrument",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Airwindows",
     "url": "https://github.com/airwindows/airwindows",
     "description": "Various small and experimental effect plugins",
