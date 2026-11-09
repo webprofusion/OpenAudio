@@ -636,6 +636,13 @@
     ]
   },
   {
+    "name": "DJAP (DJ Audio Processor)",
+    "url": "https://github.com/hghaken/DJAP",
+    "description": "Free, open-source loudness and dynamics processor for DJs on Windows: keeps every track at a consistent target loudness (LUFS / EBU R 128) with leveller, compressor, multiband and true-peak limiter. Standalone two-deck app (ASIO/WASAPI) plus a VST3 plugin for DJ software. GPL-3.0.",
+    "type": "Misc",
+    "frameworks": []
+  },
+  {
     "name": "Dragonfly Reverb",
     "url": "https://github.com/michaelwillis/dragonfly-reverb",
     "description": "Hall-style reverb based on Freeverb3 algorithms",
