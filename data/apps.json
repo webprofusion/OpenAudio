@@ -139,6 +139,16 @@
     "url": "https://www.mossgrabers.de/Software/ConvertWithMoss/ConvertWithMoss.html"
   },
   {
+    "name": "DJAP (DJ Audio Processor)",
+    "description": "Free, open-source Windows application for DJs that keeps every track at a consistent target loudness (LUFS / EBU R 128): two independent stereo decks (ASIO / WASAPI / DirectSound / MME) with leveller, compressor, multiband and true-peak limiter, EQ and analysis meters. Also ships as a VST3 plugin. GPL-3.0.",
+    "repository": {
+      "type": "GitHub",
+      "user": "hghaken",
+      "repo": "DJAP"
+    },
+    "url": "https://hhaken.nl/djap/"
+  },
+  {
     "name": "Drum Beat Repo",
     "url": "https://github.com/babali42/drumbeatrepo",
     "description": "An interactive library of drums patterns",
