@@ -1131,6 +1131,15 @@
     ]
   },
   {
+    "name": "Kirin Hypha",
+    "url": "https://github.com/heyalohaloha/kirin_hypha",
+    "description": "Free, open-source PRE/POST metering plugin. Put PRE before a processing chain and POST after it to see what changed (loudness, true peak, crest, spectrum, stereo, drum hits), and switch between them at matched loudness or blind. A/B does the same for outboard gear on a hardware insert against a plug-in on one track. macOS AU/VST3/AAX, Windows VST3/AAX. GPL-3.0.",
+    "type": "Effect",
+    "frameworks": [
+      "JUCE"
+    ]
+  },
+  {
     "name": "Kotoist",
     "url": "https://github.com/ales-tsurko/kotoist",
     "description": "A VST plugin for live coding and algorithmic composition",
