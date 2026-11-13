@@ -210,6 +210,15 @@
     ]
   },
   {
+    "name": "BitrotX Crush",
+    "url": "https://bradan.ca/projects/bitrotx.html",
+    "description": "A plugin that reduces the sample rate of audio (i.e., a bitcrusher).",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
     "name": "Biztortion",
     "url": "https://github.com/killbizz/Biztortion",
     "description": "Modular distortion plugin for VST-based hosts made with C++ and JUCE framework.",
