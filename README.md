@@ -53,6 +53,7 @@ Audio Plugins
 | [Bespoke](https://github.com/awwbees/BespokeSynth) | Node-based modular synth with live coding | Instrument | JUCE |
 | [BinAural VST](https://github.com/twoz/binaural-vst) | Mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions | Effect | JUCE |
 | [BiRR](https://github.com/odoare/BiRR) | BiRR (and her ambisonic sister AmbiRR) are room simulators that accurately emulate the sound produced by two monophonic and omnidirectionnal sources perceived by a listener in a rectangular (2D) or parallelepipedic (3D) room. The dimensions (x,y,z) of the room can be adjusted, as well as the source and listener positions. The generated stereo output can simulate different microphone positions (XY, MS, with different angles), or a binaural receiver. | Effect | JUCE |
+| [BitrotX Crush](https://bradan.ca/projects/bitrotx.html) | A plugin that reduces the sample rate of audio (i.e., a bitcrusher). | Effect | DPF |
 | [Biztortion](https://github.com/killbizz/Biztortion) | Modular distortion plugin for VST-based hosts made with C++ and JUCE framework. | Effect | JUCE |
 | [BlackBird](https://khrykin.github.io/BlackBird) | Analog-inspired software synth with its own voice | Instrument | JUCE |
 | [Blackheart](https://github.com/sachhm/Blackheart) | Audio effect plugin combining analog-style octave fuzz with chaotic digital pitch-shifting and modulation. Designed for heavy, downtuned guitar and experimental sound design. | Effect | JUCE |
@@ -157,6 +158,7 @@ Audio Plugins
 | [Key Repeat](https://michael-jan.github.io/key-repeat/) | Beat repeat sampler | Instrument | JUCE |
 | [Kholors Station](https://github.com/QuentinFAIDIDE/KholorsStation) | Live, color-coded spectrogram of your DAW tracks in a single window. | Effect | JUCE |
 | [KickMaker](https://github.com/teragonaudio/KickMaker) | Synth specifically to create kick-drum sounds | Instrument | VSTGUI |
+| [Kirin Hypha](https://github.com/heyalohaloha/kirin_hypha) | Free, open-source PRE/POST metering plugin. Put PRE before a processing chain and POST after it to see what changed (loudness, true peak, crest, spectrum, stereo, drum hits), and switch between them at matched loudness or blind. A/B does the same for outboard gear on a hardware insert against a plug-in on one track. macOS AU/VST3/AAX, Windows VST3/AAX. GPL-3.0. | Effect | JUCE |
 | [Kotoist](https://github.com/ales-tsurko/kotoist) | A VST plugin for live coding and algorithmic composition | Instrument | NIH-Plug |
 | [LameVST](https://github.com/Iunusov/LameVST) | LameMP3 as an effect | Effect | N/A |
 | [LIRA•8](https://github.com/MikeMorenoDSP/LIRA-8) | The Lira•8 is a digital attempt at emulating SOMA Lab's Lyra-8 signal flow and sound. | Instrument | JUCE |
