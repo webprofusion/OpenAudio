@@ -1,5 +1,10 @@
 [
   {
+    "name": "Audio Plugin Soko-kun",
+    "url": "https://audio-soko-kun.allegromoltov.jp/about?lang=en",
+    "description": "unofficial catalog of open-source audio plugins (VST 3, CLAP, LV2, AU) with checked GitHub release files and an MCP server"
+  },
+  {
     "name": "Awesome JUCE",
     "url": "https://github.com/sudara/awesome-juce",
     "description": "list of JUCE libraries, plugins and utilities"
