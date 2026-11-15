@@ -219,6 +219,33 @@
     ]
   },
   {
+    "name": "BitrotX Repeat",
+    "url": "https://bradan.ca/projects/bitrotx.html",
+    "description": "A plugin that repeatedly replays the last beat upon activation.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
+    "name": "BitrotX Reverser",
+    "url": "https://bradan.ca/projects/bitrotx.html",
+    "description": "A plugin that plays audio backwards upon activation.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
+    "name": "BitrotX Tapestop",
+    "url": "https://bradan.ca/projects/bitrotx.html",
+    "description": "A plugin that simulates the spindown of a tape upon activation.",
+    "type": "Effect",
+    "frameworks": [
+      "DPF"
+    ]
+  },
+  {
     "name": "Biztortion",
     "url": "https://github.com/killbizz/Biztortion",
     "description": "Modular distortion plugin for VST-based hosts made with C++ and JUCE framework.",
