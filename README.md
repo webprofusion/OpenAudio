@@ -54,6 +54,9 @@ Audio Plugins
 | [BinAural VST](https://github.com/twoz/binaural-vst) | Mono-to-stereo plugin that positions sound in a 3D space using Head-Related Transfer Functions | Effect | JUCE |
 | [BiRR](https://github.com/odoare/BiRR) | BiRR (and her ambisonic sister AmbiRR) are room simulators that accurately emulate the sound produced by two monophonic and omnidirectionnal sources perceived by a listener in a rectangular (2D) or parallelepipedic (3D) room. The dimensions (x,y,z) of the room can be adjusted, as well as the source and listener positions. The generated stereo output can simulate different microphone positions (XY, MS, with different angles), or a binaural receiver. | Effect | JUCE |
 | [BitrotX Crush](https://bradan.ca/projects/bitrotx.html) | A plugin that reduces the sample rate of audio (i.e., a bitcrusher). | Effect | DPF |
+| [BitrotX Repeat](https://bradan.ca/projects/bitrotx.html) | A plugin that repeatedly replays the last beat upon activation. | Effect | DPF |
+| [BitrotX Reverser](https://bradan.ca/projects/bitrotx.html) | A plugin that plays audio backwards upon activation. | Effect | DPF |
+| [BitrotX Tapestop](https://bradan.ca/projects/bitrotx.html) | A plugin that simulates the spindown of a tape upon activation. | Effect | DPF |
 | [Biztortion](https://github.com/killbizz/Biztortion) | Modular distortion plugin for VST-based hosts made with C++ and JUCE framework. | Effect | JUCE |
 | [BlackBird](https://khrykin.github.io/BlackBird) | Analog-inspired software synth with its own voice | Instrument | JUCE |
 | [Blackheart](https://github.com/sachhm/Blackheart) | Audio effect plugin combining analog-style octave fuzz with chaotic digital pitch-shifting and modulation. Designed for heavy, downtuned guitar and experimental sound design. | Effect | JUCE |
