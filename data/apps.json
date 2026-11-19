@@ -305,6 +305,16 @@
     }
   },
   {
+    "name": "LibreTracks",
+    "description": "Free, open-source multitrack playback app for live performance (backing tracks, click and voice guide). Build setlists, jump between song sections, warp tempo and pitch, route stems to multiple outputs, send MIDI, and control it remotely from a phone or tablet. Runs on Windows, macOS, Linux, Android and iOS. Built with Tauri, Rust and a C++ audio engine.",
+    "repository": {
+      "type": "GitHub",
+      "user": "otonielpv",
+      "repo": "LibreTracks"
+    },
+    "url": "https://libretracks.com/"
+  },
+  {
     "name": "LMMS",
     "url": "https://lmms.io/",
     "description": "DAW",
