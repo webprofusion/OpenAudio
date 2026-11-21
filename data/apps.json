@@ -335,6 +335,16 @@
     "url": "https://tiagolr.github.io/mididash/"
   },
   {
+    "name": "motu-ui",
+    "description": "Free, open-source Windows control panel for MOTU M-series (M2/M4/M6) USB audio interfaces. Adds what the stock panel lacks: live input/output/loopback level meters (including the loopback signal that OBS and recorders receive), a test-tone button, buffer-size and sample-rate control, low-latency mode, WaveSRC toggle, editable presets, and a driver update check. Built with WinUI 3 / .NET on top of the official MOTU driver.",
+    "repository": {
+      "type": "GitHub",
+      "user": "dvinerlove",
+      "repo": "motu-ui"
+    },
+    "url": "https://dvinerlove.github.io/motu-ui/"
+  },
+  {
     "name": "Musescore",
     "url": "https://musescore.org/en",
     "description": "A notation and sheet music app",
