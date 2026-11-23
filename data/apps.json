@@ -139,6 +139,16 @@
     "url": "https://www.mossgrabers.de/Software/ConvertWithMoss/ConvertWithMoss.html"
   },
   {
+    "name": "Device",
+    "description": "Free, open-source DAW for macOS, Windows and Linux. Record audio, piano roll, mixer and automation, hosts AU, VST3 and CLAP plugins, 44 built-in instruments and effects, and AI apps that support MCP can read and edit the open project. Pre-alpha.",
+    "repository": {
+      "type": "GitHub",
+      "user": "devicedaw",
+      "repo": "device"
+    },
+    "url": "https://devicedaw.github.io/"
+  },
+  {
     "name": "DJAP (DJ Audio Processor)",
     "description": "Free, open-source Windows application for DJs that keeps every track at a consistent target loudness (LUFS / EBU R 128): two independent stereo decks (ASIO / WASAPI / DirectSound / MME) with leveller, compressor, multiband and true-peak limiter, EQ and analysis meters. Also ships as a VST3 plugin. GPL-3.0.",
     "repository": {
