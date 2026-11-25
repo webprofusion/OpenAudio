@@ -8,5 +8,10 @@
     "name": "OpenAIR",
     "url": "https://www.openair.hosted.york.ac.uk/",
     "description": "the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)"
+  },
+  {
+    "name": "SpeakerEject Surround Sound Test Files",
+    "url": "https://speakereject.com/surround-sound-test/",
+    "description": "Original 5.1 and 7.1 reference files for validating channel routing, with spoken channel IDs and tone-only WAVs. Licensed CC BY 4.0."
   }
 ]
