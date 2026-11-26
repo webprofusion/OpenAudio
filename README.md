@@ -471,3 +471,4 @@ Open Data Resources
 
 * [MoisesDB](https://github.com/moises-ai/moises-db) — Source separation public dataset by Moises
 * [OpenAIR](https://www.openair.hosted.york.ac.uk/) — the Open Acoustic Impulse Response Library (Convolution Reverb Impulse Responses to recreate reverb character of space and equipment/recordings)
+* [SpeakerEject Surround Sound Test Files](https://speakereject.com/surround-sound-test/) — Original 5.1 and 7.1 reference files for validating channel routing, with spoken channel IDs and tone-only WAVs. Licensed CC BY 4.0.
